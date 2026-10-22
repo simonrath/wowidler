@@ -1,0 +1,135 @@
+/* Original vanilla textures are pinned in assets/source-lock.json. CSS only composes
+   the native pieces; no full border atlas is stretched across a window. */
+.wow-workbench { color: #eee1c6; font: 14px/1.5 Arial, sans-serif; min-height: 100vh; background: radial-gradient(ellipse at 50% 0,#3b3023a8,transparent 55%),#10100f url('/assets/native/Interface/DialogFrame/UI-DialogBox-Background.png'); padding: 28px clamp(16px,3vw,48px) 48px; }
+.wow-workbench * { box-sizing: border-box; }
+.wow-workbench h1,.wow-workbench h2,.wow-workbench h3 { font-family: Georgia, 'Times New Roman', serif; color:#f2cd75; font-weight:400; }
+.wow-workbench h1 { font-size:clamp(28px,4vw,46px); line-height:1.1; margin:4px 0 10px; letter-spacing:.02em; text-shadow:0 3px 3px #000; }
+.wow-workbench h2 { font-size:22px; }
+.wow-workbench h3 { font-size:17px; margin:0 0 12px; }
+.wow-workbench p { margin:0 0 12px; }
+.wow-workbench button { cursor:pointer; }
+.wow-workbench button:disabled { cursor:default; }
+.wow-workbench :focus-visible { outline:2px solid #ffdf87; outline-offset:4px; }
+.wow-workbench a { color:#e8c775; text-underline-offset:4px; }
+.wow-masthead { max-width:1280px; margin:0 auto 28px; display:flex; gap:24px; justify-content:space-between; align-items:center; border-bottom:1px solid #79613c; padding-bottom:24px; }
+.wow-eyebrow { color:#c2af82; font-size:11px; letter-spacing:.2em; text-transform:uppercase; }
+.wow-subtitle { color:#b6ab94; max-width:670px; }
+.wow-workbench-nav { display:flex; gap:20px; flex-wrap:wrap; margin-top:18px; font-size:13px; }
+.wow-workbench-main { max-width:1280px; margin:auto; }
+.wow-stage { margin-bottom:32px; }
+.wow-stage-heading { display:flex; gap:16px; align-items:baseline; padding:0 0 12px; margin-bottom:18px; border-bottom:1px solid #544634; }
+.wow-stage-heading h2 { margin:0; }
+.wow-stage-heading span { font-size:12px; color:#ae9e82; }
+.wow-hud-row { display:flex; align-items:center; flex-wrap:wrap; gap:28px; margin-bottom:22px; }
+.wow-hud-note { max-width:290px; color:#b6ab94; font-size:12px; }
+.wow-native-gallery { display:flex; flex-wrap:wrap; gap:28px; align-items:flex-start; }
+.wow-specimen { min-width:0; }
+.wow-caption { max-width:350px; color:#ac9e86; font-size:12px; margin-top:12px!important; }
+.wow-right-column { display:flex; gap:22px; flex-wrap:wrap; }
+.wow-frame { position:relative; isolation:isolate; padding:24px; background:url('/assets/native/Interface/DialogFrame/UI-DialogBox-Background.png'); min-width:0; }
+.wow-frame-pieces { position:absolute; inset:0; pointer-events:none; z-index:3; }
+.wow-edge { position:absolute; display:block; background-repeat:repeat; }
+.wow-edge--left { top:32px; bottom:32px; left:0; width:32px; }
+.wow-edge--right { top:32px; bottom:32px; right:0; width:32px; }
+.wow-edge--top { top:0; left:32px; right:32px; height:32px; }
+.wow-edge--bottom { bottom:0; left:32px; right:32px; height:32px; }
+.wow-edge--top-left,.wow-edge--top-right,.wow-edge--bottom-left,.wow-edge--bottom-right { width:32px; height:32px; background-repeat:no-repeat; }
+.wow-edge--top-left { top:0; left:0; }.wow-edge--top-right { top:0; right:0; }.wow-edge--bottom-left { bottom:0; left:0; }.wow-edge--bottom-right { bottom:0; right:0; }
+.wow-frame-title { position:relative; text-align:center; font:16px/20px Georgia,serif!important; border:10px solid transparent; border-image:url('/assets/crops/dialog-header.svg') 10 fill repeat; padding:0 10px; margin:-40px auto 12px; min-height:40px; width:max-content; max-width:100%; color:#e9d09b; overflow-wrap:anywhere; z-index:4; }
+.wow-frame-content { position:relative; z-index:1; }
+.wow-frame--tooltip { padding:12px; color:#f0e5ca; background:#100c20; }
+.wow-frame--tooltip .wow-edge--left,.wow-frame--tooltip .wow-edge--right { top:16px; bottom:16px; width:16px; }
+.wow-frame--tooltip .wow-edge--top,.wow-frame--tooltip .wow-edge--bottom { left:16px; right:16px; height:16px; }
+.wow-frame--tooltip .wow-edge--top-left,.wow-frame--tooltip .wow-edge--top-right,.wow-frame--tooltip .wow-edge--bottom-left,.wow-frame--tooltip .wow-edge--bottom-right { width:16px; height:16px; }
+.wow-button { position:relative; isolation:isolate; border:8px solid transparent; border-image:url('/assets/crops/button-up.svg') 8 fill stretch; background:transparent; color:#ffd56a; text-shadow:1px 1px 1px #000; font:14px/1.2 Arial,sans-serif; min-height:32px; padding:1px 12px; overflow-wrap:anywhere; }
+.wow-button::after { content:''; position:absolute; inset:-5px; z-index:-1; opacity:0; background:url('/assets/crops/button-highlight.svg') center/100% 100%; mix-blend-mode:screen; pointer-events:none; }
+.wow-button:hover::after,.wow-button[data-state=highlighted]::after,.wow-button[data-state=selected]::after { opacity:.75; }
+.wow-button:active,.wow-button[data-state=pressed] { border-image-source:url('/assets/crops/button-down.svg'); }
+.wow-button:active span,.wow-button[data-state=pressed] span { display:inline-block; transform:translateY(1px); }
+.wow-button[data-state=selected] { filter:drop-shadow(0 0 2px #e4b84a); }
+.wow-button:disabled { filter:grayscale(1); color:#a59c8d; opacity:.65; }
+.wow-button:disabled::after { opacity:0; }
+.wow-icon-slot { display:inline-block; vertical-align:middle; position:relative; width:40px; height:40px; padding:3px; border:0; background:#161311; flex:none; border-radius:3px; color:white; }
+.wow-icon-slot::after { content:''; position:absolute; inset:0; background:url('/assets/crops/slot-border.svg') center/100% 100%; pointer-events:none; z-index:3; }
+.wow-icon-slot img { width:100%; height:100%; object-fit:cover; display:block; }
+.wow-icon-slot:hover,.wow-icon-slot[data-highlighted] { filter:brightness(1.28); }
+.wow-icon-slot:active,.wow-icon-slot[data-pressed] { transform:translateY(1px); filter:brightness(.72); }
+.wow-icon-slot[data-selected] { box-shadow:0 0 0 1px #ffdb55,0 0 8px #cfa83a; }
+.wow-icon-slot:disabled { filter:grayscale(1); opacity:.5; }
+.wow-hotkey,.wow-count { position:absolute; z-index:4; font:bold 11px/1 Arial,sans-serif; text-shadow:1px 1px 1px #000,-1px -1px 1px #000; }
+.wow-hotkey { left:4px; top:3px; }.wow-count { right:4px; bottom:4px; }
+.wow-cooldown { position:absolute; inset:3px; background:conic-gradient(#000b var(--cooldown),transparent 0); z-index:2; }
+.wow-progress { position:relative; height:18px; background:#0d0b09; border:1px solid #6c624a; overflow:hidden; }
+.wow-progress-fill { display:block; height:100%; background:#208a25; background-image:url('/assets/native/Interface/TargetingFrame/UI-StatusBar.png'); background-size:100% 100%; background-blend-mode:multiply; }
+.wow-progress--mana .wow-progress-fill { background-color:#235dc4; }.wow-progress--rage .wow-progress-fill { background-color:#b12418; }.wow-progress--experience .wow-progress-fill { background-color:#7752aa; }
+.wow-progress-text { position:absolute; inset:0; text-align:center; color:white; font:11px/16px Arial,sans-serif; text-shadow:1px 1px 1px #000; }
+.wow-progress--compact { height:10px; border:0; }
+.wow-unit { width:193px; height:77px; position:relative; flex:none; }
+.wow-unit-portrait { position:absolute; left:5px; top:5px; width:59px; height:59px; background-size:cover; border-radius:50%; background-color:#292521; }
+.wow-unit-bars { position:absolute; left:68px; top:36px; width:121px; display:grid; gap:3px; }
+.wow-unit-art { position:absolute; inset:0; width:193px; pointer-events:none; }
+.wow-unit-name { position:absolute; left:68px; top:16px; width:120px; height:17px; padding:0 3px; color:#ebd17c; font:11px/17px Arial,sans-serif; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; text-align:left; background:transparent; border:0; }
+.wow-unit-name[aria-pressed=true] { color:white; }
+.wow-unit-level { position:absolute; left:50px; top:56px; color:#f3db7c; background:#17160f; border:1px solid #8a7744; border-radius:50%; font:10px/18px Arial,sans-serif; text-align:center; width:20px; height:20px; }
+.wow-unit--target .wow-unit-portrait { left:126px; top:5px; }.wow-unit--target .wow-unit-bars { left:4px; top:35px; width:119px; }.wow-unit--target .wow-unit-name { left:3px; top:16px; width:120px; }.wow-unit--target .wow-unit-level { left:165px; top:53px; }
+.wow-actionbar { display:flex; align-items:flex-end; position:relative; padding:22px 58px 0; max-width:100%; width:max-content; min-width:0; }
+.wow-actionbar-slots { display:flex; flex-wrap:wrap; gap:3px; padding:12px 10px; max-width:536px; background:url('/assets/crops/action-strip.svg') left top repeat; min-height:64px; }
+.wow-actionbar-cap { position:absolute; width:128px; height:128px; bottom:1px; pointer-events:none; z-index:4; }
+.wow-actionbar-cap--left { left:-30px; }.wow-actionbar-cap--right { right:-30px; transform:scaleX(-1); }
+.wow-minimap { width:174px; margin:0; flex:none; }
+.wow-minimap figcaption { background:url('/assets/crops/minimap-title.svg') left top no-repeat; height:26px; padding:3px 28px 0 10px; color:#f3d26f; text-align:center; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; font:11px/17px Arial,sans-serif; }
+.wow-minimap-disc { width:156px; height:156px; margin:4px 8px 0; position:relative; padding:8px; }
+.wow-minimap-disc::after { content:''; position:absolute; inset:0; background:url('/assets/crops/minimap-ring.svg'); pointer-events:none; }
+.wow-minimap-map { width:140px; height:140px; border-radius:50%; object-fit:cover; }
+.wow-minimap-marker { position:absolute; transform:translate(-50%,-50%); padding:0; border:0; background:none; color:#ffeb55; font-size:16px; z-index:2; text-shadow:0 0 3px #000; }
+.wow-tooltip-anchor { display:inline-block; position:relative; }
+.wow-tooltip { display:none; position:absolute; bottom:calc(100% + 10px); left:0; width:260px; max-width:calc(100vw - 48px); z-index:20; font-size:12px; }
+.wow-tooltip-anchor:hover .wow-tooltip,.wow-tooltip-anchor:focus-within .wow-tooltip,.wow-tooltip-anchor[data-open] .wow-tooltip { display:block; }
+.wow-tooltip-anchor[data-dismissed] .wow-tooltip { display:none; }
+.wow-item-name { color:#1eff00; font-weight:bold; }.wow-muted { color:#aa9d89; }.wow-gold { color:#f2cd75; }
+.wow-paperdoll { position:relative; width:288px; height:456px; background-image:url('/assets/native/Interface/PaperDoll/UI-PaperDollBackground-L1.png'),url('/assets/native/Interface/PaperDoll/UI-PaperDollBackground-R1.png'),url('/assets/native/Interface/PaperDoll/UI-PaperDollBackground-L2.png'),url('/assets/native/Interface/PaperDoll/UI-PaperDollBackground-R2.png'); background-position:0 0,256px 0,0 256px,256px 256px; background-repeat:no-repeat; }
+.wow-paperdoll-name { position:absolute; top:31px; left:65px; width:204px; text-align:center; color:#e9d181; font:12px/20px Georgia,serif; }
+.wow-paperdoll-figure { position:absolute; top:94px; left:71px; width:155px; height:258px; }
+.wow-equipment { position:absolute; top:83px; display:grid; gap:8px; }.wow-equipment--left { left:13px; }.wow-equipment--right { right:12px; }
+.wow-paperdoll-stats { position:absolute; top:368px; left:28px; right:28px; font-size:12px; display:grid; grid-template-columns:1fr auto; gap:4px; }.wow-paperdoll-stats dt { color:#cfbc8f; }.wow-paperdoll-stats dd { margin:0; }
+.wow-quest { width:354px; height:446px; position:relative; background-image:url('/assets/native/Interface/QuestFrame/UI-QuestGreeting-TopLeft.png'),url('/assets/native/Interface/QuestFrame/UI-QuestGreeting-TopRight.png'),url('/assets/native/Interface/QuestFrame/UI-QuestGreeting-BotLeft.png'),url('/assets/native/Interface/QuestFrame/UI-QuestGreeting-BotRight.png'); background-position:0 0,256px 0,0 256px,256px 256px; background-repeat:no-repeat; }
+.wow-quest-seal { position:absolute; left:11px; top:10px; width:47px; height:47px; border-radius:50%; }
+.wow-quest-name { position:absolute; top:25px; left:80px; right:24px; color:#e5cb89; font:12px/20px Georgia,serif; text-align:center; }
+.wow-quest-body { position:absolute; left:30px; right:31px; top:98px; bottom:48px; color:#352111; font:14px/1.5 Georgia,serif; overflow:auto; }
+.wow-quest-body h4 { font: bold 22px/1.2 Georgia,serif; margin:0 0 16px; color:#392412; }.wow-quest-body h5 { font:bold 16px Georgia,serif; margin:18px 0 10px; }.wow-quest-body .wow-button { display:block; margin:16px auto 0; }
+.wow-bag { width:191px; height:240px; position:relative; background:url('/assets/crops/backpack.svg'); }
+.wow-bag-name { position:absolute; top:8px; left:51px; width:110px; color:#ecd38a; text-align:center; font:11px/18px Georgia,serif; }
+.wow-bag-slots { position:absolute; top:51px; left:15px; display:grid; grid-template-columns:repeat(4,36px); gap:6px; }
+.wow-bag-slots .wow-icon-slot { width:36px; height:36px; padding:0; background:transparent; }.wow-bag-slots .wow-icon-slot::after { background:none; }
+.wow-bag-empty { width:36px; height:36px; display:block; }
+.wow-bag-money { position:absolute; left:22px; bottom:12px; font:11px Arial,sans-serif; color:#debd64; }
+.wow-talent { position:relative; width:280px; height:352px; overflow:hidden; background-image:url('/assets/native/Interface/TalentFrame/MageFire-TopLeft.png'),url('/assets/native/Interface/TalentFrame/MageFire-TopRight.png'),url('/assets/native/Interface/TalentFrame/MageFire-BottomLeft.png'),url('/assets/native/Interface/TalentFrame/MageFire-BottomRight.png'); background-position:0 0,256px 0,0 256px,256px 256px; background-repeat:no-repeat; border:1px solid #74603c; }
+.wow-talent-title { position:absolute; inset:0 0 auto; padding:8px; text-align:center; color:#f4d583; background:#000a; font:15px Georgia,serif; }.wow-talent-slots { position:absolute; inset:65px 20px 20px; display:grid; grid-template-columns:repeat(3,40px); gap:37px 45px; align-content:start; }.wow-talent-rank { position:relative; }.wow-talent-rank small { position:absolute; right:-8px; bottom:-8px; color:#29ff40; background:#111; border:1px solid #b9a852; font:10px Arial,sans-serif; padding:2px; z-index:5; }
+.wow-talent-connector { position:absolute; left:40px; top:105px; width:2px; height:114px; background:#b99a36; }
+.wow-state-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:22px 18px; margin:16px 0; }.wow-state-grid>div { display:grid; justify-items:start; gap:10px; min-width:0; }.wow-state-grid .wow-button { width:100%; }.wow-state-label { color:#bfb094; font-size:12px; }
+.wow-dialog-grid { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); gap:28px; margin-top:40px; }.wow-dialog-actions { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; margin-top:18px; }
+.wow-readout { display:block; color:#d4c29b; background:#0005; border-left:2px solid #806b43; padding:12px 16px; font-size:12px; min-height:44px; margin-top:26px; }
+.wow-source-notes { border-top:1px solid #544634; margin-top:30px; padding-top:20px; color:#a89a81; font-size:12px; }.wow-source-notes summary { cursor:pointer; color:#d5bb7b; }.wow-source-notes code { overflow-wrap:anywhere; }
+.wow-reference-grid { display:flex; gap:24px; flex-wrap:wrap; margin:16px 0; }.wow-reference-grid img { max-width:100%; object-fit:contain; object-position:top left; }.wow-reference-grid figure { margin:0; }.wow-reference-grid figcaption { margin-top:8px; }
+@media(max-width:700px) { .wow-masthead { align-items:flex-start; }.wow-masthead>.wow-minimap { display:none; }.wow-native-gallery { gap:30px; }.wow-stage-heading { flex-wrap:wrap; gap:4px; }.wow-dialog-grid { grid-template-columns:1fr; }.wow-actionbar { padding-left:35px; padding-right:35px; }.wow-actionbar-cap { width:72px; height:72px; }.wow-actionbar-cap--left { left:-12px; }.wow-actionbar-cap--right { right:-12px; }.wow-frame { padding:22px; }.wow-hud-row { gap:16px; } }
+@media(max-width:390px) { .wow-quest { transform-origin:top left; transform:scale(.88); margin-right:-43px; margin-bottom:-53px; }.wow-state-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }.wow-button { padding-left:4px; padding-right:4px; } }
+@media(prefers-reduced-motion:reduce) { .wow-workbench * { scroll-behavior:auto; } }
+
+.wow-button span { hyphens:auto; }
+.wow-dialog-grid .wow-frame--tooltip { max-width:340px; overflow-wrap:break-word; }
+.wow-workbench-viewport { container: wow-preview / inline-size; max-width:100%; margin-inline:auto; }
+.wow-workbench-width-controls { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:8px; padding:10px 16px; color:#c6b693; background:#141311; font:12px Arial,sans-serif; }
+.wow-workbench-width-controls :focus-visible { outline:2px solid #ffdf87; outline-offset:3px; }
+@container wow-preview (max-width:700px) {
+  .wow-workbench { padding:24px 16px; }.wow-workbench h1 { font-size:28px; }
+  .wow-masthead { align-items:flex-start; }.wow-masthead>.wow-minimap { display:none; }
+  .wow-native-gallery { gap:30px; }.wow-stage-heading { flex-wrap:wrap; gap:4px; }
+  .wow-dialog-grid { grid-template-columns:1fr; }.wow-actionbar { padding-left:35px; padding-right:35px; }
+  .wow-actionbar-cap { width:72px; height:72px; }.wow-actionbar-cap--left { left:-12px; }.wow-actionbar-cap--right { right:-12px; }
+  .wow-frame { padding:22px; }.wow-hud-row { gap:16px; }
+}
+@container wow-preview (max-width:390px) {
+  .wow-quest { transform-origin:top left; transform:scale(.88); margin-right:-43px; margin-bottom:-53px; }
+  .wow-state-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }.wow-button { padding-left:4px; padding-right:4px; }
+}
+@container wow-preview (max-width:340px) { .wow-quest { transform:scale(.8); margin-right:-71px; margin-bottom:-89px; } }

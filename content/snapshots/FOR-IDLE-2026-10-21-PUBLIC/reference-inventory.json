@@ -1,0 +1,1207 @@
+{
+  "version": 1,
+  "snapshotId": "FOR-IDLE-2026-10-21-PUBLIC",
+  "branch": "forever",
+  "referenceDate": "2026-10-21",
+  "denominatorBasis": "independent-reference-evidence; never imported counts",
+  "categories": {
+    "races": {
+      "kind": "race",
+      "included": true,
+      "expectedCount": 9,
+      "denominatorStatus": "independent-complete",
+      "evidence": [
+        "blizzard-class-matrix"
+      ],
+      "betaExpectedCount": 9,
+      "announcedExpectedCount": null,
+      "dataMaturity": "partial",
+      "implementation": "unsupported",
+      "reason": "Independent published race/class matrix; Skyborne counts as one race with two faction variants.",
+      "gapIds": []
+    },
+    "factions": {
+      "kind": "faction",
+      "included": true,
+      "expectedCount": 2,
+      "denominatorStatus": "independent-complete",
+      "evidence": [
+        "blizzard-class-matrix"
+      ],
+      "betaExpectedCount": 2,
+      "announcedExpectedCount": null,
+      "dataMaturity": "partial",
+      "implementation": "unsupported",
+      "reason": "Independent published race/class matrix; Skyborne counts as one race with two faction variants.",
+      "gapIds": []
+    },
+    "raceClassCombinations": {
+      "kind": "raceClass",
+      "included": true,
+      "expectedCount": 56,
+      "denominatorStatus": "independent-complete",
+      "evidence": [
+        "blizzard-class-matrix"
+      ],
+      "betaExpectedCount": 56,
+      "announcedExpectedCount": null,
+      "dataMaturity": "partial",
+      "implementation": "unsupported",
+      "reason": "Independent published race/class matrix; Skyborne counts as one race with two faction variants.",
+      "gapIds": []
+    },
+    "classes": {
+      "kind": "class",
+      "included": true,
+      "expectedCount": 9,
+      "denominatorStatus": "independent-complete",
+      "evidence": [
+        "blizzard-class-matrix"
+      ],
+      "betaExpectedCount": 9,
+      "announcedExpectedCount": null,
+      "dataMaturity": "partial",
+      "implementation": "unsupported",
+      "reason": "Independent published race/class matrix; Skyborne counts as one race with two faction variants.",
+      "gapIds": []
+    },
+    "talents": {
+      "kind": "talent",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-TALENT"
+      ]
+    },
+    "zones": {
+      "kind": "zone",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-ZONE"
+      ]
+    },
+    "subzones": {
+      "kind": "subzone",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-SUBZONE"
+      ]
+    },
+    "locations": {
+      "kind": "location",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-LOCATION"
+      ]
+    },
+    "npcs": {
+      "kind": "npc",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-NPC"
+      ]
+    },
+    "objects": {
+      "kind": "object",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-OBJECT"
+      ]
+    },
+    "gatheringNodes": {
+      "kind": "gatheringNode",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-GATHERINGNODE"
+      ]
+    },
+    "quests": {
+      "kind": "quest",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-QUEST"
+      ]
+    },
+    "questObjectives": {
+      "kind": "questObjective",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-QUESTOBJECTIVE"
+      ]
+    },
+    "dungeons": {
+      "kind": "dungeon",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-DUNGEON"
+      ]
+    },
+    "encounters": {
+      "kind": "encounter",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-ENCOUNTER"
+      ]
+    },
+    "bosses": {
+      "kind": "boss",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-BOSS"
+      ]
+    },
+    "raids": {
+      "kind": "raid",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-RAID"
+      ]
+    },
+    "worldBosses": {
+      "kind": "worldBoss",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-WORLDBOSS"
+      ]
+    },
+    "items": {
+      "kind": "item",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-ITEM"
+      ]
+    },
+    "lootTables": {
+      "kind": "lootTable",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-LOOTTABLE"
+      ]
+    },
+    "spells": {
+      "kind": "spell",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-SPELL"
+      ]
+    },
+    "spellRanks": {
+      "kind": "spellRank",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-SPELLRANK"
+      ]
+    },
+    "professions": {
+      "kind": "profession",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-PROFESSION"
+      ]
+    },
+    "recipes": {
+      "kind": "recipe",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-RECIPE"
+      ]
+    },
+    "vendors": {
+      "kind": "vendor",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-VENDOR"
+      ]
+    },
+    "vendorItems": {
+      "kind": "vendorItem",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-VENDORITEM"
+      ]
+    },
+    "trainers": {
+      "kind": "trainer",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-TRAINER"
+      ]
+    },
+    "trainerSpells": {
+      "kind": "trainerSpell",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-TRAINERSPELL"
+      ]
+    },
+    "reputations": {
+      "kind": "reputation",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-REPUTATION"
+      ]
+    },
+    "travelRoutes": {
+      "kind": "travelRoute",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-TRAVELROUTE"
+      ]
+    },
+    "pvp": {
+      "kind": "pvp",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-PVP"
+      ]
+    },
+    "battlegrounds": {
+      "kind": "battleground",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-BATTLEGROUND"
+      ]
+    },
+    "camping": {
+      "kind": "camping",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-CAMPING"
+      ]
+    },
+    "legacy": {
+      "kind": "legacy",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-LEGACY"
+      ]
+    },
+    "collections": {
+      "kind": "collection",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-COLLECTION"
+      ]
+    },
+    "events": {
+      "kind": "event",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-EVENT"
+      ]
+    },
+    "guilds": {
+      "kind": "guild",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-GUILD"
+      ]
+    },
+    "trade": {
+      "kind": "trade",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-TRADE"
+      ]
+    },
+    "mail": {
+      "kind": "mail",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-MAIL"
+      ]
+    },
+    "auctions": {
+      "kind": "auction",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "evidence": [],
+      "betaExpectedCount": null,
+      "announcedExpectedCount": null,
+      "dataMaturity": "unknown",
+      "implementation": "unsupported",
+      "reason": "No independent complete reference list has been established. Imported source row totals must not replace this denominator.",
+      "gapIds": [
+        "FOR-GAP-DENOM-AUCTION"
+      ]
+    }
+  },
+  "verifiedSubsets": {
+    "raceClassCombinations": {
+      "expectedCount": 56,
+      "evidence": [
+        "blizzard-class-matrix"
+      ],
+      "entries": [
+        {
+          "race": "Dwarf",
+          "faction": "Alliance",
+          "class": "Hunter",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Dwarf",
+          "faction": "Alliance",
+          "class": "Paladin",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Dwarf",
+          "faction": "Alliance",
+          "class": "Priest",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Dwarf",
+          "faction": "Alliance",
+          "class": "Rogue",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Dwarf",
+          "faction": "Alliance",
+          "class": "Shaman",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Dwarf",
+          "faction": "Alliance",
+          "class": "Warrior",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Gnome",
+          "faction": "Alliance",
+          "class": "Mage",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Gnome",
+          "faction": "Alliance",
+          "class": "Priest",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Gnome",
+          "faction": "Alliance",
+          "class": "Rogue",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Gnome",
+          "faction": "Alliance",
+          "class": "Warlock",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Gnome",
+          "faction": "Alliance",
+          "class": "Warrior",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Human",
+          "faction": "Alliance",
+          "class": "Hunter",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Human",
+          "faction": "Alliance",
+          "class": "Mage",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Human",
+          "faction": "Alliance",
+          "class": "Paladin",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Human",
+          "faction": "Alliance",
+          "class": "Priest",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Human",
+          "faction": "Alliance",
+          "class": "Rogue",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Human",
+          "faction": "Alliance",
+          "class": "Warlock",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Human",
+          "faction": "Alliance",
+          "class": "Warrior",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Night Elf",
+          "faction": "Alliance",
+          "class": "Druid",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Night Elf",
+          "faction": "Alliance",
+          "class": "Hunter",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Night Elf",
+          "faction": "Alliance",
+          "class": "Priest",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Night Elf",
+          "faction": "Alliance",
+          "class": "Rogue",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Night Elf",
+          "faction": "Alliance",
+          "class": "Warrior",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Skyborne",
+          "faction": "Alliance",
+          "class": "Druid",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Skyborne",
+          "faction": "Alliance",
+          "class": "Hunter",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Skyborne",
+          "faction": "Alliance",
+          "class": "Mage",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Skyborne",
+          "faction": "Alliance",
+          "class": "Rogue",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Skyborne",
+          "faction": "Alliance",
+          "class": "Warrior",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Orc",
+          "faction": "Horde",
+          "class": "Hunter",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Orc",
+          "faction": "Horde",
+          "class": "Mage",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Orc",
+          "faction": "Horde",
+          "class": "Rogue",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Orc",
+          "faction": "Horde",
+          "class": "Shaman",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Orc",
+          "faction": "Horde",
+          "class": "Warlock",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Orc",
+          "faction": "Horde",
+          "class": "Warrior",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Tauren",
+          "faction": "Horde",
+          "class": "Druid",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Tauren",
+          "faction": "Horde",
+          "class": "Hunter",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Tauren",
+          "faction": "Horde",
+          "class": "Shaman",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Tauren",
+          "faction": "Horde",
+          "class": "Warrior",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Troll",
+          "faction": "Horde",
+          "class": "Hunter",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Troll",
+          "faction": "Horde",
+          "class": "Mage",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Troll",
+          "faction": "Horde",
+          "class": "Priest",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Troll",
+          "faction": "Horde",
+          "class": "Rogue",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Troll",
+          "faction": "Horde",
+          "class": "Shaman",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Troll",
+          "faction": "Horde",
+          "class": "Warlock",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Troll",
+          "faction": "Horde",
+          "class": "Warrior",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Undead",
+          "faction": "Horde",
+          "class": "Mage",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Undead",
+          "faction": "Horde",
+          "class": "Paladin",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Undead",
+          "faction": "Horde",
+          "class": "Priest",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Undead",
+          "faction": "Horde",
+          "class": "Rogue",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Undead",
+          "faction": "Horde",
+          "class": "Warlock",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Undead",
+          "faction": "Horde",
+          "class": "Warrior",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Skyborne",
+          "faction": "Horde",
+          "class": "Druid",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Skyborne",
+          "faction": "Horde",
+          "class": "Hunter",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Skyborne",
+          "faction": "Horde",
+          "class": "Rogue",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Skyborne",
+          "faction": "Horde",
+          "class": "Shaman",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "race": "Skyborne",
+          "faction": "Horde",
+          "class": "Warrior",
+          "availability": "beta",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        }
+      ]
+    },
+    "newDungeons": {
+      "expectedCount": 9,
+      "evidence": [
+        "blizzard-new-dungeons"
+      ],
+      "entries": [
+        {
+          "name": "Hall of Thanes",
+          "minLevel": 13,
+          "maxLevel": 18,
+          "region": "Dun Morogh",
+          "availability": "announced",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "name": "Ruins of Lordaeron",
+          "minLevel": 15,
+          "maxLevel": 20,
+          "region": "Tirisfal Glades",
+          "availability": "announced",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "name": "Excavation Site",
+          "minLevel": 24,
+          "maxLevel": 29,
+          "region": "Wetlands",
+          "availability": "announced",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "name": "City of Dalaran",
+          "minLevel": 28,
+          "maxLevel": 33,
+          "region": "Alterac Mountains",
+          "availability": "announced",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "name": "The Drowned City",
+          "minLevel": 35,
+          "maxLevel": 40,
+          "region": "Stranglethorn Vale",
+          "availability": "announced",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "name": "Krol’dok Stronghold",
+          "minLevel": 40,
+          "maxLevel": 45,
+          "region": "Riverglades",
+          "availability": "announced",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "name": "Alcaz Prison",
+          "minLevel": 48,
+          "maxLevel": 53,
+          "region": "Dustwallow Marsh",
+          "availability": "announced",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "name": "Blackmaw Hold",
+          "minLevel": 55,
+          "maxLevel": 60,
+          "region": "Azshara",
+          "availability": "announced",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "name": "Shaper’s Terrace",
+          "minLevel": 58,
+          "maxLevel": 60,
+          "region": "Un’Goro Crater",
+          "availability": "announced",
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        }
+      ]
+    },
+    "firstRaids": {
+      "expectedCount": 3,
+      "evidence": [
+        "blizzard-first-raids",
+        "blizzard-raid-boss-counts",
+        "blizzard-raid-sizes"
+      ],
+      "entries": [
+        {
+          "name": "Barrow Deeps",
+          "availability": "announced",
+          "unlockDate": "2026-12-09",
+          "raidSize": 10,
+          "bossCount": 8,
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "name": "Hyjal Summit",
+          "availability": "announced",
+          "unlockDate": "2026-12-09",
+          "raidSize": 20,
+          "bossCount": 13,
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        },
+        {
+          "name": "Onyxia's Lair",
+          "availability": "announced",
+          "unlockDate": "2026-12-09",
+          "raidSize": null,
+          "bossCount": null,
+          "dataMaturity": "partial",
+          "implementation": "unsupported"
+        }
+      ]
+    }
+  },
+  "exclusions": [
+    {
+      "id": "future-expansions",
+      "reason": "Outland, Northrend, later races/classes/raids are excluded until officially included in the selected Forever snapshot."
+    },
+    {
+      "id": "real-multiplayer",
+      "reason": "Live human opponents, live player trade and external WoW connectivity are excluded; corresponding solo adaptations remain in scope."
+    },
+    {
+      "id": "post-cutoff-content",
+      "reason": "Unannounced content after the 2026-10-21 cutoff is outside this snapshot; beta and announced first-phase content remain separate."
+    }
+  ]
+}

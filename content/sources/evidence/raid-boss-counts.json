@@ -1,0 +1,7 @@
+{
+  "retrievedAt": "2026-10-21",
+  "transport": "ChatGPT web extraction; factual values at lines 34-37, not original HTML bytes",
+  "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system",
+  "evidenceRef": "turn27view0",
+  "facts": {"Barrow Deeps": {"bossCount": 8}, "Hyjal Summit": {"bossCount": 13}, "Onyxia's Lair": {"namedBoss": "Onyxia"}}
+}

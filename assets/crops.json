@@ -1,0 +1,296 @@
+[
+  {
+    "id": "dialog-left",
+    "source": "Interface/DialogFrame/UI-DialogBox-Border.png",
+    "rectangle": [
+      0,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "id": "dialog-right",
+    "source": "Interface/DialogFrame/UI-DialogBox-Border.png",
+    "rectangle": [
+      32,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "id": "dialog-top",
+    "source": "Interface/DialogFrame/UI-DialogBox-Border.png",
+    "rectangle": [
+      64,
+      0,
+      32,
+      32
+    ],
+    "rotate": 90
+  },
+  {
+    "id": "dialog-bottom",
+    "source": "Interface/DialogFrame/UI-DialogBox-Border.png",
+    "rectangle": [
+      96,
+      0,
+      32,
+      32
+    ],
+    "rotate": 90
+  },
+  {
+    "id": "dialog-top-left",
+    "source": "Interface/DialogFrame/UI-DialogBox-Border.png",
+    "rectangle": [
+      128,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "id": "dialog-top-right",
+    "source": "Interface/DialogFrame/UI-DialogBox-Border.png",
+    "rectangle": [
+      160,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "id": "dialog-bottom-left",
+    "source": "Interface/DialogFrame/UI-DialogBox-Border.png",
+    "rectangle": [
+      192,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "id": "dialog-bottom-right",
+    "source": "Interface/DialogFrame/UI-DialogBox-Border.png",
+    "rectangle": [
+      224,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "id": "tooltip-left",
+    "source": "Interface/Tooltips/UI-Tooltip-Border.png",
+    "rectangle": [
+      0,
+      0,
+      16,
+      16
+    ]
+  },
+  {
+    "id": "tooltip-right",
+    "source": "Interface/Tooltips/UI-Tooltip-Border.png",
+    "rectangle": [
+      16,
+      0,
+      16,
+      16
+    ]
+  },
+  {
+    "id": "tooltip-top",
+    "source": "Interface/Tooltips/UI-Tooltip-Border.png",
+    "rectangle": [
+      32,
+      0,
+      16,
+      16
+    ],
+    "rotate": 90
+  },
+  {
+    "id": "tooltip-bottom",
+    "source": "Interface/Tooltips/UI-Tooltip-Border.png",
+    "rectangle": [
+      48,
+      0,
+      16,
+      16
+    ],
+    "rotate": 90
+  },
+  {
+    "id": "tooltip-top-left",
+    "source": "Interface/Tooltips/UI-Tooltip-Border.png",
+    "rectangle": [
+      64,
+      0,
+      16,
+      16
+    ]
+  },
+  {
+    "id": "tooltip-top-right",
+    "source": "Interface/Tooltips/UI-Tooltip-Border.png",
+    "rectangle": [
+      80,
+      0,
+      16,
+      16
+    ]
+  },
+  {
+    "id": "tooltip-bottom-left",
+    "source": "Interface/Tooltips/UI-Tooltip-Border.png",
+    "rectangle": [
+      96,
+      0,
+      16,
+      16
+    ]
+  },
+  {
+    "id": "tooltip-bottom-right",
+    "source": "Interface/Tooltips/UI-Tooltip-Border.png",
+    "rectangle": [
+      112,
+      0,
+      16,
+      16
+    ]
+  },
+  {
+    "id": "button-up",
+    "source": "Interface/Buttons/UI-Panel-Button-Up.png",
+    "rectangle": [
+      0,
+      0,
+      80,
+      23
+    ]
+  },
+  {
+    "id": "button-down",
+    "source": "Interface/Buttons/UI-Panel-Button-Down.png",
+    "rectangle": [
+      0,
+      0,
+      80,
+      23
+    ]
+  },
+  {
+    "id": "button-highlight",
+    "source": "Interface/Buttons/UI-Panel-Button-Highlight.png",
+    "rectangle": [
+      0,
+      0,
+      80,
+      23
+    ]
+  },
+  {
+    "id": "player-frame",
+    "source": "Interface/CharacterFrame/UI-Player-Portrait.png",
+    "rectangle": [
+      0,
+      0,
+      193,
+      73
+    ]
+  },
+  {
+    "id": "target-frame",
+    "source": "Interface/TargetingFrame/UI-TargetingFrame.png",
+    "rectangle": [
+      26,
+      8,
+      193,
+      77
+    ]
+  },
+  {
+    "id": "backpack",
+    "source": "Interface/ContainerFrame/UI-BackpackBackground.png",
+    "rectangle": [
+      65,
+      0,
+      191,
+      240
+    ]
+  },
+  {
+    "id": "minimap-ring",
+    "source": "Interface/Minimap/UI-Minimap-Border.png",
+    "rectangle": [
+      90,
+      30,
+      156,
+      156
+    ]
+  },
+  {
+    "id": "minimap-title",
+    "source": "Interface/Minimap/UI-Minimap-Border.png",
+    "rectangle": [
+      82,
+      0,
+      174,
+      26
+    ]
+  },
+  {
+    "id": "dialog-header",
+    "source": "Interface/DialogFrame/UI-DialogBox-Header.png",
+    "rectangle": [
+      58,
+      0,
+      139,
+      40
+    ]
+  },
+  {
+    "id": "action-strip",
+    "source": "Interface/MainMenuBar/UI-MainMenuBar-Human.png",
+    "rectangle": [
+      32,
+      64,
+      224,
+      64
+    ]
+  },
+  {
+    "id": "human-portrait",
+    "source": "Interface/Glues/CharacterCreate/UI-CharacterCreate-Races.png",
+    "rectangle": [
+      4,
+      4,
+      56,
+      56
+    ]
+  },
+  {
+    "id": "slot-border",
+    "source": "Interface/Buttons/UI-Quickslot2.png",
+    "rectangle": [
+      12,
+      12,
+      40,
+      40
+    ]
+  },
+  {
+    "id": "parchment",
+    "source": "Interface/QuestFrame/UI-QuestGreeting-TopLeft.png",
+    "rectangle": [
+      30,
+      90,
+      220,
+      160
+    ]
+  }
+]

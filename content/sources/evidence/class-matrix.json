@@ -1,0 +1,7 @@
+{
+  "retrievedAt": "2026-10-21",
+  "transport": "ChatGPT web extraction; selected factual table lines, not original HTML bytes",
+  "url": "https://news.blizzard.com/en-us/article/24304075/create-the-hero-you-want-to-be-in-world-of-warcraft-forever",
+  "evidenceRef": "turn25view0",
+  "lines": "L23: ### Horde Race and Class Combinations\nL24: \nL25: Race  | Druid  | Hunter  | Mage  | Paladin  | Priest  | Rogue  | Shaman  | Warlock  | Warrior\nL26: --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\nL27: Orc  |  | X  | X  |  |  | X  | X  | X  | X\nL28: Tauren  | X  | X  |  |  |  |  | X  |  | X\nL29: Troll  |  | X  | X  |  | X  | X  | X  | X  | X\nL30: Undead  |  |  | X  | X  | X  | X  |  | X  | X\nL31: Skyborne  | X  | X  |  |  |  | X  | X  |  | X\nL32: \nL33: An X indicates that the listed race can choose that class.\nL34: ### Alliance Race and Class Combinations\nL35: \nL36: Race  | Druid  | Hunter  | Mage  | Paladin  | Priest  | Rogue  | Shaman  | Warlock  | Warrior\nL37: --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\nL38: Dwarf  |  | X  |  | X  | X  | X  | X  |  | X\nL39: Gnome  |  |  | X  |  | X  | X  |  | X  | X\nL40: Human  |  | X  | X  | X  | X  | X  |  | X  | X\nL41: Night Elf  | X  | X  |  |  | X  | X  |  |  | X\nL42: Skyborne  | X  | X  | X  |  |  | X  |  |  | X"
+}

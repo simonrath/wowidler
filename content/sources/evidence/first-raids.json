@@ -1,0 +1,8 @@
+{
+  "retrievedAt": "2026-10-21",
+  "transport": "ChatGPT official-domain search excerpt; full article returned 403",
+  "url": "https://worldofwarcraft.blizzard.com/news/24303009/world-of-warcraft-forever-raid-overview-locations-raid-sizes-and-attunement",
+  "evidenceRef": "turn26search0",
+  "facts": {"names": ["Barrow Deeps", "Hyjal Summit", "Onyxia's Lair"], "unlockDate": "2026-12-09"},
+  "limitations": ["Raid sizes, boss counts and encounter mechanics were not verified from full primary text."]
+}

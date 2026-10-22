@@ -1,0 +1,1787 @@
+{
+  "schemaVersion": 1,
+  "id": "northshire-idle-v1",
+  "snapshotId": "FOR-IDLE-2026-10-21-PUBLIC",
+  "authenticServerCombat": false,
+  "dependencies": [
+    {
+      "sourceId": "grimoire",
+      "path": "data/abilities.json",
+      "sha256": "500c768313246ffbbe155ab3bb05f2edd02722eb53c22bd39dc06ff40ec1cde6"
+    },
+    {
+      "sourceId": "grimoire",
+      "path": "data/factions.json",
+      "sha256": "f87bbd0519114308f55a248bf28475490bf7f8822d0ea33a7b29b9d2ebb75f9f"
+    },
+    {
+      "sourceId": "grimoire",
+      "path": "data/minor-items.json",
+      "sha256": "3f3473ac4cfb3f2719dd65a7584c7570fd5dbc79761f7c517ec557731254e7a0"
+    },
+    {
+      "sourceId": "grimoire",
+      "path": "data/npc-loot.json",
+      "sha256": "55ce87f2951b9a39325eb89aa6b35aa22ba604041ea69eb57128ede121ca1410"
+    },
+    {
+      "sourceId": "grimoire",
+      "path": "data/npcs.json",
+      "sha256": "0fffce6e5457bff9a8ee24774aa27ea8b2c23f33a64dd5f3256502c680c395e1"
+    },
+    {
+      "sourceId": "grimoire",
+      "path": "data/quests.json",
+      "sha256": "f04e181ad2cab5bff8cf24c71dee296e13ff6424774f689f0d5630f61e1f8ab1"
+    },
+    {
+      "sourceId": "idle-northshire-v1",
+      "path": "content/adaptations/northshire-idle-v1.json",
+      "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed"
+    },
+    {
+      "sourceId": "wow-database",
+      "path": "data/forever/client-extract/manifest.json",
+      "sha256": "346c41046a0630dcbe64f37867d8407433a0d8d43f157aef79dffe9a975886e5"
+    },
+    {
+      "sourceId": "wow-database",
+      "path": "data/forever/client-extract/SkillLine.jsonl.gz",
+      "sha256": "509c792ffd478fbe41746779ed1b709c6c3a3d1bc42cfc7f1a190c91e0b6c4d8"
+    },
+    {
+      "sourceId": "wow-database",
+      "path": "data/forever/client-extract/SkillLineAbility.jsonl.gz",
+      "sha256": "7b938956ac13ccb2d7a3419faa54ca8e6aa32f95fc4064e31b05f9416899e408"
+    },
+    {
+      "sourceId": "wow-database",
+      "path": "data/forever/client-extract/SpellCastTimes.jsonl.gz",
+      "sha256": "70b028029b68c62c7ce5becfa4ebce6fbae8e35d5dc11ed8d22df53790536e03"
+    },
+    {
+      "sourceId": "wow-database",
+      "path": "data/forever/client-extract/SpellEffect.jsonl.gz",
+      "sha256": "ace63a497974ac8d089c2134e5669f3802a038c081598321f9a96620246bfa9d"
+    },
+    {
+      "sourceId": "wow-database",
+      "path": "data/forever/client-extract/SpellMisc.jsonl.gz",
+      "sha256": "93f180400cf79fc2d608a68f017575865f22efd9ab820a908ad33953c0b298de"
+    },
+    {
+      "sourceId": "wow-database",
+      "path": "data/forever/client-extract/SpellName.jsonl.gz",
+      "sha256": "dbbf03a9b190946377c77dd8653682ded6bb72f01361ace84f721eaa8dd9380a"
+    },
+    {
+      "sourceId": "wow-database",
+      "path": "data/forever/client-extract/SpellPower.jsonl.gz",
+      "sha256": "ff66e06cde03a897ed25a187bb49183acad411c402c10bff38295db2d658bdbb"
+    },
+    {
+      "sourceId": "wow-database",
+      "path": "data/forever/client-extract/SpellReagents.jsonl.gz",
+      "sha256": "84712796f096da9d71b0ec1c4e5b1de2bda37a4d4aa14ba7c8073d2fe443fa64"
+    },
+    {
+      "sourceId": "wow-database",
+      "path": "data/forever/compiled/zones/elwynn-forest.json",
+      "sha256": "360c004bee12c1462c7655e87e236ff4bed3a296e6044ef66101cf9bb70de48c"
+    },
+    {
+      "sourceId": "wowdbdefs-70338",
+      "path": "definitions/SkillLine.dbd",
+      "sha256": "225876879ed7148786cd59395b11f2db36a94ae2ad0fa988f3a019bd8f16bf4f"
+    },
+    {
+      "sourceId": "wowdbdefs-70338",
+      "path": "definitions/SkillLineAbility.dbd",
+      "sha256": "2d57e0592a85813ff6ba557c238ddf40ea762107551a226d7dad9297a7f8a77d"
+    },
+    {
+      "sourceId": "wowdbdefs-70338",
+      "path": "definitions/SpellCastTimes.dbd",
+      "sha256": "4214cdabcbc1f2af3232cc5411c4e11c64c2bf5f084139f5c6562b66e5958309"
+    },
+    {
+      "sourceId": "wowdbdefs-70338",
+      "path": "definitions/SpellEffect.dbd",
+      "sha256": "2b0ae49509d7feb7976c2e5e913e1d35f4c67caebe1fef7d6276e6f26cfa96e7"
+    },
+    {
+      "sourceId": "wowdbdefs-70338",
+      "path": "definitions/SpellMisc.dbd",
+      "sha256": "6feeaadac81c528efd33caebd4d05981a4b097b4690810e8694bd96b6a7012ce"
+    },
+    {
+      "sourceId": "wowdbdefs-70338",
+      "path": "definitions/SpellName.dbd",
+      "sha256": "cf2e4d710cd432559c8de4a0491d13f79cfd6df7b26d87fc2a46ae852d38aa82"
+    },
+    {
+      "sourceId": "wowdbdefs-70338",
+      "path": "definitions/SpellPower.dbd",
+      "sha256": "5c56fbfe1a03290a32a1f0b69d6c819c5d6d21d378bbce1796570b0ab14dc90c"
+    },
+    {
+      "sourceId": "wowdbdefs-70338",
+      "path": "definitions/SpellReagents.dbd",
+      "sha256": "f350257ab46079ccfa9b942c460d2a665aab0ab33ae57224fc2f08e7b9e26836"
+    }
+  ],
+  "clientContext": {
+    "build": "1.60.1.70338",
+    "definitionRevision": "07d008f28907c00827cacadf2d7c1a40f578b6a3",
+    "locale": "unknown",
+    "hotfix": "unknown"
+  },
+  "entities": [
+    {
+      "key": "forever:npc:823",
+      "kind": "npc",
+      "branch": "forever",
+      "originalId": 823,
+      "name": {
+        "de": "Stellvertreter Willem",
+        "en": "Deputy Willem",
+        "aliases": []
+      },
+      "version": "northshire-idle-v1",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "version": "39f3c87be20c6388762fae48cc71c0c91432421d",
+          "locator": "data/npcs.json#/823"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "version": "northshire-idle-v1",
+          "locator": "content/adaptations/northshire-idle-v1.json#/policy"
+        }
+      ],
+      "availability": "available",
+      "dataMaturity": "verified",
+      "implementation": "playable",
+      "usage": [
+        "interaction"
+      ],
+      "relationships": [],
+      "npcRole": "civilian"
+    },
+    {
+      "key": "forever:npc:197",
+      "kind": "npc",
+      "branch": "forever",
+      "originalId": 197,
+      "name": {
+        "de": "Marschall McBride",
+        "en": "Marshal McBride",
+        "aliases": []
+      },
+      "version": "northshire-idle-v1",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "version": "39f3c87be20c6388762fae48cc71c0c91432421d",
+          "locator": "data/npcs.json#/197"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "version": "northshire-idle-v1",
+          "locator": "content/adaptations/northshire-idle-v1.json#/policy"
+        }
+      ],
+      "availability": "available",
+      "dataMaturity": "verified",
+      "implementation": "playable",
+      "usage": [
+        "interaction"
+      ],
+      "relationships": [],
+      "npcRole": "civilian"
+    },
+    {
+      "key": "forever:npc:6",
+      "kind": "npc",
+      "branch": "forever",
+      "originalId": 6,
+      "name": {
+        "de": "Koboldgezücht",
+        "en": "Kobold Vermin",
+        "aliases": []
+      },
+      "version": "northshire-idle-v1",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "version": "39f3c87be20c6388762fae48cc71c0c91432421d",
+          "locator": "data/npcs.json#/6"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "version": "northshire-idle-v1",
+          "locator": "content/adaptations/northshire-idle-v1.json#/policy"
+        }
+      ],
+      "availability": "available",
+      "dataMaturity": "verified",
+      "implementation": "playable",
+      "usage": [
+        "combat"
+      ],
+      "relationships": [],
+      "npcRole": "hostile",
+      "combat": {
+        "maxHealth": 45,
+        "maxResource": 0,
+        "attackPower": 0,
+        "armor": 0,
+        "attackIntervalMs": 2500,
+        "minDamage": 2,
+        "maxDamage": 2,
+        "critChanceBps": 0
+      }
+    },
+    {
+      "key": "forever:npc:257",
+      "kind": "npc",
+      "branch": "forever",
+      "originalId": 257,
+      "name": {
+        "de": "Koboldarbeiter",
+        "en": "Kobold Worker",
+        "aliases": []
+      },
+      "version": "northshire-idle-v1",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "version": "39f3c87be20c6388762fae48cc71c0c91432421d",
+          "locator": "data/npcs.json#/257"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "version": "northshire-idle-v1",
+          "locator": "content/adaptations/northshire-idle-v1.json#/policy"
+        }
+      ],
+      "availability": "available",
+      "dataMaturity": "verified",
+      "implementation": "playable",
+      "usage": [
+        "combat"
+      ],
+      "relationships": [],
+      "npcRole": "hostile",
+      "combat": {
+        "maxHealth": 65,
+        "maxResource": 0,
+        "attackPower": 0,
+        "armor": 0,
+        "attackIntervalMs": 2500,
+        "minDamage": 3,
+        "maxDamage": 3,
+        "critChanceBps": 0
+      }
+    },
+    {
+      "key": "forever:npc:94",
+      "kind": "npc",
+      "branch": "forever",
+      "originalId": 94,
+      "name": {
+        "de": "Defias-Taschendieb",
+        "en": "Defias Cutpurse",
+        "aliases": []
+      },
+      "version": "northshire-idle-v1",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "version": "39f3c87be20c6388762fae48cc71c0c91432421d",
+          "locator": "data/npcs.json#/94"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "version": "northshire-idle-v1",
+          "locator": "content/adaptations/northshire-idle-v1.json#/policy"
+        }
+      ],
+      "availability": "available",
+      "dataMaturity": "verified",
+      "implementation": "playable",
+      "usage": [
+        "combat"
+      ],
+      "relationships": [],
+      "npcRole": "hostile",
+      "combat": {
+        "maxHealth": 85,
+        "maxResource": 0,
+        "attackPower": 0,
+        "armor": 0,
+        "attackIntervalMs": 2500,
+        "minDamage": 4,
+        "maxDamage": 4,
+        "critChanceBps": 0
+      }
+    },
+    {
+      "key": "forever:npc:911",
+      "kind": "npc",
+      "branch": "forever",
+      "originalId": 911,
+      "name": {
+        "de": "Llane Beshere",
+        "en": "Llane Beshere",
+        "aliases": []
+      },
+      "version": "northshire-idle-v1",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "version": "39f3c87be20c6388762fae48cc71c0c91432421d",
+          "locator": "data/npcs.json#/911"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "version": "northshire-idle-v1",
+          "locator": "content/adaptations/northshire-idle-v1.json#/policy"
+        }
+      ],
+      "availability": "available",
+      "dataMaturity": "verified",
+      "implementation": "playable",
+      "usage": [
+        "interaction"
+      ],
+      "relationships": [],
+      "npcRole": "civilian"
+    },
+    {
+      "key": "forever:npc:2329",
+      "kind": "npc",
+      "branch": "forever",
+      "originalId": 2329,
+      "name": {
+        "de": "Michelle Belle",
+        "en": "Michelle Belle",
+        "aliases": []
+      },
+      "version": "northshire-idle-v1",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "version": "39f3c87be20c6388762fae48cc71c0c91432421d",
+          "locator": "data/npcs.json#/2329"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "version": "northshire-idle-v1",
+          "locator": "content/adaptations/northshire-idle-v1.json#/policy"
+        }
+      ],
+      "availability": "available",
+      "dataMaturity": "verified",
+      "implementation": "playable",
+      "usage": [
+        "interaction"
+      ],
+      "relationships": [],
+      "npcRole": "civilian"
+    },
+    {
+      "key": "forever:item:2589",
+      "kind": "item",
+      "branch": "forever",
+      "originalId": 2589,
+      "name": {
+        "de": "Leinenstoff",
+        "en": "Linen Cloth",
+        "aliases": []
+      },
+      "version": "northshire-idle-v1",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "version": "39f3c87be20c6388762fae48cc71c0c91432421d",
+          "locator": "data/minor-items.json#/2589"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "version": "northshire-idle-v1",
+          "locator": "content/adaptations/northshire-idle-v1.json#/policy"
+        }
+      ],
+      "availability": "available",
+      "dataMaturity": "verified",
+      "implementation": "playable",
+      "usage": [
+        "craft-material"
+      ],
+      "relationships": []
+    },
+    {
+      "key": "forever:item:1251",
+      "kind": "item",
+      "branch": "forever",
+      "originalId": 1251,
+      "name": {
+        "de": "Leinenverband",
+        "en": "Linen Bandage",
+        "aliases": []
+      },
+      "version": "northshire-idle-v1",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "version": "39f3c87be20c6388762fae48cc71c0c91432421d",
+          "locator": "data/minor-items.json#/1251"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "version": "northshire-idle-v1",
+          "locator": "content/adaptations/northshire-idle-v1.json#/policy"
+        }
+      ],
+      "availability": "available",
+      "dataMaturity": "verified",
+      "implementation": "playable",
+      "usage": [
+        "craft-output"
+      ],
+      "relationships": []
+    },
+    {
+      "key": "forever:faction:72",
+      "kind": "faction",
+      "branch": "forever",
+      "originalId": 72,
+      "name": {
+        "de": "Sturmwind",
+        "en": "Stormwind",
+        "aliases": []
+      },
+      "version": "northshire-idle-v1",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "version": "39f3c87be20c6388762fae48cc71c0c91432421d",
+          "locator": "data/factions.json#/72"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "version": "northshire-idle-v1",
+          "locator": "content/adaptations/northshire-idle-v1.json#/policy"
+        }
+      ],
+      "availability": "available",
+      "dataMaturity": "verified",
+      "implementation": "playable",
+      "usage": [
+        "reputation"
+      ],
+      "relationships": []
+    },
+    {
+      "key": "forever:profession:129",
+      "kind": "profession",
+      "branch": "forever",
+      "originalId": 129,
+      "name": {
+        "de": "Erste Hilfe",
+        "en": "First Aid",
+        "aliases": []
+      },
+      "version": "northshire-idle-v1",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "version": "852e47451e7e08229488f1f0a8c0a4402c3580e4",
+          "locator": "data/forever/client-extract/SkillLine.jsonl.gz#record[id=129]/fields"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "version": "northshire-idle-v1",
+          "locator": "content/adaptations/northshire-idle-v1.json#/policy"
+        }
+      ],
+      "availability": "available",
+      "dataMaturity": "verified",
+      "implementation": "playable",
+      "usage": [
+        "craft"
+      ],
+      "relationships": []
+    },
+    {
+      "key": "forever:spell:78",
+      "kind": "spell",
+      "branch": "forever",
+      "originalId": 78,
+      "name": {
+        "de": "Heldenhafter Stoß",
+        "en": "Heroic Strike",
+        "aliases": []
+      },
+      "version": "northshire-idle-v1",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "version": "852e47451e7e08229488f1f0a8c0a4402c3580e4",
+          "locator": "data/forever/client-extract/SpellName.jsonl.gz#record[id=78]/fields"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "version": "northshire-idle-v1",
+          "locator": "content/adaptations/northshire-idle-v1.json#/policy"
+        }
+      ],
+      "availability": "available",
+      "dataMaturity": "verified",
+      "implementation": "playable",
+      "usage": [
+        "next-melee"
+      ],
+      "relationships": []
+    },
+    {
+      "key": "forever:spell:3275",
+      "kind": "spell",
+      "branch": "forever",
+      "originalId": 3275,
+      "name": {
+        "de": "Leinenverband",
+        "en": "Linen Bandage",
+        "aliases": []
+      },
+      "version": "northshire-idle-v1",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "version": "852e47451e7e08229488f1f0a8c0a4402c3580e4",
+          "locator": "data/forever/client-extract/SpellName.jsonl.gz#record[id=3275]/fields"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "version": "northshire-idle-v1",
+          "locator": "content/adaptations/northshire-idle-v1.json#/policy"
+        }
+      ],
+      "availability": "available",
+      "dataMaturity": "verified",
+      "implementation": "playable",
+      "usage": [
+        "craft"
+      ],
+      "relationships": []
+    },
+    {
+      "key": "forever:quest:783",
+      "kind": "quest",
+      "branch": "forever",
+      "originalId": 783,
+      "name": {
+        "de": "Eine Bedrohung von innen",
+        "en": "A Threat Within",
+        "aliases": []
+      },
+      "version": "northshire-idle-v1",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "version": "852e47451e7e08229488f1f0a8c0a4402c3580e4",
+          "locator": "data/forever/compiled/zones/elwynn-forest.json#/quests/783/index/list"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "version": "northshire-idle-v1",
+          "locator": "content/adaptations/northshire-idle-v1.json#/policy"
+        }
+      ],
+      "availability": "available",
+      "dataMaturity": "verified",
+      "implementation": "playable",
+      "usage": [
+        "quest"
+      ],
+      "relationships": [
+        "forever:npc:823",
+        "forever:npc:197",
+        "forever:npc:197",
+        "forever:faction:72"
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "forever:quest:7",
+      "kind": "quest",
+      "branch": "forever",
+      "originalId": 7,
+      "name": {
+        "de": "Säuberung des Koboldlagers",
+        "en": "Kobold Camp Cleanup",
+        "aliases": []
+      },
+      "version": "northshire-idle-v1",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "version": "852e47451e7e08229488f1f0a8c0a4402c3580e4",
+          "locator": "data/forever/compiled/zones/elwynn-forest.json#/quests/7/index/list"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "version": "northshire-idle-v1",
+          "locator": "content/adaptations/northshire-idle-v1.json#/policy"
+        }
+      ],
+      "availability": "available",
+      "dataMaturity": "verified",
+      "implementation": "playable",
+      "usage": [
+        "quest"
+      ],
+      "relationships": [
+        "forever:npc:197",
+        "forever:npc:197",
+        "forever:npc:6",
+        "forever:faction:72"
+      ],
+      "prerequisites": [
+        "forever:quest:783"
+      ]
+    },
+    {
+      "key": "forever:quest:15",
+      "kind": "quest",
+      "branch": "forever",
+      "originalId": 15,
+      "name": {
+        "de": "Untersuchung des Echokamms",
+        "en": "Investigate Echo Ridge",
+        "aliases": []
+      },
+      "version": "northshire-idle-v1",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "version": "852e47451e7e08229488f1f0a8c0a4402c3580e4",
+          "locator": "data/forever/compiled/zones/elwynn-forest.json#/quests/15/index/list"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "version": "northshire-idle-v1",
+          "locator": "content/adaptations/northshire-idle-v1.json#/policy"
+        }
+      ],
+      "availability": "available",
+      "dataMaturity": "verified",
+      "implementation": "playable",
+      "usage": [
+        "quest"
+      ],
+      "relationships": [
+        "forever:npc:197",
+        "forever:npc:197",
+        "forever:npc:257",
+        "forever:faction:72"
+      ],
+      "prerequisites": [
+        "forever:quest:7"
+      ]
+    }
+  ],
+  "quests": [
+    {
+      "key": "forever:quest:783",
+      "giverKey": "forever:npc:823",
+      "turnInKey": "forever:npc:197",
+      "prerequisites": [],
+      "objectives": [
+        {
+          "type": "talk",
+          "targetKey": "forever:npc:197",
+          "quantity": 1
+        }
+      ],
+      "rewards": {
+        "experience": 40,
+        "moneyCopper": 0,
+        "items": [],
+        "choices": [],
+        "reputation": [
+          {
+            "factionKey": "forever:faction:72",
+            "amount": 50
+          }
+        ]
+      }
+    },
+    {
+      "key": "forever:quest:7",
+      "giverKey": "forever:npc:197",
+      "turnInKey": "forever:npc:197",
+      "prerequisites": [
+        "forever:quest:783"
+      ],
+      "objectives": [
+        {
+          "type": "kill",
+          "targetKey": "forever:npc:6",
+          "quantity": 10
+        }
+      ],
+      "rewards": {
+        "experience": 170,
+        "moneyCopper": 25,
+        "items": [],
+        "choices": [],
+        "reputation": [
+          {
+            "factionKey": "forever:faction:72",
+            "amount": 100
+          }
+        ]
+      }
+    },
+    {
+      "key": "forever:quest:15",
+      "giverKey": "forever:npc:197",
+      "turnInKey": "forever:npc:197",
+      "prerequisites": [
+        "forever:quest:7"
+      ],
+      "objectives": [
+        {
+          "type": "kill",
+          "targetKey": "forever:npc:257",
+          "quantity": 10
+        }
+      ],
+      "rewards": {
+        "experience": 250,
+        "moneyCopper": 40,
+        "items": [],
+        "choices": [],
+        "reputation": [
+          {
+            "factionKey": "forever:faction:72",
+            "amount": 100
+          }
+        ]
+      }
+    }
+  ],
+  "encounters": [
+    {
+      "npcKey": "forever:npc:6",
+      "experience": 20,
+      "moneyCopper": 2,
+      "loot": []
+    },
+    {
+      "npcKey": "forever:npc:257",
+      "experience": 30,
+      "moneyCopper": 3,
+      "loot": []
+    },
+    {
+      "npcKey": "forever:npc:94",
+      "experience": 40,
+      "moneyCopper": 4,
+      "loot": [
+        {
+          "itemKey": "forever:item:2589",
+          "quantity": 1,
+          "chanceBps": 2992
+        }
+      ]
+    }
+  ],
+  "spells": [
+    {
+      "key": "forever:spell:78",
+      "minLevel": 1,
+      "cooldownMs": 0,
+      "effects": [
+        {
+          "type": "next-melee",
+          "originalEffectType": 17,
+          "bonusDamage": 11,
+          "resourceCost": 15,
+          "threatMultiplierBps": 15000
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:3275",
+      "minLevel": 1,
+      "cooldownMs": 0,
+      "effects": [
+        {
+          "type": "create-item",
+          "originalEffectType": 24,
+          "itemKey": "forever:item:1251",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "spellKey": "forever:spell:3275",
+      "professionKey": "forever:profession:129",
+      "minSkill": 1,
+      "durationMs": 3000,
+      "reagents": [
+        {
+          "itemKey": "forever:item:2589",
+          "quantity": 1
+        }
+      ],
+      "outputs": [
+        {
+          "itemKey": "forever:item:1251",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "trainers": [
+    {
+      "npcKey": "forever:npc:911",
+      "teaches": [
+        {
+          "spellKey": "forever:spell:78",
+          "moneyCopper": 10,
+          "requiredLevel": 1,
+          "requiredSkill": 0
+        }
+      ]
+    },
+    {
+      "npcKey": "forever:npc:2329",
+      "teaches": [
+        {
+          "spellKey": "forever:spell:3275",
+          "moneyCopper": 10,
+          "requiredLevel": 1,
+          "requiredSkill": 1
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "key": "forever:item:2589",
+      "stackLimit": 20,
+      "use": "material"
+    },
+    {
+      "key": "forever:item:1251",
+      "stackLimit": 20,
+      "use": "craft-output"
+    }
+  ],
+  "start": {
+    "level": 1,
+    "stats": {
+      "maxHealth": 150,
+      "maxResource": 100,
+      "attackPower": 0,
+      "armor": 0,
+      "attackIntervalMs": 2000,
+      "minDamage": 8,
+      "maxDamage": 8,
+      "critChanceBps": 0
+    },
+    "inventory": [
+      {
+        "itemKey": "forever:item:2589",
+        "quantity": 2
+      }
+    ],
+    "moneyCopper": 20,
+    "knownSpells": [],
+    "professions": [
+      {
+        "professionKey": "forever:profession:129",
+        "skill": 1
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "target": "/entities/0",
+      "policy": "adopted-original112",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/npcs.json",
+          "sha256": "0fffce6e5457bff9a8ee24774aa27ea8b2c23f33a64dd5f3256502c680c395e1",
+          "selector": "/823"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/namesDe/npc:823"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy"
+        }
+      ],
+      "reason": "Original identity and English name from selected record; German name and availability/use are explicit Idle authoring."
+    },
+    {
+      "target": "/entities/1",
+      "policy": "adopted-original112",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/npcs.json",
+          "sha256": "0fffce6e5457bff9a8ee24774aa27ea8b2c23f33a64dd5f3256502c680c395e1",
+          "selector": "/197"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/namesDe/npc:197"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy"
+        }
+      ],
+      "reason": "Original identity and English name from selected record; German name and availability/use are explicit Idle authoring."
+    },
+    {
+      "target": "/entities/2",
+      "policy": "adopted-original112",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/npcs.json",
+          "sha256": "0fffce6e5457bff9a8ee24774aa27ea8b2c23f33a64dd5f3256502c680c395e1",
+          "selector": "/6"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/namesDe/npc:6"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy"
+        }
+      ],
+      "reason": "Original identity and English name from selected record; German name and availability/use are explicit Idle authoring."
+    },
+    {
+      "target": "/entities/2/combat",
+      "policy": "owned-idle",
+      "sources": [
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/npcCombat/6"
+        }
+      ],
+      "reason": "All combat stats, enemy XP/money, player progression seed and threat multiplier are owned Idle balance parameters; authentic Forever server stats and AI remain unknown."
+    },
+    {
+      "target": "/entities/3",
+      "policy": "adopted-original112",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/npcs.json",
+          "sha256": "0fffce6e5457bff9a8ee24774aa27ea8b2c23f33a64dd5f3256502c680c395e1",
+          "selector": "/257"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/namesDe/npc:257"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy"
+        }
+      ],
+      "reason": "Original identity and English name from selected record; German name and availability/use are explicit Idle authoring."
+    },
+    {
+      "target": "/entities/3/combat",
+      "policy": "owned-idle",
+      "sources": [
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/npcCombat/257"
+        }
+      ],
+      "reason": "All combat stats, enemy XP/money, player progression seed and threat multiplier are owned Idle balance parameters; authentic Forever server stats and AI remain unknown."
+    },
+    {
+      "target": "/entities/4",
+      "policy": "adopted-original112",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/npcs.json",
+          "sha256": "0fffce6e5457bff9a8ee24774aa27ea8b2c23f33a64dd5f3256502c680c395e1",
+          "selector": "/94"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/namesDe/npc:94"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy"
+        }
+      ],
+      "reason": "Original identity and English name from selected record; German name and availability/use are explicit Idle authoring."
+    },
+    {
+      "target": "/entities/4/combat",
+      "policy": "owned-idle",
+      "sources": [
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/npcCombat/94"
+        }
+      ],
+      "reason": "All combat stats, enemy XP/money, player progression seed and threat multiplier are owned Idle balance parameters; authentic Forever server stats and AI remain unknown."
+    },
+    {
+      "target": "/entities/5",
+      "policy": "adopted-original112",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/npcs.json",
+          "sha256": "0fffce6e5457bff9a8ee24774aa27ea8b2c23f33a64dd5f3256502c680c395e1",
+          "selector": "/911"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/namesDe/npc:911"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy"
+        }
+      ],
+      "reason": "Original identity and English name from selected record; German name and availability/use are explicit Idle authoring."
+    },
+    {
+      "target": "/entities/6",
+      "policy": "adopted-original112",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/npcs.json",
+          "sha256": "0fffce6e5457bff9a8ee24774aa27ea8b2c23f33a64dd5f3256502c680c395e1",
+          "selector": "/2329"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/namesDe/npc:2329"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy"
+        }
+      ],
+      "reason": "Original identity and English name from selected record; German name and availability/use are explicit Idle authoring."
+    },
+    {
+      "target": "/entities/7",
+      "policy": "adopted-original112",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/minor-items.json",
+          "sha256": "3f3473ac4cfb3f2719dd65a7584c7570fd5dbc79761f7c517ec557731254e7a0",
+          "selector": "/2589"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/namesDe/item:2589"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy"
+        }
+      ],
+      "reason": "Original identity and English name from selected record; German name and availability/use are explicit Idle authoring."
+    },
+    {
+      "target": "/entities/8",
+      "policy": "adopted-original112",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/minor-items.json",
+          "sha256": "3f3473ac4cfb3f2719dd65a7584c7570fd5dbc79761f7c517ec557731254e7a0",
+          "selector": "/1251"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/namesDe/item:1251"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy"
+        }
+      ],
+      "reason": "Original identity and English name from selected record; German name and availability/use are explicit Idle authoring."
+    },
+    {
+      "target": "/entities/9",
+      "policy": "adopted-original112",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/factions.json",
+          "sha256": "f87bbd0519114308f55a248bf28475490bf7f8822d0ea33a7b29b9d2ebb75f9f",
+          "selector": "/72"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/namesDe/faction:72"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy"
+        }
+      ],
+      "reason": "Original identity and English name from selected record; German name and availability/use are explicit Idle authoring."
+    },
+    {
+      "target": "/entities/10",
+      "policy": "captured-forever",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/client-extract/SkillLine.jsonl.gz",
+          "sha256": "509c792ffd478fbe41746779ed1b709c6c3a3d1bc42cfc7f1a190c91e0b6c4d8",
+          "selector": "record[id=129]/fields"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/namesDe/profession:129"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy"
+        }
+      ],
+      "reason": "Original identity and English name from selected record; German name and availability/use are explicit Idle authoring."
+    },
+    {
+      "target": "/entities/11",
+      "policy": "captured-forever",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/client-extract/SpellName.jsonl.gz",
+          "sha256": "dbbf03a9b190946377c77dd8653682ded6bb72f01361ace84f721eaa8dd9380a",
+          "selector": "record[id=78]/fields"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/namesDe/spell:78"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy"
+        }
+      ],
+      "reason": "Original identity and English name from selected record; German name and availability/use are explicit Idle authoring."
+    },
+    {
+      "target": "/entities/12",
+      "policy": "captured-forever",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/client-extract/SpellName.jsonl.gz",
+          "sha256": "dbbf03a9b190946377c77dd8653682ded6bb72f01361ace84f721eaa8dd9380a",
+          "selector": "record[id=3275]/fields"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/namesDe/spell:3275"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy"
+        }
+      ],
+      "reason": "Original identity and English name from selected record; German name and availability/use are explicit Idle authoring."
+    },
+    {
+      "target": "/entities/13",
+      "policy": "captured-forever",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/compiled/zones/elwynn-forest.json",
+          "sha256": "360c004bee12c1462c7655e87e236ff4bed3a296e6044ef66101cf9bb70de48c",
+          "selector": "/quests/783/index/list"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/namesDe/quest:783"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy"
+        }
+      ],
+      "reason": "Original identity and English name from selected record; German name and availability/use are explicit Idle authoring."
+    },
+    {
+      "target": "/quests/0",
+      "policy": "adopted-original112",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/quests.json",
+          "sha256": "f04e181ad2cab5bff8cf24c71dee296e13ff6424774f689f0d5630f61e1f8ab1",
+          "selector": "/747"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/baseline"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/scope"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/introObjective"
+        }
+      ],
+      "reason": "Baseline structured objectives, givers and prerequisites explicitly adopted; source quest15 next21 is outside packet scope."
+    },
+    {
+      "target": "/quests/0/rewards",
+      "policy": "captured-forever",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/compiled/zones/elwynn-forest.json",
+          "sha256": "360c004bee12c1462c7655e87e236ff4bed3a296e6044ef66101cf9bb70de48c",
+          "selector": "/quests/783/index/list"
+        }
+      ],
+      "reason": "Forever Wowhead snapshot 2026-10-16T20:58:40+00:00; explicit reward fields, not current server proof."
+    },
+    {
+      "target": "/entities/14",
+      "policy": "captured-forever",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/compiled/zones/elwynn-forest.json",
+          "sha256": "360c004bee12c1462c7655e87e236ff4bed3a296e6044ef66101cf9bb70de48c",
+          "selector": "/quests/7/index/list"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/namesDe/quest:7"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy"
+        }
+      ],
+      "reason": "Original identity and English name from selected record; German name and availability/use are explicit Idle authoring."
+    },
+    {
+      "target": "/quests/1",
+      "policy": "adopted-original112",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/quests.json",
+          "sha256": "f04e181ad2cab5bff8cf24c71dee296e13ff6424774f689f0d5630f61e1f8ab1",
+          "selector": "/3"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/baseline"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/scope"
+        }
+      ],
+      "reason": "Baseline structured objectives, givers and prerequisites explicitly adopted; source quest15 next21 is outside packet scope."
+    },
+    {
+      "target": "/quests/1/rewards",
+      "policy": "captured-forever",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/compiled/zones/elwynn-forest.json",
+          "sha256": "360c004bee12c1462c7655e87e236ff4bed3a296e6044ef66101cf9bb70de48c",
+          "selector": "/quests/7/index/list"
+        }
+      ],
+      "reason": "Forever Wowhead snapshot 2026-09-24T23:07:47+00:00; explicit reward fields, not current server proof."
+    },
+    {
+      "target": "/entities/15",
+      "policy": "captured-forever",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/compiled/zones/elwynn-forest.json",
+          "sha256": "360c004bee12c1462c7655e87e236ff4bed3a296e6044ef66101cf9bb70de48c",
+          "selector": "/quests/15/index/list"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/namesDe/quest:15"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy"
+        }
+      ],
+      "reason": "Original identity and English name from selected record; German name and availability/use are explicit Idle authoring."
+    },
+    {
+      "target": "/quests/2",
+      "policy": "adopted-original112",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/quests.json",
+          "sha256": "f04e181ad2cab5bff8cf24c71dee296e13ff6424774f689f0d5630f61e1f8ab1",
+          "selector": "/11"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/baseline"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/scope"
+        }
+      ],
+      "reason": "Baseline structured objectives, givers and prerequisites explicitly adopted; source quest15 next21 is outside packet scope."
+    },
+    {
+      "target": "/quests/2/rewards",
+      "policy": "captured-forever",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/compiled/zones/elwynn-forest.json",
+          "sha256": "360c004bee12c1462c7655e87e236ff4bed3a296e6044ef66101cf9bb70de48c",
+          "selector": "/quests/15/index/list"
+        }
+      ],
+      "reason": "Forever Wowhead snapshot 2026-10-16T19:42:31+00:00; explicit reward fields, not current server proof."
+    },
+    {
+      "target": "/encounters/0",
+      "policy": "owned-idle",
+      "sources": [
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/encounterRewards/6"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/scope"
+        }
+      ],
+      "reason": "Owned kill rewards and explicitly bounded loot selection; no invented authentic server values."
+    },
+    {
+      "target": "/encounters/1",
+      "policy": "owned-idle",
+      "sources": [
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/encounterRewards/257"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/scope"
+        }
+      ],
+      "reason": "Owned kill rewards and explicitly bounded loot selection; no invented authentic server values."
+    },
+    {
+      "target": "/encounters/2/loot",
+      "policy": "adopted-original112",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/npc-loot.json",
+          "sha256": "55ce87f2951b9a39325eb89aa6b35aa22ba604041ea69eb57128ede121ca1410",
+          "selector": "/94/0"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/baseline"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/scope"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/selectedLoot/94"
+        }
+      ],
+      "reason": "Select one baseline linen drop; quantity one and independent roll are owned Idle rules. Other original drops remain outside scope."
+    },
+    {
+      "target": "/encounters/2",
+      "policy": "owned-idle",
+      "sources": [
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/encounterRewards/94"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/scope"
+        }
+      ],
+      "reason": "Owned kill rewards and explicitly bounded loot selection; no invented authentic server values."
+    },
+    {
+      "target": "/spells/0",
+      "policy": "owned-idle",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/abilities.json",
+          "sha256": "500c768313246ffbbe155ab3bb05f2edd02722eb53c22bd39dc06ff40ec1cde6",
+          "selector": "/warrior/2"
+        },
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/client-extract/SpellEffect.jsonl.gz",
+          "sha256": "ace63a497974ac8d089c2134e5669f3802a038c081598321f9a96620246bfa9d",
+          "selector": "record[id=679166]/fields"
+        },
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/client-extract/SpellPower.jsonl.gz",
+          "sha256": "ff66e06cde03a897ed25a187bb49183acad411c402c10bff38295db2d658bdbb",
+          "selector": "record[id=169337]/fields"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/heroicStrike"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/effects"
+        }
+      ],
+      "reason": "Next-melee timing,15Rage,+11 from current70425 text corroborated by70338 rows; cooldown and quantified threat are explicit Idle rules."
+    },
+    {
+      "target": "/spells/1",
+      "policy": "owned-idle",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/client-extract/SpellEffect.jsonl.gz",
+          "sha256": "ace63a497974ac8d089c2134e5669f3802a038c081598321f9a96620246bfa9d",
+          "selector": "record[id=681763]/fields"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/recipeSpell"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/recipe"
+        }
+      ],
+      "reason": "Create-item quantity and output from matched client; spell admission is Idle curriculum."
+    },
+    {
+      "target": "/recipes/0",
+      "policy": "captured-forever",
+      "sources": [
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/client-extract/SkillLineAbility.jsonl.gz",
+          "sha256": "7b938956ac13ccb2d7a3419faa54ca8e6aa32f95fc4064e31b05f9416899e408",
+          "selector": "record[id=1838]/fields"
+        },
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/client-extract/SpellReagents.jsonl.gz",
+          "sha256": "84712796f096da9d71b0ec1c4e5b1de2bda37a4d4aa14ba7c8073d2fe443fa64",
+          "selector": "record[id=19602]/fields"
+        },
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/client-extract/SpellEffect.jsonl.gz",
+          "sha256": "ace63a497974ac8d089c2134e5669f3802a038c081598321f9a96620246bfa9d",
+          "selector": "record[id=681763]/fields"
+        },
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/client-extract/SpellMisc.jsonl.gz",
+          "sha256": "93f180400cf79fc2d608a68f017575865f22efd9ab820a908ad33953c0b298de",
+          "selector": "record[id=316596]/fields"
+        },
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/client-extract/SpellCastTimes.jsonl.gz",
+          "sha256": "70b028029b68c62c7ce5becfa4ebce6fbae8e35d5dc11ed8d22df53790536e03",
+          "selector": "record[id=14]/fields"
+        }
+      ],
+      "reason": "Exact client joins; acquisition is separately authored, no missing field defaults."
+    },
+    {
+      "target": "/trainers/0",
+      "policy": "owned-idle",
+      "sources": [
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/trainers/0"
+        },
+        {
+          "sourceId": "grimoire",
+          "path": "data/npcs.json",
+          "sha256": "0fffce6e5457bff9a8ee24774aa27ea8b2c23f33a64dd5f3256502c680c395e1",
+          "selector": "/911"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/curriculum"
+        }
+      ],
+      "reason": "Owned Idle curriculum: actual warrior trainer911 teaches sourced spell78; physician2329 teaches recipe3275. Original trainer lists, prices and availability unknown."
+    },
+    {
+      "target": "/trainers/1",
+      "policy": "owned-idle",
+      "sources": [
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/trainers/1"
+        },
+        {
+          "sourceId": "grimoire",
+          "path": "data/npcs.json",
+          "sha256": "0fffce6e5457bff9a8ee24774aa27ea8b2c23f33a64dd5f3256502c680c395e1",
+          "selector": "/2329"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/curriculum"
+        }
+      ],
+      "reason": "Owned Idle curriculum: actual warrior trainer911 teaches sourced spell78; physician2329 teaches recipe3275. Original trainer lists, prices and availability unknown."
+    },
+    {
+      "target": "/items/0",
+      "policy": "adopted-original112",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/minor-items.json",
+          "sha256": "3f3473ac4cfb3f2719dd65a7584c7570fd5dbc79761f7c517ec557731254e7a0",
+          "selector": "/2589"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/baseline"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/recipe"
+        }
+      ],
+      "reason": "Original stack limit explicitly adopted; bandage has craft-output use only."
+    },
+    {
+      "target": "/items/1",
+      "policy": "adopted-original112",
+      "sources": [
+        {
+          "sourceId": "grimoire",
+          "path": "data/minor-items.json",
+          "sha256": "3f3473ac4cfb3f2719dd65a7584c7570fd5dbc79761f7c517ec557731254e7a0",
+          "selector": "/1251"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/baseline"
+        },
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/policy/recipe"
+        }
+      ],
+      "reason": "Original stack limit explicitly adopted; bandage has craft-output use only."
+    },
+    {
+      "target": "/start",
+      "policy": "owned-idle",
+      "sources": [
+        {
+          "sourceId": "idle-northshire-v1",
+          "path": "content/adaptations/northshire-idle-v1.json",
+          "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+          "selector": "/start"
+        }
+      ],
+      "reason": "Owned starting balance, materials and profession seed."
+    }
+  ],
+  "gaps": [
+    "Authentic Forever server NPC combat stats, attack AI and player combat scaling remain missing; owned Idle balance is used.",
+    "Original trainer acquisition lists/prices for78 and3275 are unknown; availability is an owned Idle curriculum.",
+    "The full Forever world/catalog, terrain/travel and quest21 continuation are outside this packet.",
+    "Original1.12 linen chance29.92% is explicitly adopted, not a measured Forever rate; other drops omitted by scope.",
+    "Bandage item1251 use/healing spell is unsupported; crafting produces a stored item only.",
+    "Multi-target threat behavior, extra spell mechanics, other spells/ranks, item stat budgets and live server hotfixes are unsupported.",
+    "Client locale is unknown: Neither table headers nor captured extraction manifest declare locale.",
+    "Client hotfix state is unknown: Neither table headers nor captured extraction manifest declare applied hotfix state.",
+    "Captured records do not establish server availability; encrypted omissions remain unknown."
+  ]
+}

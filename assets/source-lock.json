@@ -1,0 +1,1713 @@
+{
+  "repository": "doorknob6/vanilla-wow-interface-textures",
+  "commit": "fce08de771abbb8ce8989b6c859f3071aff3f6c6",
+  "retrieved_via": "ChatGPT GitHub connector fetch_file, encoding=base64",
+  "files": [
+    {
+      "path": "Interface/DialogFrame/UI-DialogBox-Background.png",
+      "blob_sha": "f490cba6a7988e56e2c9e50438bb43bd07c4c3a4",
+      "sha256": "42d72bb302b2a9ab75940e17dc5b21514f87b9fec5dc118272caec9060e79164",
+      "bytes": 262,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/DialogFrame/UI-DialogBox-Background.png"
+    },
+    {
+      "path": "Interface/DialogFrame/UI-DialogBox-Border.png",
+      "blob_sha": "6d23b643f509eb9831fce497ca7331f2a9f33211",
+      "sha256": "ce42a59fbda51d0dfaf3c5169a54945cea356875c443291a3695831dad1bd98c",
+      "bytes": 3127,
+      "width": 256,
+      "height": 32,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/DialogFrame/UI-DialogBox-Border.png"
+    },
+    {
+      "path": "Interface/DialogFrame/UI-DialogBox-Header.png",
+      "blob_sha": "dd020b12797666608dea534988a0972fd084902b",
+      "sha256": "1c78018a2082c98440d7272b2cfe165fa25f342cab384d08d63f77c9135bd162",
+      "bytes": 4210,
+      "width": 256,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/DialogFrame/UI-DialogBox-Header.png"
+    },
+    {
+      "path": "Interface/Buttons/UI-Panel-Button-Up.png",
+      "blob_sha": "1b37f16b67143fe621bdceb9b11be9882852a839",
+      "sha256": "0d71d013d58129d05a472eae23f717bb34e865458ed3d8fd6ca4f90d934fc023",
+      "bytes": 981,
+      "width": 128,
+      "height": 32,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Buttons/UI-Panel-Button-Up.png"
+    },
+    {
+      "path": "Interface/Buttons/UI-Panel-Button-Down.png",
+      "blob_sha": "4536fe7da1f520619072ce9a24d6fdfcd63199e3",
+      "sha256": "28357b2524514334f6a8fc14634aefbfcc7371301ec759b071a5ef3085a13995",
+      "bytes": 833,
+      "width": 128,
+      "height": 32,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Buttons/UI-Panel-Button-Down.png"
+    },
+    {
+      "path": "Interface/Buttons/UI-Panel-Button-Highlight.png",
+      "blob_sha": "fd772862139501e38ce5166fe2973cbf24d5699f",
+      "sha256": "dc2e000b52ed77777fb1c1244f584b7dd70d0b820be1eeb181aa807759e84d18",
+      "bytes": 993,
+      "width": 128,
+      "height": 32,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Buttons/UI-Panel-Button-Highlight.png"
+    },
+    {
+      "path": "Interface/Buttons/UI-Quickslot.png",
+      "blob_sha": "41d5914d3f2a4663b8a3417b53e25cd974e8beca",
+      "sha256": "3994ad4e8cf6315e7b339f6eaa3826e720dcb3df306e81e7293ac474584e2b99",
+      "bytes": 511,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Buttons/UI-Quickslot.png"
+    },
+    {
+      "path": "Interface/Buttons/UI-Quickslot2.png",
+      "blob_sha": "26b1eb4db401e4e7ebb886d7345a9e6d7b8a0ce0",
+      "sha256": "a9d4a63d00423f73b9dfc35454647d8f69241ba9b0e8feda1cd0a749e6ef6669",
+      "bytes": 472,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Buttons/UI-Quickslot2.png"
+    },
+    {
+      "path": "Interface/Buttons/UI-Quickslot-Depress.png",
+      "blob_sha": "d196a0c54d6a721db430fb449b560b890655141a",
+      "sha256": "64552d20d461dba2c66efd740cb281a56c811ee7a020c0ae83109018cf5f8777",
+      "bytes": 1238,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Buttons/UI-Quickslot-Depress.png"
+    },
+    {
+      "path": "Interface/MainMenuBar/UI-MainMenuBar-Human.png",
+      "blob_sha": "7ceff445c1b0df9029fb5fcb6d2d69f2fee2e6f4",
+      "sha256": "85c10f65db69d1c11d0efb72649ab7639e5399c35823775efb08a63b94790f77",
+      "bytes": 48091,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/MainMenuBar/UI-MainMenuBar-Human.png"
+    },
+    {
+      "path": "Interface/MainMenuBar/UI-MainMenuBar-EndCap-Human.png",
+      "blob_sha": "0caf6ac59f7df787debd483985644355b5f99571",
+      "sha256": "ef2258bc6f246c56db7617f7d36402f71aa9eea2bd85328263d7fcd75dc26336",
+      "bytes": 8637,
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/MainMenuBar/UI-MainMenuBar-EndCap-Human.png"
+    },
+    {
+      "path": "Interface/Minimap/UI-Minimap-Border.png",
+      "blob_sha": "a878f4b89ae3b9a03466f76078f7fd7d28873e95",
+      "sha256": "3372bf4d096162a1753179cf213dea7dc80c0f68f25d572dfc9bd7a01fdd5d8b",
+      "bytes": 10818,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Minimap/UI-Minimap-Border.png"
+    },
+    {
+      "path": "Interface/Minimap/UI-TOD-Indicator.png",
+      "blob_sha": "5def87006315cf29e7c5e8881a24878bc1e001d9",
+      "sha256": "408767245e7fe95ba5690681e8b2a2c350573350fd771a4d874c02c185825a67",
+      "bytes": 5016,
+      "width": 128,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Minimap/UI-TOD-Indicator.png"
+    },
+    {
+      "path": "Interface/QuestFrame/UI-Quest-TopLeft.png",
+      "blob_sha": "ae8e687701056f53003b235ebcf9eafe33410305",
+      "sha256": "11189d73db1a4a536f8167b7409aefd58b59a6e53d20bd6801f42df6a1f901bb",
+      "bytes": 36654,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/QuestFrame/UI-Quest-TopLeft.png"
+    },
+    {
+      "path": "Interface/QuestFrame/UI-Quest-TopRight.png",
+      "blob_sha": "3946883617f6d90d84fa417322f70219470d34bf",
+      "sha256": "eb72c3d5d06dbd486801e336aafa9931947a4dae075e9657b8fc1195659f283a",
+      "bytes": 17707,
+      "width": 128,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/QuestFrame/UI-Quest-TopRight.png"
+    },
+    {
+      "path": "Interface/QuestFrame/UI-Quest-BotLeft.png",
+      "blob_sha": "32ab9400555a81d95e2cdb4b20610707dc97a90f",
+      "sha256": "93ef223857d5dea84804ba7b875c1d21fe375eeb6f82410fb698aabc286bef3a",
+      "bytes": 28680,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/QuestFrame/UI-Quest-BotLeft.png"
+    },
+    {
+      "path": "Interface/QuestFrame/UI-Quest-BotRight.png",
+      "blob_sha": "5690c174ca7e4af92d2a980fc2b657e5a51d73a6",
+      "sha256": "c542c76337b294ddca4336d106f7a10727b50167cbcabcafcf24f0ff1fa1256b",
+      "bytes": 15458,
+      "width": 128,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/QuestFrame/UI-Quest-BotRight.png"
+    },
+    {
+      "path": "Interface/Tooltips/UI-Tooltip-Background.png",
+      "blob_sha": "62c79e037926fb150a99005adf65042f8cc82c70",
+      "sha256": "26ce591329f289320893407fbc70e965848b063248a8bc23e9f8f0413ecc59ae",
+      "bytes": 251,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Tooltips/UI-Tooltip-Background.png"
+    },
+    {
+      "path": "Interface/Tooltips/UI-Tooltip-Border.png",
+      "blob_sha": "e1d99462a89b708304bd502d3c019cc5a877010d",
+      "sha256": "f9c2848dadbd4e4c3aa5052dca445c770b4ec06e2dcc3710bb4c0c9702e04e82",
+      "bytes": 527,
+      "width": 128,
+      "height": 16,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Tooltips/UI-Tooltip-Border.png"
+    },
+    {
+      "path": "Interface/Icons/Ability_Warrior_BattleShout.png",
+      "blob_sha": "a94ab9a6a16303fba4faecf382bfa57c7820824c",
+      "sha256": "5c1263f1cd47b2997a91668108ddb24fe37a6ab0cc37941b3206dc3d08a0ddbf",
+      "bytes": 3961,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Ability_Warrior_BattleShout.png"
+    },
+    {
+      "path": "Interface/Icons/Ability_Rogue_Ambush.png",
+      "blob_sha": "dc8642260c73f73e1ee4194564c9379908e9938d",
+      "sha256": "64931d70ec5443dd70c4a4508b2ce028d8e4092723f1f1a94ce04cecd0d50919",
+      "bytes": 5024,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Ability_Rogue_Ambush.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Frost_FrostBolt02.png",
+      "blob_sha": "8de1cb8a235e97a3f49f58e494742579964dc72f",
+      "sha256": "fea971ad3b70495eb84f008fc1ac3f0243de2e925edaaab4b5bb75786ecc6650",
+      "bytes": 3701,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Frost_FrostBolt02.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Holy_HolyBolt.png",
+      "blob_sha": "7ff3309e477f6e9f114eaa952763d4bb2ef1bab4",
+      "sha256": "e4df7b83629ebfc6baf6631f78d94fee39dfab8a49a41a3974c2056230e929ae",
+      "bytes": 4707,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Holy_HolyBolt.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Nature_Lightning.png",
+      "blob_sha": "062d726d0fbc370c7bb5d09a4b88246738418cc2",
+      "sha256": "3a7db8c9077e4bbb13ace0208d22077afb1cfca5e4c48c892d82729dc80cd4cf",
+      "bytes": 4171,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Nature_Lightning.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Shadow_ShadowBolt.png",
+      "blob_sha": "444b340a8fc1d818969138d959d22f68852f7a3b",
+      "sha256": "d9374bff4c299beb85a812c20c12f852c9a95e87d11f085b69297e14442b8b5b",
+      "bytes": 3785,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Shadow_ShadowBolt.png"
+    },
+    {
+      "path": "Interface/Icons/Ability_Hunter_AimedShot.png",
+      "blob_sha": "68ebf87edfb45822f63dfb9d86e2e65dc0e540b5",
+      "sha256": "57ee6d6245c9f2b46af7cc0c8313a86be5afc36cef38535c30903efd25bee23e",
+      "bytes": 4330,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Ability_Hunter_AimedShot.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Nature_StarFall.png",
+      "blob_sha": "5d24a03891b0b07107d8b700da1ba6a13eea431b",
+      "sha256": "a253183e8ce6b717e561fb76f03c4b5f9c1f34109ebefe84573ce48010ff8e21",
+      "bytes": 4208,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Nature_StarFall.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Holy_SealOfMight.png",
+      "blob_sha": "417d9c0ce9967cd974ade3fbec3881636f01fc50",
+      "sha256": "cf17e4a66ba3fb8802a6a4d4bcb5e8df63f45fadd079378f93282fe6d2e90daf",
+      "bytes": 4858,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Holy_SealOfMight.png"
+    },
+    {
+      "path": "Interface/Icons/INV_Sword_04.png",
+      "blob_sha": "7a5909984e290360e36748102cc628dcd2219b5e",
+      "sha256": "7d95bc8502634d84281005595d8cb7ef9b45f337c16b5cec094219eb4d76beaa",
+      "bytes": 2525,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/INV_Sword_04.png"
+    },
+    {
+      "path": "Interface/Icons/INV_Potion_51.png",
+      "blob_sha": "eb3ca2e16d6a718bcef3cbcde953c330f51dda95",
+      "sha256": "bde6827a63ae80ee68bf34eb4090a7e330e65ec3796f46920d8091d416491f54",
+      "bytes": 4159,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/INV_Potion_51.png"
+    },
+    {
+      "path": "Interface/Icons/INV_Ore_Copper_01.png",
+      "blob_sha": "bb96ae6ca57e1ee06e69365d871e725a14f4da65",
+      "sha256": "5360b1f68d289da6dd22c82b9e298149db4f0aba11dc84d02727d023630e00c3",
+      "bytes": 4555,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/INV_Ore_Copper_01.png"
+    },
+    {
+      "path": "Interface/Icons/INV_Misc_Herb_01.png",
+      "blob_sha": "279d0c018ab5066ab564dc79043c93a9206e26e5",
+      "sha256": "5b287b109c59fdbe1682ded6fc3d2804ef228ed2d67872845d5f994b8964b8fb",
+      "bytes": 3509,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/INV_Misc_Herb_01.png"
+    },
+    {
+      "path": "Interface/Icons/INV_Fabric_Linen_01.png",
+      "blob_sha": "b92d305f6c94f30c9aa94ec54083ded64e76e500",
+      "sha256": "9622573ba534b059fc748531cdc9d033a41dc0c5ec1fe4d08ba78196e3576233",
+      "bytes": 4639,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/INV_Fabric_Linen_01.png"
+    },
+    {
+      "path": "Interface/Icons/INV_Misc_LeatherScrap_03.png",
+      "blob_sha": "d90cbd811de63ec13500717a4cf929f0308de7dd",
+      "sha256": "fcd069649fad5e326d75e0e4afc462e4b376e402b607dcc73a6d564129b4adf6",
+      "bytes": 3880,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/INV_Misc_LeatherScrap_03.png"
+    },
+    {
+      "path": "Interface/Icons/INV_Misc_Bag_08.png",
+      "blob_sha": "7b119586d0cc8e67de21c3a82ffcdcca68f1fdfc",
+      "sha256": "c8b510f2227754bd4de1e797f5c6b910cda790ae2c00c7711e8df062a9ff2ebd",
+      "bytes": 4602,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/INV_Misc_Bag_08.png"
+    },
+    {
+      "path": "Interface/Icons/INV_Misc_Coin_01.png",
+      "blob_sha": "6bef0888192f94b29e0129dc44ccf22fdd9f96b6",
+      "sha256": "a8b195bcf1f939faf3aff88aca2d54989e0f3f0aaae3aaf2bb54f3ee0f752be8",
+      "bytes": 4613,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/INV_Misc_Coin_01.png"
+    },
+    {
+      "path": "Interface/Icons/INV_Misc_Coin_03.png",
+      "blob_sha": "5727d9d964ee33ef1eac917a794a2cb8ef8b4230",
+      "sha256": "ffdf01757fd96d953a665cace12ca28f4775f3859fe6458f0ef89d94b2f4e322",
+      "bytes": 4577,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/INV_Misc_Coin_03.png"
+    },
+    {
+      "path": "Interface/Icons/INV_Chest_Chain.png",
+      "blob_sha": "6019bb7e424845b9d816453112de248d81eb8e60",
+      "sha256": "a7e97ea84f11d36acdb62c106f3b170086de26d92210187ab59fd1dc0aa9f277",
+      "bytes": 4450,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/INV_Chest_Chain.png"
+    },
+    {
+      "path": "Interface/Icons/INV_Misc_Food_16.png",
+      "blob_sha": "070696460467a4a5b6860a12265c62ab53c0f3e7",
+      "sha256": "c11b0b2ad6c59361c8936dd9c7540eea2f94159db0a44ee7415cbba9b886c2c5",
+      "bytes": 4592,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/INV_Misc_Food_16.png"
+    },
+    {
+      "path": "Interface/WorldMap/Elwynn/Elwynn1.png",
+      "blob_sha": "c846e4e22b1bff4510abb91e9cfe62d195d76d45",
+      "sha256": "520270102a0892e4f8e531d6864e40c7e25c4c89e2f438b53eb5027bad5a6ccf",
+      "bytes": 85655,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Elwynn/Elwynn1.png"
+    },
+    {
+      "path": "Interface/WorldMap/Elwynn/Elwynn2.png",
+      "blob_sha": "d8016e1898fecba2696dcf650bb98685dee965d3",
+      "sha256": "9291b872562f87c80f6a08e507c65096f250fc577d49d85bcde8861bfa2c042d",
+      "bytes": 85337,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Elwynn/Elwynn2.png"
+    },
+    {
+      "path": "Interface/WorldMap/Elwynn/Elwynn3.png",
+      "blob_sha": "7d1889cd7a2f4c91966553ea050c4b284d504aef",
+      "sha256": "30b6f7e5eddee6b21b6d103690d9aaef5b510283f0daf846f771ab3653c0c21b",
+      "bytes": 85499,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Elwynn/Elwynn3.png"
+    },
+    {
+      "path": "Interface/WorldMap/Elwynn/Elwynn4.png",
+      "blob_sha": "0f725412b3ffe542e95cdaa50f1d49076f9553f3",
+      "sha256": "a73dd818607fe0ae7eb902ea22cdb9342a57caf3f761282cdb73e12451018a6a",
+      "bytes": 79485,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Elwynn/Elwynn4.png"
+    },
+    {
+      "path": "Interface/WorldMap/Elwynn/Elwynn5.png",
+      "blob_sha": "290abaadca292d46c7a5c3e8f81ffde3594196e8",
+      "sha256": "41d5ea70117c07a2182142d760dfb6213c339005e67864b59ab64914bc9601da",
+      "bytes": 89352,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Elwynn/Elwynn5.png"
+    },
+    {
+      "path": "Interface/WorldMap/Elwynn/Elwynn6.png",
+      "blob_sha": "8951104803863ce50d170dd1224f3405af71d49c",
+      "sha256": "f760a02673a2e59fe98964aaf7e0690b494636e65a00a937e0e6746d5b00b450",
+      "bytes": 81854,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Elwynn/Elwynn6.png"
+    },
+    {
+      "path": "Interface/WorldMap/Elwynn/Elwynn7.png",
+      "blob_sha": "1c7ca45dfb708cf6664c21348b4141c23b399a52",
+      "sha256": "b5ecb13a68fe4716b6cac70dddb4d4fc2aae7494fac914bbb28e74ac3714a346",
+      "bytes": 81444,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Elwynn/Elwynn7.png"
+    },
+    {
+      "path": "Interface/WorldMap/Elwynn/Elwynn8.png",
+      "blob_sha": "e6f437fbe320513caa37d96b9288a50a08de80aa",
+      "sha256": "69f503c72d0d1ad2ec00845f4d6fcf0d815da838ed310fc42623efe43543e444",
+      "bytes": 78870,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Elwynn/Elwynn8.png"
+    },
+    {
+      "path": "Interface/WorldMap/Elwynn/Elwynn9.png",
+      "blob_sha": "c790b3b343501a3bbcb80bbd7d87629355421616",
+      "sha256": "563fa85e9231853d016533c8e9a79b51f4004b4aa40117765184851ee3ffe4e8",
+      "bytes": 53138,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Elwynn/Elwynn9.png"
+    },
+    {
+      "path": "Interface/WorldMap/Elwynn/Elwynn10.png",
+      "blob_sha": "f4590b9bb2a11ac04dee01eb7ddcb3559b02269a",
+      "sha256": "5b6f935d9541d7003becd4aad3fd3f0a07c47190b8333545d1dba17021f4294a",
+      "bytes": 52810,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Elwynn/Elwynn10.png"
+    },
+    {
+      "path": "Interface/WorldMap/Elwynn/Elwynn11.png",
+      "blob_sha": "e010d0ed9d26c98c3683bfba0feb41211128f599",
+      "sha256": "bf4bfabe753fe3fa87338da99ab26acd492aae8ef34c47b15273e760dd02d6c8",
+      "bytes": 51647,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Elwynn/Elwynn11.png"
+    },
+    {
+      "path": "Interface/WorldMap/Elwynn/Elwynn12.png",
+      "blob_sha": "ac65604865c254203f66af75ff813719d51c425e",
+      "sha256": "d20d6bded869be65cb8c6a744c10a11675c6b75c5beadb36053e27b8c2bab742",
+      "bytes": 49360,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Elwynn/Elwynn12.png"
+    },
+    {
+      "path": "Interface/WorldMap/World/World1.png",
+      "blob_sha": "577b4caed821b095df5cb8a6d3f009e41eba94a8",
+      "sha256": "d6317aeadec50862fd10c1e2ec33db0ebdbe6b0108390385e0256f2cfbb053e7",
+      "bytes": 90112,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/World/World1.png"
+    },
+    {
+      "path": "Interface/WorldMap/World/World2.png",
+      "blob_sha": "94a0f10ce147dd64898042e4385430a4e0563246",
+      "sha256": "93ab3a68d5c76b21b838eee909a418a3d24b2d84c824068162e77d1d3b008b0c",
+      "bytes": 88183,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/World/World2.png"
+    },
+    {
+      "path": "Interface/WorldMap/World/World3.png",
+      "blob_sha": "4052af0b8ad3b480bd0cc6ff17265e72b517bfba",
+      "sha256": "5b21c84de3a6a46d35b230d532782ed86818e4cd88f25a01444336d30d437711",
+      "bytes": 87355,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/World/World3.png"
+    },
+    {
+      "path": "Interface/WorldMap/World/World4.png",
+      "blob_sha": "10f0aeb560b88d8c54d1f2d93a52a68e64181f34",
+      "sha256": "e6805897e955cd89493564424cc8560f5510c08ca11ae6ed3c0108cc36feb599",
+      "bytes": 82504,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/World/World4.png"
+    },
+    {
+      "path": "Interface/WorldMap/World/World5.png",
+      "blob_sha": "e2a2d4691c8b263844005e017c2ba7c6f6d927c6",
+      "sha256": "b2fb45ab7956dc53436b27f491e66849eac03c44a9766c5a519467991d6efd22",
+      "bytes": 93292,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/World/World5.png"
+    },
+    {
+      "path": "Interface/WorldMap/World/World6.png",
+      "blob_sha": "37e00d52aab8252f67e2eee2c0d9bf48a938b063",
+      "sha256": "89749d6491b70ab9becdf8d56fb9706e1c79068d2e811cef748f3bbf0cad4d68",
+      "bytes": 89656,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/World/World6.png"
+    },
+    {
+      "path": "Interface/WorldMap/World/World7.png",
+      "blob_sha": "e856ed1f5a87217c3b78892669ee3704f10f3c4a",
+      "sha256": "cac047c40e611ff257a6fa7ce9ad8f8228674c3bdb28a8cee082dee48018e838",
+      "bytes": 89360,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/World/World7.png"
+    },
+    {
+      "path": "Interface/WorldMap/World/World8.png",
+      "blob_sha": "1ce5ec2181a97d1836b907a7857aa8a12f7e8696",
+      "sha256": "cc3c5319cd95d4f258396bc52e7fd9c0098c5836c0733d447a7bbdf65cd5047b",
+      "bytes": 83770,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/World/World8.png"
+    },
+    {
+      "path": "Interface/WorldMap/World/World9.png",
+      "blob_sha": "d8bed8dfca0ccb3c38bf1fdfce7ac8d2f5f2c4eb",
+      "sha256": "794799324c68747d169db33e08c13d9cf8a5eaca10957d4c41d3e07a8aec0705",
+      "bytes": 55617,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/World/World9.png"
+    },
+    {
+      "path": "Interface/WorldMap/World/World10.png",
+      "blob_sha": "2c4b4ae4023377b74fa75cb19ea3c03d93b9088b",
+      "sha256": "c0f733546ccf8f788ebb9608d6d8c93fe0812d937798356eba36c6faf1978986",
+      "bytes": 56668,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/World/World10.png"
+    },
+    {
+      "path": "Interface/WorldMap/World/World11.png",
+      "blob_sha": "3b65bc6d40af77958a7bf4ee51a07dce23c9609a",
+      "sha256": "dc6b86ecfed2b9d51919650b125064bba6a8b355bf1df9f73d7de00e966fdb49",
+      "bytes": 55074,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/World/World11.png"
+    },
+    {
+      "path": "Interface/WorldMap/World/World12.png",
+      "blob_sha": "8f23f8f188c733b0bc7dd8c22b001a59bd2c9987",
+      "sha256": "7182435eb12331fd3b575c06d422fae882c2c77821b434e0993dd4e748a1d236",
+      "bytes": 51517,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/World/World12.png"
+    },
+    {
+      "path": "Interface/WorldMap/Azeroth/Azeroth1.png",
+      "blob_sha": "b17fa8748e53c69178bb4f3ccab5438ee80ad0b4",
+      "sha256": "eb7d2530c1d31e16f1fdbc70ba3ce0b38d2cc293148be0069aa0dc39fcc6cfbd",
+      "bytes": 91853,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Azeroth/Azeroth1.png"
+    },
+    {
+      "path": "Interface/WorldMap/Azeroth/Azeroth2.png",
+      "blob_sha": "6c2d0d6bb75e45a36213b6a29fdba3c05b2d3b9d",
+      "sha256": "352444002b6f8e7d140a31cf568642b15dd45cb407ffc12273f7c4ce0a9c8dac",
+      "bytes": 88376,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Azeroth/Azeroth2.png"
+    },
+    {
+      "path": "Interface/WorldMap/Azeroth/Azeroth3.png",
+      "blob_sha": "c4302b790e3228658a0e30752ed18c487e2528b0",
+      "sha256": "9cb40e23a23484b603e2f8ffa3d6b0532f7d0b9ad1c1e832496c8b4f1b94f06c",
+      "bytes": 90294,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Azeroth/Azeroth3.png"
+    },
+    {
+      "path": "Interface/WorldMap/Azeroth/Azeroth4.png",
+      "blob_sha": "9c1ab2f86c792e5164e75e4b790ff677a336e0c6",
+      "sha256": "9be21bd72adce11ccc8c418a405bb81f3739b13bf92745ebf4ca47c1beeaf6b8",
+      "bytes": 83062,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Azeroth/Azeroth4.png"
+    },
+    {
+      "path": "Interface/WorldMap/Azeroth/Azeroth5.png",
+      "blob_sha": "ffc2e8d7b3212bd1bf56c0ff70d884fcf4c9553b",
+      "sha256": "cf6f8d4431484db0c0845321d8d0049af0beaef68f40b6972d25f0cec848e199",
+      "bytes": 90076,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Azeroth/Azeroth5.png"
+    },
+    {
+      "path": "Interface/WorldMap/Azeroth/Azeroth6.png",
+      "blob_sha": "7d203340f23fe77003eb15e3b0a9a303f2c18622",
+      "sha256": "b08b5b2589fafbb61441616e4b944e72190d025e7d29a6f6780df4ae4c7cf450",
+      "bytes": 88803,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Azeroth/Azeroth6.png"
+    },
+    {
+      "path": "Interface/WorldMap/Azeroth/Azeroth7.png",
+      "blob_sha": "acd7ace0a50642d93635aedbff405d8e21bf7a6e",
+      "sha256": "eb4141fabcddae23dc97ba5830ed99c6804b4295f543fd7de4fa3af6c8f4dfd3",
+      "bytes": 90864,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Azeroth/Azeroth7.png"
+    },
+    {
+      "path": "Interface/WorldMap/Azeroth/Azeroth8.png",
+      "blob_sha": "e9d78b59bb58df2a8b3587405643d3194268030e",
+      "sha256": "a597a6514e44b30791583e367a0084ab0d135483726fea32e53a8a428adee4e8",
+      "bytes": 84203,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Azeroth/Azeroth8.png"
+    },
+    {
+      "path": "Interface/WorldMap/Azeroth/Azeroth9.png",
+      "blob_sha": "c206ab9527ed802df5f299cfdb257d1890f3e597",
+      "sha256": "12e43ea52fd1c467516741ea1ca3b92eb2bcea1b05a7a9436e68699f6d9da5db",
+      "bytes": 55312,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Azeroth/Azeroth9.png"
+    },
+    {
+      "path": "Interface/WorldMap/Azeroth/Azeroth10.png",
+      "blob_sha": "22c8a5d61e0e92466c6567453b95bbfc0faa8b41",
+      "sha256": "40d1813fc1a6ac55a9b80559e68bacc7a609adcc1ea28b3b3f08cafdd45346af",
+      "bytes": 54526,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Azeroth/Azeroth10.png"
+    },
+    {
+      "path": "Interface/WorldMap/Azeroth/Azeroth11.png",
+      "blob_sha": "c7486f850f9b4954f6518ae9499c3f08d298e29b",
+      "sha256": "638ef50c46b68f6c496121074c41b083b36785955cf30ee09b2db209f0587c5e",
+      "bytes": 55400,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Azeroth/Azeroth11.png"
+    },
+    {
+      "path": "Interface/WorldMap/Azeroth/Azeroth12.png",
+      "blob_sha": "0e2d246f7d2c5fda98006ed734f69b6285434df9",
+      "sha256": "69bb84f1e80160fc0d23080c15e3e58b41bfba3fcbc011ecead1cc309a46564d",
+      "bytes": 52871,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Azeroth/Azeroth12.png"
+    },
+    {
+      "path": "Interface/WorldMap/Kalimdor/Kalimdor1.png",
+      "blob_sha": "7cad85fa48ebddf0952ef9276306f3bdddc7fad4",
+      "sha256": "1c8f0beb9389ef33976976302afab0837c02af3f89fca29968c07da9fe361917",
+      "bytes": 92070,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Kalimdor/Kalimdor1.png"
+    },
+    {
+      "path": "Interface/WorldMap/Kalimdor/Kalimdor2.png",
+      "blob_sha": "08f6936a18ce2797b14b47e4c693d704923947a7",
+      "sha256": "5d9ca6e97bd781f1745f47924613d9ed03d698d23a84644cea59c793bf3b9b1e",
+      "bytes": 86354,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Kalimdor/Kalimdor2.png"
+    },
+    {
+      "path": "Interface/WorldMap/Kalimdor/Kalimdor3.png",
+      "blob_sha": "84523759eebc1225bbc9fe7f3402dffee6984e62",
+      "sha256": "4f3182cc079a77fa7e10402b85c5bd4fc23af66d1cbb23f673376da8d77fd49b",
+      "bytes": 89149,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Kalimdor/Kalimdor3.png"
+    },
+    {
+      "path": "Interface/WorldMap/Kalimdor/Kalimdor4.png",
+      "blob_sha": "a36da6704bfd8ec25b448d1b9a0d3ab9cf0ff15b",
+      "sha256": "0300cd48dae866b885c7865a52e5a403a06e92fc946e9a12d7dc795f8fe95b09",
+      "bytes": 82659,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Kalimdor/Kalimdor4.png"
+    },
+    {
+      "path": "Interface/WorldMap/Kalimdor/Kalimdor5.png",
+      "blob_sha": "8b3a0d7ad35aa4b424fcfe7d50a32edba04e5227",
+      "sha256": "a300432f7c1391534973fb1cc77d17d4835fb817505e5a5a05b59bc1f1c7e466",
+      "bytes": 90201,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Kalimdor/Kalimdor5.png"
+    },
+    {
+      "path": "Interface/WorldMap/Kalimdor/Kalimdor6.png",
+      "blob_sha": "01fa57454150fe6b25d2693b84958098a768335d",
+      "sha256": "ad0907d1b3c37c95a7787ce4892aa547a206d4dc504777d880358abcb45ce672",
+      "bytes": 89074,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Kalimdor/Kalimdor6.png"
+    },
+    {
+      "path": "Interface/WorldMap/Kalimdor/Kalimdor7.png",
+      "blob_sha": "e498a7985733be47f5b99e462d0cef6e48f0c474",
+      "sha256": "43eb94437251801d1a62169b54d2e989cc25a315141389e269080734d1205296",
+      "bytes": 90673,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Kalimdor/Kalimdor7.png"
+    },
+    {
+      "path": "Interface/WorldMap/Kalimdor/Kalimdor8.png",
+      "blob_sha": "1249ddd4ef9193ad685e8bd8c97317a2453ac657",
+      "sha256": "84f86bd52e0704eee58828ee8fe954ba5029804cacd9b70925e5e05749c65aab",
+      "bytes": 83795,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Kalimdor/Kalimdor8.png"
+    },
+    {
+      "path": "Interface/WorldMap/Kalimdor/Kalimdor9.png",
+      "blob_sha": "4b3c46ac733c632fb76b2f22f9cadbe0c6fcf4a7",
+      "sha256": "7aba58380843d66ebca677b1fa17ad2006aab188a76f873d7257888238bbf489",
+      "bytes": 55573,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Kalimdor/Kalimdor9.png"
+    },
+    {
+      "path": "Interface/WorldMap/Kalimdor/Kalimdor10.png",
+      "blob_sha": "79ae3dd844e0bff32a06b1594b984ffed9584f7a",
+      "sha256": "dbbf07b4a7a35e3b094f7cc69a35659713cd8288f66862ab4e32ffe13e46139c",
+      "bytes": 55500,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Kalimdor/Kalimdor10.png"
+    },
+    {
+      "path": "Interface/WorldMap/Kalimdor/Kalimdor11.png",
+      "blob_sha": "2b854ac75630380aed9c0ba06c4f81acfe483757",
+      "sha256": "d17d6edbb06c992d86289c8bd704b70ed2f245a8b4089be31fe16b8d4e6680e5",
+      "bytes": 55944,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Kalimdor/Kalimdor11.png"
+    },
+    {
+      "path": "Interface/WorldMap/Kalimdor/Kalimdor12.png",
+      "blob_sha": "c8ee3d9789ff7a42c3edbeb35406994473c32699",
+      "sha256": "9635d57103f3331554cc28524fa7f82aaae8c341cbb5e9591ea55b22737b7ecf",
+      "bytes": 53073,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/WorldMap/Kalimdor/Kalimdor12.png"
+    },
+    {
+      "path": "Interface/TargetingFrame/UI-TargetingFrame.png",
+      "blob_sha": "d16a1283955cafa87eceb18c46e8f449d72b0e53",
+      "sha256": "44bea0ddfd6713fc15b98b9c402ce1cafcedfaaf407fc12a96b0c661c09b6325",
+      "bytes": 6088,
+      "width": 256,
+      "height": 128,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/TargetingFrame/UI-TargetingFrame.png"
+    },
+    {
+      "path": "Interface/TargetingFrame/UI-TargetingFrame-Elite.png",
+      "blob_sha": "eb55fd73bce8bd27821875f892e7f2f1d88c4c15",
+      "sha256": "4cc94daa7a1ac3dbc7f871e2d01453a4cbda72fdff8ba8799db9b96460862494",
+      "bytes": 13097,
+      "width": 256,
+      "height": 128,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/TargetingFrame/UI-TargetingFrame-Elite.png"
+    },
+    {
+      "path": "Interface/TargetingFrame/UI-StatusBar.png",
+      "blob_sha": "eefdd0a9d6cb1703e96529e6bfd83ea01bd7d115",
+      "sha256": "a4c4ac1f4fc906e4439d91f530e403811384926c8ad6d673838818450e164793",
+      "bytes": 391,
+      "width": 64,
+      "height": 8,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/TargetingFrame/UI-StatusBar.png"
+    },
+    {
+      "path": "Interface/TargetingFrame/UI-TargetingFrame-LevelBackground.png",
+      "blob_sha": "bfcd53d5f38bcb5430b133c51df14240b57832cc",
+      "sha256": "ed235b4d4df23c30b28ba04b045a128d687e36196c10f22f24c05136fa185bed",
+      "bytes": 403,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/TargetingFrame/UI-TargetingFrame-LevelBackground.png"
+    },
+    {
+      "path": "Interface/CharacterFrame/UI-Player-Portrait.png",
+      "blob_sha": "85dee2b8616805f30751d2000614c61e18b55bf2",
+      "sha256": "115e0551fab386be251255d50b0d38f40463454de5b019ba0f1f3869bcaca800",
+      "bytes": 8063,
+      "width": 256,
+      "height": 128,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/CharacterFrame/UI-Player-Portrait.png"
+    },
+    {
+      "path": "Interface/CharacterFrame/UI-Player-Status.png",
+      "blob_sha": "d5ecbb2e3ab6d6b320975498165324d4366ea049",
+      "sha256": "ddf6be6e68a314f0d7a2b0896325f7e1ef63761cd94f171b9b461be40155c8f8",
+      "bytes": 2886,
+      "width": 256,
+      "height": 128,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/CharacterFrame/UI-Player-Status.png"
+    },
+    {
+      "path": "Interface/CharacterFrame/UI-StateIcon.png",
+      "blob_sha": "518f1d81ee88f94a666e6441360372a9cdd09208",
+      "sha256": "e2d36843d4ea4b0aeefb4b86a584055f1e3cb24f8f4ed6961c297438100780aa",
+      "bytes": 3110,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/CharacterFrame/UI-StateIcon.png"
+    },
+    {
+      "path": "Interface/PaperDoll/UI-PaperDollBackground-L1.png",
+      "blob_sha": "a84471fcf35e995e22b0461cbde5920ce8d28665",
+      "sha256": "b953baf710940951305352cb131623d8a79d028a24279f893e34bf7d37044135",
+      "bytes": 19861,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/PaperDoll/UI-PaperDollBackground-L1.png"
+    },
+    {
+      "path": "Interface/PaperDoll/UI-PaperDollBackground-L2.png",
+      "blob_sha": "03afd72c089bd37f373cc41d42f1888726189f7a",
+      "sha256": "b135abcd4e661220f4d140c4d59f087ea0d8e128e17ac67c12453aa6feebd075",
+      "bytes": 20975,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/PaperDoll/UI-PaperDollBackground-L2.png"
+    },
+    {
+      "path": "Interface/PaperDoll/UI-PaperDollBackground-R1.png",
+      "blob_sha": "10e29ae8173401fa0aedf2dfcd09bca9ffbee4bb",
+      "sha256": "4bee99cae3f9f8c657a3f8e9b067ee0b04e683526de2fef62ce41868f963fb8d",
+      "bytes": 3301,
+      "width": 32,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/PaperDoll/UI-PaperDollBackground-R1.png"
+    },
+    {
+      "path": "Interface/PaperDoll/UI-PaperDollBackground-R2.png",
+      "blob_sha": "c73d5c2b39fbd464a671bae7685feee0d72d6a10",
+      "sha256": "d891027cf769a0d281a6991f0f50cc79155145336ed7fb60f8c72bc18326b707",
+      "bytes": 3045,
+      "width": 32,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/PaperDoll/UI-PaperDollBackground-R2.png"
+    },
+    {
+      "path": "Interface/PaperDoll/UI-PaperDoll-SlotBackground.png",
+      "blob_sha": "e7f31cbbcbb25b75dea62d09e1953cd00fad76c2",
+      "sha256": "51b829b6cc78c565406a3e66ba3cd4cb211f446d7a52acbbffe8eb5bc00b9c2c",
+      "bytes": 60826,
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/PaperDoll/UI-PaperDoll-SlotBackground.png"
+    },
+    {
+      "path": "Interface/ContainerFrame/UI-BackpackBackground.png",
+      "blob_sha": "50aa9ec8a0d85d508b6512a34b9bd91baf00e0c3",
+      "sha256": "0dcaddd448cc4dc97e05c34b9295089ec749218aa5d1126acea0097b0a5f8626",
+      "bytes": 29162,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/ContainerFrame/UI-BackpackBackground.png"
+    },
+    {
+      "path": "Interface/ContainerFrame/UI-Bag-4x4.png",
+      "blob_sha": "917a34426d111c22b60ffe1be994ac039c592e19",
+      "sha256": "80fc34ff0131273f020a4f1022ed8d30c971c4ffad86415eb8972bb905ac66b2",
+      "bytes": 26871,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/ContainerFrame/UI-Bag-4x4.png"
+    },
+    {
+      "path": "Interface/Icons/Ability_Warrior_OffensiveStance.png",
+      "blob_sha": "be4e3efb85c9fae15ef6f01503e80a9fe6297c8c",
+      "sha256": "a4584b69cdf4898d984ed06cbd70773fde5b2e9703dd31a2417729da61079856",
+      "bytes": 4519,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Ability_Warrior_OffensiveStance.png"
+    },
+    {
+      "path": "Interface/Icons/Ability_Warrior_Charge.png",
+      "blob_sha": "79c9d24d67999a69751a9d4f08bdb320ddf246bf",
+      "sha256": "ea04fda6d11b5ffbf83064fbb466703b2c7aa6df7e080dbd47677e3e888e0964",
+      "bytes": 2992,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Ability_Warrior_Charge.png"
+    },
+    {
+      "path": "Interface/Icons/Ability_Gouge.png",
+      "blob_sha": "7449379808ec517ee1a80262d303593fdf64f982",
+      "sha256": "c31277e28f1ea50ba81816aa110e1445d3bb4ff20af852b5af28565ef8d5ea7a",
+      "bytes": 3977,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Ability_Gouge.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Nature_ThunderClap.png",
+      "blob_sha": "d767a599b34e74bc756ed3a21290f22496d2ee27",
+      "sha256": "7be76dd466da2f0e8e5bd156206c9b0c632433877b2b5a61e3027575b6107b2a",
+      "bytes": 4502,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Nature_ThunderClap.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Holy_DevotionAura.png",
+      "blob_sha": "e0d347b19684705268129a761f7b0d0f78e18c97",
+      "sha256": "e579767e4c04451d2bee53f18ddd0e849feaa266a7a872178ef6db205d8f7074",
+      "bytes": 4840,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Holy_DevotionAura.png"
+    },
+    {
+      "path": "Interface/Icons/Ability_ThunderBolt.png",
+      "blob_sha": "44e66dd38029cf40cccb0c893c379c09cef9a5be",
+      "sha256": "567d0af00ea31a185006b6ab1fc472f327c40a3a683bef13a1745b9c986a7ef5",
+      "bytes": 4757,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Ability_ThunderBolt.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Holy_FistOfJustice.png",
+      "blob_sha": "b1205dc2cde02e54c035d5afc4c021aae4d8dc6b",
+      "sha256": "89642497fc3ab53f186db4553759db068fd59467249bb7990c25a16b73108962",
+      "bytes": 4933,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Holy_FistOfJustice.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Holy_RighteousFury.png",
+      "blob_sha": "9e3ae55ede6381bb49054f6b3de3fcdd0a7f4040",
+      "sha256": "50f68f47954587a19d11f528038480d0690b6aeb2ff6bebf1a48b4f2c9d6afb1",
+      "bytes": 4853,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Holy_RighteousFury.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Holy_Restoration.png",
+      "blob_sha": "4dd9bf829ba4115ac57e71284797219b71d60197",
+      "sha256": "2e1aa6d43a9e22e9a2d1e7054aa05dd267583d77c9082db9ab5e81ebec174b6e",
+      "bytes": 4691,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Holy_Restoration.png"
+    },
+    {
+      "path": "Interface/Icons/Ability_Whirlwind.png",
+      "blob_sha": "7b114d40312b796aeea1fe8ef69f665270405977",
+      "sha256": "ec3c78484d541a8fcd9fd946bea4f76e97a0fc307a4941af389d298a64bf408f",
+      "bytes": 4636,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Ability_Whirlwind.png"
+    },
+    {
+      "path": "Interface/Icons/Ability_Racial_Cannibalize.png",
+      "blob_sha": "7a6958d7e0b87a367cca5d350f94b62f8ec8633f",
+      "sha256": "4d1dd512c2087904b0f5960af86f589a1912adde4414d88c228531e9837ddd18",
+      "bytes": 4825,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Ability_Racial_Cannibalize.png"
+    },
+    {
+      "path": "Interface/Icons/Ability_Hunter_Pet_Boar.png",
+      "blob_sha": "2220a64cc5af269dfa04c58406167c08b1e423da",
+      "sha256": "599649b5e983a28260e051dab54a47292cd345c685a9b0c523ae39b1ff98415e",
+      "bytes": 4443,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Ability_Hunter_Pet_Boar.png"
+    },
+    {
+      "path": "Interface/Icons/Ability_Druid_Rake.png",
+      "blob_sha": "4a1ed97a93e34bdedc7c46b2476d5c8f6818849d",
+      "sha256": "e9f4d8637e21147f35bbbfa2bbcf43d4b9bafb1ac8a2ffb911f3d196fa8466b8",
+      "bytes": 4473,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Ability_Druid_Rake.png"
+    },
+    {
+      "path": "Interface/Icons/Ability_Physical_Taunt.png",
+      "blob_sha": "57c40d477ff5f01bc652ffd91e0c7fca0e22904c",
+      "sha256": "b3e1e665f85e0392cd455f99b69217d87d7d48bfc8c8ab731d235be76712c7d5",
+      "bytes": 4489,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Ability_Physical_Taunt.png"
+    },
+    {
+      "path": "Interface/Icons/Ability_Rogue_Eviscerate.png",
+      "blob_sha": "ad3677f5d56c816e89c82835a61d99b68f2b2cd8",
+      "sha256": "22e33deba5b38a0fc8e95fc3db4ae7095568e907600aa8ef10458de6c356769e",
+      "bytes": 4382,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Ability_Rogue_Eviscerate.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Shadow_RitualOfSacrifice.png",
+      "blob_sha": "5ebb64a788f23b81e5fb80f8e61acf99458fdf1c",
+      "sha256": "f74cab63acc9e8828cc2a27c845c2d53d47940055d96d812517f83d711983c06",
+      "bytes": 4515,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Shadow_RitualOfSacrifice.png"
+    },
+    {
+      "path": "Interface/Icons/Ability_Stealth.png",
+      "blob_sha": "517aeb34f70d297ff98854f547eac19b81425730",
+      "sha256": "3d74c9fcab0e33d7ac7b2424a9d68f43c71e576dd308d087a29cb3fe8832f96a",
+      "bytes": 4608,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Ability_Stealth.png"
+    },
+    {
+      "path": "Interface/Icons/Ability_BackStab.png",
+      "blob_sha": "b828a2080ae7b836e531a0c39a86d008d321eeab",
+      "sha256": "4789649373cb3b4fd8e1ec3e6a4db990592d933b945d0acf8e13fd89fc4da931",
+      "bytes": 4682,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Ability_BackStab.png"
+    },
+    {
+      "path": "Interface/Icons/INV_Misc_Bag_11.png",
+      "blob_sha": "a39cb8aac8e1a1068be4872ee4dd097b26c0076b",
+      "sha256": "0efec0f1db1773422c03633e297fffbdfb460dce22460f04e72ec1d1ced01296",
+      "bytes": 3967,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/INV_Misc_Bag_11.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Holy_LesserHeal.png",
+      "blob_sha": "8400c16c2aa2af47bab8e3789e345d8f48f64044",
+      "sha256": "dbd7b86dbfd14178133c43bbc34fe5ea82ec3223315d45428839586a5a760a50",
+      "bytes": 3394,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Holy_LesserHeal.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Holy_WordFortitude.png",
+      "blob_sha": "fd11a9e225b8520ca7d95ce38ee022e8df244ed1",
+      "sha256": "4c2755c42b66571f26cdfbf17b1818d88d1a850b50fcfd4add1305b2808cda6e",
+      "bytes": 4677,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Holy_WordFortitude.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Holy_HolySmite.png",
+      "blob_sha": "3d1bfc91887d633e849ec1ca84b73195a176e062",
+      "sha256": "df78e7e416388dbe1fa0e6fab8aa3443e5dd9ae26c324c385c823b06bb3de385",
+      "bytes": 4345,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Holy_HolySmite.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Shadow_ShadowWordPain.png",
+      "blob_sha": "e4e466c0040b9cfd4e151188bf91286271114e33",
+      "sha256": "cf21ceffd2866febf11327ac93beccce00842d0f0bb89db02a89cb60bd440efb",
+      "bytes": 4499,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Shadow_ShadowWordPain.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Holy_PowerWordShield.png",
+      "blob_sha": "a53bef6dd704fb65ec93b8f18999a8f6064f2dd4",
+      "sha256": "c29af7a5fdfcd6cc9c33665b15edc1c42d51b96d4eb6e2c0f4519cebb9a3ebf1",
+      "bytes": 4857,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Holy_PowerWordShield.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Magic_LesserInvisibilty.png",
+      "blob_sha": "e28d2069216c33652365bf6726f164588d42f9b1",
+      "sha256": "3a2f9d8c9fa079932b98711ea86c3af2d169b4437d9b0730d5513b931bc4aa47",
+      "bytes": 4331,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Magic_LesserInvisibilty.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Nature_MagicImmunity.png",
+      "blob_sha": "af6cc06bdfc20216719e688719d666eb21cff389",
+      "sha256": "b1870c6e2a76c879d6a021a737baccd1da7e66bacafff48109f338d1ac1d54d8",
+      "bytes": 4761,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Nature_MagicImmunity.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Nature_RockBiter.png",
+      "blob_sha": "f362445310731538f41491906df1ea449051db5e",
+      "sha256": "a48661257afb5bd72020bba10931677dc0e3af8a7a985c913dbe3698176a6eed",
+      "bytes": 5103,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Nature_RockBiter.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Nature_EarthShock.png",
+      "blob_sha": "a133926867ad7ee4e1af0330f69396538acd25c1",
+      "sha256": "582bb91794286168af596b0c82a2158662f315da15e1dd18c387ae0b633e6ea1",
+      "bytes": 4502,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Nature_EarthShock.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Nature_StoneSkinTotem.png",
+      "blob_sha": "0e6d29fb7a6d5894893995932e23e95da7c212ee",
+      "sha256": "94c8de52ed1ab5ce9291f7636c146677865b1c2fbc9eb912e6a70fd232f0a2f5",
+      "bytes": 5106,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Nature_StoneSkinTotem.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Nature_StrengthOfEarthTotem02.png",
+      "blob_sha": "db905c7fc3077de4c9742fe36d22b48dd43ae006",
+      "sha256": "956ccb2565c37f7cddb101d74b8614added4c9ee50ba83f56f829ee185c63c02",
+      "bytes": 4802,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Nature_StrengthOfEarthTotem02.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Holy_MagicalSentry.png",
+      "blob_sha": "ff9e4f0af4a2ed4b3f53c4d7cd71c717c61ec1a3",
+      "sha256": "c0ea82b7950cde8f4cd024586e8eb6bf088eede828329de5ce16aa8e31832301",
+      "bytes": 4649,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Holy_MagicalSentry.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Fire_FlameBolt.png",
+      "blob_sha": "2bf2e9a5f17cd7b7a7e34e2428353d8451877539",
+      "sha256": "1eca728264533c6769acad5cd01115813e662e5d725db0a1842827b2f2d065af",
+      "bytes": 4385,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Fire_FlameBolt.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Frost_FrostArmor02.png",
+      "blob_sha": "f752492a93c891858562af23bfce69bcc4e32ad2",
+      "sha256": "713479c78d7cc5e800002c3e8d62f35c659e23c7425f48c3e280deaf1af617de",
+      "bytes": 4301,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Frost_FrostArmor02.png"
+    },
+    {
+      "path": "Interface/Icons/INV_Drink_06.png",
+      "blob_sha": "984a44e5cfd23a27834a07cc3ab504f55f214f4e",
+      "sha256": "c876ca52ca022d44f049c8ffe74f548b21b23b48a8895841b8292403254f732c",
+      "bytes": 2651,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/INV_Drink_06.png"
+    },
+    {
+      "path": "Interface/Icons/INV_Misc_Food_10.png",
+      "blob_sha": "c8be3966be74164ddf90d22eb9febab4c190c700",
+      "sha256": "f7fa397ddd6982fe52b0918eeab63b6b3f259558b54152cfb5d19fca269b7b15",
+      "bytes": 4324,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/INV_Misc_Food_10.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Shadow_RagingScream.png",
+      "blob_sha": "acb1f772fa207d4ad1a7d58f9f44c0e71acd8440",
+      "sha256": "e5a1c132175fd81fc09a0acc4787657df96b8f1f6da72fcda7047b219ecad667",
+      "bytes": 4762,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Shadow_RagingScream.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Fire_FireBolt.png",
+      "blob_sha": "21284161f586dece2301fe7c1a63cdfb9c0993de",
+      "sha256": "72ed13dac31110fb3c567f48201fbba1212880bc7abddacdc47d5c5721b4830a",
+      "bytes": 4812,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Fire_FireBolt.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Fire_Immolation.png",
+      "blob_sha": "d705f588733836dfe587282cdedeb1710d0bb69b",
+      "sha256": "303556efd8b9051d91a8586455e19ad0579cd3af3053c5a6404cf727a3b27eb8",
+      "bytes": 4363,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Fire_Immolation.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Shadow_SummonImp.png",
+      "blob_sha": "8e5d5fab530fd66a479d7d88d56c929b26dbe294",
+      "sha256": "615949d7063e14969454e65feb64b8c55bb67facbc704257eae4396a693e2916",
+      "bytes": 4841,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Shadow_SummonImp.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Shadow_BloodBoil.png",
+      "blob_sha": "119afaa1235297c01b96f734b4977c68f60f48c2",
+      "sha256": "8ebc5e171ab3a1e7694ff6d0bf5fa7cebeed63c1608fecfe8e9edf622773cc1a",
+      "bytes": 3391,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Shadow_BloodBoil.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Nature_HealingTouch.png",
+      "blob_sha": "8ed2f97d5804c167baa6a1e443c8959be615349f",
+      "sha256": "618e79d03ff73c52a3121eee675b601fd02b752397c593d38908a9cd24965816",
+      "bytes": 4805,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Nature_HealingTouch.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Nature_Regeneration.png",
+      "blob_sha": "9c4314cce095f2421b3e5144e52359fa701a5e95",
+      "sha256": "8fc3093af940b9331b5fb72a2098371b9d3dd1287779cb2549a6c9b1fb77d1b5",
+      "bytes": 4531,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Nature_Regeneration.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Nature_AbolishMagic.png",
+      "blob_sha": "a953bfbe75f38e9cf2825fd745f06c679cfcc909",
+      "sha256": "e90381402fbb412f95f55fd5945ab6546c6b0fe374fcaf56b9356c3039e3e816",
+      "bytes": 4712,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Nature_AbolishMagic.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Nature_Rejuvenation.png",
+      "blob_sha": "c00cfeb89eb13d7a8006f603d0efb0bfb142d60d",
+      "sha256": "27a5168c10a891cc96d33725aa6dea835bfa6aba048d00ef2e2f1459b598f343",
+      "bytes": 5177,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Nature_Rejuvenation.png"
+    },
+    {
+      "path": "Interface/Icons/Spell_Nature_Thorns.png",
+      "blob_sha": "a19c6e663d1818384984fa3b7b56ab110131be7d",
+      "sha256": "db0d4f1da1b3aa66b5ca26a1c90989bb964d86fbc1691784d19ef2de1b7132f4",
+      "bytes": 3871,
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Icons/Spell_Nature_Thorns.png"
+    },
+    {
+      "path": "Interface/Glues/CharacterCreate/CharacterCreate-LabelFrame.png",
+      "blob_sha": "21758e267bd24fe3e9baf45a2ef460bf20a54dda",
+      "sha256": "d2772dd930702c3f02ea40d77bd5faf1e49160e92f4ee9074b6d12b35573c7fd",
+      "bytes": 1778,
+      "width": 128,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Glues/CharacterCreate/CharacterCreate-LabelFrame.png"
+    },
+    {
+      "path": "Interface/Glues/CharacterCreate/UI-CharacterCreate-Background.png",
+      "blob_sha": "ef26c26c00d154602c05c74286d99101b20837cb",
+      "sha256": "19abcbbf6df3e8c4aa326ebdb274672b17c63edd0b8a378a4659c81e8ab405cd",
+      "bytes": 7375,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Glues/CharacterCreate/UI-CharacterCreate-Background.png"
+    },
+    {
+      "path": "Interface/Glues/CharacterCreate/UI-CharacterCreate-Banners.png",
+      "blob_sha": "1a724828102f6ea76a261eadfde9c20bb4c52ed1",
+      "sha256": "a9c8892ee796fb60ec9be36bc4318a34a571b6ec9ff84234e6fdd6cd28c0374b",
+      "bytes": 17202,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Glues/CharacterCreate/UI-CharacterCreate-Banners.png"
+    },
+    {
+      "path": "Interface/Glues/CharacterCreate/UI-CharacterCreate-Classes.png",
+      "blob_sha": "88fec737aa6de3c1421cdb06b84f353f28c24ef5",
+      "sha256": "bfad6071f3714eb4bad8406b347a0295e2c8f225f6e3898e2786ea12916103e2",
+      "bytes": 41398,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Glues/CharacterCreate/UI-CharacterCreate-Classes.png"
+    },
+    {
+      "path": "Interface/Glues/CharacterCreate/UI-CharacterCreate-Factions.png",
+      "blob_sha": "b094a900e9335ecb968038ec1d7fb0da7cc305d0",
+      "sha256": "322afcc15bd7b494ca1ba386c481657bd5fc66489ee78843849a575728bec70d",
+      "bytes": 9868,
+      "width": 128,
+      "height": 64,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Glues/CharacterCreate/UI-CharacterCreate-Factions.png"
+    },
+    {
+      "path": "Interface/Glues/CharacterCreate/UI-CharacterCreate-OuterBorder.png",
+      "blob_sha": "31a2e8a61b3840189e22906ed03ddc3db2105d9d",
+      "sha256": "2f977af9e592921844e9dafcd570222d96b586fae4ec2646a2d4fa88a92913cb",
+      "bytes": 5397,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Glues/CharacterCreate/UI-CharacterCreate-OuterBorder.png"
+    },
+    {
+      "path": "Interface/Glues/CharacterCreate/UI-CharacterCreate-Races.png",
+      "blob_sha": "02b28f67d663c094268d622c9da169d0b5d5d541",
+      "sha256": "d7d8bdda1c92a4e63d16793e0328a1016e6d6e3a324036b8fedea0cf4451aee3",
+      "bytes": 80464,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Glues/CharacterCreate/UI-CharacterCreate-Races.png"
+    },
+    {
+      "path": "Interface/Spellbook/UI-SpellbookPanel-BotLeft.png",
+      "blob_sha": "bc493e117dd2052f5011669d15060b981632032d",
+      "sha256": "ab2d113720dbdd6081a56d66856a2504972a497dcd47be5b4f441b11bbe59344",
+      "bytes": 52303,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Spellbook/UI-SpellbookPanel-BotLeft.png"
+    },
+    {
+      "path": "Interface/Spellbook/UI-SpellbookPanel-BotRight.png",
+      "blob_sha": "e167663c61897054e56d5c9e765d941715033ebb",
+      "sha256": "9758b3ee542a7feba1768116cdf5c30ead8f5e192e7d38ad7556ace099130184",
+      "bytes": 19481,
+      "width": 128,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Spellbook/UI-SpellbookPanel-BotRight.png"
+    },
+    {
+      "path": "Interface/Spellbook/UI-SpellbookPanel-TopLeft.png",
+      "blob_sha": "fa10dfc521d0a4a5336a3e0392edfdd76f923e0c",
+      "sha256": "2d87f73bc216212438d051bdfb92e240df6bc64d2cc2a55dddb2a0d55a539de7",
+      "bytes": 69397,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Spellbook/UI-SpellbookPanel-TopLeft.png"
+    },
+    {
+      "path": "Interface/Spellbook/UI-SpellbookPanel-TopRight.png",
+      "blob_sha": "c204e8c4efe0e799b56aadd0234be0b05e56d7a1",
+      "sha256": "985b66463fcf4d33da341b79282aaedf2c7046d58f189455c0fc6a4512508f19",
+      "bytes": 24311,
+      "width": 128,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/Spellbook/UI-SpellbookPanel-TopRight.png"
+    },
+    {
+      "path": "Interface/TalentFrame/MageFire-BottomLeft.png",
+      "blob_sha": "24f5d11aa1641430ca5a7f6051f752084e6e8aa1",
+      "sha256": "86953bfc958aed99240d9a5b59cb6be0f6b913bef49f53ea23611b45ae7137b3",
+      "bytes": 19386,
+      "width": 256,
+      "height": 128,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/TalentFrame/MageFire-BottomLeft.png"
+    },
+    {
+      "path": "Interface/TalentFrame/MageFire-BottomRight.png",
+      "blob_sha": "90f7cd04188e391db7ec053c8c5ca78bb23b243b",
+      "sha256": "0f3ffa2621a13c6cf3e2b55fd92831272cfd50cf1d31ad424c0f295abe743724",
+      "bytes": 2527,
+      "width": 64,
+      "height": 128,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/TalentFrame/MageFire-BottomRight.png"
+    },
+    {
+      "path": "Interface/TalentFrame/MageFire-TopLeft.png",
+      "blob_sha": "9779dd4d15e8eab2606995bb973fedfa4cc988e1",
+      "sha256": "f2f647743bdb01b96760399f19d716c31d118dd825ac9e1de455577da327083b",
+      "bytes": 63671,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/TalentFrame/MageFire-TopLeft.png"
+    },
+    {
+      "path": "Interface/TalentFrame/MageFire-TopRight.png",
+      "blob_sha": "d9f29efbc2c7f00cd0ad57c6db7560122415cae3",
+      "sha256": "240a19fe3a1d4bb27b8daceadc5a336184889a8cabb1b6af22ec7bc689d1671d",
+      "bytes": 9852,
+      "width": 64,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/TalentFrame/MageFire-TopRight.png"
+    },
+    {
+      "path": "Interface/TalentFrame/TalentFrame-RankBorder.png",
+      "blob_sha": "fc9356f9ef59e7782d348a8332b7a259ae479460",
+      "sha256": "cfcbf2769dafe196a302bd32e75dfe301c75cc24cc3bb7471ea2ff0e82fde1ec",
+      "bytes": 376,
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/TalentFrame/TalentFrame-RankBorder.png"
+    },
+    {
+      "path": "Interface/QuestFrame/UI-QuestGreeting-BotLeft.png",
+      "blob_sha": "6b19160ad1e3ed37cc4c7f6199a6ef5ab2c84996",
+      "sha256": "b0d635a28e796596a3e0794c0df96229969841e0882a64645ce296455b10a0fe",
+      "bytes": 55003,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/QuestFrame/UI-QuestGreeting-BotLeft.png"
+    },
+    {
+      "path": "Interface/QuestFrame/UI-QuestGreeting-BotRight.png",
+      "blob_sha": "adb980ed65b0b7c4d67c00e9b870005910242c62",
+      "sha256": "2b73a9a3803834ebd5fbf6c73e269517a35f1bb61318efd8a5a17e2cb2fc5b42",
+      "bytes": 16214,
+      "width": 128,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/QuestFrame/UI-QuestGreeting-BotRight.png"
+    },
+    {
+      "path": "Interface/QuestFrame/UI-QuestGreeting-TopLeft.png",
+      "blob_sha": "afb9ccee93dfa6bb0517c842a9730423073dafca",
+      "sha256": "9a65e9de0f9e689f2efacf5a80c914acff827c12237f4e5bb68bd1ac3107aa93",
+      "bytes": 69044,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/QuestFrame/UI-QuestGreeting-TopLeft.png"
+    },
+    {
+      "path": "Interface/QuestFrame/UI-QuestGreeting-TopRight.png",
+      "blob_sha": "7e95ab1980116e902725476d5422e243ffc4a4a5",
+      "sha256": "25820a1c308b00b1908d2e74cbe0d6609b1c1599c9c703a051149095ec5c5778",
+      "bytes": 20952,
+      "width": 128,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/QuestFrame/UI-QuestGreeting-TopRight.png"
+    },
+    {
+      "path": "Interface/QuestFrame/UI-QuestLog-BotLeft.png",
+      "blob_sha": "4b7a95c8e3536111d375a2f3400b10a5bccaca5e",
+      "sha256": "476f9749e34ea0fe4d9a37369ef7f998dd16261e924d8fdba247f80db4a623fb",
+      "bytes": 58783,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/QuestFrame/UI-QuestLog-BotLeft.png"
+    },
+    {
+      "path": "Interface/QuestFrame/UI-QuestLog-BotRight.png",
+      "blob_sha": "8e58da653a133968aac751f9db786ad56d979fd7",
+      "sha256": "952efa86d2a987df296459dea93860eb607f55917fe0523c2734a8f5572c30ed",
+      "bytes": 18702,
+      "width": 128,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/QuestFrame/UI-QuestLog-BotRight.png"
+    },
+    {
+      "path": "Interface/QuestFrame/UI-QuestLog-TopLeft.png",
+      "blob_sha": "254c4a0a779bc2658b235ae3e546ff2e72911dab",
+      "sha256": "673a61e45db11b3d45d30ed043595361f51a97dbfdd3ce6412046576d6fd52cb",
+      "bytes": 55753,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/QuestFrame/UI-QuestLog-TopLeft.png"
+    },
+    {
+      "path": "Interface/QuestFrame/UI-QuestLog-TopRight.png",
+      "blob_sha": "2b93a48f67e7f01424e38cf0572fde5d9c16229e",
+      "sha256": "2e6b0baf1ed130c9b142961d0f93e9f54b8bdc7d45c86dad4b1a1e36e3481bcc",
+      "bytes": 18575,
+      "width": 128,
+      "height": 256,
+      "mode": "RGBA",
+      "source_url": "https://github.com/doorknob6/vanilla-wow-interface-textures/blob/fce08de771abbb8ce8989b6c859f3071aff3f6c6/Interface/QuestFrame/UI-QuestLog-TopRight.png"
+    }
+  ],
+  "usage": {
+    "purpose": "Internal component evaluation for WoW Forever Idle; assets are not licensed as original project artwork.",
+    "rights": "World of Warcraft UI artwork is Blizzard Entertainment intellectual property. Repository availability is not a redistribution license. No permissive asset license has been verified.",
+    "retrieval": "Exact original PNGs captured only through ChatGPT GitHub connector, immutable commit, Git blob SHA and SHA256 verified before use.",
+    "derivatives": "SVG viewport crops retain original PNG bytes. Authored additions are separately labeled in components.json."
+  }
+}

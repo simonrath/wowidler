@@ -1,0 +1,460 @@
+{
+  "scope": "T08 Warrior, Paladin and Hunter bounded cores, not full class/tree completion",
+  "snapshot": "FOR-IDLE-2026-10-21-PUBLIC",
+  "run": {
+    "scope": "Frozen Hunter product and unchanged harness; full serial suite before test-only readonly annotation correction",
+    "command": "npm run test -- --maxWorkers=1 --no-file-parallelism",
+    "date": "2026-10-21",
+    "runnerStartTime": "17:56:58",
+    "timeBasis": "Vitest displayed local time",
+    "filesPassed": 13,
+    "testsPassed": 164,
+    "testsFailed": 0,
+    "unhandledErrors": 0,
+    "exitCode": 0,
+    "durationSeconds": 147.41,
+    "baseCommit": "fb0225e",
+    "fullSuiteRerun": true
+  },
+  "counts": {
+    "creationCombinationsVerified": 56,
+    "classIdentitiesImported": 9,
+    "classCorePackagesExecutable": 3,
+    "warriorTalentsImported": 52,
+    "warriorTalentRanksImported": 150,
+    "warriorTalentsExecutable": 6,
+    "warriorTalentsExecutionTested": 6,
+    "warriorTalentsBlocked": 46,
+    "racialDescriptionsImported": 52,
+    "racialAbilitiesExecutable": 0,
+    "paladinTalentsImported": 50,
+    "paladinTalentRanksImported": 138,
+    "paladinTalentsExecutable": 4,
+    "paladinTalentsExecutionTested": 4,
+    "paladinTalentRanksExecutionTested": 18,
+    "paladinTalentsBlocked": 46,
+    "hunterTalentsImported": 50,
+    "hunterTalentRanksImported": 148,
+    "hunterTalentsExecutable": 3,
+    "hunterTalentsExecutionTested": 3,
+    "hunterTalentRanksExecutionTested": 15,
+    "hunterTalentsBlocked": 47
+  },
+  "fullWarriorTalentCompletion": false,
+  "testEvidence": [
+    {
+      "key": "forever:talent:10000",
+      "handler": "heroic-cost",
+      "executedRank": 1,
+      "testFile": "tests/classes/mechanics.test.ts",
+      "testFileSha256": "8db99a1522ecce513f6ad6f62af75258e655782af41806ca0cedbaaa65622dd9",
+      "testCase": "Improved Heroic Strike changes the consumed cost and Improved Rend changes the executed full bleed",
+      "status": "passed",
+      "validation": "latestValidation"
+    },
+    {
+      "key": "forever:talent:10002",
+      "handler": "rend-damage",
+      "executedRank": 1,
+      "testFile": "tests/classes/mechanics.test.ts",
+      "testFileSha256": "8db99a1522ecce513f6ad6f62af75258e655782af41806ca0cedbaaa65622dd9",
+      "testCase": "Improved Heroic Strike changes the consumed cost and Improved Rend changes the executed full bleed",
+      "status": "passed",
+      "validation": "latestValidation"
+    },
+    {
+      "key": "forever:talent:10011",
+      "handler": "stance-retention",
+      "executedRank": 1,
+      "testFile": "tests/classes/mechanics.test.ts",
+      "testFileSha256": "8db99a1522ecce513f6ad6f62af75258e655782af41806ca0cedbaaa65622dd9",
+      "testCase": "Tactical Mastery retains real rage; Improved Bloodrage changes immediate and periodic gains",
+      "status": "passed",
+      "validation": "latestValidation"
+    },
+    {
+      "key": "forever:talent:10022",
+      "handler": "critical-bleed",
+      "executedRank": 1,
+      "testFile": "tests/classes/mechanics.test.ts",
+      "testFileSha256": "8db99a1522ecce513f6ad6f62af75258e655782af41806ca0cedbaaa65622dd9",
+      "testCase": "Cruelty turns a seeded attack into a critical hit and Deep Wounds deals its prerequisite-gated bleed",
+      "status": "passed",
+      "validation": "latestValidation"
+    },
+    {
+      "key": "forever:talent:11002",
+      "handler": "melee-crit",
+      "executedRank": 1,
+      "testFile": "tests/classes/mechanics.test.ts",
+      "testFileSha256": "8db99a1522ecce513f6ad6f62af75258e655782af41806ca0cedbaaa65622dd9",
+      "testCase": "Cruelty turns a seeded attack into a critical hit and Deep Wounds deals its prerequisite-gated bleed",
+      "status": "passed",
+      "validation": "latestValidation"
+    },
+    {
+      "key": "forever:talent:12000",
+      "handler": "bloodrage-resource",
+      "executedRank": 1,
+      "testFile": "tests/classes/mechanics.test.ts",
+      "testFileSha256": "8db99a1522ecce513f6ad6f62af75258e655782af41806ca0cedbaaa65622dd9",
+      "testCase": "Tactical Mastery retains real rage; Improved Bloodrage changes immediate and periodic gains",
+      "status": "passed",
+      "validation": "latestValidation"
+    },
+    {
+      "key": "forever:talent:20001",
+      "handler": "divine-strength",
+      "executedRanks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "testFile": "tests/classes/paladin.test.ts",
+      "testFileSha256": "aee7cfae01278545144f2661896ee2f23ba218394781003977df3a778c8a20a6",
+      "testCase": "every offered Divine Strength rank increases real melee damage",
+      "status": "passed",
+      "validation": "latestValidation"
+    },
+    {
+      "key": "forever:talent:20010",
+      "handler": "healing-light",
+      "executedRanks": [
+        1,
+        2,
+        3
+      ],
+      "testFile": "tests/classes/paladin.test.ts",
+      "testFileSha256": "aee7cfae01278545144f2661896ee2f23ba218394781003977df3a778c8a20a6",
+      "testCase": "every offered Healing Light rank increases real ally healing",
+      "status": "passed",
+      "validation": "latestValidation"
+    },
+    {
+      "key": "forever:talent:21001",
+      "handler": "toughness",
+      "executedRanks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "testFile": "tests/classes/paladin.test.ts",
+      "testFileSha256": "aee7cfae01278545144f2661896ee2f23ba218394781003977df3a778c8a20a6",
+      "testCase": "every offered Toughness rank reduces physical damage received",
+      "status": "passed",
+      "validation": "latestValidation"
+    },
+    {
+      "key": "forever:talent:22002",
+      "handler": "benediction",
+      "executedRanks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "testFile": "tests/classes/paladin.test.ts",
+      "testFileSha256": "aee7cfae01278545144f2661896ee2f23ba218394781003977df3a778c8a20a6",
+      "testCase": "every offered Benediction rank changes actual instant-spell mana cost",
+      "status": "passed",
+      "validation": "latestValidation"
+    },
+    {
+      "key": "forever:talent:30002",
+      "handler": "pet-endurance",
+      "executedRanks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "testFile": "tests/classes/hunter.test.ts",
+      "testFileSha256": "7f36ba18b4bde620773ffc730cd2150ed9ed1f817389e0ec0a564bca2542fc24",
+      "testCase": "every Endurance Training rank changes a summoned pet surviving a real incoming hit",
+      "status": "passed",
+      "validation": "latestValidation"
+    },
+    {
+      "key": "forever:talent:31002",
+      "handler": "hunter-crit",
+      "executedRanks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "testFile": "tests/classes/hunter.test.ts",
+      "testFileSha256": "7f36ba18b4bde620773ffc730cd2150ed9ed1f817389e0ec0a564bca2542fc24",
+      "testCase": "every Lethal Attacks rank changes executed auto-shot, direct shot and Raptor Strike critical outcomes",
+      "status": "passed",
+      "validation": "latestValidation"
+    },
+    {
+      "key": "forever:talent:32002",
+      "handler": "hunter-parry",
+      "executedRanks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "testFile": "tests/classes/hunter.test.ts",
+      "testFileSha256": "7f36ba18b4bde620773ffc730cd2150ed9ed1f817389e0ec0a564bca2542fc24",
+      "testCase": "every Deflection rank parries an actual incoming melee impact without damage or threat",
+      "status": "passed",
+      "validation": "latestValidation"
+    }
+  ],
+  "backlogPointer": "content/authoring/class-defaults.json#/talents/*/gap",
+  "limits": [
+    "Warrior execution evidence covers the listed ranks, not all ranks or combinations. All 18 offered Paladin talent ranks are executed against explicit combat fixtures; integer rounding can hide small stat changes in low-magnitude contexts.",
+    "Six remaining class mechanical packages are separate required T08 cycles.",
+    "T23 retains 46 blocked Paladin talents, full rank/trainer/class-quest/reagent integration, seals/judgements, party aura propagation, racial execution and milestone ability semantics.",
+    "Devotion Aura currently applies only to self. Primary-stat/weapon/base-mana projections and teacher costs are explicit owned Idle adaptations, not authentic server claims.",
+    "Allied NPC combat support remains. Hunter v3 now adds a concrete independent pet actor with owner and runtime-validated zero party slots. Persistent pet bonding/lifecycle remains T23.",
+    "Hunter has50 imported talents/148 ranks, only3 executable talents/15 ranks; other47 remain individual T23 primitive backlog. Frenzy→Ferocity5 is exact retained prerequisite evidence with unsupported rejection, not positive Hunter prerequisite execution.",
+    "Hunter companion is encounter-only; Call Pet rejects both dead and living retained pets. Taming/tameability, persistent bonding/carryover, family scaling, loyalty/feeding, dismiss/revive/healing remain T23. Stats/focus/Growl threat/default AI are explicit owned Idle.",
+    "Hunter formation remains qualitative. Hostile melee NPCs now approach ranged Hunters via the owned1000ms rule, so pet loss does not remove incoming pressure. Exact yards/general movement/kiting/ammunition/equipment and generic mana regeneration remain T23.",
+    "Post-full-suite typecheck caught a test-only mutable tuple inference versus readonly RngState. One annotation changed; fresh typecheck and17 Hunter tests pass. Full164 suite was not repeated per controller instruction."
+  ],
+  "latestValidation": {
+    "scope": "Hunter review round1 bounded NPC approach and exact pet spell set",
+    "command": "npm run test -- tests/classes tests/combat tests/simulation --maxWorkers=1 --no-file-parallelism",
+    "date": "2026-10-21",
+    "runnerStartTime": "18:08:26",
+    "timeBasis": "Vitest displayed local time",
+    "filesPassed": 7,
+    "testsPassed": 93,
+    "testsFailed": 0,
+    "unhandledErrors": 0,
+    "exitCode": 0,
+    "durationSeconds": 7.59,
+    "typecheck": "npm run typecheck: exit 0",
+    "diffcheck": "git diff --check: exit 0",
+    "baseCommit": "17c2ad8",
+    "fullSuiteRerun": false
+  },
+  "contractRevision": 3,
+  "previousWarriorValidation": {
+    "run": {
+      "command": "npm run test -- --maxWorkers=1 --no-file-parallelism",
+      "date": "2026-10-21",
+      "startedAtUTC": "17:09:45",
+      "filesPassed": 11,
+      "testsPassed": 128,
+      "testsFailed": 0,
+      "durationSeconds": 99,
+      "typecheck": "npm run typecheck: exit 0",
+      "commit": "da1a81e"
+    },
+    "latestValidation": {
+      "scope": "review-round-1 class execution package guard",
+      "command": "npm run test -- tests/classes tests/combat tests/simulation --maxWorkers=1 --no-file-parallelism",
+      "startedAtUTC": "2026-10-21T17:17:36Z",
+      "filesPassed": 5,
+      "testsPassed": 54,
+      "testsFailed": 0,
+      "durationSeconds": 8.81,
+      "typecheck": "npm run typecheck: exit 0",
+      "fullSuiteRerun": false
+    }
+  },
+  "fullPaladinTalentCompletion": false,
+  "runnerIncident": {
+    "command": "npm run test -- --maxWorkers=1 --no-file-parallelism",
+    "runnerStartTime": "17:28:27",
+    "filesPassed": 12,
+    "testsPassed": 145,
+    "testsFailed": 0,
+    "unhandledErrors": 1,
+    "exitCode": 1,
+    "durationSeconds": 109.88,
+    "error": "[vitest-worker]: Timeout calling \"onTaskUpdate\"",
+    "diagnosis": "Installed Vitest 3.2.7 Birpc has fixed60000ms RPC deadline; synchronous source tests can starve worker IPC across a file. Questie file took69.93s. No assertion failed; the run was not accepted as clean.",
+    "boundedHarnessChange": "Domain setupFiles afterEach awaits node:timers/promises.setImmediate; no masked errors, dependency patch or timeout change.",
+    "focusedVerification": {
+      "command": "npm run test -- tests/content/questiedb.test.ts --maxWorkers=1 --no-file-parallelism",
+      "testsPassed": 10,
+      "exitCode": 0,
+      "unhandledErrors": 0,
+      "durationSeconds": 50.93
+    }
+  },
+  "sourceBoundary": {
+    "currentDescriptionsBuild": "1.60.1.70425",
+    "separateOlderClientBuild": "1.60.1.70338",
+    "unverifiedTalentEffectJoins": 0,
+    "authoringPath": "content/adaptations/classes-idle-v1.json",
+    "authoringSha256": "17823c2f3b6d978d3ced7ebbdcd10f571a3b2757035a8a33c08ba6e2ddcd5228",
+    "generatedCatalogSha256": "ab4f94c7529c789452e35acbf92f6d81dc08b9e0d378c820c5995cb99979338a"
+  },
+  "runnerWarnings": [
+    "npm emitted pre-existing Unknown env config http-proxy; no npm/host configuration was changed."
+  ],
+  "preReviewFullValidation": {
+    "scope": "Frozen Hunter product and unchanged harness; full serial suite before test-only readonly annotation correction",
+    "command": "npm run test -- --maxWorkers=1 --no-file-parallelism",
+    "date": "2026-10-21",
+    "runnerStartTime": "17:56:58",
+    "timeBasis": "Vitest displayed local time",
+    "filesPassed": 13,
+    "testsPassed": 164,
+    "testsFailed": 0,
+    "unhandledErrors": 0,
+    "exitCode": 0,
+    "durationSeconds": 147.41,
+    "baseCommit": "fb0225e",
+    "fullSuiteRerun": true
+  },
+  "healingThreatRegression": {
+    "testFile": "tests/classes/paladin.test.ts",
+    "testFileSha256": "aee7cfae01278545144f2661896ee2f23ba218394781003977df3a778c8a20a6",
+    "testCase": "healing a genuinely attacked ally creates healer threat without seeded engagement",
+    "red": "17:41:08: 16 passed,1 failed; actual healer threat undefined versus expected23 after enemy attack reduced ally1000→900 and Holy Light restored46.",
+    "green": "latestValidation",
+    "negativeCase": "healing does not aggro unengaged, friendly, dead or other-zone actors",
+    "implementationSha256": "7c609cd350c20baa1b947125e9211d6a2ed7c2ec7c1c08bc63e61535150ae320"
+  },
+  "previousPaladinValidation": {
+    "run": {
+      "command": "npm run test -- --maxWorkers=1 --no-file-parallelism",
+      "date": "2026-10-21",
+      "runnerStartTime": "17:33:12",
+      "timeBasis": "Vitest displayed local time",
+      "filesPassed": 12,
+      "testsPassed": 145,
+      "testsFailed": 0,
+      "unhandledErrors": 0,
+      "exitCode": 0,
+      "durationSeconds": 101.67,
+      "typecheck": "npm run typecheck: exit 0",
+      "baseCommit": "d55396c"
+    },
+    "latestValidation": {
+      "scope": "Paladin review round1: enemy hit registers ally engagement for real healing threat",
+      "command": "npm run test -- tests/classes tests/combat tests/simulation --maxWorkers=1 --no-file-parallelism",
+      "date": "2026-10-21",
+      "runnerStartTime": "17:41:47",
+      "timeBasis": "Vitest displayed local time",
+      "filesPassed": 6,
+      "testsPassed": 71,
+      "testsFailed": 0,
+      "unhandledErrors": 0,
+      "exitCode": 0,
+      "durationSeconds": 4.84,
+      "typecheck": "npm run typecheck: exit 0",
+      "diffcheck": "git diff --check: exit 0",
+      "baseCommit": "715d3b0",
+      "fullSuiteRerun": false
+    },
+    "preReviewFullValidation": {
+      "command": "npm run test -- --maxWorkers=1 --no-file-parallelism",
+      "date": "2026-10-21",
+      "runnerStartTime": "17:33:12",
+      "timeBasis": "Vitest displayed local time",
+      "filesPassed": 12,
+      "testsPassed": 145,
+      "testsFailed": 0,
+      "unhandledErrors": 0,
+      "exitCode": 0,
+      "durationSeconds": 101.67,
+      "typecheck": "npm run typecheck: exit 0",
+      "baseCommit": "d55396c",
+      "scope": "Frozen product and bounded domain harness; full serial suite",
+      "fullSuiteRerun": true
+    },
+    "sourceBoundary": {
+      "currentDescriptionsBuild": "1.60.1.70425",
+      "separateOlderClientBuild": "1.60.1.70338",
+      "unverifiedTalentEffectJoins": 0,
+      "authoringPath": "content/adaptations/classes-idle-v1.json",
+      "authoringSha256": "b4da37802d9e5da3fbb62adc97a07d987ddfca951de1ba08264f661874bb1899",
+      "generatedCatalogSha256": "51c9af7cb42366d695d8c7746c30a4a0083f9fa90030443fc52f5a694acf7baf"
+    }
+  },
+  "fullHunterTalentCompletion": false,
+  "hunterValidation": {
+    "red": {
+      "runnerStartTime": "17:46:55",
+      "testsFailed": 7,
+      "reason": "Hunter talents absent; no playable class progress"
+    },
+    "focused": {
+      "runnerStartTime": "17:55:04",
+      "filesPassed": 7,
+      "testsPassed": 88,
+      "durationSeconds": 7.33
+    },
+    "testOnlyTypeCorrection": {
+      "error": "TS4104: readonly RngState cannot be assigned to mutable tuple in seed helper",
+      "productChanged": false,
+      "harnessChanged": false,
+      "validation": "latestValidation"
+    },
+    "contract": "docs/rulebook/classes.md#contract-revision-v3--hunter-core-controller-approved-2026-10-21",
+    "petSourceSpellIds": [
+      883,
+      2649
+    ],
+    "petOriginalNpcId": null
+  },
+  "previousHunterValidation": {
+    "latestValidation": {
+      "scope": "Post-full-suite test-only readonly RngState annotation correction; runtime behavior unchanged",
+      "command": "npm run test -- tests/classes/hunter.test.ts --maxWorkers=1 --no-file-parallelism",
+      "date": "2026-10-21",
+      "runnerStartTime": "18:00:08",
+      "timeBasis": "Vitest displayed local time",
+      "filesPassed": 1,
+      "testsPassed": 17,
+      "testsFailed": 0,
+      "unhandledErrors": 0,
+      "exitCode": 0,
+      "durationSeconds": 1.97,
+      "typecheck": "npm run typecheck: exit 0 after readonly annotation correction",
+      "diffcheck": "git diff --check: exit 0",
+      "baseCommit": "fb0225e",
+      "fullSuiteRerun": false
+    },
+    "sourceBoundary": {
+      "currentDescriptionsBuild": "1.60.1.70425",
+      "separateOlderClientBuild": "1.60.1.70338",
+      "unverifiedTalentEffectJoins": 0,
+      "authoringPath": "content/adaptations/classes-idle-v1.json",
+      "authoringSha256": "17823c2f3b6d978d3ced7ebbdcd10f571a3b2757035a8a33c08ba6e2ddcd5228",
+      "generatedCatalogSha256": "ab4f94c7529c789452e35acbf92f6d81dc08b9e0d378c820c5995cb99979338a"
+    }
+  },
+  "hunterReviewRound1": {
+    "red": {
+      "runnerStartTime": "18:06:11",
+      "testsFailed": 3,
+      "testsPassed": 17,
+      "failures": [
+        "Hunter still1000HP after real pet death",
+        "No-pet Hunter staysranged after contact time",
+        "Missing Growl accepted"
+      ]
+    },
+    "validation": "latestValidation",
+    "hunterTests": 22,
+    "fullSuiteRerun": false,
+    "authoredApproachMs": 1000,
+    "testFile": "tests/classes/hunter.test.ts",
+    "testFileSha256": "7f36ba18b4bde620773ffc730cd2150ed9ed1f817389e0ec0a564bca2542fc24",
+    "implementationHashes": {
+      "src/game/combat/attack.ts": "e19db149a2d8265b460ef96a6585c4561aaae32fccd717b6a276f9dceb079736",
+      "src/game/combat/positions.ts": "05e17960c200c3510bb66e5ec890ddf93e31e12abf2182c6b867f6c0d0ebf6ef",
+      "src/game/combat/tactics.ts": "1b91de7de4e93eca9a5fa568ffb20551f327a2e76cc06e5e6f6205e01ea3895e",
+      "src/game/classes/resources.ts": "b19bd6a44348039fd80a059f4f51f298c40a763e0532c83678520715d7b532d4"
+    }
+  }
+}

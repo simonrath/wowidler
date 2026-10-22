@@ -1,0 +1,23 @@
+{
+  "sourceURL": "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+  "retrievedAt": "2026-10-21",
+  "captureKind": "paraphrased-fact-extract",
+  "retrievalReference": "turn31view0 line10",
+  "claims": {
+    "talentsUnlockLevel": 10,
+    "milestonePoints": [
+      11,
+      16,
+      21,
+      31
+    ],
+    "dualSpecializationUnlockLevel": 40,
+    "talentResetLocation": "class trainer in major city"
+  },
+  "unknown": [
+    "dual specialization price",
+    "switch cost and conditions",
+    "full trainer offer table"
+  ],
+  "boundary": "Official beta description, mutable; no server hotfix/layout proof. Source facts paraphrased, no full article capture."
+}

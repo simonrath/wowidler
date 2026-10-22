@@ -1,0 +1,16 @@
+import { readFileSync } from 'node:fs';
+import { sourceLockSchema } from './schema';
+import { importQuestie, readQuestieInputs } from './questiedb';
+import { resolveReferences } from './resolve';
+import { writeCatalogPackage } from './package';
+const args=process.argv.slice(2);const option=(name:string,fallback?:string)=>{const i=args.indexOf(name);return i<0?fallback:args[i+1];};
+if(!args.includes('--frozen'))throw Error('Import requires --frozen; source refresh is a separate admission step');
+const lock=sourceLockSchema.parse(JSON.parse(readFileSync('content/sources/lock.json','utf8')));
+if(option('--snapshot')!==lock.snapshotId)throw Error('Requested snapshot differs from source lock');
+const faction=option('--faction','Alliance');if(faction!=='Alliance'&&faction!=='Horde')throw Error('Invalid faction');
+const result=importQuestie(readQuestieInputs(lock,{faction,playerClass:option('--class','WARRIOR')!}),lock);
+const catalog=resolveReferences(result.entities);if(!catalog.ok)throw Error(JSON.stringify(catalog.error));
+const snapshot={id:lock.snapshotId,branch:'forever' as const,referenceDate:'2026-10-21',sourceVersions:Object.fromEntries(lock.sources.filter(s=>s.status==='retrieved').map(s=>[s.id,s.commit??s.build??'captured-primary'])),categories:[]};
+const output=option('--output','outputs/content/questiedb')!;
+const packaged=writeCatalogPackage({...catalog.value,buildContext:result.buildContext},snapshot,output);
+console.log(JSON.stringify({snapshot:lock.snapshotId,frozen:true,sourceFiles:result.buildContext.dependencies.length,gameplayReady:packaged.manifest.gameplayReady,references:packaged.manifest.references,persona:result.persona,importFingerprint:result.fingerprint,captured:result.entities.length,expectedCount:null,complete:false,playable:0,layers:result.layers.length,contents:packaged.manifest.contents,directory:packaged.directory,limitations:result.limitations},null,2));

@@ -1,0 +1,2939 @@
+{
+  "version": "idle-classes-v1",
+  "authenticServerCombat": false,
+  "policy": "Owned Idle class execution package. Current 70425 identity/text retained separately. No unmatched 70338 talent/effect joins. Only offered talents execute; remaining talent mechanics required by T23.",
+  "rules": {
+    "maxLevel": 60,
+    "pointsPerLevel": 1,
+    "milestoneBonusPoints": 0,
+    "rowPoints": 5,
+    "resetCost": 100,
+    "dualCost": 1000,
+    "switchCost": 0,
+    "stanceRetainedRage": 0,
+    "stanceCooldownMs": 1000,
+    "rageDamageDealtDivisor": 2,
+    "rageDamageTakenDivisor": 3,
+    "damageBps": {
+      "battle": 10000,
+      "defensive": 9000,
+      "berserker": 10000
+    },
+    "takenBps": {
+      "battle": 10000,
+      "defensive": 9000,
+      "berserker": 11000
+    },
+    "threatBps": {
+      "battle": 10000,
+      "defensive": 13000,
+      "berserker": 10000
+    },
+    "critBps": {
+      "battle": 0,
+      "defensive": 0,
+      "berserker": 300
+    },
+    "deepWoundsTicks": 4,
+    "deepWoundsIntervalMs": 3000,
+    "hunterApproachMs": 1000
+  },
+  "interpretations": [
+    "Milestones 11/16/21/31 are tree thresholds, not extra awarded talent points; linear one point per level from 10 is owned Idle pending full schedule.",
+    "Rage floor(actual damage / divisor) on dealt/taken damage. No out-of-combat rage decay offered. Stance base retention zero is Idle, not a sourced Tactical Mastery value.",
+    "Primary source defines level 40 dual and major-city trainer reset only. All transaction costs and out-of-combat switching are owned Idle rules.",
+    "Periodic effects expire one ms after their final scheduled tick to preserve existing expiry-before-tick phases. Integer talent gains round down per application.",
+    "Bloodrage health cost 5 and no suicidal use are owned Idle rules; 10 immediate and 10 over 10sec follow current text.",
+    "Creation keys raceId*100+classId and faction keys1/2 are explicitly owned internal mappings, not alleged client row IDs. Location keys use captured zone IDs as owned start-area anchors.",
+    "Common neutral seeds for four later classes allow creation only; their mechanical packages remain unsupported.",
+    "Racial identities and current descriptions remain captured unsupported; no remembered Vanilla values enabled.",
+    "Deep Wounds uses four ticks separated by3000ms; the 12sec source total is distributed with remainder on final tick. Talent periodic modifiers round down the total then distribute remainder. Default Rend tactic waits for its own active bleed; explicit casts can refresh. Profile changes obey the same stance cooldown/rage retention as direct stance changes.",
+    "Paladin v2 is a bounded core: all 50 current talents and ranks retained, four executable. Remaining 46 talents plus seals, judgements, all remaining spell ranks, class quests, party auras and racials remain required by T23. No full-class completion claim.",
+    "Paladin primary stat projections are OWNED IDLE, not authentic source formulas: base attackPower represents Strength-derived attack power for Divine Strength, base stats.armor represents item armor for Toughness. Talent percentages and Healing Light/Benediction texts come from current70425. No 70338 talent joins.",
+    "Paladin Holy Light ranks1/2 use deterministic midpoint heals46/88 of current70425 ranges42..50/81..95. Holy Strike rank1 uses midpoint3 plus floor(25% deterministic weapon damage): weapon midpoint + floor(AP*interval/14000). Source gives25% plus2..4; midpoint/weapon/AP formulas are owned Idle. No spell critical/pushback behavior is claimed.",
+    "Current70425 mana costs35/60(Holy Light),20(Might),30(Wisdom),5(Holy Strike),30%base(Fury), cast2500ms and Holy Strike cooldown10000ms are retained. Owned seed maxResource represents base mana for percent costs; Benediction floors final integer cost. Mana has no generic rage gains. Wisdom restores source12 per5000ms; no passive base mana regeneration is yet offered.",
+    "Paladin GCD1500ms, instant completion1ms, Devotion lifetime3600000ms and self-only targeting are owned Idle. Devotion source55 armor is retained; party30yard propagation is T23. Righteous Fury source+90% threat applies only actual Holy damage while1800000ms aura active; no healing/physical threat multiplier.",
+    "Blessings Might and Wisdom use current source1hour duration and per-target per-caster exclusivity; final periodic tick uses existing expiry+1ms convention. Might adds source14AP. Friendly spells accept self or allied independent NPC; healing tactics choose lowest health fraction then actor ID, excluding dead/wrong-zone targets. Exact yard positions are unavailable; Holy Strike enforces existing melee/ranged formation.",
+    "Paladin profile IDs are class-owned. Persisted stance battle is an inert v1 compatibility field for Paladin, grants no Warrior bonuses and cannot be changed by setStance. Dual specialization uses the same primary level40 and explicit authored transactions. Creation level1 starts Holy Light and Devotion; defaults fall back to attack when higher spells are not learned.",
+    "Seven selected Paladin ranks have authored teacher curriculum and prices level*10; rank2 Holy Light requires rank1. No unverified class quest or reagent requirement is fabricated.",
+    "Hunter v3 bounded core imports all current70425 talent trees/ranks/prerequisites, offering only Endurance Training, Lethal Attacks and Deflection. All other talent semantics remain T23, including the unoffered Frenzy\u2192Ferocity5 chain. No positive Hunter prerequisite execution is claimed. No talent joins to70338.",
+    "Hunter Call Pet creates one encounter-only OWNED IDLE companion with source spell883 identity, not a sourced tameable creature/family. Pet stats120HP/100focus/14AP/20armor/2sec/8..12damage/5%crit, focus5 per2sec for24h, default Growl/attack tactics and highestThreat+20 Growl threat are authored. Source Growl15Focus/5sec cooldown retained; no authentic threat magnitude asserted. Pet has independent owner, vitals, cooldowns, auras, tactics, RNG-ordered attacks and threat, consumes zero party slots, and never becomes another persistent player.",
+    "Dead pet record remains until encounter teardown. Call Pet rejects any retained pet, dead or alive: no resurrection or replacement exploit. Persistent bond/carryover, taming/tameability, happiness/loyalty, feeding, dismiss/revive, pet families/growth and healing commands remain required by T23.",
+    "Endurance Training source3/6/9/12/15% increases authored pet seed health and armor at summon; talents cannot change during running combat. Lethal Attacks source1..5% affects Hunter melee/auto-shot and direct shot critical rolls; periodic Stings do not crit. Deflection source1..5% is an extra parry roll against incoming melee impacts only, before damage/critical rolls; successful parry cancels damage/threat with no haste or counterattack. Base parry0 and critical multiplier2 are owned Idle.",
+    "Hunter Auto Shot is owned attack-clock behavior keyed by Hunter ranged formation, no invented client spell ID. Ranged Hunter defaults and shots require ranged formation; Survival defaults use melee Raptor Strike. Formation is qualitative, not actual8..35yard simulation or kiting; general movement and ammunition/equipment remain T23. Owner zone/death and combat-side rules also constrain pets.",
+    "Current70425 Raptor Strike10mana/+5weapon/6sec, Serpent Sting15mana/10Nature over15sec, Arcane Shot ranks1/2 costs25/35 damage20/26 cooldown6sec retained. Sting distribution2damage every3sec and expiry+1ms, GCD1500ms, instant1ms and teacher prices level*10 are owned Idle. Arcane rank2 requires rank1. No invented class quest/reagent claim; full curriculum and passive Hunter mana regeneration remain T23. Hunter battle stance compatibility field is inert.",
+    "Arcane Shot ranks share an explicit cooldownGroup hunter-arcane-shot; lower ranks cannot bypass the sourced6second ability cooldown. Successful out-of-combat class changes atomically refresh any retained pet stats from the locked seed and persistent Endurance rank, preserving floor(currentHealth*newMax/oldMax) and zero for dead pets; focus/cooldowns/tactics/auras remain independent. Running combat still forbids changes.",
+    "Hunter review v3 amendment: hostile melee NPCs may approach a ranged Hunter over owned hunterApproachMs1000, encoded by optional closeDistance on the existing scheduled melee impact. Approach consumes its own delay plus normal attack clock and cannot duplicate. At contact, living enemy/target, zone, side, running encounter and class package are revalidated before changing Hunter formation to melee and resolving the normal attack. Both actors resume legal decisions; shots then fail range and Hunter melee fallback executes. Dead/invalid approachers never move the Hunter. Other class and legacy impacts unchanged; no free escape/kiting or general coordinate system.",
+    "Rogue v4 is a bounded core. All 53 current70425 talents and complete ranks/prerequisites retained, four offered: Malice40002, Improved Eviscerate41000, Improved Sinister Strike41001, Opportunity42002. The remaining49 have individual T23 primitive gaps. Malice affects executable direct attacks; poison application/charges/critical effects remain T23. Opportunity applies the available Backstab; Garrote/Ambush/Mutilate and their requirements remain T23. No current talent joins to70338.",
+    "Rogue uses actual ENERGY, owned cap100/start100 and regeneration20 every2000ms. A caster-owned periodic-resource aura is installed once on first encounter decision or accepted action; finite86400001ms cycle automatically renews on expiry while alive/in-zone/running. Renewal is deterministic simulation-time scheduling (first new tick2000ms after renewal), never tied to an offline cap; old tokens cannot duplicate ticks. Death/zone departure/end of combat stops renewal/ticks. Energy is persisted through current character resource and never gains Warrior rage or generic mana.",
+    "Combo state is encounter-local and target-bound, capped5; a builder on a different target replaces the previous target points. Spenders require points on their exact live opposing target before costs and at completion; consume on successful completion. Invalid/cancelled actions leave points unchanged. Target death clears all bound points; encounter teardown loses points. No points transfer to another enemy. Combo tactic threshold is points/5 in basis points.",
+    "Sinister Strike1752 source45energy plus3 weapon damage/1combo, Backstab53 source60energy/150%weapon+15/1combo/rear/dagger, Eviscerate2098 source35energy/1..5combo damage ranges, Rupture1943 source25energy/1..5combo damage25,37,51,68,87 over8,10,12,14,16sec retained. Eviscerate deterministic midpoints8,13,18,23,28; weapon midpoint+floor(AP*attackInterval/14000), Eviscerate AP3% perpoint, Rupture AP2% perpoint, tick2sec distribution/remainder, GCD1000ms and instant1ms are OWNED IDLE projections, not authentic AP/server formulas. Rupture uses existing physical armor resolution as an explicit Idle bleed adaptation; authentic armor-bypassing bleed category remains T23.",
+    "Backstab mainhand contract: absent equipment.mainHand uses explicit owned-idle-dagger starter projection with no invented original item ID. Assigned mainHand has no supported weapon metadata yet and fails closed; unrelated armor slots do not disable the projection. T09 must implement real inventory weapon categories, migrate this boundary and verify equipped daggers. Subtlety starts qualitative melee/rear formation and still takes ordinary hostile melee damage; target turning/movement and general facing remain T23.",
+    "Rogue profiles execute rupture-pressure, direct-finisher and rear-builder tactics with attack fallbacks; source costs can temporarily prevent casting until energy ticks. Source Malice1..5% critical, Improved Eviscerate7/13/20%, Improved Sinister3/5energy and Opportunity5/10% retain every rank. Small integer results may round equally. Inert battle stance applies no Warrior multipliers. Teacher prices level*10, seed stats, selected curriculum and default formations are owned; full remaining ranks/class quests/racials/poisons/stealth and crowd control remain required T23.",
+    "Rogue review amendment: the owned starter weapon projection is unavailable whenever persistent equipment.mainHand is assigned without supported weapon metadata. Both Sinister Strike1752 and Backstab53 fail closed before admission and again before queued completion. Direct spellForActor projection calls require the matching persistent CharacterState argument; an actor-only snapshot never proves absent mainHand. Unassigned mainHand and unrelated armor remain allowed. Invalidated completions add no damage/combo points, consume no further energy and resume legal decisions; already-paid cast energy follows the established interruption rule. T09 must replace this boundary with real weapon metadata rather than defaulting unknown equipped weapons.",
+    "Priest v5 bounded core retains all current70425 talents/ranks/prerequisites and all12 racial variants; only Twin Disciplines50002, Improved Renew51001 and Shadow Focus52000 are offered. All other talents and racial effects remain individual T23 product scope; no70338 join proves custom talent or racial semantics.",
+    "Priest owned seed health120/mana400, AP5/armor10/weapon3..5/2sec is an Idle starting projection. Mana costs, cast times, spell totals, Shield cooldown4sec/duration30sec/Weakened Soul15sec come from current70425 text. No passive mana regeneration is invented. Midpoint Lesser Heal/Smite/Mind Blast, GCD1500ms, instant1ms, 3second Renew/Pain tick distribution, final remainder and expiry+1ms are owned execution rules. Mind Blast high threat is projected as15000bps. Teacher price level*10, selected previous-rank curriculum and start/capital locations are owned, not verified server teachers or quest/reagent requirements.",
+    "Priest Shadow application base hit9500bps is OWNED IDLE, not a source hit table; Shadow Focus source1..5% adds100..500bps capped10000. Each Shadow cast rolls once at valid completion; miss retains mana/GCD/cooldown and advances RNG, records encounter-only lastShadowApplicationResult, schedules a legal decision, and creates no damage/aura. Successful periodic applications do not reroll on ticks. Other classes retain existing hit semantics.",
+    "Twin Disciplines source1..5% modifies offered instant damage/healing including full Pain/Renew totals, never absorb amounts. Improved Renew source5/10/15% modifies full Renew totals. Their combination multiplies source factors and floors once per total as an explicit owned arithmetic boundary; final tick carries integer remainder. No current offered direct instant damage/heal rank exists; future supported ranks must use the same consumer.",
+    "Priest spells use qualitative unpositioned/melee formation, not actual yards; Shadow profile role does not grant Hunter auto-shot or ranged immunity. Enemy melee can hit Priest after allied actor death. Shield and healing tactics pick lowest eligible living ally including self/pets; shield excludes any target with Weakened Soul from ANY caster. Marker lasts independently of exhausted/expired absorb, rechecked before costs and at completion. Damage cast pushback is not simulated for any class; source Shield pushback protection needs that future T23 primitive and is not claimed as a new prevention effect. Shield currently prevents actual damage via its sourced absorption.",
+    "Renew is a real typed periodic-heal aura routed through effective-heal threat on actual engaged enemies. Source/target death, zone departure, invalid side or ended encounter stops new Priest periodic damage/heal ticks; the aura expires normally. Explicit interrupts still cancel casts; they do not delete independently established HoTs, shields or markers. Legacy T07 impact ordering remains unchanged.",
+    "Priest review v5 amendment: ally-heal/protection rules exclude candidates carrying the rule avoidActiveAura from the acting caster before sorting by health fraction and applying allyHealth thresholds. This lets Renew/Shield maintain another injured ally when the lowest already has that aura. Expired or other-caster auras do not trigger this tactic avoidance; Weakened Soul remains a separate any-caster target blocker. Enemy/self recipient semantics and existing side/death/zone eligibility remain unchanged.",
+    "Shaman v6: source70425 Lightning Bolt and Healing Wave deterministic range midpoints; no70338 effect joins. Source costs/cast times, totem health5, Searing30sec, Strength/Healing Stream5min and Rockbiter60min are retained. Primary F10 agrees with these offered current tooltips; no conflicting duration was overridden. Recall25%refund is described with an explicit beta refund bug and remains unsupported, not guaranteed behavior.",
+    "Owned Shaman Idle: all three profiles use unpositioned melee formation for hostile incoming pressure. Totems are independent encounter actors, zero party slots, ally side, at most one living owner+element; re-summoning retires the old actor. Three earth/fire/water templates; air, Call of Elements/Spirits/Ancestors, projection/recall, persistent totem loadouts and all remaining ranks remain T23.",
+    "Owned Shaman Idle: Searing midpoint10 every2000ms, first pulse2000ms after summon; Healing Stream5 each2000ms to all eligible living allied non-totem actors. Buff strength7 projects to14AP, pulses every2000ms with2001ms lifetime; dead/expired/retired/unavailable totem buffs stop immediately. Group/range uses encounter side and current zone, not authentic raid membership or yards. Totems do not melee or cast player spells; pulse damage/healing threat belongs to the totem.",
+    "Owned Shaman Idle: Rockbiter uses an unassigned starter mainhand projection, sourced49/79AP and owned11000 melee-only threat multiplier, self-only exclusive imbue; assigned mainHand fails closed and invalidates projected benefit before actual use. T09 must supply real weapon metadata. Class stats, training locations/prices, ordinary1500ms GCD and critical multiplier2 are owned adaptations. Tool Totem inventory objects/class quests and full curricula remain T23; no invented quest/reagent IDs. No generic mana regeneration is invented.",
+    "Supported Shaman talent consumers are Convection on offered Lightning Bolt ranks, Thundering Strikes on direct offered damage/heals and melee (not totem or periodic ticks), Improved Healing Wave on offered Healing Wave ranks. All other named ability consumers and47 missing talents retain T23. Source rank descriptions/IDs and prerequisites remain distinct from execution projections.",
+    "Owned Shaman totemToolAccess=owned-idle-encounter-tools: source Tools Earth/Fire/Water Totem requirements are retained as UNFULFILLED prerequisite evidence; only the authorized active persistent Shaman with supported package and learned rank receives the encounter-access projection. T09/T10/T23 must replace it with real tool inventory/acquisition and class quests. No invented original tool IDs and no claim that source prerequisites are met."
+  ],
+  "classSeeds": {
+    "warrior": {
+      "stats": {
+        "maxHealth": 120,
+        "maxResource": 100,
+        "attackPower": 14,
+        "armor": 20,
+        "attackIntervalMs": 2000,
+        "minDamage": 8,
+        "maxDamage": 12,
+        "critChanceBps": 500
+      },
+      "initialResource": 0
+    },
+    "paladin": {
+      "stats": {
+        "maxHealth": 120,
+        "maxResource": 100,
+        "attackPower": 14,
+        "armor": 20,
+        "attackIntervalMs": 2000,
+        "minDamage": 8,
+        "maxDamage": 12,
+        "critChanceBps": 500
+      },
+      "initialResource": 100
+    },
+    "hunter": {
+      "stats": {
+        "maxHealth": 120,
+        "maxResource": 100,
+        "attackPower": 14,
+        "armor": 20,
+        "attackIntervalMs": 2000,
+        "minDamage": 8,
+        "maxDamage": 12,
+        "critChanceBps": 500
+      },
+      "initialResource": 100
+    },
+    "rogue": {
+      "stats": {
+        "maxHealth": 110,
+        "maxResource": 100,
+        "attackPower": 14,
+        "armor": 15,
+        "attackIntervalMs": 1800,
+        "minDamage": 8,
+        "maxDamage": 12,
+        "critChanceBps": 500
+      },
+      "initialResource": 100
+    },
+    "priest": {
+      "stats": {
+        "maxHealth": 120,
+        "maxResource": 400,
+        "attackPower": 5,
+        "armor": 10,
+        "attackIntervalMs": 2000,
+        "minDamage": 3,
+        "maxDamage": 5,
+        "critChanceBps": 500
+      },
+      "initialResource": 400
+    },
+    "shaman": {
+      "stats": {
+        "maxHealth": 120,
+        "maxResource": 100,
+        "attackPower": 14,
+        "armor": 20,
+        "attackIntervalMs": 2000,
+        "minDamage": 8,
+        "maxDamage": 12,
+        "critChanceBps": 500
+      },
+      "initialResource": 100
+    },
+    "mage": {
+      "stats": {
+        "maxHealth": 120,
+        "maxResource": 100,
+        "attackPower": 14,
+        "armor": 20,
+        "attackIntervalMs": 2000,
+        "minDamage": 8,
+        "maxDamage": 12,
+        "critChanceBps": 500
+      },
+      "initialResource": 100
+    },
+    "warlock": {
+      "stats": {
+        "maxHealth": 120,
+        "maxResource": 100,
+        "attackPower": 14,
+        "armor": 20,
+        "attackIntervalMs": 2000,
+        "minDamage": 8,
+        "maxDamage": 12,
+        "critChanceBps": 500
+      },
+      "initialResource": 100
+    },
+    "druid": {
+      "stats": {
+        "maxHealth": 120,
+        "maxResource": 100,
+        "attackPower": 14,
+        "armor": 20,
+        "attackIntervalMs": 2000,
+        "minDamage": 8,
+        "maxDamage": 12,
+        "critChanceBps": 500
+      },
+      "initialResource": 100
+    }
+  },
+  "supportedTalents": {
+    "10000": {
+      "handler": "heroic-cost",
+      "values": [
+        1,
+        2,
+        3
+      ]
+    },
+    "10002": {
+      "handler": "rend-damage",
+      "values": [
+        1200,
+        2300,
+        3500
+      ]
+    },
+    "10011": {
+      "handler": "stance-retention",
+      "values": [
+        3,
+        6,
+        9,
+        12,
+        15
+      ]
+    },
+    "10022": {
+      "handler": "critical-bleed",
+      "values": [
+        2000,
+        4000,
+        6000
+      ]
+    },
+    "11002": {
+      "handler": "melee-crit",
+      "values": [
+        100,
+        200,
+        300,
+        400,
+        500
+      ]
+    },
+    "12000": {
+      "handler": "bloodrage-resource",
+      "values": [
+        2500,
+        5000
+      ]
+    },
+    "20001": {
+      "handler": "divine-strength",
+      "values": [
+        200,
+        400,
+        600,
+        800,
+        1000
+      ]
+    },
+    "20010": {
+      "handler": "healing-light",
+      "values": [
+        400,
+        800,
+        1200
+      ]
+    },
+    "21001": {
+      "handler": "toughness",
+      "values": [
+        200,
+        400,
+        600,
+        800,
+        1000
+      ]
+    },
+    "22002": {
+      "handler": "benediction",
+      "values": [
+        200,
+        400,
+        600,
+        800,
+        1000
+      ]
+    },
+    "30002": {
+      "handler": "pet-endurance",
+      "values": [
+        300,
+        600,
+        900,
+        1200,
+        1500
+      ]
+    },
+    "31002": {
+      "handler": "hunter-crit",
+      "values": [
+        100,
+        200,
+        300,
+        400,
+        500
+      ]
+    },
+    "32002": {
+      "handler": "hunter-parry",
+      "values": [
+        100,
+        200,
+        300,
+        400,
+        500
+      ]
+    },
+    "40002": {
+      "handler": "rogue-crit",
+      "values": [
+        100,
+        200,
+        300,
+        400,
+        500
+      ]
+    },
+    "41000": {
+      "handler": "eviscerate-damage",
+      "values": [
+        700,
+        1300,
+        2000
+      ]
+    },
+    "41001": {
+      "handler": "sinister-cost",
+      "values": [
+        3,
+        5
+      ]
+    },
+    "42002": {
+      "handler": "opportunity",
+      "values": [
+        500,
+        1000
+      ]
+    },
+    "50002": {
+      "handler": "twin-disciplines",
+      "values": [
+        100,
+        200,
+        300,
+        400,
+        500
+      ]
+    },
+    "51001": {
+      "handler": "improved-renew",
+      "values": [
+        500,
+        1000,
+        1500
+      ]
+    },
+    "52000": {
+      "handler": "shadow-focus",
+      "values": [
+        100,
+        200,
+        300,
+        400,
+        500
+      ]
+    },
+    "60001": {
+      "handler": "convection",
+      "values": [
+        200,
+        400,
+        600,
+        800,
+        1000
+      ]
+    },
+    "61001": {
+      "handler": "thundering-strikes",
+      "values": [
+        100,
+        200,
+        300,
+        400,
+        500
+      ]
+    },
+    "62001": {
+      "handler": "improved-healing-wave",
+      "values": [
+        100,
+        200,
+        300,
+        400,
+        500
+      ]
+    }
+  },
+  "initialSpells": [
+    "forever:spell:78",
+    "forever:spell:2457",
+    "forever:spell:635",
+    "forever:spell:465",
+    "forever:spell:2973",
+    "forever:spell:1752",
+    "forever:spell:2098",
+    "forever:spell:2050",
+    "forever:spell:585",
+    "forever:spell:403",
+    "forever:spell:331",
+    "forever:spell:8017"
+  ],
+  "spells": [
+    {
+      "key": "forever:spell:78",
+      "minLevel": 1,
+      "resourceCost": 15,
+      "effects": [
+        {
+          "type": "next-melee",
+          "originalEffectType": 17,
+          "bonusDamage": 11,
+          "resourceCost": 15,
+          "threatMultiplierBps": 15000
+        }
+      ],
+      "target": "enemy",
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 0
+    },
+    {
+      "key": "forever:spell:284",
+      "minLevel": 8,
+      "resourceCost": 15,
+      "effects": [
+        {
+          "type": "next-melee",
+          "originalEffectType": 17,
+          "bonusDamage": 21,
+          "resourceCost": 15,
+          "threatMultiplierBps": 15000
+        }
+      ],
+      "target": "enemy",
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 0
+    },
+    {
+      "key": "forever:spell:772",
+      "minLevel": 4,
+      "resourceCost": 10,
+      "effects": [
+        {
+          "type": "periodic",
+          "auraId": "warrior-rend",
+          "amount": 5,
+          "school": "physical",
+          "intervalMs": 3000,
+          "durationMs": 9001
+        }
+      ],
+      "target": "enemy",
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "requiredStances": [
+        "battle",
+        "defensive"
+      ]
+    },
+    {
+      "key": "forever:spell:2687",
+      "minLevel": 10,
+      "resourceCost": 0,
+      "effects": [
+        {
+          "type": "resource",
+          "amount": 10
+        },
+        {
+          "type": "periodic-resource",
+          "auraId": "warrior-bloodrage",
+          "amount": 1,
+          "intervalMs": 1000,
+          "durationMs": 10001
+        }
+      ],
+      "target": "self",
+      "cooldownMs": 60000,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "healthCost": 5
+    },
+    {
+      "key": "forever:spell:635",
+      "minLevel": 1,
+      "resourceCost": 35,
+      "effects": [
+        {
+          "type": "heal",
+          "amount": 46
+        }
+      ],
+      "target": "ally",
+      "cooldownMs": 0,
+      "castMs": 2500,
+      "gcdMs": 1500
+    },
+    {
+      "key": "forever:spell:639",
+      "minLevel": 6,
+      "resourceCost": 60,
+      "effects": [
+        {
+          "type": "heal",
+          "amount": 88
+        }
+      ],
+      "target": "ally",
+      "cooldownMs": 0,
+      "castMs": 2500,
+      "gcdMs": 1500
+    },
+    {
+      "key": "forever:spell:465",
+      "minLevel": 1,
+      "resourceCost": 0,
+      "effects": [
+        {
+          "type": "buff",
+          "auraId": "paladin-devotion",
+          "durationMs": 3600000,
+          "armor": 55,
+          "maxStacks": 1
+        }
+      ],
+      "target": "self",
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1500
+    },
+    {
+      "key": "forever:spell:19740",
+      "minLevel": 4,
+      "resourceCost": 20,
+      "effects": [
+        {
+          "type": "buff",
+          "auraId": "paladin-might",
+          "durationMs": 3600000,
+          "exclusiveGroup": "paladin-blessing",
+          "armor": 0,
+          "attackPower": 14,
+          "maxStacks": 1
+        }
+      ],
+      "target": "ally",
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1500
+    },
+    {
+      "key": "forever:spell:19742",
+      "minLevel": 14,
+      "resourceCost": 30,
+      "effects": [
+        {
+          "type": "periodic-resource",
+          "auraId": "paladin-wisdom",
+          "durationMs": 3600001,
+          "exclusiveGroup": "paladin-blessing",
+          "amount": 12,
+          "intervalMs": 5000
+        }
+      ],
+      "target": "ally",
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1500
+    },
+    {
+      "key": "forever:spell:25780",
+      "minLevel": 16,
+      "resourceCost": 0,
+      "effects": [
+        {
+          "type": "buff",
+          "auraId": "paladin-righteous-fury",
+          "durationMs": 1800000,
+          "armor": 0,
+          "holyThreatBps": 19000,
+          "maxStacks": 1
+        }
+      ],
+      "target": "self",
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "resourceCostBps": 3000
+    },
+    {
+      "key": "forever:spell:679",
+      "minLevel": 6,
+      "resourceCost": 5,
+      "effects": [
+        {
+          "type": "damage",
+          "amount": 3,
+          "school": "holy"
+        }
+      ],
+      "target": "enemy",
+      "cooldownMs": 10000,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "meleeRange": true
+    },
+    {
+      "key": "forever:spell:883",
+      "minLevel": 10,
+      "resourceCost": 0,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "target": "self",
+      "effects": [
+        {
+          "type": "summon-pet",
+          "templateId": "idle-hunter-companion"
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:2649",
+      "minLevel": 1,
+      "resourceCost": 15,
+      "cooldownMs": 5000,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "target": "enemy",
+      "effects": [
+        {
+          "type": "threat",
+          "amount": 20
+        }
+      ],
+      "meleeRange": true
+    },
+    {
+      "key": "forever:spell:2973",
+      "minLevel": 1,
+      "resourceCost": 10,
+      "cooldownMs": 6000,
+      "castMs": 0,
+      "gcdMs": 0,
+      "target": "enemy",
+      "effects": [
+        {
+          "type": "next-melee",
+          "originalEffectType": 17,
+          "bonusDamage": 5,
+          "resourceCost": 10,
+          "threatMultiplierBps": 10000
+        }
+      ],
+      "meleeRange": true
+    },
+    {
+      "key": "forever:spell:1978",
+      "minLevel": 4,
+      "resourceCost": 15,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "target": "enemy",
+      "effects": [
+        {
+          "type": "periodic",
+          "auraId": "hunter-serpent",
+          "exclusiveGroup": "hunter-sting",
+          "amount": 2,
+          "school": "nature",
+          "durationMs": 15001,
+          "intervalMs": 3000
+        }
+      ],
+      "rangedRange": true
+    },
+    {
+      "key": "forever:spell:3044",
+      "minLevel": 6,
+      "resourceCost": 25,
+      "cooldownMs": 6000,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "target": "enemy",
+      "effects": [
+        {
+          "type": "damage",
+          "amount": 20,
+          "school": "arcane"
+        }
+      ],
+      "rangedRange": true,
+      "canCrit": true,
+      "cooldownGroup": "hunter-arcane-shot"
+    },
+    {
+      "key": "forever:spell:14281",
+      "minLevel": 12,
+      "resourceCost": 35,
+      "cooldownMs": 6000,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "target": "enemy",
+      "effects": [
+        {
+          "type": "damage",
+          "amount": 26,
+          "school": "arcane"
+        }
+      ],
+      "rangedRange": true,
+      "canCrit": true,
+      "cooldownGroup": "hunter-arcane-shot"
+    },
+    {
+      "key": "forever:spell:1752",
+      "minLevel": 1,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1000,
+      "resourceCost": 45,
+      "meleeRange": true,
+      "canCrit": true,
+      "target": "enemy",
+      "combo": "builder",
+      "effects": [
+        {
+          "type": "damage",
+          "amount": 3,
+          "school": "physical"
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:2098",
+      "minLevel": 1,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1000,
+      "resourceCost": 35,
+      "meleeRange": true,
+      "canCrit": true,
+      "target": "enemy",
+      "combo": "spender",
+      "effects": [
+        {
+          "type": "damage",
+          "amount": 8,
+          "school": "physical"
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:53",
+      "minLevel": 4,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1000,
+      "resourceCost": 60,
+      "meleeRange": true,
+      "canCrit": true,
+      "target": "enemy",
+      "combo": "builder",
+      "requiredWeapon": "dagger",
+      "sector": "rear",
+      "effects": [
+        {
+          "type": "damage",
+          "amount": 15,
+          "school": "physical"
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:1943",
+      "minLevel": 20,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1000,
+      "resourceCost": 25,
+      "meleeRange": true,
+      "canCrit": false,
+      "target": "enemy",
+      "combo": "spender",
+      "effects": [
+        {
+          "type": "periodic",
+          "auraId": "rogue-rupture",
+          "amount": 6,
+          "school": "physical",
+          "durationMs": 8001,
+          "intervalMs": 2000
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:2050",
+      "minLevel": 1,
+      "cooldownMs": 0,
+      "castMs": 1500,
+      "gcdMs": 1500,
+      "resourceCost": 30,
+      "target": "ally",
+      "effects": [
+        {
+          "type": "heal",
+          "amount": 51
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:2052",
+      "minLevel": 4,
+      "cooldownMs": 0,
+      "castMs": 2000,
+      "gcdMs": 1500,
+      "resourceCost": 45,
+      "target": "ally",
+      "effects": [
+        {
+          "type": "heal",
+          "amount": 97
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:2053",
+      "minLevel": 10,
+      "cooldownMs": 0,
+      "castMs": 2500,
+      "gcdMs": 1500,
+      "resourceCost": 75,
+      "target": "ally",
+      "effects": [
+        {
+          "type": "heal",
+          "amount": 169
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:139",
+      "minLevel": 8,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "resourceCost": 30,
+      "target": "ally",
+      "effects": [
+        {
+          "type": "periodic-heal",
+          "auraId": "priest-renew",
+          "amount": 9,
+          "finalAmount": 9,
+          "intervalMs": 3000,
+          "durationMs": 15001
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:6074",
+      "minLevel": 14,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "resourceCost": 65,
+      "target": "ally",
+      "effects": [
+        {
+          "type": "periodic-heal",
+          "auraId": "priest-renew",
+          "amount": 15,
+          "finalAmount": 15,
+          "intervalMs": 3000,
+          "durationMs": 15001
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:6075",
+      "minLevel": 20,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "resourceCost": 105,
+      "target": "ally",
+      "effects": [
+        {
+          "type": "periodic-heal",
+          "auraId": "priest-renew",
+          "amount": 25,
+          "finalAmount": 25,
+          "intervalMs": 3000,
+          "durationMs": 15001
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:589",
+      "minLevel": 4,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "resourceCost": 25,
+      "target": "enemy",
+      "effects": [
+        {
+          "type": "periodic",
+          "auraId": "priest-pain",
+          "amount": 5,
+          "finalAmount": 5,
+          "intervalMs": 3000,
+          "durationMs": 18001,
+          "school": "shadow"
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:594",
+      "minLevel": 10,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "resourceCost": 50,
+      "target": "enemy",
+      "effects": [
+        {
+          "type": "periodic",
+          "auraId": "priest-pain",
+          "amount": 10,
+          "finalAmount": 10,
+          "intervalMs": 3000,
+          "durationMs": 18001,
+          "school": "shadow"
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:970",
+      "minLevel": 18,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "resourceCost": 95,
+      "target": "enemy",
+      "effects": [
+        {
+          "type": "periodic",
+          "auraId": "priest-pain",
+          "amount": 18,
+          "finalAmount": 18,
+          "intervalMs": 3000,
+          "durationMs": 18001,
+          "school": "shadow"
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:17",
+      "minLevel": 6,
+      "cooldownMs": 4000,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "resourceCost": 45,
+      "target": "ally",
+      "effects": [
+        {
+          "type": "absorb",
+          "auraId": "priest-shield",
+          "amount": 48,
+          "durationMs": 30000
+        },
+        {
+          "type": "marker",
+          "auraId": "priest-weakened-soul",
+          "durationMs": 15000
+        }
+      ],
+      "blockedByTargetAura": "priest-weakened-soul",
+      "cooldownGroup": "priest-shield"
+    },
+    {
+      "key": "forever:spell:592",
+      "minLevel": 12,
+      "cooldownMs": 4000,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "resourceCost": 80,
+      "target": "ally",
+      "effects": [
+        {
+          "type": "absorb",
+          "auraId": "priest-shield",
+          "amount": 92,
+          "durationMs": 30000
+        },
+        {
+          "type": "marker",
+          "auraId": "priest-weakened-soul",
+          "durationMs": 15000
+        }
+      ],
+      "blockedByTargetAura": "priest-weakened-soul",
+      "cooldownGroup": "priest-shield"
+    },
+    {
+      "key": "forever:spell:585",
+      "minLevel": 1,
+      "cooldownMs": 0,
+      "castMs": 1500,
+      "gcdMs": 1500,
+      "resourceCost": 20,
+      "target": "enemy",
+      "effects": [
+        {
+          "type": "damage",
+          "amount": 15,
+          "school": "holy"
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:8092",
+      "minLevel": 10,
+      "cooldownMs": 8000,
+      "castMs": 1500,
+      "gcdMs": 1500,
+      "resourceCost": 50,
+      "target": "enemy",
+      "effects": [
+        {
+          "type": "damage",
+          "amount": 42,
+          "school": "shadow",
+          "threatMultiplierBps": 15000
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:403",
+      "minLevel": 1,
+      "cooldownMs": 0,
+      "castMs": 1500,
+      "gcdMs": 1500,
+      "resourceCost": 15,
+      "target": "enemy",
+      "effects": [
+        {
+          "type": "damage",
+          "amount": 15,
+          "school": "nature"
+        }
+      ],
+      "canCrit": true
+    },
+    {
+      "key": "forever:spell:529",
+      "minLevel": 8,
+      "cooldownMs": 0,
+      "castMs": 2000,
+      "gcdMs": 1500,
+      "resourceCost": 30,
+      "target": "enemy",
+      "effects": [
+        {
+          "type": "damage",
+          "amount": 27,
+          "school": "nature"
+        }
+      ],
+      "canCrit": true
+    },
+    {
+      "key": "forever:spell:548",
+      "minLevel": 14,
+      "cooldownMs": 0,
+      "castMs": 2500,
+      "gcdMs": 1500,
+      "resourceCost": 45,
+      "target": "enemy",
+      "effects": [
+        {
+          "type": "damage",
+          "amount": 46,
+          "school": "nature"
+        }
+      ],
+      "canCrit": true
+    },
+    {
+      "key": "forever:spell:915",
+      "minLevel": 20,
+      "cooldownMs": 0,
+      "castMs": 2500,
+      "gcdMs": 1500,
+      "resourceCost": 60,
+      "target": "enemy",
+      "effects": [
+        {
+          "type": "damage",
+          "amount": 63,
+          "school": "nature"
+        }
+      ],
+      "canCrit": true
+    },
+    {
+      "key": "forever:spell:331",
+      "minLevel": 1,
+      "cooldownMs": 0,
+      "castMs": 1500,
+      "gcdMs": 1500,
+      "resourceCost": 25,
+      "target": "ally",
+      "effects": [
+        {
+          "type": "heal",
+          "amount": 41
+        }
+      ],
+      "canCrit": true
+    },
+    {
+      "key": "forever:spell:332",
+      "minLevel": 6,
+      "cooldownMs": 0,
+      "castMs": 2000,
+      "gcdMs": 1500,
+      "resourceCost": 45,
+      "target": "ally",
+      "effects": [
+        {
+          "type": "heal",
+          "amount": 76
+        }
+      ],
+      "canCrit": true
+    },
+    {
+      "key": "forever:spell:8017",
+      "minLevel": 1,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "resourceCost": 15,
+      "target": "self",
+      "effects": [
+        {
+          "type": "buff",
+          "auraId": "shaman-rockbiter",
+          "durationMs": 3600000,
+          "exclusiveGroup": "shaman-weapon-imbue",
+          "armor": 0,
+          "attackPower": 49,
+          "meleeThreatBps": 11000,
+          "maxStacks": 1
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:8018",
+      "minLevel": 8,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1500,
+      "resourceCost": 25,
+      "target": "self",
+      "effects": [
+        {
+          "type": "buff",
+          "auraId": "shaman-rockbiter",
+          "durationMs": 3600000,
+          "exclusiveGroup": "shaman-weapon-imbue",
+          "armor": 0,
+          "attackPower": 79,
+          "meleeThreatBps": 11000,
+          "maxStacks": 1
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:3599",
+      "minLevel": 10,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1000,
+      "resourceCost": 25,
+      "target": "self",
+      "effects": [
+        {
+          "type": "summon-totem",
+          "templateId": "idle-searing"
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:8075",
+      "minLevel": 10,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1000,
+      "resourceCost": 25,
+      "target": "self",
+      "effects": [
+        {
+          "type": "summon-totem",
+          "templateId": "idle-strength-of-earth"
+        }
+      ]
+    },
+    {
+      "key": "forever:spell:5394",
+      "minLevel": 20,
+      "cooldownMs": 0,
+      "castMs": 0,
+      "gcdMs": 1000,
+      "resourceCost": 40,
+      "target": "self",
+      "effects": [
+        {
+          "type": "summon-totem",
+          "templateId": "idle-healing-stream"
+        }
+      ]
+    }
+  ],
+  "training": [
+    {
+      "spellKey": "forever:spell:78",
+      "classKey": "forever:class:1",
+      "level": 1,
+      "cost": 10,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:284",
+      "classKey": "forever:class:1",
+      "level": 8,
+      "cost": 80,
+      "previousRank": "forever:spell:78",
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:772",
+      "classKey": "forever:class:1",
+      "level": 4,
+      "cost": 40,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:2687",
+      "classKey": "forever:class:1",
+      "level": 10,
+      "cost": 100,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:2457",
+      "classKey": "forever:class:1",
+      "level": 1,
+      "cost": 10,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:71",
+      "classKey": "forever:class:1",
+      "level": 10,
+      "cost": 100,
+      "previousRank": null,
+      "questKey": "forever:quest:1638",
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:2458",
+      "classKey": "forever:class:1",
+      "level": 30,
+      "cost": 300,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:635",
+      "classKey": "forever:class:2",
+      "level": 1,
+      "cost": 10,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:639",
+      "classKey": "forever:class:2",
+      "level": 6,
+      "cost": 60,
+      "previousRank": "forever:spell:635",
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:465",
+      "classKey": "forever:class:2",
+      "level": 1,
+      "cost": 10,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:19740",
+      "classKey": "forever:class:2",
+      "level": 4,
+      "cost": 40,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:19742",
+      "classKey": "forever:class:2",
+      "level": 14,
+      "cost": 140,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:25780",
+      "classKey": "forever:class:2",
+      "level": 16,
+      "cost": 160,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:679",
+      "classKey": "forever:class:2",
+      "level": 6,
+      "cost": 60,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:883",
+      "classKey": "forever:class:3",
+      "level": 10,
+      "cost": 100,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:2973",
+      "classKey": "forever:class:3",
+      "level": 1,
+      "cost": 10,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:1978",
+      "classKey": "forever:class:3",
+      "level": 4,
+      "cost": 40,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:3044",
+      "classKey": "forever:class:3",
+      "level": 6,
+      "cost": 60,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:14281",
+      "classKey": "forever:class:3",
+      "level": 12,
+      "cost": 120,
+      "previousRank": "forever:spell:3044",
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:1752",
+      "classKey": "forever:class:4",
+      "level": 1,
+      "cost": 10,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:2098",
+      "classKey": "forever:class:4",
+      "level": 1,
+      "cost": 10,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:53",
+      "classKey": "forever:class:4",
+      "level": 4,
+      "cost": 40,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:1943",
+      "classKey": "forever:class:4",
+      "level": 20,
+      "cost": 200,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:2050",
+      "classKey": "forever:class:5",
+      "level": 1,
+      "cost": 10,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:2052",
+      "classKey": "forever:class:5",
+      "level": 4,
+      "cost": 40,
+      "previousRank": "forever:spell:2050",
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:2053",
+      "classKey": "forever:class:5",
+      "level": 10,
+      "cost": 100,
+      "previousRank": "forever:spell:2052",
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:139",
+      "classKey": "forever:class:5",
+      "level": 8,
+      "cost": 80,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:6074",
+      "classKey": "forever:class:5",
+      "level": 14,
+      "cost": 140,
+      "previousRank": "forever:spell:139",
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:6075",
+      "classKey": "forever:class:5",
+      "level": 20,
+      "cost": 200,
+      "previousRank": "forever:spell:6074",
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:589",
+      "classKey": "forever:class:5",
+      "level": 4,
+      "cost": 40,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:594",
+      "classKey": "forever:class:5",
+      "level": 10,
+      "cost": 100,
+      "previousRank": "forever:spell:589",
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:970",
+      "classKey": "forever:class:5",
+      "level": 18,
+      "cost": 180,
+      "previousRank": "forever:spell:594",
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:17",
+      "classKey": "forever:class:5",
+      "level": 6,
+      "cost": 60,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:592",
+      "classKey": "forever:class:5",
+      "level": 12,
+      "cost": 120,
+      "previousRank": "forever:spell:17",
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:585",
+      "classKey": "forever:class:5",
+      "level": 1,
+      "cost": 10,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:8092",
+      "classKey": "forever:class:5",
+      "level": 10,
+      "cost": 100,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:403",
+      "classKey": "forever:class:7",
+      "level": 1,
+      "cost": 10,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:529",
+      "classKey": "forever:class:7",
+      "level": 8,
+      "cost": 80,
+      "previousRank": "forever:spell:403",
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:548",
+      "classKey": "forever:class:7",
+      "level": 14,
+      "cost": 140,
+      "previousRank": "forever:spell:529",
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:915",
+      "classKey": "forever:class:7",
+      "level": 20,
+      "cost": 200,
+      "previousRank": "forever:spell:548",
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:331",
+      "classKey": "forever:class:7",
+      "level": 1,
+      "cost": 10,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:332",
+      "classKey": "forever:class:7",
+      "level": 6,
+      "cost": 60,
+      "previousRank": "forever:spell:331",
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:8017",
+      "classKey": "forever:class:7",
+      "level": 1,
+      "cost": 10,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:8018",
+      "classKey": "forever:class:7",
+      "level": 8,
+      "cost": 80,
+      "previousRank": "forever:spell:8017",
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:3599",
+      "classKey": "forever:class:7",
+      "level": 10,
+      "cost": 100,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:8075",
+      "classKey": "forever:class:7",
+      "level": 10,
+      "cost": 100,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    },
+    {
+      "spellKey": "forever:spell:5394",
+      "classKey": "forever:class:7",
+      "level": 20,
+      "cost": 200,
+      "previousRank": null,
+      "questKey": null,
+      "reagents": []
+    }
+  ],
+  "trainers": [
+    {
+      "id": "idle-warrior-field-trainer",
+      "classKey": "forever:class:1",
+      "locations": [
+        "forever:location:12"
+      ],
+      "majorCity": false
+    },
+    {
+      "id": "idle-warrior-capital-trainer",
+      "classKey": "forever:class:1",
+      "locations": [
+        "forever:location:1519"
+      ],
+      "majorCity": true
+    },
+    {
+      "id": "idle-paladin-field-trainer",
+      "classKey": "forever:class:2",
+      "locations": [
+        "forever:location:12"
+      ],
+      "majorCity": false
+    },
+    {
+      "id": "idle-paladin-capital-trainer",
+      "classKey": "forever:class:2",
+      "locations": [
+        "forever:location:1519"
+      ],
+      "majorCity": true
+    },
+    {
+      "id": "idle-hunter-field-trainer",
+      "classKey": "forever:class:3",
+      "locations": [
+        "forever:location:1"
+      ],
+      "majorCity": false
+    },
+    {
+      "id": "idle-hunter-capital-trainer",
+      "classKey": "forever:class:3",
+      "locations": [
+        "forever:location:1537"
+      ],
+      "majorCity": true
+    },
+    {
+      "id": "idle-rogue-field-trainer",
+      "classKey": "forever:class:4",
+      "locations": [
+        "forever:location:1"
+      ],
+      "majorCity": false
+    },
+    {
+      "id": "idle-rogue-capital-trainer",
+      "classKey": "forever:class:4",
+      "locations": [
+        "forever:location:1537"
+      ],
+      "majorCity": true
+    },
+    {
+      "id": "idle-priest-field-trainer",
+      "classKey": "forever:class:5",
+      "locations": [
+        "forever:location:12"
+      ],
+      "majorCity": false
+    },
+    {
+      "id": "idle-priest-capital-trainer",
+      "classKey": "forever:class:5",
+      "locations": [
+        "forever:location:1519"
+      ],
+      "majorCity": true
+    },
+    {
+      "id": "idle-shaman-field-trainer",
+      "classKey": "forever:class:7",
+      "locations": [
+        "forever:location:1"
+      ],
+      "majorCity": false
+    },
+    {
+      "id": "idle-shaman-capital-trainer",
+      "classKey": "forever:class:7",
+      "locations": [
+        "forever:location:1537"
+      ],
+      "majorCity": true
+    }
+  ],
+  "profiles": [
+    {
+      "id": "arms",
+      "treeId": 161,
+      "role": "melee",
+      "stance": "battle",
+      "allocation": {
+        "forever:talent:10002": 1
+      },
+      "rules": [
+        {
+          "id": "arms-772",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:772"
+          },
+          "avoidActiveAura": "warrior-rend"
+        },
+        {
+          "id": "arms-284",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:284"
+          }
+        },
+        {
+          "id": "arms-78",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:78"
+          }
+        },
+        {
+          "id": "arms-attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ],
+      "classKey": "forever:class:1"
+    },
+    {
+      "id": "fury",
+      "treeId": 164,
+      "role": "melee",
+      "stance": "berserker",
+      "allocation": {
+        "forever:talent:11002": 1
+      },
+      "rules": [
+        {
+          "id": "fury-284",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:284"
+          }
+        },
+        {
+          "id": "fury-78",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:78"
+          }
+        },
+        {
+          "id": "fury-attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ],
+      "classKey": "forever:class:1"
+    },
+    {
+      "id": "protection",
+      "treeId": 163,
+      "role": "tank",
+      "stance": "defensive",
+      "allocation": {
+        "forever:talent:12000": 1
+      },
+      "rules": [
+        {
+          "id": "protection-2687",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "selfResource",
+              "operator": "below",
+              "thresholdBps": 5000
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:2687"
+          }
+        },
+        {
+          "id": "protection-284",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:284"
+          }
+        },
+        {
+          "id": "protection-78",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:78"
+          }
+        },
+        {
+          "id": "protection-attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ],
+      "classKey": "forever:class:1"
+    },
+    {
+      "id": "paladin-holy",
+      "classKey": "forever:class:2",
+      "treeId": 382,
+      "role": "healer",
+      "stance": "battle",
+      "allocation": {
+        "forever:talent:20001": 5,
+        "forever:talent:20010": 1
+      },
+      "rules": [
+        {
+          "id": "holy-639",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "allyHealth",
+              "operator": "below",
+              "thresholdBps": 8000
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:639"
+          }
+        },
+        {
+          "id": "holy-635",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "allyHealth",
+              "operator": "below",
+              "thresholdBps": 8000
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:635"
+          }
+        },
+        {
+          "id": "holy-19742",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:19742"
+          },
+          "avoidActiveAura": "paladin-wisdom"
+        },
+        {
+          "id": "paladin-holy-attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ]
+    },
+    {
+      "id": "paladin-protection",
+      "classKey": "forever:class:2",
+      "treeId": 383,
+      "role": "tank",
+      "stance": "battle",
+      "allocation": {
+        "forever:talent:21001": 1
+      },
+      "rules": [
+        {
+          "id": "paladin-protection-465",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:465"
+          },
+          "avoidActiveAura": "paladin-devotion"
+        },
+        {
+          "id": "paladin-protection-25780",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:25780"
+          },
+          "avoidActiveAura": "paladin-righteous-fury"
+        },
+        {
+          "id": "paladin-protection-679",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:679"
+          }
+        },
+        {
+          "id": "paladin-protection-attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ]
+    },
+    {
+      "id": "paladin-retribution",
+      "classKey": "forever:class:2",
+      "treeId": 381,
+      "role": "melee",
+      "stance": "battle",
+      "allocation": {
+        "forever:talent:22002": 1
+      },
+      "rules": [
+        {
+          "id": "retribution-19740",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:19740"
+          },
+          "avoidActiveAura": "paladin-might"
+        },
+        {
+          "id": "retribution-679",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:679"
+          }
+        },
+        {
+          "id": "paladin-retribution-attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hunter-beast-mastery",
+      "classKey": "forever:class:3",
+      "treeId": 361,
+      "role": "ranged",
+      "stance": "battle",
+      "allocation": {
+        "forever:talent:30002": 1
+      },
+      "rules": [
+        {
+          "id": "beast-call",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:883"
+          }
+        },
+        {
+          "id": "beast-sting",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:1978"
+          },
+          "avoidActiveAura": "hunter-serpent"
+        },
+        {
+          "id": "beast-attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hunter-marksmanship",
+      "classKey": "forever:class:3",
+      "treeId": 363,
+      "role": "ranged",
+      "stance": "battle",
+      "allocation": {
+        "forever:talent:31002": 1
+      },
+      "rules": [
+        {
+          "id": "marks-shot2",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:14281"
+          }
+        },
+        {
+          "id": "marks-shot1",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:3044"
+          }
+        },
+        {
+          "id": "marks-attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hunter-survival",
+      "classKey": "forever:class:3",
+      "treeId": 362,
+      "role": "melee",
+      "stance": "battle",
+      "allocation": {
+        "forever:talent:32002": 1
+      },
+      "rules": [
+        {
+          "id": "survival-raptor",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:2973"
+          }
+        },
+        {
+          "id": "survival-attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rogue-assassination",
+      "classKey": "forever:class:4",
+      "treeId": 182,
+      "role": "melee",
+      "stance": "battle",
+      "allocation": {
+        "forever:talent:40002": 5
+      },
+      "rules": [
+        {
+          "id": "rupture",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "comboPoints",
+              "operator": "above",
+              "thresholdBps": 5999
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:1943"
+          },
+          "avoidActiveAura": "rogue-rupture"
+        },
+        {
+          "id": "sinister",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:1752"
+          }
+        },
+        {
+          "id": "attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rogue-combat",
+      "classKey": "forever:class:4",
+      "treeId": 181,
+      "role": "melee",
+      "stance": "battle",
+      "allocation": {
+        "forever:talent:41000": 3,
+        "forever:talent:41001": 2
+      },
+      "rules": [
+        {
+          "id": "eviscerate",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "comboPoints",
+              "operator": "above",
+              "thresholdBps": 5999
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:2098"
+          }
+        },
+        {
+          "id": "sinister",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:1752"
+          }
+        },
+        {
+          "id": "attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rogue-subtlety",
+      "classKey": "forever:class:4",
+      "treeId": 183,
+      "role": "melee",
+      "stance": "battle",
+      "allocation": {
+        "forever:talent:42002": 2
+      },
+      "rules": [
+        {
+          "id": "eviscerate",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "comboPoints",
+              "operator": "above",
+              "thresholdBps": 3999
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:2098"
+          }
+        },
+        {
+          "id": "backstab",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:53"
+          }
+        },
+        {
+          "id": "sinister",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:1752"
+          }
+        },
+        {
+          "id": "attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ]
+    },
+    {
+      "id": "priest-discipline",
+      "classKey": "forever:class:5",
+      "treeId": 201,
+      "role": "healer",
+      "stance": "battle",
+      "allocation": {
+        "forever:talent:50002": 5
+      },
+      "rules": [
+        {
+          "id": "priest-592",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "allyHealth",
+              "operator": "below",
+              "thresholdBps": 8500
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:592"
+          },
+          "avoidActiveAura": "priest-shield"
+        },
+        {
+          "id": "priest-17",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "allyHealth",
+              "operator": "below",
+              "thresholdBps": 8500
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:17"
+          },
+          "avoidActiveAura": "priest-shield"
+        },
+        {
+          "id": "priest-2053",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "allyHealth",
+              "operator": "below",
+              "thresholdBps": 8500
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:2053"
+          }
+        },
+        {
+          "id": "priest-2052",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "allyHealth",
+              "operator": "below",
+              "thresholdBps": 8500
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:2052"
+          }
+        },
+        {
+          "id": "priest-2050",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "allyHealth",
+              "operator": "below",
+              "thresholdBps": 8500
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:2050"
+          }
+        },
+        {
+          "id": "priest-585",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:585"
+          }
+        },
+        {
+          "id": "priest-attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ]
+    },
+    {
+      "id": "priest-holy",
+      "classKey": "forever:class:5",
+      "treeId": 202,
+      "role": "healer",
+      "stance": "battle",
+      "allocation": {
+        "forever:talent:51001": 3
+      },
+      "rules": [
+        {
+          "id": "priest-6075",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "allyHealth",
+              "operator": "below",
+              "thresholdBps": 8500
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:6075"
+          },
+          "avoidActiveAura": "priest-renew"
+        },
+        {
+          "id": "priest-6074",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "allyHealth",
+              "operator": "below",
+              "thresholdBps": 8500
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:6074"
+          },
+          "avoidActiveAura": "priest-renew"
+        },
+        {
+          "id": "priest-139",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "allyHealth",
+              "operator": "below",
+              "thresholdBps": 8500
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:139"
+          },
+          "avoidActiveAura": "priest-renew"
+        },
+        {
+          "id": "priest-2053",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "allyHealth",
+              "operator": "below",
+              "thresholdBps": 8500
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:2053"
+          }
+        },
+        {
+          "id": "priest-2052",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "allyHealth",
+              "operator": "below",
+              "thresholdBps": 8500
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:2052"
+          }
+        },
+        {
+          "id": "priest-2050",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "allyHealth",
+              "operator": "below",
+              "thresholdBps": 8500
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:2050"
+          }
+        },
+        {
+          "id": "priest-585",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:585"
+          }
+        },
+        {
+          "id": "priest-attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ]
+    },
+    {
+      "id": "priest-shadow",
+      "classKey": "forever:class:5",
+      "treeId": 203,
+      "role": "ranged",
+      "stance": "battle",
+      "allocation": {
+        "forever:talent:52000": 5
+      },
+      "rules": [
+        {
+          "id": "priest-970",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:970"
+          },
+          "avoidActiveAura": "priest-pain"
+        },
+        {
+          "id": "priest-594",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:594"
+          },
+          "avoidActiveAura": "priest-pain"
+        },
+        {
+          "id": "priest-589",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:589"
+          },
+          "avoidActiveAura": "priest-pain"
+        },
+        {
+          "id": "priest-8092",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:8092"
+          }
+        },
+        {
+          "id": "priest-585",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:585"
+          }
+        },
+        {
+          "id": "priest-attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shaman-elemental",
+      "classKey": "forever:class:7",
+      "treeId": 261,
+      "role": "ranged",
+      "stance": "battle",
+      "allocation": {
+        "forever:talent:60001": 5
+      },
+      "rules": [
+        {
+          "id": "shaman-3599",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:3599"
+          }
+        },
+        {
+          "id": "shaman-915",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:915"
+          }
+        },
+        {
+          "id": "shaman-548",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:548"
+          }
+        },
+        {
+          "id": "shaman-529",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:529"
+          }
+        },
+        {
+          "id": "shaman-403",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:403"
+          }
+        },
+        {
+          "id": "shaman-attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shaman-enhancement",
+      "classKey": "forever:class:7",
+      "treeId": 263,
+      "role": "melee",
+      "stance": "battle",
+      "allocation": {
+        "forever:talent:61001": 5
+      },
+      "rules": [
+        {
+          "id": "shaman-8018",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:8018"
+          },
+          "avoidActiveAura": "shaman-rockbiter"
+        },
+        {
+          "id": "shaman-8017",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:8017"
+          },
+          "avoidActiveAura": "shaman-rockbiter"
+        },
+        {
+          "id": "shaman-8075",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:8075"
+          }
+        },
+        {
+          "id": "shaman-attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shaman-restoration",
+      "classKey": "forever:class:7",
+      "treeId": 262,
+      "role": "healer",
+      "stance": "battle",
+      "allocation": {
+        "forever:talent:62001": 5
+      },
+      "rules": [
+        {
+          "id": "shaman-332",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "allyHealth",
+              "operator": "below",
+              "thresholdBps": 8000
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:332"
+          }
+        },
+        {
+          "id": "shaman-331",
+          "enabled": true,
+          "conditions": [
+            {
+              "subject": "allyHealth",
+              "operator": "below",
+              "thresholdBps": 8000
+            }
+          ],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:331"
+          }
+        },
+        {
+          "id": "shaman-5394",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "cast",
+            "spellKey": "forever:spell:5394"
+          }
+        },
+        {
+          "id": "shaman-attack",
+          "enabled": true,
+          "conditions": [],
+          "action": {
+            "type": "attack"
+          }
+        }
+      ]
+    }
+  ],
+  "hunterPet": {
+    "id": "idle-hunter-companion",
+    "sourceSpellKey": "forever:spell:883",
+    "stats": {
+      "maxHealth": 120,
+      "maxResource": 100,
+      "attackPower": 14,
+      "armor": 20,
+      "attackIntervalMs": 2000,
+      "minDamage": 8,
+      "maxDamage": 12,
+      "critChanceBps": 500
+    },
+    "initialResource": 100,
+    "knownSpells": [
+      "forever:spell:2649"
+    ],
+    "rules": [
+      {
+        "id": "pet-growl",
+        "enabled": true,
+        "conditions": [],
+        "action": {
+          "type": "cast",
+          "spellKey": "forever:spell:2649"
+        }
+      },
+      {
+        "id": "pet-attack",
+        "enabled": true,
+        "conditions": [],
+        "action": {
+          "type": "attack"
+        }
+      }
+    ],
+    "focusPerTick": 5,
+    "focusIntervalMs": 2000,
+    "focusDurationMs": 86400001
+  },
+  "rogue": {
+    "energyPerTick": 20,
+    "energyIntervalMs": 2000,
+    "energyCycleMs": 86400001,
+    "starterMainHand": "owned-idle-dagger",
+    "weaponPowerDivisor": 14000,
+    "eviscerateAttackPowerBpsPerPoint": 300,
+    "ruptureAttackPowerBpsPerPoint": 200,
+    "ruptureIntervalMs": 2000,
+    "eviscerateBaseDamage": [
+      8,
+      13,
+      18,
+      23,
+      28
+    ],
+    "ruptureBaseDamage": [
+      25,
+      37,
+      51,
+      68,
+      87
+    ],
+    "ruptureDurationsMs": [
+      8000,
+      10000,
+      12000,
+      14000,
+      16000
+    ]
+  },
+  "priest": {
+    "shadowHitChanceBps": 9500
+  },
+  "shaman": {
+    "starterMainHand": "owned-idle-shaman-weapon",
+    "totems": [
+      {
+        "id": "idle-searing",
+        "sourceSpellKey": "forever:spell:3599",
+        "element": "fire",
+        "stats": {
+          "maxHealth": 5,
+          "maxResource": 0,
+          "attackPower": 0,
+          "armor": 0,
+          "attackIntervalMs": 2000,
+          "minDamage": 0,
+          "maxDamage": 0,
+          "critChanceBps": 0
+        },
+        "durationMs": 30000,
+        "intervalMs": 2000,
+        "pulse": {
+          "type": "damage",
+          "amount": 10,
+          "school": "fire"
+        }
+      },
+      {
+        "id": "idle-strength-of-earth",
+        "sourceSpellKey": "forever:spell:8075",
+        "element": "earth",
+        "stats": {
+          "maxHealth": 5,
+          "maxResource": 0,
+          "attackPower": 0,
+          "armor": 0,
+          "attackIntervalMs": 2000,
+          "minDamage": 0,
+          "maxDamage": 0,
+          "critChanceBps": 0
+        },
+        "durationMs": 300000,
+        "intervalMs": 2000,
+        "pulse": {
+          "type": "buff",
+          "auraId": "shaman-strength-of-earth",
+          "durationMs": 2001,
+          "armor": 0,
+          "attackPower": 14,
+          "maxStacks": 1
+        }
+      },
+      {
+        "id": "idle-healing-stream",
+        "sourceSpellKey": "forever:spell:5394",
+        "element": "water",
+        "stats": {
+          "maxHealth": 5,
+          "maxResource": 0,
+          "attackPower": 0,
+          "armor": 0,
+          "attackIntervalMs": 2000,
+          "minDamage": 0,
+          "maxDamage": 0,
+          "critChanceBps": 0
+        },
+        "durationMs": 300000,
+        "intervalMs": 2000,
+        "pulse": {
+          "type": "heal",
+          "amount": 5
+        }
+      }
+    ],
+    "totemToolAccess": "owned-idle-encounter-tools"
+  }
+}

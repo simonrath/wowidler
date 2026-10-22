@@ -1,0 +1,36 @@
+{
+  "adapterVersion": "questiedb-1",
+  "rulesVersion": "questiedb-api-adr0016-1",
+  "commit": "af56aeef176b2b7534be683907c276c52beabb6d",
+  "order": [
+    "raw",
+    "legacy-static",
+    "generated-delta",
+    "traces",
+    "authored-static",
+    "legacy-dynamic",
+    "authored-dynamic"
+  ],
+  "providerInventory": "src/config.lua#config.ownedCorrections",
+  "supportedExpressions": [
+    "literal tables with nil holes",
+    "enum lookup",
+    "safe arithmetic addition/subtraction",
+    "class-indexed literal table",
+    "UnitFactionGroup(Player) Horde/Alliance selection",
+    "UnitClassBase(player) persona lookup",
+    "l10n(literal) retains English extra-objective key",
+    "declared module imports (structural only)",
+    "itemObjectiveFirst/killCreditObjectiveFirst direct-write boolean annotations"
+  ],
+  "limitations": [
+    "Source database is incomplete; denominator stays null.",
+    "No NPC health is converted into combat stats.",
+    "Map-percent spawns are not world coordinates.",
+    "DropTables/classicItemDrops.lua is a sample questdrop source, not full Forever loot.",
+    "Dynamic output belongs to the specified faction/class persona.",
+    "No gameplay availability or playable status inferred from a source record.",
+    "Absent numeric fields stay missing evidence; upstream getter default zero is not imported as gameplay knowledge.",
+    "Source references and prerequisite groups are retained with gaps, not translated into executable gameplay relationships."
+  ]
+}

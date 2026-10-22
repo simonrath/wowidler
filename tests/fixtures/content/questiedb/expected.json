@@ -1,0 +1,46 @@
+{
+  "evidence": "Literal expectations transcribed independently from locked af56aeef files; upstream tools/validation/table-correction-cases.lua supplies independent operation cases.",
+  "raw": {"quest5RaceMask":4294967373,"quest5Name":"Jitters' Growling Gut"},
+  "effective": {"npc352Spawns":{"1519":{"1":{"1":71.29,"2":72.23}}},"quest299Level":27,"quest465ObjectFinisher":630696,"horde8315WarriorNext":8316,"horde8315DruidNext":8382},
+  "legacy": {"quest5Breadcrumb":163,"npc300Level":30,"item910ObjectDrop":1560,"object167Zone":10,"quest2Reputation":{"1":{"1":81,"2":100}},"item1307Start":123},
+  "authoredDynamic": {
+    "Horde": {
+      "startedBy": {
+        "1": {
+          "1": 211022
+        },
+        "2": {
+          "1": 409496
+        }
+      },
+      "finishedBy": {
+        "1": {
+          "1": 211022
+        }
+      },
+      "objectivesText": {
+        "1": "Collect 'Nar'thalas Almanac, Vol. 74' and bring it to Owen Thadd in Undercity."
+      },
+      "zoneOrSort": 1497
+    },
+    "Alliance": {
+      "startedBy": {
+        "1": {
+          "1": 211033
+        },
+        "2": {
+          "1": 409496
+        }
+      },
+      "finishedBy": {
+        "1": {
+          "1": 211033
+        }
+      },
+      "objectivesText": {
+        "1": "Collect 'Nar'thalas Almanac, Vol. 74' and bring it to Garion Wendell in Stormwind."
+      },
+      "zoneOrSort": 1519
+    }
+  }
+}

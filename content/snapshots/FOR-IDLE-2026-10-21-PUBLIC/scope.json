@@ -1,0 +1,52 @@
+{
+  "snapshotId": "FOR-IDLE-2026-10-21-PUBLIC",
+  "branch": "forever",
+  "referenceDate": "2026-10-21",
+  "definition": "Public beta plus the officially announced first content phase by cutoff.",
+  "language": "deDE",
+  "searchLanguages": [
+    "deDE",
+    "enUS"
+  ],
+  "targetLevelRange": [
+    1,
+    60
+  ],
+  "statusAxes": [
+    "availability",
+    "dataMaturity",
+    "implementation"
+  ],
+  "branchRoles": {
+    "forever": "Target scope; source corrections and client build must be verified.",
+    "original112": "Historical reference only; never merged silently into target.",
+    "era": "Separate Classic Era reference; no Era data is currently captured."
+  },
+  "verifiedSubsets": [
+    "raceClassCombinations",
+    "newDungeons",
+    "firstRaids"
+  ],
+  "exclusions": [
+    {
+      "id": "future-expansions",
+      "reason": "Outland, Northrend, later races/classes/raids are excluded until officially included in the selected Forever snapshot."
+    },
+    {
+      "id": "real-multiplayer",
+      "reason": "Live human opponents, live player trade and external WoW connectivity are excluded; corresponding solo adaptations remain in scope."
+    },
+    {
+      "id": "post-cutoff-content",
+      "reason": "Unannounced content after the 2026-10-21 cutoff is outside this snapshot; beta and announced first-phase content remain separate."
+    }
+  ],
+  "approvedConcept": "docs/superpowers/specs/2026-10-21-wow-forever-idle.pdf",
+  "knownConstraints": [
+    "NPC health placeholders 0/1 are unusable for combat.",
+    "Questie and official evidence builds remain null; Grimoire talents/abilities1.60.1.70425, its LibQuestDB associations1.60.1.69913 and wow-database70338 describe distinct source snapshots. Mixed NPC/object captures have no single file build.",
+    "A source lock proves byte identity, not gameplay completeness or correctness.",
+    "New dungeon list is not a denominator for all dungeons; first raids are not a denominator for all raids.",
+    "Original numeric IDs and full entity references remain unverified for scope-only subsets."
+  ]
+}

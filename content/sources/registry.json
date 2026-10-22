@@ -1,0 +1,293 @@
+{
+  "version": 1,
+  "snapshotId": "FOR-IDLE-2026-10-21-PUBLIC",
+  "sources": [
+    {
+      "id": "questiedb",
+      "repository": "Questie/QuestieDB",
+      "commit": "af56aeef176b2b7534be683907c276c52beabb6d",
+      "branches": [
+        "forever"
+      ],
+      "role": "identity-coordinates-and-corrections",
+      "status": "retrieved",
+      "build": null,
+      "languages": [
+        "enUS",
+        "deDE"
+      ],
+      "limitations": [
+        "Not an independent complete catalog.",
+        "NPC health 0/1 are compatibility placeholders, not combat values.",
+        "Structured objectives, dialogue, rewards, full drops and item stats are incomplete.",
+        "Per-entity correction precedence must be resolved before use.",
+        "No root license found; repository license metadata null."
+      ]
+    },
+    {
+      "id": "classic-db",
+      "repository": "cmangos/classic-db",
+      "commit": "ac81ce5ebca0d8b372f199bd73c12b87b5527c52",
+      "branches": [
+        "original112"
+      ],
+      "role": "historical-reference",
+      "status": "pinned-unretrieved",
+      "build": null,
+      "languages": [],
+      "limitations": [
+        "Original 1.12 only; never silently promotes to Forever.",
+        "GPL v3 with COPYRIGHT.md material exceptions; source bytes not staged in this task."
+      ]
+    },
+    {
+      "id": "mangos-classic",
+      "repository": "cmangos/mangos-classic",
+      "commit": "547c55eb9cd6b7795d2951f844d679d3d7f18957",
+      "branches": [
+        "original112"
+      ],
+      "role": "historical-server-semantics",
+      "status": "pinned-unretrieved",
+      "build": null,
+      "languages": [],
+      "limitations": [
+        "Original server rules do not verify Forever values.",
+        "Core GPL v2 or later; content rights separate; source bytes not staged in this task."
+      ]
+    },
+    {
+      "id": "wowdbdefs",
+      "repository": "wowdev/WoWDBDefs",
+      "commit": "77582e12f6f61c7647635bc31c152b119b9dd7f9",
+      "branches": [
+        "original112",
+        "era",
+        "forever"
+      ],
+      "role": "table-schema-only",
+      "status": "pinned-unretrieved",
+      "build": null,
+      "languages": [],
+      "limitations": [
+        "Schemas are not gameplay rows.",
+        "Matching client build is unknown.",
+        "Definitions CC BY SA 4.0, code partly BSD 3 Clause; source bytes not staged in this task."
+      ]
+    },
+    {
+      "id": "blizzard-class-matrix",
+      "repository": null,
+      "commit": null,
+      "branches": [
+        "forever"
+      ],
+      "role": "official-scope-evidence",
+      "status": "retrieved",
+      "build": null,
+      "languages": [],
+      "limitations": [
+        "Hashed factual extraction only; hash is not of original HTML.",
+        "No client build is specified."
+      ]
+    },
+    {
+      "id": "blizzard-new-dungeons",
+      "repository": null,
+      "commit": null,
+      "branches": [
+        "forever"
+      ],
+      "role": "official-scope-evidence",
+      "status": "retrieved",
+      "build": null,
+      "languages": [],
+      "limitations": [
+        "Hashed factual extraction only; hash is not of original HTML.",
+        "No client build is specified."
+      ]
+    },
+    {
+      "id": "blizzard-first-raids",
+      "repository": null,
+      "commit": null,
+      "branches": [
+        "forever"
+      ],
+      "role": "official-scope-evidence",
+      "status": "retrieved",
+      "build": null,
+      "languages": [],
+      "limitations": [
+        "Hashed factual extraction only; hash is not of original HTML.",
+        "No client build is specified.",
+        "Full raid article unavailable; raid sizes and boss counts require other primary evidence."
+      ]
+    },
+    {
+      "id": "grimoire",
+      "repository": "gimzdev/grimoire",
+      "commit": "39f3c87be20c6388762fae48cc71c0c91432421d",
+      "branches": [
+        "forever",
+        "original112"
+      ],
+      "role": "versioned-content-evidence-only",
+      "status": "retrieved",
+      "build": null,
+      "languages": [
+        "enUS"
+      ],
+      "limitations": [
+        "Talents and abilities are Forever beta build 1.60.1.70425; Classic gear and loot must remain original112.",
+        "Descriptions are not executable combat formulas; NPC combat stats absent.",
+        "All 775 Forever new quests lack item reward and XP fields; source row counts are not a reference denominator.",
+        "NOTICE distinguishes CC BY 4.0 talentsforever.com data, GPL Classic data, MIT contributions and Blizzard material.",
+        "Mixed NPC/object captures combine original112 VMaNGOS identity/template fields with Forever zone associations from LibQuestDB QuestDB-v0.1.0, client 1.60.1.69913, harvest finished 2026-09-28 (NOTICE.md and data/meta.json)."
+      ]
+    },
+    {
+      "id": "wow-database",
+      "repository": "TylerAkins/wow-database",
+      "commit": "852e47451e7e08229488f1f0a8c0a4402c3580e4",
+      "branches": [
+        "forever"
+      ],
+      "role": "versioned-content-evidence-only",
+      "status": "retrieved",
+      "build": "70338",
+      "languages": [
+        "enUS"
+      ],
+      "limitations": [
+        "Partial Forever client extract build 70338; differs from newer Grimoire build70425.",
+        "Client table joins can be missing; rows may be unused, retired or server unavailable.",
+        "Item absolute stats require validated budget/bonus reconstruction.",
+        "Creature tables contain only179 client-side entries, not server combat health/damage/armor.",
+        "Recipe joins do not establish trainer acquisition or server availability."
+      ]
+    },
+    {
+      "id": "blizzard-raid-boss-counts",
+      "repository": null,
+      "commit": null,
+      "branches": [
+        "forever"
+      ],
+      "role": "official-scope-evidence",
+      "status": "retrieved",
+      "build": null,
+      "languages": [
+        "enUS"
+      ],
+      "limitations": [
+        "Hashed factual extraction only; hash is not of original HTML.",
+        "No client build is specified."
+      ]
+    },
+    {
+      "id": "blizzard-raid-sizes",
+      "repository": null,
+      "commit": null,
+      "branches": [
+        "forever"
+      ],
+      "role": "official-scope-evidence",
+      "status": "retrieved",
+      "build": null,
+      "languages": [
+        "enUS"
+      ],
+      "limitations": [
+        "Hashed factual extraction only; hash is not of original HTML.",
+        "No client build is specified."
+      ]
+    },
+    {
+      "id": "wowdbdefs-70338",
+      "repository": "wowdev/WoWDBDefs",
+      "commit": "07d008f28907c00827cacadf2d7c1a40f578b6a3",
+      "branches": [
+        "forever"
+      ],
+      "role": "Exact definitions matching captured client build70338",
+      "status": "retrieved",
+      "build": "1.60.1.70338",
+      "languages": [],
+      "limitations": [
+        "Schema match only; not server availability, locale, hotfix or complete records."
+      ]
+    },
+    {
+      "id": "idle-northshire-v1",
+      "repository": null,
+      "commit": null,
+      "branches": [
+        "forever"
+      ],
+      "role": "Owned, content-addressed Idle adaptation; retained in Sites project Git",
+      "status": "retrieved",
+      "build": "northshire-idle-v1",
+      "languages": [
+        "deDE",
+        "enUS"
+      ],
+      "limitations": [
+        "Authored rules, not an external source or proof of authentic Forever server values."
+      ]
+    },
+    {
+      "id": "idle-classes-v1",
+      "repository": null,
+      "commit": null,
+      "branches": [
+        "forever"
+      ],
+      "role": "Owned class adaptation",
+      "status": "retrieved",
+      "build": "idle-classes-v1",
+      "languages": [
+        "deDE",
+        "enUS"
+      ],
+      "limitations": [
+        "Not authentic server values."
+      ]
+    },
+    {
+      "id": "blizzard-class-rules",
+      "repository": null,
+      "commit": null,
+      "branches": [
+        "forever"
+      ],
+      "role": "Paraphrased official class milestone facts",
+      "status": "retrieved",
+      "build": null,
+      "languages": [
+        "deDE",
+        "enUS"
+      ],
+      "limitations": [
+        "Hashed paraphrased fact extract, not original HTML; cost/switch/full point schedule unknown."
+      ]
+    },
+    {
+      "id": "blizzard-shaman-rules",
+      "repository": null,
+      "commit": null,
+      "branches": [
+        "forever"
+      ],
+      "role": "Paraphrased official Shaman beta facts",
+      "status": "retrieved",
+      "build": null,
+      "languages": [
+        "enUS"
+      ],
+      "limitations": [
+        "Hashed paraphrased fact extract, not original HTML; official beta claims include reported Recall refund bug."
+      ]
+    }
+  ]
+}

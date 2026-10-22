@@ -1,0 +1,7 @@
+{
+  "retrievedAt": "2026-10-21",
+  "transport": "ChatGPT web extraction; selected factual table lines, not original HTML bytes",
+  "url": "https://news.blizzard.com/en-us/article/24301455/explore-the-new-dungeons-of-world-of-warcraft-forever",
+  "evidenceRef": "turn25view1",
+  "lines": "L15: Dungeon  | Level Range  | Location\nL16: --- | --- | ---\nL17: Hall of Thanes  | 13–18  | Beneath Ironforge, Dun Morogh\nL18: Ruins of Lordaeron  | 15–20  | Ruins above the Undercity, Tirisfal Glades\nL19: Excavation Site  | 24–29  | Above Whelgar’s Excavation, Wetlands\nL20: City of Dalaran  | 28–33  | Alterac Mountains\nL21: The Drowned City  | 35–40  | Off the coast of Stranglethorn Vale\nL22: Krol’dok Stronghold  | 40–45  | Riverglades\nL23: ### Dungeons in Kalimdor\nL24: \nL25: Dungeon  | Level Range  | Location\nL26: --- | --- | ---\nL27: Alcaz Prison  | 48–53  | Alcaz Island, Dustwallow Marsh\nL28: Blackmaw Hold  | 55–60  | Azshara\nL29: Shaper’s Terrace  | 58–60  | Un’Goro Crater"
+}

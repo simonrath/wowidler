@@ -1,0 +1,729 @@
+{
+  "snapshotId": "FOR-IDLE-2026-10-21-PUBLIC",
+  "categories": {
+    "races": {
+      "kind": "race",
+      "included": true,
+      "expectedCount": 9,
+      "denominatorStatus": "independent-complete",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "factions": {
+      "kind": "faction",
+      "included": true,
+      "expectedCount": 2,
+      "denominatorStatus": "independent-complete",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "raceClassCombinations": {
+      "kind": "raceClass",
+      "included": true,
+      "expectedCount": 56,
+      "denominatorStatus": "independent-complete",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "classes": {
+      "kind": "class",
+      "included": true,
+      "expectedCount": 9,
+      "denominatorStatus": "independent-complete",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "talents": {
+      "kind": "talent",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "zones": {
+      "kind": "zone",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "subzones": {
+      "kind": "subzone",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "locations": {
+      "kind": "location",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "npcs": {
+      "kind": "npc",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "objects": {
+      "kind": "object",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "gatheringNodes": {
+      "kind": "gatheringNode",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "quests": {
+      "kind": "quest",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "questObjectives": {
+      "kind": "questObjective",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "dungeons": {
+      "kind": "dungeon",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "encounters": {
+      "kind": "encounter",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "bosses": {
+      "kind": "boss",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "raids": {
+      "kind": "raid",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "worldBosses": {
+      "kind": "worldBoss",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "items": {
+      "kind": "item",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "lootTables": {
+      "kind": "lootTable",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "spells": {
+      "kind": "spell",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "spellRanks": {
+      "kind": "spellRank",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "professions": {
+      "kind": "profession",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "recipes": {
+      "kind": "recipe",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "vendors": {
+      "kind": "vendor",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "vendorItems": {
+      "kind": "vendorItem",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "trainers": {
+      "kind": "trainer",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "trainerSpells": {
+      "kind": "trainerSpell",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "reputations": {
+      "kind": "reputation",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "travelRoutes": {
+      "kind": "travelRoute",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "pvp": {
+      "kind": "pvp",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "battlegrounds": {
+      "kind": "battleground",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "camping": {
+      "kind": "camping",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "legacy": {
+      "kind": "legacy",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "collections": {
+      "kind": "collection",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "events": {
+      "kind": "event",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "guilds": {
+      "kind": "guild",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "trade": {
+      "kind": "trade",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "mail": {
+      "kind": "mail",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    },
+    "auctions": {
+      "kind": "auction",
+      "included": true,
+      "expectedCount": null,
+      "denominatorStatus": "unknown",
+      "membershipKnown": false,
+      "captured": 0,
+      "connected": 0,
+      "playable": 0,
+      "tested": 0,
+      "percent": null,
+      "missingKeys": []
+    }
+  },
+  "complete": false,
+  "percent": null,
+  "gaps": [
+    {
+      "id": "coverage-denominator-races",
+      "category": "race",
+      "reason": "Independent count is known; authoritative original-ID bindings are missing."
+    },
+    {
+      "id": "coverage-denominator-factions",
+      "category": "faction",
+      "reason": "Independent count is known; authoritative original-ID bindings are missing."
+    },
+    {
+      "id": "coverage-denominator-raceClassCombinations",
+      "category": "raceClass",
+      "reason": "Independent count is known; authoritative original-ID bindings are missing."
+    },
+    {
+      "id": "coverage-denominator-classes",
+      "category": "class",
+      "reason": "Independent count is known; authoritative original-ID bindings are missing."
+    },
+    {
+      "id": "coverage-denominator-talents",
+      "category": "talent",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-zones",
+      "category": "zone",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-subzones",
+      "category": "subzone",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-locations",
+      "category": "location",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-npcs",
+      "category": "npc",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-objects",
+      "category": "object",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-gatheringNodes",
+      "category": "gatheringNode",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-quests",
+      "category": "quest",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-questObjectives",
+      "category": "questObjective",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-dungeons",
+      "category": "dungeon",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-encounters",
+      "category": "encounter",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-bosses",
+      "category": "boss",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-raids",
+      "category": "raid",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-worldBosses",
+      "category": "worldBoss",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-items",
+      "category": "item",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-lootTables",
+      "category": "lootTable",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-spells",
+      "category": "spell",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-spellRanks",
+      "category": "spellRank",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-professions",
+      "category": "profession",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-recipes",
+      "category": "recipe",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-vendors",
+      "category": "vendor",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-vendorItems",
+      "category": "vendorItem",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-trainers",
+      "category": "trainer",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-trainerSpells",
+      "category": "trainerSpell",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-reputations",
+      "category": "reputation",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-travelRoutes",
+      "category": "travelRoute",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-pvp",
+      "category": "pvp",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-battlegrounds",
+      "category": "battleground",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-camping",
+      "category": "camping",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-legacy",
+      "category": "legacy",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-collections",
+      "category": "collection",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-events",
+      "category": "event",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-guilds",
+      "category": "guild",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-trade",
+      "category": "trade",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-mail",
+      "category": "mail",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-auctions",
+      "category": "auction",
+      "reason": "Independent reference denominator unknown."
+    }
+  ]
+}

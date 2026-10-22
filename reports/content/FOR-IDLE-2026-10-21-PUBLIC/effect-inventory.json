@@ -1,0 +1,942 @@
+{
+  "snapshotId": "FOR-IDLE-2026-10-21-PUBLIC",
+  "build": "1.60.1.70338",
+  "scope": "active-packet-only",
+  "active": [
+    {
+      "originalSpellId": 78,
+      "requiredEffectTypes": [
+        17
+      ],
+      "handlers": [
+        "next-melee"
+      ],
+      "sourceRows": [
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/client-extract/SpellEffect.jsonl.gz",
+          "sha256": "ace63a497974ac8d089c2134e5669f3802a038c081598321f9a96620246bfa9d",
+          "selector": "record[id=679166]/fields"
+        }
+      ],
+      "limits": [
+        "HeroicStrike next-melee damage11 and 15Rage supported by70425 description,70338 effect17 base11; internal150 resource units are retained as evidence and not silently reinterpreted. Single-target Idle threat multiplier15000 is owned, not original high-threat formula.",
+        "Data contract only; simulation behavior is validated separately in T08/T23."
+      ]
+    },
+    {
+      "originalSpellId": 3275,
+      "requiredEffectTypes": [
+        24
+      ],
+      "handlers": [
+        "create-item"
+      ],
+      "sourceRows": [
+        {
+          "sourceId": "wow-database",
+          "path": "data/forever/client-extract/SpellEffect.jsonl.gz",
+          "sha256": "ace63a497974ac8d089c2134e5669f3802a038c081598321f9a96620246bfa9d",
+          "selector": "record[id=681763]/fields"
+        }
+      ],
+      "limits": [
+        "3275 creates1251 from2589 with build70338 joins; craft duration follows row14 base3000. Bandage consumption/healing is unavailable in this packet; output is a stackable crafted item.",
+        "Data contract only; simulation behavior is validated separately in T08/T23."
+      ]
+    }
+  ],
+  "unsupported": [
+    {
+      "effectType": 0,
+      "capturedRows": 15,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 1,
+      "capturedRows": 129,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 2,
+      "capturedRows": 2991,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 3,
+      "capturedRows": 2880,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 5,
+      "capturedRows": 3,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 6,
+      "capturedRows": 21172,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 7,
+      "capturedRows": 13,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 8,
+      "capturedRows": 36,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 9,
+      "capturedRows": 71,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 10,
+      "capturedRows": 465,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 11,
+      "capturedRows": 3,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 12,
+      "capturedRows": 2,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 15,
+      "capturedRows": 4,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 16,
+      "capturedRows": 237,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 17,
+      "capturedRows": 87,
+      "reason": "Only the explicitly joined active spell rows are admitted; all other occurrences remain unsupported."
+    },
+    {
+      "effectType": 18,
+      "capturedRows": 10,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 19,
+      "capturedRows": 31,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 20,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 21,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 22,
+      "capturedRows": 3,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 23,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 24,
+      "capturedRows": 3335,
+      "reason": "Only the explicitly joined active spell rows are admitted; all other occurrences remain unsupported."
+    },
+    {
+      "effectType": 25,
+      "capturedRows": 21,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 26,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 27,
+      "capturedRows": 127,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 28,
+      "capturedRows": 1499,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 29,
+      "capturedRows": 13,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 30,
+      "capturedRows": 324,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 31,
+      "capturedRows": 158,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 32,
+      "capturedRows": 133,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 33,
+      "capturedRows": 168,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 34,
+      "capturedRows": 72,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 35,
+      "capturedRows": 202,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 36,
+      "capturedRows": 1228,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 37,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 38,
+      "capturedRows": 125,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 39,
+      "capturedRows": 15,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 40,
+      "capturedRows": 2,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 41,
+      "capturedRows": 5,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 42,
+      "capturedRows": 9,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 43,
+      "capturedRows": 15,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 44,
+      "capturedRows": 78,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 46,
+      "capturedRows": 34,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 47,
+      "capturedRows": 106,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 48,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 49,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 50,
+      "capturedRows": 186,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 53,
+      "capturedRows": 366,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 54,
+      "capturedRows": 537,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 55,
+      "capturedRows": 2,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 56,
+      "capturedRows": 47,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 57,
+      "capturedRows": 73,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 58,
+      "capturedRows": 279,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 60,
+      "capturedRows": 28,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 61,
+      "capturedRows": 342,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 62,
+      "capturedRows": 62,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 63,
+      "capturedRows": 132,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 64,
+      "capturedRows": 707,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 65,
+      "capturedRows": 32,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 66,
+      "capturedRows": 9,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 67,
+      "capturedRows": 28,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 68,
+      "capturedRows": 76,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 69,
+      "capturedRows": 4,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 71,
+      "capturedRows": 2,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 72,
+      "capturedRows": 6,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 73,
+      "capturedRows": 2,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 75,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 76,
+      "capturedRows": 246,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 77,
+      "capturedRows": 543,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 78,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 79,
+      "capturedRows": 17,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 81,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 82,
+      "capturedRows": 4,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 83,
+      "capturedRows": 2,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 84,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 85,
+      "capturedRows": 4,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 86,
+      "capturedRows": 199,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 90,
+      "capturedRows": 56,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 92,
+      "capturedRows": 7,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 93,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 94,
+      "capturedRows": 13,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 95,
+      "capturedRows": 7,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 96,
+      "capturedRows": 72,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 97,
+      "capturedRows": 3,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 98,
+      "capturedRows": 234,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 99,
+      "capturedRows": 2,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 100,
+      "capturedRows": 18,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 101,
+      "capturedRows": 2,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 102,
+      "capturedRows": 3,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 103,
+      "capturedRows": 103,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 104,
+      "capturedRows": 17,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 106,
+      "capturedRows": 8,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 107,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 108,
+      "capturedRows": 59,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 109,
+      "capturedRows": 2,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 110,
+      "capturedRows": 2,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 111,
+      "capturedRows": 8,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 114,
+      "capturedRows": 35,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 115,
+      "capturedRows": 4,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 116,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 117,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 118,
+      "capturedRows": 109,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 119,
+      "capturedRows": 13,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 120,
+      "capturedRows": 2,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 121,
+      "capturedRows": 117,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 122,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 123,
+      "capturedRows": 12,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 124,
+      "capturedRows": 11,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 125,
+      "capturedRows": 5,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 126,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 127,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 128,
+      "capturedRows": 48,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 129,
+      "capturedRows": 4,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 130,
+      "capturedRows": 3,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 131,
+      "capturedRows": 11,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 134,
+      "capturedRows": 122,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 136,
+      "capturedRows": 27,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 137,
+      "capturedRows": 29,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 138,
+      "capturedRows": 3,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 139,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 140,
+      "capturedRows": 59,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 141,
+      "capturedRows": 8,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 142,
+      "capturedRows": 39,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 143,
+      "capturedRows": 6,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 144,
+      "capturedRows": 36,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 147,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 148,
+      "capturedRows": 4,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 149,
+      "capturedRows": 3,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 150,
+      "capturedRows": 83,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 154,
+      "capturedRows": 56,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 157,
+      "capturedRows": 9,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 160,
+      "capturedRows": 18,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 161,
+      "capturedRows": 2,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 162,
+      "capturedRows": 4,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 164,
+      "capturedRows": 122,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 165,
+      "capturedRows": 106,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 166,
+      "capturedRows": 6,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 167,
+      "capturedRows": 13,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 169,
+      "capturedRows": 76,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 170,
+      "capturedRows": 2,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 174,
+      "capturedRows": 6,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 175,
+      "capturedRows": 4,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 176,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 179,
+      "capturedRows": 198,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 182,
+      "capturedRows": 3,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 184,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 189,
+      "capturedRows": 40,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 199,
+      "capturedRows": 2,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 203,
+      "capturedRows": 11,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 206,
+      "capturedRows": 13,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 212,
+      "capturedRows": 5,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 213,
+      "capturedRows": 11,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 219,
+      "capturedRows": 4,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 226,
+      "capturedRows": 5,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 238,
+      "capturedRows": 15,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 249,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 252,
+      "capturedRows": 391,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 254,
+      "capturedRows": 4,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 255,
+      "capturedRows": 7,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 261,
+      "capturedRows": 2,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 266,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 267,
+      "capturedRows": 4,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 292,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 295,
+      "capturedRows": 41,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 303,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 304,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 306,
+      "capturedRows": 8,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 318,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 325,
+      "capturedRows": 19,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 327,
+      "capturedRows": 1,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 328,
+      "capturedRows": 7,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 329,
+      "capturedRows": 26,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 331,
+      "capturedRows": 19,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 347,
+      "capturedRows": 6,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 359,
+      "capturedRows": 41,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    },
+    {
+      "effectType": 360,
+      "capturedRows": 66,
+      "reason": "No active packet handler contract; blocked until implemented and tested."
+    }
+  ],
+  "gaps": [
+    "Authentic Forever server NPC combat stats, attack AI and player combat scaling remain missing; owned Idle balance is used.",
+    "Original trainer acquisition lists/prices for78 and3275 are unknown; availability is an owned Idle curriculum.",
+    "The full Forever world/catalog, terrain/travel and quest21 continuation are outside this packet.",
+    "Original1.12 linen chance29.92% is explicitly adopted, not a measured Forever rate; other drops omitted by scope.",
+    "Bandage item1251 use/healing spell is unsupported; crafting produces a stored item only.",
+    "Multi-target threat behavior, extra spell mechanics, other spells/ranks, item stat budgets and live server hotfixes are unsupported.",
+    "Client locale is unknown: Neither table headers nor captured extraction manifest declare locale.",
+    "Client hotfix state is unknown: Neither table headers nor captured extraction manifest declare applied hotfix state.",
+    "Captured records do not establish server availability; encrypted omissions remain unknown."
+  ]
+}

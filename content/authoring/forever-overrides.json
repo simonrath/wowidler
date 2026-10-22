@@ -1,0 +1,20 @@
+{
+  "snapshotId": "FOR-IDLE-2026-10-21-PUBLIC",
+  "adaptationPath": "content/adaptations/northshire-idle-v1.json",
+  "policy": "Source values remain unchanged; explicitly adopt the locked Idle rules for this packet only.",
+  "sourceBuilds": {
+    "client": "1.60.1.70338",
+    "abilities": "1.60.1.70425",
+    "classicWorld": "Original1.12",
+    "compiledQuests": "per-page captured timestamps"
+  },
+  "questIds": [
+    783,
+    7,
+    15
+  ],
+  "activeSpellIds": [
+    78,
+    3275
+  ]
+}

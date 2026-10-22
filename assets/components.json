@@ -1,0 +1,133 @@
+{
+  "reference": "Original World of Warcraft 1.12 UI artwork; visual reference only, not a Forever gameplay data assertion",
+  "nativeScale": "One source pixel per CSS pixel on desktop unless explicitly noted; responsive panels may scale down at narrow widths.",
+  "components": {
+    "WowFrame": {
+      "source": "Interface/DialogFrame/UI-DialogBox-Border.png",
+      "method": "Eight separate 32px SVG viewport crops, fixed corners and tiled edges; top/bottom slices rotated 90 degrees; tiled native background; header uses occupied 139x40 crop with fixed 10px caps and repeated center",
+      "states": [
+        "normal"
+      ]
+    },
+    "WowButton": {
+      "source": "Interface/Buttons/UI-Panel-Button-{Up,Down,Highlight}.png",
+      "method": "Crop the 80x23 occupied button from 128x32 atlas; border-image keeps edge caps, extends red interior",
+      "states": [
+        "normal",
+        "pressed",
+        "highlighted",
+        "disabled",
+        "selected"
+      ],
+      "derivedStates": "Disabled uses desaturation; selected uses highlight and outline. Native Up/Down/Highlight remain exact."
+    },
+    "IconSlot": {
+      "source": "Interface/Buttons/UI-Quickslot2.png",
+      "method": "40px native border crop, icon inset, separate radial cooldown mask and text overlays",
+      "states": [
+        "normal",
+        "pressed",
+        "highlighted",
+        "disabled",
+        "selected",
+        "cooldown",
+        "missing",
+        "load-error"
+      ],
+      "authored": [
+        "cooldown mask",
+        "missing-icon.svg"
+      ]
+    },
+    "UnitFrame": {
+      "source": [
+        "Interface/CharacterFrame/UI-Player-Portrait.png",
+        "Interface/TargetingFrame/UI-TargetingFrame.png",
+        "Interface/Glues/CharacterCreate/UI-CharacterCreate-Races.png"
+      ],
+      "method": "193px native frame crops; player portrait on left, target portrait on right; clipped native race portrait; health/resource fills under transparent art",
+      "states": [
+        "normal",
+        "selected",
+        "long-name"
+      ]
+    },
+    "WowTooltip": {
+      "source": "Interface/Tooltips/UI-Tooltip-Border.png",
+      "method": "Eight 16px crops with fixed corners and tiled edges; focus/hover/Escape; authored dark readable backdrop",
+      "states": [
+        "hidden",
+        "hover",
+        "focus",
+        "dismissed"
+      ]
+    },
+    "ActionBar": {
+      "source": [
+        "Interface/MainMenuBar/UI-MainMenuBar-Human.png",
+        "Interface/MainMenuBar/UI-MainMenuBar-EndCap-Human.png"
+      ],
+      "method": "Native central blank stone strip, native 128px endcaps mirrored for right; wraps slots for smaller screens",
+      "states": [
+        "normal",
+        "selected",
+        "cooldown"
+      ]
+    },
+    "Minimap": {
+      "source": "Interface/Minimap/UI-Minimap-Border.png",
+      "method": "Separate native ring and title crops; circular map crop; marker callback supplied by caller",
+      "authored": [
+        "map-placeholder.svg",
+        "marker glyph"
+      ]
+    },
+    "ProgressBar": {
+      "source": "Interface/TargetingFrame/UI-StatusBar.png",
+      "method": "Native grayscale fill tinted by presentation tone, clamped finite percentage, accessible meter"
+    },
+    "WorkbenchPaperDoll": {
+      "source": "Interface/PaperDoll/UI-PaperDollBackground-{L1,L2,R1,R2}.png",
+      "method": "Four native tiles at original size; overlaid equipment slots",
+      "authored": [
+        "armour-study.svg"
+      ]
+    },
+    "WorkbenchBag": {
+      "source": "Interface/ContainerFrame/UI-BackpackBackground.png",
+      "method": "191x240 crop; icons inset into original baked 4x4 slots; no duplicate slot frames"
+    },
+    "WorkbenchQuest": {
+      "source": "Interface/QuestFrame/UI-QuestGreeting-{TopLeft,TopRight,BotLeft,BotRight}.png",
+      "method": "Four native tiles at original size; 354x446 visible panel; authored German typography and sample text"
+    },
+    "WorkbenchTalents": {
+      "source": "Interface/TalentFrame/MageFire-{TopLeft,TopRight,BottomLeft,BottomRight}.png",
+      "method": "Four native quadrants at original size, clipped to 280x352 viewport",
+      "authored": [
+        "sample node placement",
+        "rank labels",
+        "connector"
+      ],
+      "limitation": "Visual layout specimen only. Does not model actual talent positions, ranks or prerequisites."
+    }
+  },
+  "authoredAssets": [
+    {
+      "path": "public/assets/authored/missing-icon.svg",
+      "author": "project",
+      "purpose": "Clearly missing icon fallback; manually drawn"
+    },
+    {
+      "path": "public/assets/authored/map-placeholder.svg",
+      "author": "project",
+      "purpose": "Generic unavailable-map placeholder; manually drawn, not geographic data"
+    },
+    {
+      "path": "public/assets/authored/armour-study.svg",
+      "author": "project",
+      "purpose": "Manual armor silhouette for paperdoll; not an original game model"
+    }
+  ],
+  "rules": "Props convey display and callbacks only. Cooldown is a caller-supplied fraction, never a timer or automatic disabled rule. No combat, inventory, quest, talent or simulation behavior is implemented here."
+}

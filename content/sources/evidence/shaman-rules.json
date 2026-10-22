@@ -1,0 +1,39 @@
+{
+  "sourceURL": "https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman",
+  "retrievedAt": "2026-10-21",
+  "captureKind": "paraphrased-fact-extract",
+  "retrievalReference": "turn31view0 lines87-103",
+  "claims": {
+    "totemGlobalCooldownMs": 1000,
+    "persistentBuffTotemDurationMs": 300000,
+    "shortDurationTotemsUnaffected": true,
+    "weaponImbueDurationMs": 3600000,
+    "totemicProjection": {
+      "level": 22,
+      "rangeYards": 30,
+      "cooldownMs": 60000,
+      "baseManaPercent": 25
+    },
+    "totemicRecall": {
+      "level": 20,
+      "refundManaCostPercent": 25,
+      "betaRefundBugReported": true
+    },
+    "callOfTheElements": {
+      "level": 20,
+      "castMs": 3000,
+      "elements": [
+        "earth",
+        "fire",
+        "water",
+        "air"
+      ],
+      "manaCostPolicy": "sum of selected four totem costs"
+    },
+    "callOfTheSpiritsLevel": 30,
+    "callOfTheAncestorsLevel": 40,
+    "lightningBoltRank4PlusCastMs": 2500,
+    "chainLightningCastMs": 2000
+  },
+  "boundary": "Official beta description, mutable; no server hotfix/layout proof. Paraphrased facts, not captured HTML. Spell damage/stat/AI/other numeric values not supplied."
+}

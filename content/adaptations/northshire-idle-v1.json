@@ -1,0 +1,168 @@
+{
+  "id": "northshire-idle-v1",
+  "snapshotId": "FOR-IDLE-2026-10-21-PUBLIC",
+  "version": "1",
+  "authenticServerCombat": false,
+  "policy": {
+    "combat": "All combat stats, enemy XP/money, player progression seed and threat multiplier are owned Idle balance parameters; authentic Forever server stats and AI remain unknown.",
+    "baseline": "Explicitly adopt selected Original1.12 NPC identities, objective counts, chain links, item stacks and NPC94 linen rate; this does not assert their live Forever values.",
+    "curriculum": "Owned Idle curriculum: actual warrior trainer911 teaches sourced spell78; physician2329 teaches recipe3275. Original trainer lists, prices and availability unknown.",
+    "scope": "Retain prerequisite783 and chain783→7→15. Quest21 continuation intentionally outside this closed starter slice. Only one independent linen loot row selected; excluded drops are not claimed absent.",
+    "effects": "HeroicStrike next-melee damage11 and 15Rage supported by70425 description,70338 effect17 base11; internal150 resource units are retained as evidence and not silently reinterpreted. Single-target Idle threat multiplier15000 is owned, not original high-threat formula.",
+    "recipe": "3275 creates1251 from2589 with build70338 joins; craft duration follows row14 base3000. Bandage consumption/healing is unavailable in this packet; output is a stackable crafted item.",
+    "locale": "German display names are authored translations of sourced English names. Locale of client extraction unknown."
+  },
+  "npcCombat": {
+    "6": {
+      "maxHealth": 45,
+      "maxResource": 0,
+      "attackPower": 0,
+      "armor": 0,
+      "attackIntervalMs": 2500,
+      "minDamage": 2,
+      "maxDamage": 2,
+      "critChanceBps": 0
+    },
+    "257": {
+      "maxHealth": 65,
+      "maxResource": 0,
+      "attackPower": 0,
+      "armor": 0,
+      "attackIntervalMs": 2500,
+      "minDamage": 3,
+      "maxDamage": 3,
+      "critChanceBps": 0
+    },
+    "94": {
+      "maxHealth": 85,
+      "maxResource": 0,
+      "attackPower": 0,
+      "armor": 0,
+      "attackIntervalMs": 2500,
+      "minDamage": 4,
+      "maxDamage": 4,
+      "critChanceBps": 0
+    }
+  },
+  "encounterRewards": {
+    "6": {
+      "experience": 20,
+      "moneyCopper": 2
+    },
+    "257": {
+      "experience": 30,
+      "moneyCopper": 3
+    },
+    "94": {
+      "experience": 40,
+      "moneyCopper": 4
+    }
+  },
+  "heroicStrike": {
+    "cooldownMs": 0,
+    "threatMultiplierBps": 15000
+  },
+  "recipeSpell": {
+    "minLevel": 1,
+    "cooldownMs": 0
+  },
+  "trainers": [
+    {
+      "npcId": 911,
+      "spellId": 78,
+      "moneyCopper": 10,
+      "requiredLevel": 1,
+      "requiredSkill": 0
+    },
+    {
+      "npcId": 2329,
+      "spellId": 3275,
+      "moneyCopper": 10,
+      "requiredLevel": 1,
+      "requiredSkill": 1
+    }
+  ],
+  "start": {
+    "level": 1,
+    "stats": {
+      "maxHealth": 150,
+      "maxResource": 100,
+      "attackPower": 0,
+      "armor": 0,
+      "attackIntervalMs": 2000,
+      "minDamage": 8,
+      "maxDamage": 8,
+      "critChanceBps": 0
+    },
+    "inventory": [
+      {
+        "itemKey": "forever:item:2589",
+        "quantity": 2
+      }
+    ],
+    "moneyCopper": 20,
+    "knownSpells": [],
+    "professions": [
+      {
+        "professionKey": "forever:profession:129",
+        "skill": 1
+      }
+    ]
+  },
+  "questIds": [
+    783,
+    7,
+    15
+  ],
+  "npcIds": [
+    823,
+    197,
+    6,
+    257,
+    94,
+    911,
+    2329
+  ],
+  "itemIds": [
+    2589,
+    1251
+  ],
+  "namesDe": {
+    "quest:783": "Eine Bedrohung von innen",
+    "quest:7": "Säuberung des Koboldlagers",
+    "quest:15": "Untersuchung des Echokamms",
+    "npc:823": "Stellvertreter Willem",
+    "npc:197": "Marschall McBride",
+    "npc:6": "Koboldgezücht",
+    "npc:257": "Koboldarbeiter",
+    "npc:94": "Defias-Taschendieb",
+    "npc:911": "Llane Beshere",
+    "npc:2329": "Michelle Belle",
+    "spell:78": "Heldenhafter Stoß",
+    "spell:3275": "Leinenverband",
+    "item:2589": "Leinenstoff",
+    "item:1251": "Leinenverband",
+    "profession:129": "Erste Hilfe",
+    "faction:72": "Sturmwind"
+  },
+  "gaps": [
+    "Authentic Forever server NPC combat stats, attack AI and player combat scaling remain missing; owned Idle balance is used.",
+    "Original trainer acquisition lists/prices for78 and3275 are unknown; availability is an owned Idle curriculum.",
+    "The full Forever world/catalog, terrain/travel and quest21 continuation are outside this packet.",
+    "Original1.12 linen chance29.92% is explicitly adopted, not a measured Forever rate; other drops omitted by scope.",
+    "Bandage item1251 use/healing spell is unsupported; crafting produces a stored item only.",
+    "Multi-target threat behavior, extra spell mechanics, other spells/ranks, item stat budgets and live server hotfixes are unsupported."
+  ],
+  "introObjective": {
+    "type": "talk",
+    "targetNpcId": 197,
+    "quantity": 1
+  },
+  "selectedLoot": {
+    "94": {
+      "itemId": 2589,
+      "quantity": 1,
+      "roll": "independent"
+    }
+  }
+}

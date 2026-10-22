@@ -1,0 +1,527 @@
+{
+  "snapshotId": "FOR-IDLE-2026-10-21-PUBLIC",
+  "gaps": [
+    {
+      "id": "FOR-GAP-DENOM-TALENT",
+      "category": "talent",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-ZONE",
+      "category": "zone",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-SUBZONE",
+      "category": "subzone",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-LOCATION",
+      "category": "location",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-NPC",
+      "category": "npc",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-OBJECT",
+      "category": "object",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-GATHERINGNODE",
+      "category": "gatheringNode",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-QUEST",
+      "category": "quest",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-QUESTOBJECTIVE",
+      "category": "questObjective",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-DUNGEON",
+      "category": "dungeon",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-ENCOUNTER",
+      "category": "encounter",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-BOSS",
+      "category": "boss",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-RAID",
+      "category": "raid",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-WORLDBOSS",
+      "category": "worldBoss",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-ITEM",
+      "category": "item",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-LOOTTABLE",
+      "category": "lootTable",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-SPELL",
+      "category": "spell",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-SPELLRANK",
+      "category": "spellRank",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-PROFESSION",
+      "category": "profession",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-RECIPE",
+      "category": "recipe",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-VENDOR",
+      "category": "vendor",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-VENDORITEM",
+      "category": "vendorItem",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-TRAINER",
+      "category": "trainer",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-TRAINERSPELL",
+      "category": "trainerSpell",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-REPUTATION",
+      "category": "reputation",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-TRAVELROUTE",
+      "category": "travelRoute",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-PVP",
+      "category": "pvp",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-BATTLEGROUND",
+      "category": "battleground",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-CAMPING",
+      "category": "camping",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-LEGACY",
+      "category": "legacy",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-COLLECTION",
+      "category": "collection",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-EVENT",
+      "category": "event",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-GUILD",
+      "category": "guild",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-TRADE",
+      "category": "trade",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-MAIL",
+      "category": "mail",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-DENOM-AUCTION",
+      "category": "auction",
+      "status": "open",
+      "reason": "Independent total reference denominator unknown; expectedCount remains null.",
+      "requiredEvidence": "Complete independently verified Forever reference list with original IDs and cutoff availability."
+    },
+    {
+      "id": "FOR-GAP-BUILD",
+      "category": null,
+      "status": "open",
+      "reason": "QuestieDB and official scope evidence specify no exact client build. Additional sources explicitly differ: Grimoire70425 vs wow-database70338; a matching server snapshot remains unverified.",
+      "requiredEvidence": "Capture and verify the relevant immutable primary source before enabling content."
+    },
+    {
+      "id": "FOR-GAP-NPC-STATS",
+      "category": null,
+      "status": "open",
+      "reason": "Questie NPC health 0/1 are placeholders; real Forever combat values missing.",
+      "requiredEvidence": "Capture and verify the relevant immutable primary source before enabling content."
+    },
+    {
+      "id": "FOR-GAP-RAID-DETAILS",
+      "category": null,
+      "status": "open",
+      "reason": "Full raid overview article unavailable. First three names/date captured from official search; Barrow10/8 and Hyjal20/13 verified in other official articles. Onyxia40 size remains unverified in captured primary evidence; mechanics unknown. A named Onyxia encounter is not evidence of an exhaustive boss count; Onyxia bossCount remains null.",
+      "requiredEvidence": "Capture and verify the relevant immutable primary source before enabling content."
+    },
+    {
+      "id": "FOR-GAP-SCOPE-IDS",
+      "category": null,
+      "status": "open",
+      "reason": "Scope matrices/lists have published names but no verified original numeric IDs, start locations or playable rules.",
+      "requiredEvidence": "Capture and verify the relevant immutable primary source before enabling content."
+    },
+    {
+      "id": "FOR-GAP-SECONDARY-SOURCES",
+      "category": null,
+      "status": "open",
+      "reason": "classic-db, mangos-classic and WoWDBDefs commits pinned; exact source files not yet captured.",
+      "requiredEvidence": "Capture and verify the relevant immutable primary source before enabling content."
+    },
+    {
+      "id": "FOR-GAP-LICENSE-QUESTIE",
+      "category": null,
+      "status": "open",
+      "reason": "QuestieDB root license absent; source evidence is not a redistribution clearance.",
+      "requiredEvidence": "Capture and verify the relevant immutable primary source before enabling content."
+    },
+    {
+      "id": "FOR-GAP-BUILD-CONFLICT",
+      "category": null,
+      "status": "open",
+      "reason": "Grimoire talent/ability build1.60.1.70425 differs from client table70338 and from its LibQuestDB QuestDB-v0.1.0 client1.60.1.69913 (harvest finished2026-09-28). Mixed NPC/object captures have original112 VMaNGOS identity/template fields and Forever LibQuestDB zone associations; no silent single-build precedence or compatibility assumption.",
+      "requiredEvidence": "Verify matching Forever server/client data before playable use."
+    },
+    {
+      "id": "FOR-GAP-QUEST-REWARDS",
+      "category": null,
+      "status": "open",
+      "reason": "All775 Forever quests in additional Grimoire data lack item rewards and XP.",
+      "requiredEvidence": "Verify matching Forever server/client data before playable use."
+    },
+    {
+      "id": "FOR-GAP-CLIENT-STATS",
+      "category": null,
+      "status": "open",
+      "reason": "Absolute Forever item stat reconstruction and effect/formula joins remain unvalidated.",
+      "requiredEvidence": "Verify matching Forever server/client data before playable use."
+    },
+    {
+      "id": "FOR-GAP-LOOT-VERSION",
+      "category": null,
+      "status": "open",
+      "reason": "Grimoire Classic1.12 loot rates are not observed Forever rates.",
+      "requiredEvidence": "Verify matching Forever server/client data before playable use."
+    },
+    {
+      "id": "coverage-denominator-races",
+      "category": "race",
+      "reason": "Independent count is known; authoritative original-ID bindings are missing."
+    },
+    {
+      "id": "coverage-denominator-factions",
+      "category": "faction",
+      "reason": "Independent count is known; authoritative original-ID bindings are missing."
+    },
+    {
+      "id": "coverage-denominator-raceClassCombinations",
+      "category": "raceClass",
+      "reason": "Independent count is known; authoritative original-ID bindings are missing."
+    },
+    {
+      "id": "coverage-denominator-classes",
+      "category": "class",
+      "reason": "Independent count is known; authoritative original-ID bindings are missing."
+    },
+    {
+      "id": "coverage-denominator-talents",
+      "category": "talent",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-zones",
+      "category": "zone",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-subzones",
+      "category": "subzone",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-locations",
+      "category": "location",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-npcs",
+      "category": "npc",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-objects",
+      "category": "object",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-gatheringNodes",
+      "category": "gatheringNode",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-quests",
+      "category": "quest",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-questObjectives",
+      "category": "questObjective",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-dungeons",
+      "category": "dungeon",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-encounters",
+      "category": "encounter",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-bosses",
+      "category": "boss",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-raids",
+      "category": "raid",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-worldBosses",
+      "category": "worldBoss",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-items",
+      "category": "item",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-lootTables",
+      "category": "lootTable",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-spells",
+      "category": "spell",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-spellRanks",
+      "category": "spellRank",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-professions",
+      "category": "profession",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-recipes",
+      "category": "recipe",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-vendors",
+      "category": "vendor",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-vendorItems",
+      "category": "vendorItem",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-trainers",
+      "category": "trainer",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-trainerSpells",
+      "category": "trainerSpell",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-reputations",
+      "category": "reputation",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-travelRoutes",
+      "category": "travelRoute",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-pvp",
+      "category": "pvp",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-battlegrounds",
+      "category": "battleground",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-camping",
+      "category": "camping",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-legacy",
+      "category": "legacy",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-collections",
+      "category": "collection",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-events",
+      "category": "event",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-guilds",
+      "category": "guild",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-trade",
+      "category": "trade",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-mail",
+      "category": "mail",
+      "reason": "Independent reference denominator unknown."
+    },
+    {
+      "id": "coverage-denominator-auctions",
+      "category": "auction",
+      "reason": "Independent reference denominator unknown."
+    }
+  ]
+}

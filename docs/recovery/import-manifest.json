@@ -1,0 +1,4304 @@
+{
+  "sourceCommit": "1fc17b281fc2fc21efd6f893e939a00d718873ba",
+  "note": "All source tracked files plus README/handoff/recovery notes; manifest excludes itself. GitHub import commit differs from source commit.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "size": 629,
+      "sha256": "772fb07ef5a1ed5265c694a813ae146e1a405082dbb167a634c8bde1050f107e",
+      "gitBlobSha": "e37ca03e2abba02dd1d8820d13a0b6a655aff73e"
+    },
+    {
+      "path": ".npmrc",
+      "mode": "100644",
+      "size": 45,
+      "sha256": "a3909ac0447c469fda12c57374993be70f47ce73e49fd3124678c7c047f2214d",
+      "gitBlobSha": "9f274d6425b9792ae0a70cb0b96a29fd98ec6ed6"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "mode": "100644",
+      "size": 91,
+      "sha256": "0f2c1cdf04ec3de1a5936033d8c6f218ad659c0420b7d6f1a36ed8b47511e705",
+      "gitBlobSha": "1bdb0afc13568ec841e97bc12e6894f5c6188727"
+    },
+    {
+      "path": ".superpowers/sdd/2026-10-21-wow-forever-idle/task-1-report.md",
+      "mode": "100644",
+      "size": 8983,
+      "sha256": "946bfa9b0d714b233864e3826cca20ca46cb093d02356f311c89fbdda902619a",
+      "gitBlobSha": "c00e709c3fe17b173a0f0e5d10d429c1ddc486c7"
+    },
+    {
+      "path": ".superpowers/sdd/2026-10-21-wow-forever-idle/task-2-report.md",
+      "mode": "100644",
+      "size": 9700,
+      "sha256": "330dee5512daa8128b4151566064039c03f0e0c5a8ad15ee00db592e6b479adb",
+      "gitBlobSha": "d139451a82845d5ad05712d75138a0b1cd24b632"
+    },
+    {
+      "path": ".superpowers/sdd/2026-10-21-wow-forever-idle/task-4-report.md",
+      "mode": "100644",
+      "size": 25495,
+      "sha256": "9c3332c9c30f0f084c62ad54aa9c85a586427fc0e22ba6c21a607e47223f1b91",
+      "gitBlobSha": "5262cbd8781a32df816650a705d42752f5582e6e"
+    },
+    {
+      "path": ".superpowers/sdd/2026-10-21-wow-forever-idle/task-6-report.md",
+      "mode": "100644",
+      "size": 5916,
+      "sha256": "d9a8c8655a932c0b49eefa87306d90d178428ffe0fc35a099d29a34e30adf525",
+      "gitBlobSha": "06c18016532489726b7c09ce731769ba29beef01"
+    },
+    {
+      "path": ".superpowers/sdd/2026-10-21-wow-forever-idle/task-7-report.md",
+      "mode": "100644",
+      "size": 10651,
+      "sha256": "89b629cf4285225cd75280d5479d82c68a547e2a26c5104c4e0e97af1bfb6f1f",
+      "gitBlobSha": "0bfad4ba135194aa6f13490bbb1d877d054d5e03"
+    },
+    {
+      "path": ".superpowers/sdd/2026-10-21-wow-forever-idle/task-8-shaman-report.md",
+      "mode": "100644",
+      "size": 12059,
+      "sha256": "8f9f0d33245248f02111c36cf921be1429d4167c25735e792b7e190a7eaeab82",
+      "gitBlobSha": "10e87f6a149bb548bde46f42dc1d9fa345907ddb"
+    },
+    {
+      "path": ".superpowers/sdd/2026-10-21-wow-forever-idle/task-8-shared-contracts.md",
+      "mode": "100644",
+      "size": 3042,
+      "sha256": "436ea55022727cb39fecb5bb348b9a1137a4b7ec0974da6337619e0d55386ccc",
+      "gitBlobSha": "5c5d030ee2cb8196fe378424234391fc166a7af9"
+    },
+    {
+      "path": ".superpowers/sdd/2026-10-21-wow-forever-idle/task-8-warrior-report.md",
+      "mode": "100644",
+      "size": 9697,
+      "sha256": "480431f3b92b3763b41945c1ba92f63b1a24cac9c833e5a4f4d088e2ac5d8518",
+      "gitBlobSha": "d646dbe3a4242e50529d66a1a69d564465bfcb6b"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "size": 1196,
+      "sha256": "887cb6bf3edf942b08a6804e622d3920fee8f7c412ca115e9e693254735aaa0f",
+      "gitBlobSha": "f97bfe14b917a5176aa9d0853efaf384f73cc32f"
+    },
+    {
+      "path": "app/chatgpt-auth.ts",
+      "mode": "100644",
+      "size": 2550,
+      "sha256": "4265a2e7c2dcb3a6f4b7026f762bf5b6e4caec76cc13c0a45987ee9a9f2e42cc",
+      "gitBlobSha": "a0ae2ed9a9771b5fc36a06af554a05c18b2a13b3"
+    },
+    {
+      "path": "app/globals.css",
+      "mode": "100644",
+      "size": 3928,
+      "sha256": "8546d9b115f0addd582f7ceaaa6b1c069310bcc77c43ee7b8acfe0020be3afd7",
+      "gitBlobSha": "5d607915b0358e481d0f0474e1e001756cf0deda"
+    },
+    {
+      "path": "app/layout.tsx",
+      "mode": "100644",
+      "size": 669,
+      "sha256": "94dde5199e71e40322f6dc587b214fe475154352f37f2ae9ce95e5ffbbcab4ad",
+      "gitBlobSha": "64cfeb03561f6c2916f4d8fc6e32fba4efff9a40"
+    },
+    {
+      "path": "app/page.tsx",
+      "mode": "100644",
+      "size": 128,
+      "sha256": "cdd731df61e0864f999ab268db15ace2e9b10779bb39e08fe19bdfc630a7623b",
+      "gitBlobSha": "fa7c011c8a97cdbd1994330543f3d01f2b2ce1ca"
+    },
+    {
+      "path": "assets/components.json",
+      "mode": "100644",
+      "size": 5153,
+      "sha256": "4c486f0c3285603a1f5b7b3fd85656c6ed464b102d0385c21dd2d6c22de3a978",
+      "gitBlobSha": "32c0623846bde1ac6bd351057d949b5514f66bbc"
+    },
+    {
+      "path": "assets/crops.json",
+      "mode": "100644",
+      "size": 4757,
+      "sha256": "51ace2efe306285c3056dc73f15078381a36d745dd5fe8de6cf7573a5c30120b",
+      "gitBlobSha": "0946cacf2f84138b76307cfbd59edd81fa48d6d4"
+    },
+    {
+      "path": "assets/source-lock.json",
+      "mode": "100644",
+      "size": 81517,
+      "sha256": "970a834b7a01f142787ff3d676675f8b5c59643f77ca81c0eddf1b4fc40bf176",
+      "gitBlobSha": "d72cda07da70ae946e73c9f90bf700f9a5b1c449"
+    },
+    {
+      "path": "cloudflare-env.d.ts",
+      "mode": "100644",
+      "size": 99,
+      "sha256": "8b0eca84aa3364cc7ccc43cc3af6beb88dd34ebd410de08690bf094ce39fbcb0",
+      "gitBlobSha": "856e090c902917b4e1cebee0e08ea1d398fd01c3"
+    },
+    {
+      "path": "components.json",
+      "mode": "100644",
+      "size": 420,
+      "sha256": "31f4ca67a4a62572571003d3d5aac85ee6fbfca67a192924bac6b168d95e98fd",
+      "gitBlobSha": "c8f5bb16f79ed774f67415a8dc2b4a38243e3e90"
+    },
+    {
+      "path": "components/connector-error.tsx",
+      "mode": "100644",
+      "size": 1082,
+      "sha256": "2d0d04559952ce9c9a327cca499f4b99f35d885cccfce375230e116695d3f155",
+      "gitBlobSha": "3c994dc58811e4b02250092fec54b0b788edcc2c"
+    },
+    {
+      "path": "components/ui/accordion.tsx",
+      "mode": "100644",
+      "size": 2048,
+      "sha256": "a4f153089ba886dfcf73fac26b5c01ca933fa12fbe88df6fb723912bfffdfbb0",
+      "gitBlobSha": "91e3a250ce6ee0797b0258454d774800650adcc8"
+    },
+    {
+      "path": "components/ui/alert-dialog.tsx",
+      "mode": "100644",
+      "size": 5439,
+      "sha256": "9a8d950f2b9b4352d5ebb762fb44d5c28c2d353aa29712071973656a8736e311",
+      "gitBlobSha": "dad327341382f200b84d5f833eb1b7a74b0e7469"
+    },
+    {
+      "path": "components/ui/alert.tsx",
+      "mode": "100644",
+      "size": 1614,
+      "sha256": "2cc59b5f7bda91c1670884b1bf46bfc8a2a6f226cef184f5762acc037188885b",
+      "gitBlobSha": "f99164ed4b320790482f514342dab5e72f284aca"
+    },
+    {
+      "path": "components/ui/aspect-ratio.tsx",
+      "mode": "100644",
+      "size": 274,
+      "sha256": "b1c157886236782cb92d8fbcd4749532aaf6d8aabefd6e157ca40358f902f407",
+      "gitBlobSha": "57e38fa96f9c0cb767d7b8de0d6dbc171d1b921a"
+    },
+    {
+      "path": "components/ui/attachment.tsx",
+      "mode": "100644",
+      "size": 6002,
+      "sha256": "ae8a25dd1a896d3964e3ef54d97e51221b418cde287dfd794428b89951c5c790",
+      "gitBlobSha": "5bdd1ce7db5800eb55198cd0291a1e47dc67fb0d"
+    },
+    {
+      "path": "components/ui/avatar.tsx",
+      "mode": "100644",
+      "size": 2916,
+      "sha256": "58a846bf1617b94b9681921db9b8461d0145f311424663d11678a06b6153cb34",
+      "gitBlobSha": "ea658505703a577fe93341e5e1a0b478c27245f7"
+    },
+    {
+      "path": "components/ui/badge.tsx",
+      "mode": "100644",
+      "size": 1776,
+      "sha256": "46a0de5224f6a5d5d63d45246534288518dce888f031064bff925bbc7fe6ad97",
+      "gitBlobSha": "6eb2a057aae0e23a74368cc4daf9657210e9a740"
+    },
+    {
+      "path": "components/ui/breadcrumb.tsx",
+      "mode": "100644",
+      "size": 2350,
+      "sha256": "d4c0831bba2212e778248f54a6ace6ef378df8bba4616d1abf27787a31eabae5",
+      "gitBlobSha": "004bb63a4c92229e612b6126d79fb7b078aa7565"
+    },
+    {
+      "path": "components/ui/bubble.tsx",
+      "mode": "100644",
+      "size": 4699,
+      "sha256": "870cc0c5cfc8a515053f7e41e706a6bd017a909b45f1305fd3b164a52cc4483b",
+      "gitBlobSha": "792146e61d80ef595d032d5d09a3d572d50f1374"
+    },
+    {
+      "path": "components/ui/button-group.tsx",
+      "mode": "100644",
+      "size": 2202,
+      "sha256": "784c89d8ee683e1bc972ae69e6ea8225a7f63abe22aa1b5fc3423ae8a2a399c0",
+      "gitBlobSha": "cd550d7afca6562548afe3f595b352406f7f3951"
+    },
+    {
+      "path": "components/ui/button.tsx",
+      "mode": "100644",
+      "size": 2392,
+      "sha256": "cc36af0f8b5019c33cc039fbf03bb952a513072b15b55b53c592b78af3e5f4c4",
+      "gitBlobSha": "4d38506cee5430d95a59ec6a2a0cef2b79217e7a"
+    },
+    {
+      "path": "components/ui/calendar.tsx",
+      "mode": "100644",
+      "size": 7832,
+      "sha256": "3855fbe0d3f8ad3a4b93071f98b76a9f6782d46ec8b05f5d2ddbee1e4e39bc84",
+      "gitBlobSha": "5d31419b130a18c52320f5a21546a9236123b6bf"
+    },
+    {
+      "path": "components/ui/card.tsx",
+      "mode": "100644",
+      "size": 1987,
+      "sha256": "c48dd3b96be90a7066f1aebf294f0af9d00ebcdc367d5d4aca55429ade570c1c",
+      "gitBlobSha": "acf57dc5a534792273b8fb86227e92e001f3dc53"
+    },
+    {
+      "path": "components/ui/carousel.tsx",
+      "mode": "100644",
+      "size": 5556,
+      "sha256": "b7ea0dda3903d972c186f739e23da61f547bc83b5a0bf13b16856577846d5fc3",
+      "gitBlobSha": "0e05a77ea155fde6af5d9a4848b1d3953df6ea5a"
+    },
+    {
+      "path": "components/ui/chart.tsx",
+      "mode": "100644",
+      "size": 10614,
+      "sha256": "45aa5ea4a386f4fb5b8869ff4bab3a08cf89255190ee322043baf84c3e950b6a",
+      "gitBlobSha": "9813c584e125847d88e9e7e7f9edff7e9ba45a97"
+    },
+    {
+      "path": "components/ui/checkbox.tsx",
+      "mode": "100644",
+      "size": 1214,
+      "sha256": "b23ab9d4deeedf2ac8f512c368361ede681aa383437ef48563a6f9b7dbe95f27",
+      "gitBlobSha": "f5a7e433f3795b82a00c5c06a1fc6decf116a84a"
+    },
+    {
+      "path": "components/ui/collapsible.tsx",
+      "mode": "100644",
+      "size": 795,
+      "sha256": "c6598e5584f4258b5d9fefadbc5ad6a66888ad58729f4b634a0bb2d9c513188b",
+      "gitBlobSha": "2f7a4e7fc64a8874373c1584646a63f28cd63c47"
+    },
+    {
+      "path": "components/ui/combobox.tsx",
+      "mode": "100644",
+      "size": 9158,
+      "sha256": "2d68e78b2dc7e38a085f222dede60a80b4f8229a6e91732c484605e204d46735",
+      "gitBlobSha": "2415bd801031a16bbcee8343058825feecfaea69"
+    },
+    {
+      "path": "components/ui/command.tsx",
+      "mode": "100644",
+      "size": 4818,
+      "sha256": "361193df1e3d64a9e9b5048f045264782fcb387aab3f00f2b805fdcbf538b16a",
+      "gitBlobSha": "8fe3ccb406be52d28961b0c0220e87ecd19596ca"
+    },
+    {
+      "path": "components/ui/context-menu.tsx",
+      "mode": "100644",
+      "size": 8268,
+      "sha256": "2cf1fcf59df0649a3e2a126d1df2f639145f6b6bf5689ee54af1f40ab1245017",
+      "gitBlobSha": "5aaca76552cf0468b1def03c9e2c42f1f0b60734"
+    },
+    {
+      "path": "components/ui/dialog.tsx",
+      "mode": "100644",
+      "size": 4303,
+      "sha256": "dce39c6adc47d997bd2567f8b7a72f466b0134715105cd42f9194007b8ecdb14",
+      "gitBlobSha": "84bdef4bb307087da1bfaf3cadf7be5dbda73f24"
+    },
+    {
+      "path": "components/ui/direction.tsx",
+      "mode": "100644",
+      "size": 506,
+      "sha256": "84ae2ad658207f0e0f367978e5508cd8027cd00c29c41d3d13db21a708c3d1e6",
+      "gitBlobSha": "22e165774bd595fbf41d0c45efef1cf996897983"
+    },
+    {
+      "path": "components/ui/drawer.tsx",
+      "mode": "100644",
+      "size": 4255,
+      "sha256": "cb6eaf58eb0757ca91af284e5d925b89a42ad7eb19cb3f44c575a3487aa9350f",
+      "gitBlobSha": "ad08671442203fe345093f364696bdf43528e0b7"
+    },
+    {
+      "path": "components/ui/dropdown-menu.tsx",
+      "mode": "100644",
+      "size": 8418,
+      "sha256": "98f0dcdae38225b73734aceeb9213dd751fea2c72ea520df31003cd133deac8a",
+      "gitBlobSha": "ae1fcf62f1e3b648554789b8fe02943d92bf00fc"
+    },
+    {
+      "path": "components/ui/empty.tsx",
+      "mode": "100644",
+      "size": 2396,
+      "sha256": "ae95bdcf367a076ae02e7925f14522a148798f72d9651749c6d55497dba584c0",
+      "gitBlobSha": "ce4b0095f6d19d2eae2e465060e9060b0c210856"
+    },
+    {
+      "path": "components/ui/field.tsx",
+      "mode": "100644",
+      "size": 6159,
+      "sha256": "ba67d76f017ac059fc86cf8c344e0b2991c4322d3619e125498c19b87f6eefbd",
+      "gitBlobSha": "ec849dae4d3dd06a973ba22e4b2248a25cf18148"
+    },
+    {
+      "path": "components/ui/form.tsx",
+      "mode": "100644",
+      "size": 3757,
+      "sha256": "315b46bb75ab7d1c6061b5d750aa4bedf6e7a455e15e2d7f9182f053d5972b1e",
+      "gitBlobSha": "f371fea1bc35380d28678c6cf53df8f65deb2776"
+    },
+    {
+      "path": "components/ui/hover-card.tsx",
+      "mode": "100644",
+      "size": 1526,
+      "sha256": "f5d8df42c59370ec14d61bcc54f7d68e9bb7dfa0d6a872b2f7cffc2aafbf23b8",
+      "gitBlobSha": "91e869c0d3091cbeddf5cb0266e82ddf56f829a6"
+    },
+    {
+      "path": "components/ui/input-group.tsx",
+      "mode": "100644",
+      "size": 5065,
+      "sha256": "6afbd58fea4c438e6252dc4568bddc122e84ababead4ad5cee50ace01100c9a0",
+      "gitBlobSha": "a7652d936fffd9c5bca4b88e6b9715bf559e667d"
+    },
+    {
+      "path": "components/ui/input-otp.tsx",
+      "mode": "100644",
+      "size": 2254,
+      "sha256": "161946daa89f0eda2575b9271c0494e35807c4ffb55598a49f67160c17fec299",
+      "gitBlobSha": "6a556afacd71996bf0e385ff2b04869fb2ee4523"
+    },
+    {
+      "path": "components/ui/input.tsx",
+      "mode": "100644",
+      "size": 962,
+      "sha256": "8c4612a7c41319ac5049daa3b34b080f9784b6245c17780eb87c127e58e473db",
+      "gitBlobSha": "f1124aea14eee062fc2f4c55dad5f0d9de0ccc1a"
+    },
+    {
+      "path": "components/ui/item.tsx",
+      "mode": "100644",
+      "size": 4486,
+      "sha256": "6e2144d6d87142dbbe56d568810bf546318c8aa661447ebb0d76ebbf382cb45f",
+      "gitBlobSha": "d5dbb1a9c2e70456e45a39887a4b7cc56d484a45"
+    },
+    {
+      "path": "components/ui/kbd.tsx",
+      "mode": "100644",
+      "size": 862,
+      "sha256": "6088c3a5432338b1719c17e9b5d0e1fa74fd1f66060f248fc88909d33a82cd13",
+      "gitBlobSha": "2459224fbc531f6306b73aaeb22e9022d9985332"
+    },
+    {
+      "path": "components/ui/label.tsx",
+      "mode": "100644",
+      "size": 606,
+      "sha256": "a476e41f08b9de5bd447de66a33d8bc2ad18f2fa6b96c064778bab4b6f439f4c",
+      "gitBlobSha": "1ac80f701ebfe9dc02d632c08cafade732e46625"
+    },
+    {
+      "path": "components/ui/marker.tsx",
+      "mode": "100644",
+      "size": 1864,
+      "sha256": "3d798763f094b2bb5e7ade2d5cd1b9bab498bc8ca7fd4cfaf4e5835bdedc34a0",
+      "gitBlobSha": "cfa76c6c014ab342befcbf7571eb932917406522"
+    },
+    {
+      "path": "components/ui/menubar.tsx",
+      "mode": "100644",
+      "size": 8389,
+      "sha256": "9243af8afcea03703398ccd1c2a8c0a87ad6cbaf2bd272fb609f5b79fe46aebb",
+      "gitBlobSha": "4af16a428377f81cbb3f66adfe518308e0b690d8"
+    },
+    {
+      "path": "components/ui/message-scroller.tsx",
+      "mode": "100644",
+      "size": 3992,
+      "sha256": "bb7660a248e4e9589c3816c7c1c199ea1381a70d2c8476ae895b567a7a4d86cf",
+      "gitBlobSha": "0b05011259c026a357380c3834bce0ead8565d22"
+    },
+    {
+      "path": "components/ui/message.tsx",
+      "mode": "100644",
+      "size": 2232,
+      "sha256": "9d2952bf3b641081f09aa2739535e6bbd1be0a4946789752a2c20d8aaef43185",
+      "gitBlobSha": "53437e8db2b0fad1da06a7499e54ddaf116295c2"
+    },
+    {
+      "path": "components/ui/native-select.tsx",
+      "mode": "100644",
+      "size": 1995,
+      "sha256": "007516b111fca8c98a6c40c94ab91bb68cc5b52afce1ed1f5e510c3d86e7347c",
+      "gitBlobSha": "3058398399ad6c029ad527052475b360b114715b"
+    },
+    {
+      "path": "components/ui/navigation-menu.tsx",
+      "mode": "100644",
+      "size": 6658,
+      "sha256": "889d358a77de88e9cb6f39ea4895ea4c76eaf01d731b74e44f1c41e97a78a044",
+      "gitBlobSha": "0a673f513c97fbeaae0872403b7582ab2ba7e3c3"
+    },
+    {
+      "path": "components/ui/pagination.tsx",
+      "mode": "100644",
+      "size": 2717,
+      "sha256": "374ad135c3d4ff3ec080a0009cd9745cdd0e12faa89d2b0e86074f11e5127fd1",
+      "gitBlobSha": "1dcfb0cc050c5f2bdd930522d627313d03d3690c"
+    },
+    {
+      "path": "components/ui/popover.tsx",
+      "mode": "100644",
+      "size": 2357,
+      "sha256": "31c350309ff5d3034e6ecf1b0eda75ba8855bdbf987fc7ad6d71f0ef07c5a447",
+      "gitBlobSha": "30058c4ec284ca9cad1ed1162d084ce3cd94e2b0"
+    },
+    {
+      "path": "components/ui/progress.tsx",
+      "mode": "100644",
+      "size": 755,
+      "sha256": "c8c26e8f5f041c3cdf4915347dc1d9c022f9448f149990fadcaf303e952fa57d",
+      "gitBlobSha": "b3ae25089ad549b7f13125e482f99b43dd895bd2"
+    },
+    {
+      "path": "components/ui/radio-group.tsx",
+      "mode": "100644",
+      "size": 1460,
+      "sha256": "fe5ce39636d0818c2bf9c4eebddff893d1225fa2c81b5fa4bb8cbb39a8c913ce",
+      "gitBlobSha": "fe514536ed771f7adef0a6b9e4d1aeadc2c95481"
+    },
+    {
+      "path": "components/ui/resizable.tsx",
+      "mode": "100644",
+      "size": 1815,
+      "sha256": "bc63958467aa00557c551bb0d96a5ae4c965c1e1ba2380e595949d933b132f7c",
+      "gitBlobSha": "a76832a10b4c5c2a137e25c16478567ba86daf0d"
+    },
+    {
+      "path": "components/ui/scroll-area.tsx",
+      "mode": "100644",
+      "size": 1639,
+      "sha256": "8bd9d986b2844c9a87de825c6de4787b6739b36c3dc9a05ccf3eb107160e4043",
+      "gitBlobSha": "73c4eb1cdcd4a699b150a9ddc3e87bfb90b63d09"
+    },
+    {
+      "path": "components/ui/select.tsx",
+      "mode": "100644",
+      "size": 6353,
+      "sha256": "0b796a108a4eb5ba52d9ad938b7aea36dc56ae66c703a6d0a23dbc24f96daff3",
+      "gitBlobSha": "c0dc7120b4f78008ae5efc6d1c8b7ec8205c35d5"
+    },
+    {
+      "path": "components/ui/separator.tsx",
+      "mode": "100644",
+      "size": 694,
+      "sha256": "6da346505c8629a4668420d2a5ca48891383bbe0b0ceb14163537c671879427e",
+      "gitBlobSha": "cd873e3631b571060f166897b7b62e033e87c18f"
+    },
+    {
+      "path": "components/ui/sheet.tsx",
+      "mode": "100644",
+      "size": 4188,
+      "sha256": "63863cf2df8f8973e52b3459ac9bdbf81be1262dbc70eb53d5271ffb03488e16",
+      "gitBlobSha": "cb53bb28b6850745c9519e8e7462e05f85a50c93"
+    },
+    {
+      "path": "components/ui/sidebar.tsx",
+      "mode": "100644",
+      "size": 21526,
+      "sha256": "4a8d73e7730a2b1fcecfca31299ed26db65c2307b84197a59c6ec7c01c7ad28e",
+      "gitBlobSha": "f5f6c5aefc88ffa2e999e284b299472215c05161"
+    },
+    {
+      "path": "components/ui/skeleton.tsx",
+      "mode": "100644",
+      "size": 276,
+      "sha256": "ba48dd5be5a6a1378bd4e011028654b5bf419f1e7d20ee4b9f8330c1264e7239",
+      "gitBlobSha": "3ec6be770b846170b8e7f8916e5f165e2d1730df"
+    },
+    {
+      "path": "components/ui/slider.tsx",
+      "mode": "100644",
+      "size": 1991,
+      "sha256": "0e37484f4b416e79ac18c655cac961aefacf6e67085cfc2b320ea8af545635a3",
+      "gitBlobSha": "46ebc4b4df1e9baf1f3997a4b6c08ef80c84a9c9"
+    },
+    {
+      "path": "components/ui/sonner.tsx",
+      "mode": "100644",
+      "size": 1034,
+      "sha256": "13ccc9b0fe4248e622f83a1d3b2f0566b72b5e04162d7d0c8db8945ecc71b55f",
+      "gitBlobSha": "9b20afe2e10fd9b94d1abc1ae732054b2fb9821c"
+    },
+    {
+      "path": "components/ui/spinner.tsx",
+      "mode": "100644",
+      "size": 331,
+      "sha256": "3e6e6e8d37fb4069f8e43e55318f8db06fbc36e6c8be0096da3c9337c1c798b9",
+      "gitBlobSha": "a70e713c5b4ecb2af186efe3fadea51805f26ba5"
+    },
+    {
+      "path": "components/ui/switch.tsx",
+      "mode": "100644",
+      "size": 1408,
+      "sha256": "386d4d4deb39f34126f9700fe9bf5393d238485dd94018bba9d154dda84c62ae",
+      "gitBlobSha": "8baa844fdb17d668b3ce07cfbd6a7ef52e2eb5eb"
+    },
+    {
+      "path": "components/ui/table.tsx",
+      "mode": "100644",
+      "size": 2478,
+      "sha256": "20e5a7f224959c6b75802995706a97e9da171f693d4b6b1b436388fcd9df96f3",
+      "gitBlobSha": "7add5f1a22db954ac6cb3446f1bf8c8a9fc5c335"
+    },
+    {
+      "path": "components/ui/tabs.tsx",
+      "mode": "100644",
+      "size": 3782,
+      "sha256": "865d0194331b9b2be36723fa79d3575dc83078b4cb941cafee87cb72fc2cff46",
+      "gitBlobSha": "b463afd170637df477e36184aa27d2ad1bd3c3e0"
+    },
+    {
+      "path": "components/ui/textarea.tsx",
+      "mode": "100644",
+      "size": 759,
+      "sha256": "253cdeb487c73beaaccdf47fc163e36e7d5b7ae6ddf09a4f64998a109a112979",
+      "gitBlobSha": "e67d8fefe50c41dfa2deed9a5096d5be7691581a"
+    },
+    {
+      "path": "components/ui/toggle-group.tsx",
+      "mode": "100644",
+      "size": 2308,
+      "sha256": "69f643e889e933f05c1439084480d8646f66a161c7d1cf0730ee926382ade35e",
+      "gitBlobSha": "9894607b212ff7182bf2024f4262da03df0a8973"
+    },
+    {
+      "path": "components/ui/toggle.tsx",
+      "mode": "100644",
+      "size": 1565,
+      "sha256": "ba4d0b0a2b2fee75dc36dfc19e32082e721024b919050c97fd5dc70faa924e16",
+      "gitBlobSha": "5250c98ff7f11f531af38c227230a76b7d25bf19"
+    },
+    {
+      "path": "components/ui/tooltip.tsx",
+      "mode": "100644",
+      "size": 1830,
+      "sha256": "a0784eb77831a799fad7991df4f1b666f876201565a80175e1aa68733574a2e4",
+      "gitBlobSha": "ec65c1e4255f050d9555c6cdade90a5f8a6c0c29"
+    },
+    {
+      "path": "content/adaptations/README.md",
+      "mode": "100644",
+      "size": 1364,
+      "sha256": "d35c97f99156643b52758fb96343d3e31e2e64244fe06a29339c06a82af1346e",
+      "gitBlobSha": "99ef70ea8c44ad2dddef5e0ab960db3e50285db6"
+    },
+    {
+      "path": "content/adaptations/classes-idle-v1.json",
+      "mode": "100644",
+      "size": 81193,
+      "sha256": "c72ae9d773e575da4ba6d18eac2902d9a741d1dada880c4b3c75ac307bbbd248",
+      "gitBlobSha": "aec880bed071d582b3ac5eeb7176d8f78b1c1002"
+    },
+    {
+      "path": "content/adaptations/northshire-idle-v1.json",
+      "mode": "100644",
+      "size": 5043,
+      "sha256": "308b1d08c600a9a120644f122f508f19df5869a578210e556b8a50c8d14e5aed",
+      "gitBlobSha": "c88b4698cecc08fd012ddb125787b440c0bb1bdd"
+    },
+    {
+      "path": "content/authoring/class-core-verification.json",
+      "mode": "100644",
+      "size": 18844,
+      "sha256": "bac2e4b5bb536e6c0cffec3cab5018ded2f5b8c1835d763a27ffb0a418d1348e",
+      "gitBlobSha": "ab0f698c01769ee1a3c86bba22b7900b557ae1c2"
+    },
+    {
+      "path": "content/authoring/class-defaults.json",
+      "mode": "100644",
+      "size": 466016,
+      "sha256": "a6cdf11e5a68d52cd36d478ecde5df797ea71673253735ff7f9c0effa3f959f4",
+      "gitBlobSha": "7ce6619cab4ffe52eacf83e5e676c5b36141e09e"
+    },
+    {
+      "path": "content/authoring/forever-overrides.json",
+      "mode": "100644",
+      "size": 489,
+      "sha256": "ed8092c1e68c230716b1cd7654bce44f54906f761112c9653e19b9242d1102a2",
+      "gitBlobSha": "43cc6cc96d1fe8da99a12b1a6aeb26b6095013dd"
+    },
+    {
+      "path": "content/authoring/start-packet.json",
+      "mode": "100644",
+      "size": 59124,
+      "sha256": "bcffda5e38dd64fbc0e1dc02985a8d359d36d98b6a6e9493ac3b4027b35c8e60",
+      "gitBlobSha": "5b8ad040723a1dcd514391ddc5ca5d3ad8203645"
+    },
+    {
+      "path": "content/snapshots/FOR-IDLE-2026-10-21-PUBLIC/reference-inventory.json",
+      "mode": "100644",
+      "size": 37174,
+      "sha256": "e627e9c276d99a2d343b9a26b410562f87f1a15b8312144da669e49c1a240b9b",
+      "gitBlobSha": "1d7f70e0cbcf8e570151a589e674ff1d474e3140"
+    },
+    {
+      "path": "content/snapshots/FOR-IDLE-2026-10-21-PUBLIC/scope.json",
+      "mode": "100644",
+      "size": 2069,
+      "sha256": "f9af7c44e9395339bec69d28cd8622fa99f707b87d0a47ae44916a418f7869f9",
+      "gitBlobSha": "ba3bfdd81a0040e0c2f85b0698de2877e50e19c0"
+    },
+    {
+      "path": "content/sources/README.md",
+      "mode": "100644",
+      "size": 2784,
+      "sha256": "983455aba55df0d310a9625add877a11dc4bc2a5c599cd48ba1eb35b2e6177e9",
+      "gitBlobSha": "88389b9d4d91c9e57df4aabff7b24f6dcf39e945"
+    },
+    {
+      "path": "content/sources/evidence/class-matrix.json",
+      "mode": "100644",
+      "size": 1313,
+      "sha256": "cf2b9f8b7cb2e63332af088f5e70d06aba85af9002fe69363fc6bcda1b261217",
+      "gitBlobSha": "8df1144d8d7545d07e8fae021654e5bb132188e9"
+    },
+    {
+      "path": "content/sources/evidence/class-rules.json",
+      "mode": "100644",
+      "size": 722,
+      "sha256": "456cfce101e3396a746f5b81b465b9318ff8be061a90b306cf2c1ae4f1b15681",
+      "gitBlobSha": "eca967814e95e6a4fe4252561cdce233411d28aa"
+    },
+    {
+      "path": "content/sources/evidence/first-raids.json",
+      "mode": "100644",
+      "size": 504,
+      "sha256": "833da8f695174e06d1fd789b4d10863dd3f02e8a9c3b521aea2778555cb2a93c",
+      "gitBlobSha": "3b63eed35978bc90b0fe7c44196343a39ba274a0"
+    },
+    {
+      "path": "content/sources/evidence/new-dungeons.json",
+      "mode": "100644",
+      "size": 1019,
+      "sha256": "e294e07d8f3c95760cfd4e9f90018e732951ca881eaea55557cfcbe32c292734",
+      "gitBlobSha": "0a840eb320b3a46a360e3fa12dcaf4fb4a09a8c8"
+    },
+    {
+      "path": "content/sources/evidence/raid-boss-counts.json",
+      "mode": "100644",
+      "size": 404,
+      "sha256": "441bfeead712cc34ed5a1ca92d743063e6086cf1d094aa0ce92f8d3f16b3abc8",
+      "gitBlobSha": "3c716a2aa1aab312f1daeca645e6fb4034f1ffdd"
+    },
+    {
+      "path": "content/sources/evidence/raid-sizes.json",
+      "mode": "100644",
+      "size": 391,
+      "sha256": "68c309725591fdf10c076dff99a99180862c05fe6e550710a448219ff2c4b55a",
+      "gitBlobSha": "6379b00b8e835a133d395455b99db5f3e60fc578"
+    },
+    {
+      "path": "content/sources/evidence/shaman-rules.json",
+      "mode": "100644",
+      "size": 1236,
+      "sha256": "46dd50892b102e8ab4731a1d1199ebe2a0c803295619a2a60a2ab00305f8f24e",
+      "gitBlobSha": "395938e9b92e4f72692e32381a19717e4a8459ed"
+    },
+    {
+      "path": "content/sources/lock.json",
+      "mode": "100644",
+      "size": 197984,
+      "sha256": "be3d481efa5d4f5160128aa81b8eea713189cac14f31ed6c56121170fa524d22",
+      "gitBlobSha": "e8589e87afb0e042938302f53882c57cfd713f34"
+    },
+    {
+      "path": "content/sources/registry.json",
+      "mode": "100644",
+      "size": 8676,
+      "sha256": "6b460aaf352378b7fbcd7fef5ae4bd27cba54dd0eaa2119a3ab03645e1c4f5d3",
+      "gitBlobSha": "91b7d0cbd9570b94c6df82347dba0c5d9b54f8a8"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/PROVENANCE.md",
+      "mode": "100644",
+      "size": 4198,
+      "sha256": "f0af04c5daf16d72952710d6f78d82524f3c9d2f2876a1d59b86cc4759a7f628",
+      "gitBlobSha": "93d1c806f138a2bac93e7eeb2b27ee72a5f04652"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/data/Forever/foreverItemDB.lua",
+      "mode": "100644",
+      "size": 2181706,
+      "sha256": "987d037b6df94d5b0b1dc326a1670581e3abb952736a4ae055fd9f161328b71c",
+      "gitBlobSha": "8cacee3220dd7c370513ba80fed31801a5b44e41"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/data/Forever/foreverNpcDB.lua",
+      "mode": "100644",
+      "size": 2033176,
+      "sha256": "a8c4169690726323dac3c6441f74f7a4d9cafcc08ec42231d72ff28c9471f0ee",
+      "gitBlobSha": "7940d463751b2e0ecffed4f63a7f75c807140e1e"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/data/Forever/foreverObjectDB.lua",
+      "mode": "100644",
+      "size": 1011387,
+      "sha256": "af4536c12c5b1da5fd32cb33be5c9c01d2436f97a5b9f60e2cdd238273b2cc09",
+      "gitBlobSha": "8d57a7f1d10949d5e154e19622426855cc7aec2a"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/data/Forever/foreverQuestDB.lua",
+      "mode": "100644",
+      "size": 1057548,
+      "sha256": "d5be8516877505334f02073826ea0f22a394ddbf604bb5a33f5a39de5bb1ee87",
+      "gitBlobSha": "3111554923c22048f037eaa0f9d409cf0d2d1b62"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/docs/adr/0016-table-correction-operations.md",
+      "mode": "100644",
+      "size": 6271,
+      "sha256": "a3d2716dafcd148baa41410f0cc3678df1d90bf2615abe800e88578dc8c304a5",
+      "gitBlobSha": "43a8cbcb538770db71e680043d2d849b8fda4048"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/docs/api.md",
+      "mode": "100644",
+      "size": 44807,
+      "sha256": "f1d0f2aaf7be24ab8551c112fc1c01bf2b851e28d3347a3f9e6b84fc725786e3",
+      "gitBlobSha": "01b2027ad7a30d58304e31b3e241df809940e28a"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/docs/forever-delta-base.md",
+      "mode": "100644",
+      "size": 14948,
+      "sha256": "22a9fbf77c2116aa880d9081716a1736cb0cb5603b9bb77c2f376ad816b2361f",
+      "gitBlobSha": "2d6742bad244436495d74d5e45447b36020c1cb3"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/l10n/Forever/lookupItems/deDE.lua",
+      "mode": "100644",
+      "size": 849125,
+      "sha256": "bde240521939a825153ed150f17f634a284b60ac03e31589fc3fb6451eae13ee",
+      "gitBlobSha": "b584b38f3f29a04573d1eacad2ab09bef8de2223"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/l10n/Forever/lookupNpcs/deDE.lua",
+      "mode": "100644",
+      "size": 376398,
+      "sha256": "40d2e3d0b840cd415bed0ef95559ce5b28855df268d143d6792e58a5e5fbd2e2",
+      "gitBlobSha": "34d65b373a0e2a7005c29ef2c65adcdbfca72d8b"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/l10n/Forever/lookupObjects/deDE.lua",
+      "mode": "100644",
+      "size": 41744,
+      "sha256": "d1103421e8f0c9d72631d675d77550d660f6005489d58db5777428502c997fbb",
+      "gitBlobSha": "1fae4a4436bad82a60824bb4713684ed6cfdf062"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/l10n/Forever/lookupQuests/deDE.lua",
+      "mode": "100644",
+      "size": 590252,
+      "sha256": "442b9cde93e9d3d5f19e10cf05cb0ebac090deba33cea1d8ef1516497f894c30",
+      "gitBlobSha": "12935874b5e5f9465e603cc7380df506040c74bd"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/config.lua",
+      "mode": "100644",
+      "size": 24330,
+      "sha256": "46cc623756894dd6f803b7fddec9682c5df8232e993fabdb6a8edbf43f450262",
+      "gitBlobSha": "9bd2041f21f7506a426c6f2f2664b45a61224ffe"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/foreverItemFixes.lua",
+      "mode": "100644",
+      "size": 6622,
+      "sha256": "098bb9833f937d4ee18388568953828bd0930f1e23d5ee93dfb87e76da6efb90",
+      "gitBlobSha": "6aac1bd5c3d653bc2ec6718f86a4fe3eee6ec226"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/foreverNPCFixes.lua",
+      "mode": "100644",
+      "size": 27864,
+      "sha256": "846370ab6f4356c1a3e292f0e5a9be857053c1e7c9aac66eb8b8b0e8cd6140f6",
+      "gitBlobSha": "e1f0308bacb9d988d72d16f57b316248393c0eac"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/foreverObjectFixes.lua",
+      "mode": "100644",
+      "size": 24325,
+      "sha256": "cd59b6405e14330beb92f550f93636b2cb7890d3408450aab12f4d455d3e6455",
+      "gitBlobSha": "903a19bff52bc7ac5571f8b2cc89061ffbd76b4b"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/foreverQuestFixes.lua",
+      "mode": "100644",
+      "size": 147959,
+      "sha256": "c6742e49a93020d16b1e9c48d80d2d6fa97c63ce8fcfc85ca21142f1e7e5e233",
+      "gitBlobSha": "eb131a588d8528f1e5107e8c5f13a87d8f12f483"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/generated/foreverBaseItem.lua",
+      "mode": "100644",
+      "size": 2526376,
+      "sha256": "4824f55dbb542dcf62e65eb9b9129c330e2188ff431163c2bfe1501088208424",
+      "gitBlobSha": "94dd13ba5852d8092c8b000befd805deee1f28e9"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/generated/foreverBaseNpc.lua",
+      "mode": "100644",
+      "size": 1067988,
+      "sha256": "25ae0556d29b792758d95682d3974a847bdbe2773322fe863872dc1340260a32",
+      "gitBlobSha": "a0435bd31bb9f28d821b415c8bff8bb969d1d879"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/generated/foreverBaseObject.lua",
+      "mode": "100644",
+      "size": 111486,
+      "sha256": "f589af8d868330de2ff174c7a80147539ee407ce95ddae6ba7bd602535ef0869",
+      "gitBlobSha": "d19e656c69b443d896b92befd253b09a12def2b4"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "mode": "100644",
+      "size": 689189,
+      "sha256": "25a5eec6855e8e63098217b2dbe87b0725e2a2df61b54bb65857fef931a2e1b4",
+      "gitBlobSha": "ab12cfb05caa4ca95bc91681e9ea442e76247ee0"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/legacy/README.md",
+      "mode": "100644",
+      "size": 884,
+      "sha256": "be36b2a92db497466664e76831445f36c422a1649bed818b2bc8feeb63f42e5a",
+      "gitBlobSha": "df1655c3bb75bb0a3220f06f5a12cd88939f158d"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/legacy/classicItemFixes.lua",
+      "mode": "100644",
+      "size": 62628,
+      "sha256": "688286a44e5d95045ff943d55ba3a9fccffce7ca4a982fa55a67499b39509b87",
+      "gitBlobSha": "9616783cede128f8e06a6c7353e0088770266f72"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/legacy/classicNPCFixes.lua",
+      "mode": "100644",
+      "size": 251507,
+      "sha256": "1de19d17db00581a35d397c7440124aa3f14150d5456c771d2deb3cfba79f031",
+      "gitBlobSha": "d34482830530f27244006a1399930b6a5ba9778f"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/legacy/classicObjectFixes.lua",
+      "mode": "100644",
+      "size": 63547,
+      "sha256": "181bea5a5db73f8af1bebe1d8aa835d28e2d4c11adf9ff786c4f54edb3cdc76a",
+      "gitBlobSha": "1210f985054d26d489ee5e560676458d94ed3ed0"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/legacy/classicQuestFixes.lua",
+      "mode": "100644",
+      "size": 317446,
+      "sha256": "76cd6a05f035826cabc6180a0ff2a1a37c5e7946c891eb0a06412fab5a4caf2e",
+      "gitBlobSha": "92a9ecbef98167bc29862386df10b946fce51aec"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/legacy/classicQuestReputationFixes.lua",
+      "mode": "100644",
+      "size": 351294,
+      "sha256": "155b2502990304339833f65c5d5f46d6f1ad84527b9e476a976f4f9157a14322",
+      "gitBlobSha": "578dd859fbd107fb7c8e6790183323ec5a4daaaf"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/legacy/itemStartFixes.lua",
+      "mode": "100644",
+      "size": 99433,
+      "sha256": "c5f379867c82a401432e0ba2ef58c4e44ffe878a806f4901e070f9f090523bc6",
+      "gitBlobSha": "ac16cffc36f74076558d144f74bde02786e7a52c"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/traces/foreverItemTraces.lua",
+      "mode": "100644",
+      "size": 94389,
+      "sha256": "ccfda33e173b97da60bff2e463d65919ed635bf7c7fd38ac7c2e313d925e6bf2",
+      "gitBlobSha": "e8c781de843fe0f15ef550a609911aedf107a556"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "mode": "100644",
+      "size": 1067137,
+      "sha256": "14d51b3d43547a61fb2e13209b61c95a16a42eff9d9107608518bfdd8e51444f",
+      "gitBlobSha": "b5084c439148df59e03f8723d7bb437429d58275"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/traces/foreverObjectTraces.lua",
+      "mode": "100644",
+      "size": 31623,
+      "sha256": "7d16866ebd314639785e4ed70cf90feceaae32c003b482d2a4a897c4de5b7863",
+      "gitBlobSha": "fe06582056244751c27da2ad6d1105dae8912672"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "mode": "100644",
+      "size": 258871,
+      "sha256": "24c13d7f01f0b5f2dd20b9b24981da0f77f3bbda5e0eed9e6c1178457baf75b7",
+      "gitBlobSha": "30bde7e2545d25a45493e7832c0cb09f0a0ad22c"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/enum/constants.lua",
+      "mode": "100644",
+      "size": 1119,
+      "sha256": "63a9b9fca87c4820fb6c2af53eb64f19fce4eb7e0ef60aa45ae995ecea522ce7",
+      "gitBlobSha": "4399a48885028f345b5eb7d85d2c22e09ece3bf5"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/enum/expansions.lua",
+      "mode": "100644",
+      "size": 9623,
+      "sha256": "9c67c799cb3dfb6d00b6416ffe0451aad9fcb3ef7c272691c47e1663b157fa38",
+      "gitBlobSha": "7220ae46d3930fb064e783a0674226f0fc20e777"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/enum/factions.lua",
+      "mode": "100644",
+      "size": 4539,
+      "sha256": "c71d1c5b858b329f19babe681afc8f424ae71aacf1b47f8c06a73b66335dfe2d",
+      "gitBlobSha": "972054d6b3f050a9e09bcf3e81e4d9aa835c9852"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/enum/icons.lua",
+      "mode": "100644",
+      "size": 1005,
+      "sha256": "ea4390aadd96d99ad9feab6cf564ecad50350353a526e3695fe39e40c144011b",
+      "gitBlobSha": "2de2008a690a442bbf94d6b988e6deb3e632ff05"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/enum/items.lua",
+      "mode": "100644",
+      "size": 346,
+      "sha256": "c4b861584fe54ad3edb8a46338064e6ffa9759032dcbaa79756ba4172fa579a2",
+      "gitBlobSha": "84c9f77b850a686c29b041dd35c91110e35052d2"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/enum/phases.lua",
+      "mode": "100644",
+      "size": 18874,
+      "sha256": "1736eb5fccfeb3788a07eb94e2c871e84b4cff805ccbb6aa9040e337fb687622",
+      "gitBlobSha": "275a6fea9192c32c15add055223a1df4896ab96b"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/enum/professions.lua",
+      "mode": "100644",
+      "size": 1666,
+      "sha256": "3ae501a3b0d288159c566c88622c2f870fc4fd937a919a0f640a8ead8b3fc138",
+      "gitBlobSha": "e498356db2bd7deeac8938a581d04c0fe2b23405"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/enum/quests.lua",
+      "mode": "100644",
+      "size": 2242,
+      "sha256": "eb15f94f58be894772786706bb9c3db56756df1985d7ab93fc180d7567103ede",
+      "gitBlobSha": "759d5d333a52f03e0aee82a35b4eb09235d3ec56"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/enum/waypoints.lua",
+      "mode": "100644",
+      "size": 6709,
+      "sha256": "10f2b234c70d87ba42163782b6022f522affa4d16230eddde55b0a30f7c3861b",
+      "gitBlobSha": "a7a8006bc4e566fb9780885d86dd61e3805057d6"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/enum/zones.lua",
+      "mode": "100644",
+      "size": 20269,
+      "sha256": "20e7af36ec38f6f1640368d1c2030315cbdd068d895578c1374591b2f5dd9216",
+      "gitBlobSha": "4189d8e39cd1a2947135763454e7eafd85354c49"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/manifest.lua",
+      "mode": "100644",
+      "size": 6664,
+      "sha256": "60fcc8b79a9bb3b8494ff42270a0067f6c842bbced77c334789659e0b2027d80",
+      "gitBlobSha": "4c002dba77ee9647e3ead090c02e0f87fafcd4cd"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/registry.lua",
+      "mode": "100644",
+      "size": 34348,
+      "sha256": "a5915025a3f27fe0b81312a69f2d33a58b8386873d72367124887abec8239ef0",
+      "gitBlobSha": "c4691585dc7f77c4e466579bd91d53aa3804226c"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/corrections/tablePatch.lua",
+      "mode": "100644",
+      "size": 9305,
+      "sha256": "a170406dcf8f1b5480e1263b43e2338dfce5b2716574c7c5971c6a0e755f6553",
+      "gitBlobSha": "4c4268f791d56c13cbe978735ee76a36d27edfa8"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/meta/itemMeta.lua",
+      "mode": "100644",
+      "size": 3426,
+      "sha256": "a11209ef102e9cc0d1d199de4e7d662a515964a36f3013aafce9b6a14bae509f",
+      "gitBlobSha": "5db6707e8efd971482e2b05eff15230746218cef"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/meta/normalize.lua",
+      "mode": "100644",
+      "size": 13057,
+      "sha256": "9047cb03c21dd5f26e007d07ee0f700dab0b20149484e5ee5ba4504e266b131b",
+      "gitBlobSha": "24c6f92346f14fd7da6f0b54ee41fb3878648387"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/meta/npcMeta.lua",
+      "mode": "100644",
+      "size": 3632,
+      "sha256": "01d9f0047f4d8396be6dfaa7a6e286bd07f158c3c111245097f26e479319234e",
+      "gitBlobSha": "42fca9247314e9fca2aed67d29df31f25ee863d8"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/meta/objectMeta.lua",
+      "mode": "100644",
+      "size": 2399,
+      "sha256": "d53c228d4749eb125bd9fd513997b82d4e494a282af5db86fcde1dbab4929a1a",
+      "gitBlobSha": "0363f8f31a39f72f977325bd9ccdabc7624a3240"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/src/meta/questMeta.lua",
+      "mode": "100644",
+      "size": 6972,
+      "sha256": "2cf91fe3dc43ac06b06fadf31c9dc05c48c545005ef49d70d3d413a3437e2bb2",
+      "gitBlobSha": "3ce72d358d2112209d5606964d8538136906af67"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/support/Forever/DropTables/classicItemDrops.lua",
+      "mode": "100644",
+      "size": 571977,
+      "sha256": "12888b91d87943b2e448dd60c6f33a21418dffc837ec7662fbd6892d91a6657f",
+      "gitBlobSha": "f42c7d286788ded80ecc4c7e940ed0972b70178d"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/support/Forever/QuestXP/xpDB-classic.lua",
+      "mode": "100644",
+      "size": 357742,
+      "sha256": "9f5ca777904f6f62693cbe6f8b8ce91d0e0430e3ed5f7621df6e8691d4269149",
+      "gitBlobSha": "adb35495a783c2d27ccec963001f8a21883096ab"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/support/Forever/Zones/areaIdToUiMapId.lua",
+      "mode": "100644",
+      "size": 59425,
+      "sha256": "c6f26a18a2d0d9bdf5750039eabe111f545700a751928e8f79aedb12fbb8ff09",
+      "gitBlobSha": "2c7e1d3643bf2584802db35f4f6e797e995cd862"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/support/Forever/Zones/dungeons.lua",
+      "mode": "100644",
+      "size": 13482,
+      "sha256": "9318b4ea05ca6459535bb681813de88bb988655cdbc2394b148605d65aa48236",
+      "gitBlobSha": "92c09e2041e54447ffbd59cc77e45782499d395a"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/support/Forever/Zones/instanceIdToAreaId.lua",
+      "mode": "100644",
+      "size": 6025,
+      "sha256": "8d83aada922f48a3ef7f604ed736963b7fc4c8d7ed9b043e3c33ad520fa779d9",
+      "gitBlobSha": "b36037c1bd9fc8b7f941385951b9712232596249"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/support/Forever/Zones/subZoneToParentZone.lua",
+      "mode": "100644",
+      "size": 125714,
+      "sha256": "17a9b6369519a0dc34c17ebe0504029802afeafa3eb69eee1e8631eb71fd547a",
+      "gitBlobSha": "01f6ef85b5aac143f137a571648b79d90c0c627d"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/support/Forever/Zones/uiMapIdToAreaId.lua",
+      "mode": "100644",
+      "size": 4770,
+      "sha256": "4964def0918a8cddef6c5f8292526a076b2afe73ea58f178f68a78e35bec39e3",
+      "gitBlobSha": "5f83b93f8ea5a667bc2fd3ceedf9484bf3ded3d3"
+    },
+    {
+      "path": "content/sources/vendor/QuestieDB/tools/validation/table-correction-cases.lua",
+      "mode": "100644",
+      "size": 5098,
+      "sha256": "d8b5d540516219dde2de662150819373195cb62bfc8e5212041bd19b67be2bb6",
+      "gitBlobSha": "ef41e52e75c7d2d3503b9e3c464581414207e2ec"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/LICENSE",
+      "mode": "100644",
+      "size": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "gitBlobSha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/NOTICE.md",
+      "mode": "100644",
+      "size": 5420,
+      "sha256": "3270abc329a53b98355a0b0ff96aee21316eb4c0712a38dcc28f93432c32f466",
+      "gitBlobSha": "2f0382b396403bc0c059ab4b51daac501b2bb17a"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/abilities.json",
+      "mode": "100644",
+      "size": 486759,
+      "sha256": "500c768313246ffbbe155ab3bb05f2edd02722eb53c22bd39dc06ff40ec1cde6",
+      "gitBlobSha": "d48f84bd08279a48797c3d79f81ada7dd25554ea"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/classes.json",
+      "mode": "100644",
+      "size": 6956,
+      "sha256": "f51c4754c90d90c494ca306d064d318980aef1fe219413b11b84b1371651f8c9",
+      "gitBlobSha": "6a502d9f25695c8df388b28298956e06f8929b2a"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/drops.json",
+      "mode": "100644",
+      "size": 2042499,
+      "sha256": "d2a7ba302f8b78888f73fc2fbc14a68389c7d523314ee9a5fdfc6005533e5f97",
+      "gitBlobSha": "e5a5924d7a9a011f35445746ae9c82c1ca54988a"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/dungeons.json",
+      "mode": "100644",
+      "size": 9785,
+      "sha256": "bea8d1c2e6af8aec5e7679b7c634fbe63e93f9faf81243aadbfe31c632b5eaa7",
+      "gitBlobSha": "72c3763d20c637e5a352c6c44e8291803c3419ec"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/factions.json",
+      "mode": "100644",
+      "size": 2855,
+      "sha256": "f87bbd0519114308f55a248bf28475490bf7f8822d0ea33a7b29b9d2ebb75f9f",
+      "gitBlobSha": "75316da40bcf709d955ca7fd86539734126c6638"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/items.json",
+      "mode": "100644",
+      "size": 2411076,
+      "sha256": "38e09307013f099b902bec04ba1c0d50456e8f55d27f372374370fb85b8d3911",
+      "gitBlobSha": "a17279e85ed2c2415832c62901a28de8326381a5"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/legacy.json",
+      "mode": "100644",
+      "size": 25798,
+      "sha256": "bfaab208ece0ca3d31bb305bf0deb53ec57b13cab39be16c6642e44d09deaa3e",
+      "gitBlobSha": "97611763ef75fe7bd5af3b92ae25aac410d9a063"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/meta.json",
+      "mode": "100644",
+      "size": 965,
+      "sha256": "4d4bc927f46a617ad147dc41c57d5f4722b69519edb7c95e42d6a533735e91f0",
+      "gitBlobSha": "4541b3a4f278eaba23b1164d56f20ed766085aad"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/minor-items.json",
+      "mode": "100644",
+      "size": 589646,
+      "sha256": "3f3473ac4cfb3f2719dd65a7584c7570fd5dbc79761f7c517ec557731254e7a0",
+      "gitBlobSha": "16cd4f36fc27182ec53eebf30b02f44d6cef1265"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/npc-loot.json",
+      "mode": "100644",
+      "size": 2095360,
+      "sha256": "55ce87f2951b9a39325eb89aa6b35aa22ba604041ea69eb57128ede121ca1410",
+      "gitBlobSha": "c1638a385bf4391fa1971d49552df97cef697c11"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/npcs.json",
+      "mode": "100644",
+      "size": 408396,
+      "sha256": "0fffce6e5457bff9a8ee24774aa27ea8b2c23f33a64dd5f3256502c680c395e1",
+      "gitBlobSha": "e171c1a2831c1d187b369bb7fe507147eb39bd11"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/objects.json",
+      "mode": "100644",
+      "size": 35940,
+      "sha256": "28db7fae2022ba4e9416f73ad465da2f40b0a14f5b183fc74425681352acbee5",
+      "gitBlobSha": "5bfa118d42fc2639f2619674938c50fb87329801"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/quests.json",
+      "mode": "100644",
+      "size": 4119319,
+      "sha256": "f04e181ad2cab5bff8cf24c71dee296e13ff6424774f689f0d5630f61e1f8ab1",
+      "gitBlobSha": "92df0c134271deaf110463a7c17e061c996be262"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/races.json",
+      "mode": "100644",
+      "size": 14299,
+      "sha256": "770b81a172e11fcee699ce1711bdba18e2bdac65eaa9906382e105426445b33d",
+      "gitBlobSha": "93b0fa6fd02f6ae18a5db12b7420ca41eec59c3f"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/talents.json",
+      "mode": "100644",
+      "size": 273051,
+      "sha256": "941d800d7b3da9da2b24e600a1a1774173a1da561391bf7b6543fba9c2fa1255",
+      "gitBlobSha": "2ad0eaeb0b9c7ccd8cc14db673da8b7bb4727a67"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/vendors.json",
+      "mode": "100644",
+      "size": 54321,
+      "sha256": "542e3b1fd49efb87955fc58ccde35902d13adb727decfc239ef64239c82b0439",
+      "gitBlobSha": "a013d975580a7973858537136a35b2a9fcd8a49b"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/zone-names.json",
+      "mode": "100644",
+      "size": 2857,
+      "sha256": "82b3549d267f77b28abad75d17f293982576b5b63ba0773312149ff14879de5c",
+      "gitBlobSha": "ed1ea47ae746419c4b211bb39aac3fd28c2420d9"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/data/zones.json",
+      "mode": "100644",
+      "size": 7741,
+      "sha256": "baa7e121cac98680d6d8d36de01c9b6080e461820f4c73ecd56906db9b987da2",
+      "gitBlobSha": "943a75d47738a77f8a7d27afbbd5f8c425ae4430"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/docs/data-README.md",
+      "mode": "100644",
+      "size": 4042,
+      "sha256": "51f4fb30d8de124a50064b83e3e45ebb12c7dd6299a3557b8b829da189c84c40",
+      "gitBlobSha": "a5259a75feddd9b2965d60801b3aba09e3aa9568"
+    },
+    {
+      "path": "content/sources/vendor/grimoire/docs/data-types.ts",
+      "mode": "100644",
+      "size": 10104,
+      "sha256": "fb5a42fbe9b471d6d7468a4f2f0b91b501f4ed81efe25c2ba16a19add6cd1fce",
+      "gitBlobSha": "eafb0e96b59617b9d017b3adf6867a19a8e03d59"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/ATTRIBUTION.md",
+      "mode": "100644",
+      "size": 2043,
+      "sha256": "1c70b2af8503eec75f1fc9ecba00c8b73f2fe32198655b52a2f1e8f7ad2cb92e",
+      "gitBlobSha": "a3a156ec5e878551eacb0a4420bc04e546d0d43d"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/AreaTable.jsonl.gz",
+      "mode": "100644",
+      "size": 48400,
+      "sha256": "bf209599db522bf5da6244a271aba1330feb352aa285a4820da15b1413f380f5",
+      "gitBlobSha": "5a88b910aa35f40b6d30dbd64df358d2564b58b5"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ArmorLocation.jsonl.gz",
+      "mode": "100644",
+      "size": 542,
+      "sha256": "f463da6d561cb9f42e688d73b1883b35061e148ba8a2e7a5db27ad2eed3baccb",
+      "gitBlobSha": "dc72c035a4c17ee11b582ff183b8638f7a5a0a01"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/Creature.jsonl.gz",
+      "mode": "100644",
+      "size": 4234,
+      "sha256": "c6500e6aa656442139b94b1b65f146b8e66a3b8c2cc03a3122f6f61883a9fa25",
+      "gitBlobSha": "e56e01c39ccac00a5f7aff1eae643b76fafbbd40"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/CreatureDifficulty.jsonl.gz",
+      "mode": "100644",
+      "size": 2655,
+      "sha256": "c5d208ae0844ab4d9d549ae03962b34f9b41d3331ea9db5271addde7586a8092",
+      "gitBlobSha": "192d542cbfb164df0c431b1f460d792fdd1d7444"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/Item.jsonl.gz",
+      "mode": "100644",
+      "size": 435384,
+      "sha256": "39510a116951b9acf0bded2040ea0a4fb436b9486f18ac14a82eb7d44b042da0",
+      "gitBlobSha": "01f3a6812ce7e655904df3b599917586e5227ab7"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemArmorQuality.jsonl.gz",
+      "mode": "100644",
+      "size": 766,
+      "sha256": "b50f8557b6f20e588a350ff834b1ab72e72bf05ce1cc755e6724a3702eaff6ed",
+      "gitBlobSha": "5f814233680998e0ae00a6e84df8aa1cc77f849b"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemArmorShield.jsonl.gz",
+      "mode": "100644",
+      "size": 2600,
+      "sha256": "7ed79397bba9ff2a4c6bb9c34e7a814a36c9ecf330cbdf06241e88d4fe3513ff",
+      "gitBlobSha": "9d0f5aaec9d7c85e09a022d0013837b630124385"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemArmorTotal.jsonl.gz",
+      "mode": "100644",
+      "size": 2931,
+      "sha256": "e90e37059e9b7a96f3d6912103a282a5b53bf3b7fd3d99b1c02009ff270597c0",
+      "gitBlobSha": "88c8dfccad23bd202527f469b722b031a19a3665"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemBonus.jsonl.gz",
+      "mode": "100644",
+      "size": 14347,
+      "sha256": "3df99041af0ac0bfe10aab740d31e1adef98780c227fcdd26f3d3318a3a84f9e",
+      "gitBlobSha": "31526358d47829fc209d22fe1a73c54ff9dfad71"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemBonusTreeNode.jsonl.gz",
+      "mode": "100644",
+      "size": 19647,
+      "sha256": "14a57a1f273d0c2e5e57fba4df302ca25f9080132fce2c2faeea7c60b4e85dd3",
+      "gitBlobSha": "c6d8749a80b63f1ba1739bbfa96eaef33dfd9675"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemClass.jsonl.gz",
+      "mode": "100644",
+      "size": 542,
+      "sha256": "34da6082c678d68dfab9e55cb929c965099d5e525e03efafc1e6be9b6978658e",
+      "gitBlobSha": "ac3a898bcc4769714bcb9a8bb912563b0929ee55"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemDamageAmmo.jsonl.gz",
+      "mode": "100644",
+      "size": 35579,
+      "sha256": "1feba303cad559ebafc81e09b7234fadd08de8666cfb670fc02be8d8e73e8c21",
+      "gitBlobSha": "39731a88257ac3a4e86d2cddeba14fddc6f88bf3"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemDamageOneHand.jsonl.gz",
+      "mode": "100644",
+      "size": 2858,
+      "sha256": "cf9976fd8b9f4225319729fd0cc7411c39a4926cffd59b478ebe503ddb2f52d2",
+      "gitBlobSha": "5e2f1185f56215549d2edef63e4e36abd44b11a1"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemDamageOneHandCaster.jsonl.gz",
+      "mode": "100644",
+      "size": 2866,
+      "sha256": "5a590340c4eaf1d4720c9ba8aea238c2e99afebb833acbffce526288b777e48e",
+      "gitBlobSha": "0f18bc0c55953341e8f071a08484ae23d9f375b9"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemDamageRanged.jsonl.gz",
+      "mode": "100644",
+      "size": 2873,
+      "sha256": "1a0cb795930d227d23345fc8db74b2594329d922e9d7c91e066c99ab0a269943",
+      "gitBlobSha": "3ee620668b34835186ae58a112afb73d470b1e05"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemDamageThrown.jsonl.gz",
+      "mode": "100644",
+      "size": 2860,
+      "sha256": "8dc9e84489b6d2469f0ca916d2e62f3548937359e963e226aad26d6831ff84e5",
+      "gitBlobSha": "b065014c06aa44d7d2c3487c5a7f9bb521633b07"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemDamageTwoHand.jsonl.gz",
+      "mode": "100644",
+      "size": 2875,
+      "sha256": "dcfb2b878a87d72e4b18d772e0bb5bba7953f6378274ed30f8520562e3a4528c",
+      "gitBlobSha": "69caab5d527b2ca8dadb054b6ccc19f9d6a309da"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemDamageTwoHandCaster.jsonl.gz",
+      "mode": "100644",
+      "size": 2882,
+      "sha256": "910b0e5386c59b1fcf7a91d3077eeed441cecfc2c8afdd580a172db18d47a1fc",
+      "gitBlobSha": "876708a1e7798b01f921328ea398e4ba4cd2dd27"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemDamageWand.jsonl.gz",
+      "mode": "100644",
+      "size": 2634,
+      "sha256": "bd0eb9f54a0b2bdd7aca36a59d639f4ed09e727f59e65e45969db795697aaa58",
+      "gitBlobSha": "7c4d6e9e5afcaf13451c9728c135081625f97d7c"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemEffect.jsonl.gz",
+      "mode": "100644",
+      "size": 140609,
+      "sha256": "3e8f2749b8aaa844e13cfe06ce7f24fcbe40c9bd5886c75a35f241be45e94d1c",
+      "gitBlobSha": "7270f6ea2e98f9226a09f122e286661b7547706e"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemSparse.jsonl.gz",
+      "mode": "100644",
+      "size": 873174,
+      "sha256": "f3b543081983e275992b6545b3982da0358ceb94d15675cd7bef373878d22fd4",
+      "gitBlobSha": "db3db03b397459e6212b20a8a5260728364980ad"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemSubClass.jsonl.gz",
+      "mode": "100644",
+      "size": 2324,
+      "sha256": "8b39942400773c5e9e46b40f97e03a9a872a4d2852ce4c0bad1bee16585a5881",
+      "gitBlobSha": "e7ab503e74d0f538e0a5bdfe45fb73eb16a9ce11"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemXBonusTree.jsonl.gz",
+      "mode": "100644",
+      "size": 20529,
+      "sha256": "aaef59e4d9c86ce330ed5cab505e684a35a911db2ceaba7171ce21d48d72d318",
+      "gitBlobSha": "fe64413ffe55f56dcca6aa51b64ac81b76159c8f"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/ItemXItemEffect.jsonl.gz",
+      "mode": "100644",
+      "size": 151058,
+      "sha256": "23b7f3e8649a94bec0ea8917d738e27d92cf45a6e7f4d43204400c55b624e9c0",
+      "gitBlobSha": "c6af36aa7d5ef2c3b242a4127799630a5e7310df"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/Map.jsonl.gz",
+      "mode": "100644",
+      "size": 5023,
+      "sha256": "3f08bc6b59edcae8b2ad33c2fb7119f4f28eeea5cb85de518cb15693ba8d2215",
+      "gitBlobSha": "592ebb508f8625257ef9f6978173789116985729"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/RandPropPoints.jsonl.gz",
+      "mode": "100644",
+      "size": 8983,
+      "sha256": "04ad68ee374ebfdae59e1d99afdf53b0abcf4343331398bab69d85a8e7e0fb2c",
+      "gitBlobSha": "817f072ac7bdedcfb5ccd63333ec1386027d3c23"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/SkillLine.jsonl.gz",
+      "mode": "100644",
+      "size": 4895,
+      "sha256": "509c792ffd478fbe41746779ed1b709c6c3a3d1bc42cfc7f1a190c91e0b6c4d8",
+      "gitBlobSha": "344ff7896f941c32de31843c1cccb7d51c6a5df8"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/SkillLineAbility.jsonl.gz",
+      "mode": "100644",
+      "size": 116726,
+      "sha256": "7b938956ac13ccb2d7a3419faa54ca8e6aa32f95fc4064e31b05f9416899e408",
+      "gitBlobSha": "15f2056370ede996688ad1614d3c35f746373080"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/Spell.jsonl.gz",
+      "mode": "100644",
+      "size": 710387,
+      "sha256": "b9825aebae3b048ed718a1f66f54420215c9c62ce3ef67ec4a9304c6e5efab2d",
+      "gitBlobSha": "91199f92dd3c353c7bbb291dc2eb06592f98c339"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/SpellCastTimes.jsonl.gz",
+      "mode": "100644",
+      "size": 981,
+      "sha256": "70b028029b68c62c7ce5becfa4ebce6fbae8e35d5dc11ed8d22df53790536e03",
+      "gitBlobSha": "bd9d91a41b267c2554aa2179a960c33e573bc17f"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/SpellCooldowns.jsonl.gz",
+      "mode": "100644",
+      "size": 52006,
+      "sha256": "40af2ce7c85b05b439f85d613298882b82d9ea6dde6c421e9eecfcd1c02d6b86",
+      "gitBlobSha": "695c74a3b84eb3e8e2dbf892bb9647f83081a0d3"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/SpellDuration.jsonl.gz",
+      "mode": "100644",
+      "size": 1738,
+      "sha256": "af1e2b43834897ec87cc80e874d877f258e1a12c12b53e2978ecea0c3f923e8f",
+      "gitBlobSha": "198bf3ac6d3d763c846cc64dc35a43ab1cc19eaf"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/SpellEffect.jsonl.gz",
+      "mode": "100644",
+      "size": 940539,
+      "sha256": "ace63a497974ac8d089c2134e5669f3802a038c081598321f9a96620246bfa9d",
+      "gitBlobSha": "e6acfb8cb73c367395374ed8a6b76ee0f08cc515"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/SpellEquippedItems.jsonl.gz",
+      "mode": "100644",
+      "size": 22858,
+      "sha256": "f601851602fc76c6bee829031a6048c09bc32201bcc02d57f71a45783a579222",
+      "gitBlobSha": "c09c04f081a025af2bcecebb3d9d2875ab85cc7e"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/SpellLevels.jsonl.gz",
+      "mode": "100644",
+      "size": 151939,
+      "sha256": "1cafb584979374d5b74b606f43e4cf0f316c6051872b08b2109c7be1fcf469bb",
+      "gitBlobSha": "69b0447e6102bf074daa2270dc887654230360fe"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/SpellMisc.jsonl.gz",
+      "mode": "100644",
+      "size": 667380,
+      "sha256": "93f180400cf79fc2d608a68f017575865f22efd9ab820a908ad33953c0b298de",
+      "gitBlobSha": "34565c327a1359819f6ce9a6dc4ac9390b1dba2e"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/SpellName.jsonl.gz",
+      "mode": "100644",
+      "size": 403987,
+      "sha256": "dbbf03a9b190946377c77dd8653682ded6bb72f01361ace84f721eaa8dd9380a",
+      "gitBlobSha": "57c2646f3d7f933d2005b222ce971b33ebb0e749"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/SpellPower.jsonl.gz",
+      "mode": "100644",
+      "size": 46911,
+      "sha256": "ff66e06cde03a897ed25a187bb49183acad411c402c10bff38295db2d658bdbb",
+      "gitBlobSha": "9ac635f284a14b8c008f34fefd3080875461776c"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/SpellRange.jsonl.gz",
+      "mode": "100644",
+      "size": 1641,
+      "sha256": "8599c3ec76304b672f8088e7ea025f4033498fc125ebf6c674ef7c19660c761a",
+      "gitBlobSha": "500b06e2d835bbc0f0eed7e2b17b389638b4868d"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/SpellReagents.jsonl.gz",
+      "mode": "100644",
+      "size": 58987,
+      "sha256": "84712796f096da9d71b0ec1c4e5b1de2bda37a4d4aa14ba7c8073d2fe443fa64",
+      "gitBlobSha": "e9ce34550dd16b19f5caacd6a92982ea2f9ddaeb"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/Talent.jsonl.gz",
+      "mode": "100644",
+      "size": 9763,
+      "sha256": "1c9cc3d4f0fceb2a858b26c273889cb39a53b09c77e92ff2ac247b76586cdc03",
+      "gitBlobSha": "2d2230cdc25c77ff0b0abe1bd3b4036a21d4c408"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/client-extract/TalentTab.jsonl.gz",
+      "mode": "100644",
+      "size": 1048,
+      "sha256": "47571c229e0dd7d77abe8f8fcbf63cf68b0dc66e47d91f1a53d5bd76e406101a",
+      "gitBlobSha": "62dab2a1443b2478f3f881d49a23e713b4ca2237"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/compiled-zones/elwynn-forest.json",
+      "mode": "100644",
+      "size": 1305418,
+      "sha256": "360c004bee12c1462c7655e87e236ff4bed3a296e6044ef66101cf9bb70de48c",
+      "gitBlobSha": "dffd721c7f4281a5315eb3156367e868a35f7c89"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/docs/client-extract-manifest.json",
+      "mode": "100644",
+      "size": 223255,
+      "sha256": "346c41046a0630dcbe64f37867d8407433a0d8d43f157aef79dffe9a975886e5",
+      "gitBlobSha": "de90f7db6e95c1b3bee2a1701988d79c57295dff"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/docs/export-manifest.json",
+      "mode": "100644",
+      "size": 35505,
+      "sha256": "8c936131c8426aca29d6ede24828f73a779301072e20a9c327986c98a5d23db5",
+      "gitBlobSha": "672d899d8d4c4ac1bed9b01606dff56fc5746701"
+    },
+    {
+      "path": "content/sources/vendor/wow-database/docs/foreverclient-manifest.json",
+      "mode": "100644",
+      "size": 138894,
+      "sha256": "94d17626279788d346fcc5a60b11a6a334f34f6edd11299eb0186c977f1cc11b",
+      "gitBlobSha": "c85bd851be4ea51e39a4aea73751470b9735a55e"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/AreaTable.dbd",
+      "mode": "100644",
+      "size": 39173,
+      "sha256": "351ce9f7802ecc83cc60111d057fb15eb834b9cba021782ebb6396b5c439136b",
+      "gitBlobSha": "c4a9c6a7a906bea81111c36674a310fbef95217e"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ArmorLocation.dbd",
+      "mode": "100644",
+      "size": 24924,
+      "sha256": "47044f79ea3f7ac46deda689a44a7720d7e30866decb6200e824266d4c8441f5",
+      "gitBlobSha": "290ddd4d7305a4460f60cb7e39179fad2663d5ca"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/Creature.dbd",
+      "mode": "100644",
+      "size": 28137,
+      "sha256": "027ae54547385c22efa9d0d8220f31432d437a8dcbe7a11d4cf22b5cf5ff0eff",
+      "gitBlobSha": "569dd2534d15fd36eb91f891abed84db50850b4e"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/CreatureDifficulty.dbd",
+      "mode": "100644",
+      "size": 28288,
+      "sha256": "9240a0b761800e79a2c651e7a0d051283b785404ef28ad117f772071c022a5d5",
+      "gitBlobSha": "5a5d81b6756b6b0edf9f5bb5b6320e2d5d2197d0"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/Item.dbd",
+      "mode": "100644",
+      "size": 34787,
+      "sha256": "5742e1cc6900baf81b8844c8c1ad28d126739b9d80a02ac2524f01205792f28e",
+      "gitBlobSha": "51b8236f2ad99e7e8300b40da4900983e37accd2"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemArmorQuality.dbd",
+      "mode": "100644",
+      "size": 24721,
+      "sha256": "1b6c1bb5810c3de4f42eb6fc7df1f5e74c0198011a1b885a6069750ab1d124cb",
+      "gitBlobSha": "fa48a95053ebe30a6826ff6bf3d2185defcc4e16"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemArmorShield.dbd",
+      "mode": "100644",
+      "size": 24650,
+      "sha256": "e98ad9c8f75fece3a8a9afeb632b025230d4a7084cbe3854e9f1ef931809f09d",
+      "gitBlobSha": "18101dd190b3eaebf11a012ba0e6f2992983b11e"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemArmorTotal.dbd",
+      "mode": "100644",
+      "size": 24820,
+      "sha256": "85e09f63d3193b9376577e7d876047cefa2f04384f7b1cdd39e9682184895864",
+      "gitBlobSha": "dd7811d3719b26b3c22fa0d58c7cf827446a43f1"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemBonus.dbd",
+      "mode": "100644",
+      "size": 25168,
+      "sha256": "6c00138db0613edbe0fa172bd4852f94bf19718694e17cb320fba0ec06aee847",
+      "gitBlobSha": "9d76bb67c5924145b2dd60be196f31d0a8a92c5a"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemBonusTreeNode.dbd",
+      "mode": "100644",
+      "size": 27787,
+      "sha256": "39082db7a0006a1032bf34542f54bb25d210fd461542c7f812a5ded3a61ce27e",
+      "gitBlobSha": "9141cbf62ace24986003d0dd08e8337a5917734f"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemClass.dbd",
+      "mode": "100644",
+      "size": 25522,
+      "sha256": "4ae8185cb0ce94fe77f8af6f6e3a4a3b628bac42761654f6a64473e934bf25f7",
+      "gitBlobSha": "3fdc1617e620e031db08f52c98908eb5795af407"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemDamageAmmo.dbd",
+      "mode": "100644",
+      "size": 24749,
+      "sha256": "03fb0a95f0de7853a5fea15f4dcb4872d2cd63ff601a7d6b2a07f874ee3dd6bd",
+      "gitBlobSha": "87a74cf1a425f56088e36f11f0ae8953ecf02656"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemDamageOneHand.dbd",
+      "mode": "100644",
+      "size": 24719,
+      "sha256": "5f511ac165926a9d452b5486393f6193822def5992ee637a632cb0153d476e5d",
+      "gitBlobSha": "dfa2489e031e206702081a77e75af6d294480bf4"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemDamageOneHandCaster.dbd",
+      "mode": "100644",
+      "size": 24719,
+      "sha256": "5f511ac165926a9d452b5486393f6193822def5992ee637a632cb0153d476e5d",
+      "gitBlobSha": "dfa2489e031e206702081a77e75af6d294480bf4"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemDamageRanged.dbd",
+      "mode": "100644",
+      "size": 4142,
+      "sha256": "2daa89ac88e306ce8023a186595a559444dc53fa7fdb166530f577609c0a6d23",
+      "gitBlobSha": "2a5ea4dc5a4cdc9b7dcd1ce9a3c123f7970e08b7"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemDamageThrown.dbd",
+      "mode": "100644",
+      "size": 4142,
+      "sha256": "2daa89ac88e306ce8023a186595a559444dc53fa7fdb166530f577609c0a6d23",
+      "gitBlobSha": "2a5ea4dc5a4cdc9b7dcd1ce9a3c123f7970e08b7"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemDamageTwoHand.dbd",
+      "mode": "100644",
+      "size": 24719,
+      "sha256": "5f511ac165926a9d452b5486393f6193822def5992ee637a632cb0153d476e5d",
+      "gitBlobSha": "dfa2489e031e206702081a77e75af6d294480bf4"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemDamageTwoHandCaster.dbd",
+      "mode": "100644",
+      "size": 24719,
+      "sha256": "5f511ac165926a9d452b5486393f6193822def5992ee637a632cb0153d476e5d",
+      "gitBlobSha": "dfa2489e031e206702081a77e75af6d294480bf4"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemDamageWand.dbd",
+      "mode": "100644",
+      "size": 4142,
+      "sha256": "2daa89ac88e306ce8023a186595a559444dc53fa7fdb166530f577609c0a6d23",
+      "gitBlobSha": "2a5ea4dc5a4cdc9b7dcd1ce9a3c123f7970e08b7"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemEffect.dbd",
+      "mode": "100644",
+      "size": 27774,
+      "sha256": "0a81ca146997b03caf7f228f123e17ea7908b57fa20ea396647ed90d459c3fb8",
+      "gitBlobSha": "b882a2421d39e9181ae6ca96fa77e85958d4cae4"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemSparse.dbd",
+      "mode": "100644",
+      "size": 75714,
+      "sha256": "ba1d25b52726176d26442bd2ecf28d04f95912e7bfc982905669bd6ad83dd8cf",
+      "gitBlobSha": "41106d1266e19b00ead1128264b4a760b9835be5"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemSubClass.dbd",
+      "mode": "100644",
+      "size": 28087,
+      "sha256": "d046fa62de017d3caf9813cc2eedbdf40439519f8621d00a0e824b1a63ed2f8d",
+      "gitBlobSha": "7edfdf1123308793ad97d06fe1b26bdc53100ab8"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemXBonusTree.dbd",
+      "mode": "100644",
+      "size": 24787,
+      "sha256": "7806d7feae387c26ad94f3ea9a0f2d87acca3439c664a01930f50e07847166ad",
+      "gitBlobSha": "a673d8e9bb831d36c05e1ceb8952a5de164cd093"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/ItemXItemEffect.dbd",
+      "mode": "100644",
+      "size": 11168,
+      "sha256": "dfb36d691963edb7240e09644600a42564ca8b56d00f062fee5c09b51c69a29d",
+      "gitBlobSha": "ef88b04ff46a2056dc47e7f4180fa06a1b3b4485"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/Map.dbd",
+      "mode": "100644",
+      "size": 45899,
+      "sha256": "b653d8f6c7bc36dd090cf37374e1962b197c328329f5d2316eef08720b8c15ad",
+      "gitBlobSha": "af7e9b5e378fd831758f99752c728cfe842df330"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/RandPropPoints.dbd",
+      "mode": "100644",
+      "size": 25971,
+      "sha256": "3e8a4c0fdddf534ddad0e2e76ac016d16d4a574fcbe8f521c1f1d524a372c796",
+      "gitBlobSha": "dd86146bad3ae01b8d243e2018b51fe356ecdf2b"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/SkillLine.dbd",
+      "mode": "100644",
+      "size": 30765,
+      "sha256": "225876879ed7148786cd59395b11f2db36a94ae2ad0fa988f3a019bd8f16bf4f",
+      "gitBlobSha": "4c45fa443b5ca91f85b222ebe5fe626a0d6542fd"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/SkillLineAbility.dbd",
+      "mode": "100644",
+      "size": 34031,
+      "sha256": "2d57e0592a85813ff6ba557c238ddf40ea762107551a226d7dad9297a7f8a77d",
+      "gitBlobSha": "3203b9cf75817e96addaebf5a8fdd2ff5fa83094"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/Spell.dbd",
+      "mode": "100644",
+      "size": 87343,
+      "sha256": "076655c8d1a243fb3e4181fbac68128812cb33acefd873d4bb69c963e84cb921",
+      "gitBlobSha": "ef7713ff248ac5e7ac73ec244229f0a87e97463a"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/SpellCastTimes.dbd",
+      "mode": "100644",
+      "size": 25105,
+      "sha256": "4214cdabcbc1f2af3232cc5411c4e11c64c2bf5f084139f5c6562b66e5958309",
+      "gitBlobSha": "c5071965a57315246583fa1c2fe2da145ddc33ed"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/SpellCooldowns.dbd",
+      "mode": "100644",
+      "size": 26007,
+      "sha256": "7dce889e028b4b1467f199baec3881796a8b2ab9072e86631c4f11e97dab0481",
+      "gitBlobSha": "018668228400b94571948ddc147d7a41e83cd773"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/SpellDuration.dbd",
+      "mode": "100644",
+      "size": 25349,
+      "sha256": "bf0036a13d961bd8e54a86b0882ddc3f34790b9d2f7347ed7d8d3170b0d39bed",
+      "gitBlobSha": "0897748ec296a3f787bbede32d966b5dfadccdc4"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/SpellEffect.dbd",
+      "mode": "100644",
+      "size": 39198,
+      "sha256": "2b0ae49509d7feb7976c2e5e913e1d35f4c67caebe1fef7d6276e6f26cfa96e7",
+      "gitBlobSha": "df7f9e28901b9b1cf7df094f930bf290cce12abd"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/SpellEquippedItems.dbd",
+      "mode": "100644",
+      "size": 25346,
+      "sha256": "fe2a11bdb12607e6f07c5b15c3af66bfd284e5a5f8f6c1e1b0e8879048aa2ce8",
+      "gitBlobSha": "03afa7e3569d257f1c244b9967e5f6af8a31ef63"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/SpellLevels.dbd",
+      "mode": "100644",
+      "size": 26490,
+      "sha256": "8cb2cc25a662fb926955930d0f2204771602c6e973fd07f4eeb1683c22df3fbc",
+      "gitBlobSha": "0b3ca90947146f3cc5453d5f7710d3ac8c4bd8cf"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/SpellMisc.dbd",
+      "mode": "100644",
+      "size": 33768,
+      "sha256": "6feeaadac81c528efd33caebd4d05981a4b097b4690810e8694bd96b6a7012ce",
+      "gitBlobSha": "b61f5186e1e2cf791027b21d4b3389795427a4c7"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/SpellName.dbd",
+      "mode": "100644",
+      "size": 23390,
+      "sha256": "cf2e4d710cd432559c8de4a0491d13f79cfd6df7b26d87fc2a46ae852d38aa82",
+      "gitBlobSha": "57e96c46c2799271106f49f53e0074515210046a"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/SpellPower.dbd",
+      "mode": "100644",
+      "size": 28068,
+      "sha256": "5c56fbfe1a03290a32a1f0b69d6c819c5d6d21d378bbce1796570b0ab14dc90c",
+      "gitBlobSha": "ee1d00b6d8da6f4cfa7969f99983587ffeffd9d9"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/SpellRange.dbd",
+      "mode": "100644",
+      "size": 25752,
+      "sha256": "43263580dacb0933bf6ecbce0947d8d57fa47b8e4b23bb9c3596035005207efc",
+      "gitBlobSha": "53eb501a58437c723c172d53f5223335945e9175"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/SpellReagents.dbd",
+      "mode": "100644",
+      "size": 25492,
+      "sha256": "f350257ab46079ccfa9b942c460d2a665aab0ab33ae57224fc2f08e7b9e26836",
+      "gitBlobSha": "dddd7dc8fbe213a185daa13ec04e48bde13faaac"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/Talent.dbd",
+      "mode": "100644",
+      "size": 29401,
+      "sha256": "2fa4a3d7b6d4e998e93ce04c8aff862c696825f279e923cdd185340c152c81b6",
+      "gitBlobSha": "ecf78676120e35c5d5073ede7eeb01fa0d4e99dc"
+    },
+    {
+      "path": "content/sources/vendor/wowdbdefs-70338/definitions/TalentTab.dbd",
+      "mode": "100644",
+      "size": 14666,
+      "sha256": "d6b25ef3d01747ecc3da4a69bdda66f959c01be56987776f70cb081bd707934e",
+      "gitBlobSha": "ed1d487cd1b2f3ad4244ca93107600c99b6d4987"
+    },
+    {
+      "path": "db/index.ts",
+      "mode": "100644",
+      "size": 423,
+      "sha256": "dc7610b00b918e0ffff1360a63626f16655ced3064b2eaf96095a4101fb14bcd",
+      "gitBlobSha": "19b379900d94124b674f07ffe2dbba8f70bd8d6d"
+    },
+    {
+      "path": "db/schema.ts",
+      "mode": "100644",
+      "size": 169,
+      "sha256": "13ddacbf0be50e054d450a6c642b7fdc1aa943fd6b99084711e07e58b600390d",
+      "gitBlobSha": "d2dd83cd250ecaa6ac022559fc9640271f2b2dd5"
+    },
+    {
+      "path": "docs/CODEX_HANDOFF.md",
+      "mode": "100644",
+      "size": 7634,
+      "sha256": "79efb17197416b35a9a77f0c746aec6b699900c77d5eb500f811d16f2f95acb4",
+      "gitBlobSha": "f2c83dccb2bd4e7f46bab2f8132fea446135c2ef"
+    },
+    {
+      "path": "docs/qa/images/wow-components-native-references.jpg",
+      "mode": "100644",
+      "size": 80426,
+      "sha256": "b6c3e200b9bd6a1b8e9f5198376608ac883942e5ce0279ad084e59f743c2b799",
+      "gitBlobSha": "a13dfaa006a7bed3104bc0befbf0a7eecad0b28f"
+    },
+    {
+      "path": "docs/qa/images/wow-ui-320-quest-bag.jpg",
+      "mode": "100644",
+      "size": 58697,
+      "sha256": "1481a3a011db48956a868073d156bdd49a898506d17230aa8f230632c20c3095",
+      "gitBlobSha": "226f74877f1cef4fa80d304a1f85ef2d1dab43e5"
+    },
+    {
+      "path": "docs/qa/images/wow-ui-320-talents.jpg",
+      "mode": "100644",
+      "size": 59290,
+      "sha256": "444780bba4f181e953bb4d79e6a03aac2db41c61cccfc46bcc02d5d7a6899ea1",
+      "gitBlobSha": "a212ef23e58ee44866cf4886bbef47caecc6ef27"
+    },
+    {
+      "path": "docs/qa/images/wow-ui-320-tooltip.jpg",
+      "mode": "100644",
+      "size": 56627,
+      "sha256": "df409a23cf2a705b82e35905cced1da59bc3f6d7a5d6bb79fdbd266c1132a230",
+      "gitBlobSha": "1373c91657e7fd58f03bdebd852bc6f49468a809"
+    },
+    {
+      "path": "docs/qa/images/wow-ui-desktop-states-reloaded.jpg",
+      "mode": "100644",
+      "size": 106256,
+      "sha256": "2b15a7b5b51df2336caf5ced6925e9275405c03d3614c6ede0aaa6bb55d49aa6",
+      "gitBlobSha": "a07274c0e58d03598ee87180456f4169ac387816"
+    },
+    {
+      "path": "docs/qa/wow-components.md",
+      "mode": "100644",
+      "size": 7533,
+      "sha256": "b282ed1776b8960220f5cf6c872563a9544d81bb00b7619faab0adb7c9e81f07",
+      "gitBlobSha": "72890782cd7318f73837f06cefde4ac90f3aff72"
+    },
+    {
+      "path": "docs/qa/wow-workbench.jpg",
+      "mode": "100644",
+      "size": 136574,
+      "sha256": "91bbff71a1a1b094fac5d61da2069e6661c2d678e2742b3ad8eaa75b3c254a8a",
+      "gitBlobSha": "60f741f7056cf8a8b191899e8d7bd5292e9185d8"
+    },
+    {
+      "path": "docs/recovery/mage-reimplementation-notes.md",
+      "mode": "100644",
+      "size": 3471,
+      "sha256": "8a79fc59f869dc9df1ebbcf82f1567b844bd64e41a481c6d189ec8745d046314",
+      "gitBlobSha": "7af31dda48c3b27adde8fc1f43d91ebb6ed2d53f"
+    },
+    {
+      "path": "docs/rulebook/classes.md",
+      "mode": "100644",
+      "size": 34299,
+      "sha256": "514df5bffd90a620e42396aabd340f3f11c6bac87e76867283a14dec6dbf686e",
+      "gitBlobSha": "1a84052fdd2edd5e622ce92d1f7d0a6516d84897"
+    },
+    {
+      "path": "docs/rulebook/combat.md",
+      "mode": "100644",
+      "size": 10285,
+      "sha256": "920caf03be18064a4f1fcdeab3957415909b01ddf08f7a7f9b2c1546c5cdbea6",
+      "gitBlobSha": "67f50346b8e62acd2beba2a8796888d46c0ed6df"
+    },
+    {
+      "path": "docs/rulebook/time-and-random.md",
+      "mode": "100644",
+      "size": 6809,
+      "sha256": "798f9d98b6b599c5c0784fbc85e268d3628a7f51c26d31d6519e58e53de671c9",
+      "gitBlobSha": "e0c79d87f350485bdc9784f4ac47059374c1ad05"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-21-wow-forever-idle.md",
+      "mode": "100644",
+      "size": 67818,
+      "sha256": "558ddaed3f8644618ecc80810e870d89d285fc5b98f6dfddb7e4cf250fcd1c30",
+      "gitBlobSha": "9d21dbf5d96bb0dd67b531db2bb3f930a031de3c"
+    },
+    {
+      "path": "docs/superpowers/progress.md",
+      "mode": "100644",
+      "size": 907,
+      "sha256": "969119ac89c86427abd85bb101950a9537808ff48dd2a1767c9a2a456d8827a6",
+      "gitBlobSha": "7a9a9420063aa839f4fc4f57f9396e5a57f7c0cb"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-21-wow-forever-idle.pdf",
+      "mode": "100644",
+      "size": 150409,
+      "sha256": "ea81ac1c3ff55ba6886032eeed67709973d847487c1eb43462f00da6c635b40d",
+      "gitBlobSha": "37f685103a2c2fc697a9f39543e5c7a5e093cae1"
+    },
+    {
+      "path": "drizzle.config.ts",
+      "mode": "100644",
+      "size": 148,
+      "sha256": "af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b",
+      "gitBlobSha": "c2b2f34376984744343453838ce66658ad9d9b6a"
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "mode": "100644",
+      "size": 61,
+      "sha256": "90cb374e093894d0efce6f1830d873a42aadd8ba49d2f024495e5cb2e1c8c303",
+      "gitBlobSha": "4377507400414768c5915808bf080a1403cf6cb3"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "mode": "100644",
+      "size": 791,
+      "sha256": "eeda7faabe9560fa9fdb26675b0011fa78461ca7061989732f5da9245b87e315",
+      "gitBlobSha": "6600a56ae006c77b1143fcddc8e8ded4e724309b"
+    },
+    {
+      "path": "examples/d1/app/api/notes/route.ts",
+      "mode": "100644",
+      "size": 1700,
+      "sha256": "a3d4a74fd53b7bf53e2df41f169d9d9d44a8b22aeb6d92f4e754956079af8909",
+      "gitBlobSha": "07f8318c3c290d68163e95aa3e170ad92a235f27"
+    },
+    {
+      "path": "examples/d1/db/schema.ts",
+      "mode": "100644",
+      "size": 370,
+      "sha256": "d89eabd95716ce404f5f7ca2a254220435be8ddce7c899d7ef461ff22ec80454",
+      "gitBlobSha": "7bb0c157110799b9b53c767517e0d192b7201f2e"
+    },
+    {
+      "path": "hooks/use-mobile.ts",
+      "mode": "100644",
+      "size": 565,
+      "sha256": "ad0936f84f1df79d3697bfbff9c18f8ad58431c1cbaf2359c6a853b0fcc9f28b",
+      "gitBlobSha": "2b0fe1dfef3b17850bbac040665f514a8ffd0f15"
+    },
+    {
+      "path": "lib/connector-context.ts",
+      "mode": "100644",
+      "size": 612,
+      "sha256": "bbddff68689cb0f6926fecd4b8b96f12f2054277c296e97b0df07d4ad5ece24e",
+      "gitBlobSha": "6cdeac72bf2df63e0a73159af25e0b4564ed1d43"
+    },
+    {
+      "path": "lib/connector-contract.mts",
+      "mode": "100644",
+      "size": 5362,
+      "sha256": "e1a7b24a8793af34b595690d9b1300c897c7321c14f215cedf58ad95799d7c3e",
+      "gitBlobSha": "f146418508b4c272a4495ec5498b6f0554b1f966"
+    },
+    {
+      "path": "lib/connector-errors.mts",
+      "mode": "100644",
+      "size": 2717,
+      "sha256": "a22edf13d6873ae832c4a2a0d579fc666c73ec996ef0722d39172649d38f0871",
+      "gitBlobSha": "c9d2fe845ec965062d3724fd28a0892b4fbf5a9b"
+    },
+    {
+      "path": "lib/connector-preview.d.ts",
+      "mode": "100644",
+      "size": 433,
+      "sha256": "abd69a94f7f61f1359063bb557574faae35e8ff5a028cc4c04b9ee248ef52642",
+      "gitBlobSha": "bb3f498b67e3dfd93601626aa2675af07dfe711c"
+    },
+    {
+      "path": "lib/connectors.ts",
+      "mode": "100644",
+      "size": 416,
+      "sha256": "1c93d747e384c8e17e3e3dd5361b24412babf5eba2a11d2ae7a75f4e0924112c",
+      "gitBlobSha": "30b85c0dd699e7236ec1694e03466b03caa2a7dc"
+    },
+    {
+      "path": "lib/utils.ts",
+      "mode": "100644",
+      "size": 177,
+      "sha256": "53f3d3d070f0a9082934da25b875f9499855c2b0693868dd28be8c23d8730f68",
+      "gitBlobSha": "b500fb167fdaa78785feb0ff03b51f8a182a44ae"
+    },
+    {
+      "path": "next.config.ts",
+      "mode": "100644",
+      "size": 133,
+      "sha256": "614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc",
+      "gitBlobSha": "e9ffa3083ad279ecf95fd8eae59cb253e9a539c4"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "size": 2533,
+      "sha256": "0128713037e0826ca3953d2755726385ec8ba927b1b1f06e7e16bd4167a840fb",
+      "gitBlobSha": "0d749a2f939f4c425ae84a12627ae8bd883c8922"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "mode": "100644",
+      "size": 376509,
+      "sha256": "c79686c690fb99f9b9282164183be5431dfdc547fdd09359dd5065c2da55ecfa",
+      "gitBlobSha": "1991a5952cf12900421dce33b651cd38a36e7280"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "mode": "100644",
+      "size": 736,
+      "sha256": "4a69dc93a75ff4a33f54c2853d5317c8e7374faab592f3472b5164257bff8066",
+      "gitBlobSha": "454dde77be0f122931de27f35b440c75b35bfbca"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "mode": "100644",
+      "size": 94,
+      "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde",
+      "gitBlobSha": "61e36849cf7cfa9f1f71b4a3964a4953e3e243d3"
+    },
+    {
+      "path": "public/assets/authored/armour-study.svg",
+      "mode": "100644",
+      "size": 1547,
+      "sha256": "0697a8253dedc84511d864cbd0eb5c5d7590d3727c4098e4711f840522adf3c7",
+      "gitBlobSha": "bb9fe5fbd5bd96071a6283bd4e5b4b27cc0e128e"
+    },
+    {
+      "path": "public/assets/authored/map-placeholder.svg",
+      "mode": "100644",
+      "size": 361,
+      "sha256": "5d51ef864e07adea437729316a34d0d4622a73aaaee35d0c2f95fee4f9a3f5b6",
+      "gitBlobSha": "9643af519c125e988d5834e4ee798b9f6299528e"
+    },
+    {
+      "path": "public/assets/authored/missing-icon.svg",
+      "mode": "100644",
+      "size": 277,
+      "sha256": "fd85c1c089853b54885f2d86d677bb6b7c9ad3e7bebf392d25889f8de5120f20",
+      "gitBlobSha": "e8129540190435f31f169b5882f5db836cd0580d"
+    },
+    {
+      "path": "public/assets/crops/action-strip.svg",
+      "mode": "100644",
+      "size": 64391,
+      "sha256": "9d10731dbf8f420a626ebf947284f63e05df3f9c427313ba819eda16c70c9a9f",
+      "gitBlobSha": "2af4b4cddca579021d3a96a1ba74d07e07697ac6"
+    },
+    {
+      "path": "public/assets/crops/backpack.svg",
+      "mode": "100644",
+      "size": 39156,
+      "sha256": "e9c81808de5e10c3856b92acdd1e00b80da9ec0bfe7be3b79f8eaf7e5a6db4e7",
+      "gitBlobSha": "2a1cafcfc2e5456a5d1900313c4469d8f51bbdce"
+    },
+    {
+      "path": "public/assets/crops/button-down.svg",
+      "mode": "100644",
+      "size": 1373,
+      "sha256": "b980815dcf88a047085e7afd1486ee5542cc4826e95ca7a302e2bb91834ceadd",
+      "gitBlobSha": "e0a65c0e00a54924d7629c31f48e628caadf85b3"
+    },
+    {
+      "path": "public/assets/crops/button-highlight.svg",
+      "mode": "100644",
+      "size": 1585,
+      "sha256": "344f80296f6aa8a5457665f550479f31ea64eb4ede81dfb1aa388d5b23e2dfc8",
+      "gitBlobSha": "d7fcffd8bd14f663d20c5a8351270dd8a009f270"
+    },
+    {
+      "path": "public/assets/crops/button-up.svg",
+      "mode": "100644",
+      "size": 1569,
+      "sha256": "875429861afe7453018d2e8f8e11156e24ef6cb6455df0aacb06cdca98d7f4a4",
+      "gitBlobSha": "41aa30dd4fdc9027e6721390187e15d1e7904c52"
+    },
+    {
+      "path": "public/assets/crops/dialog-bottom-left.svg",
+      "mode": "100644",
+      "size": 4433,
+      "sha256": "2e4b221dffdd6437d7fe14156f3bd21ef66358ce006d38c59bf3bb91069ba81b",
+      "gitBlobSha": "bcbceb454e73e15b7d91892d04d5d4ffdb3615e0"
+    },
+    {
+      "path": "public/assets/crops/dialog-bottom-right.svg",
+      "mode": "100644",
+      "size": 4433,
+      "sha256": "5e65d23aee8639a2abd83ee8a56602278290b570878d3223312e1313936e2b47",
+      "gitBlobSha": "f1f973aad3f6204f303d5b0bf6eaf4d04b74979f"
+    },
+    {
+      "path": "public/assets/crops/dialog-bottom.svg",
+      "mode": "100644",
+      "size": 4433,
+      "sha256": "f27e26b1e7b236619107b1e7f917dfe7aa88df52cbdbf1c7fe06ffe6b0b6c035",
+      "gitBlobSha": "f5b0cbcbab93c4c52bf6c71c4d07fed582b3e28e"
+    },
+    {
+      "path": "public/assets/crops/dialog-header.svg",
+      "mode": "100644",
+      "size": 5882,
+      "sha256": "b263139154a465f4161d6e4282c8fced02c304688671411d4e07e8057982f706",
+      "gitBlobSha": "664cfe149009240a85301594fa7bb6d06c305601"
+    },
+    {
+      "path": "public/assets/crops/dialog-left.svg",
+      "mode": "100644",
+      "size": 4431,
+      "sha256": "8383e250d54f5291acb5baee41f518ec2123b2731212303d8c944853704dbb65",
+      "gitBlobSha": "4dfa93a956f7742cd1285939b05b9bcf9a747e5b"
+    },
+    {
+      "path": "public/assets/crops/dialog-right.svg",
+      "mode": "100644",
+      "size": 4432,
+      "sha256": "bcdaf53f267e0c6671aca2d54e83ddb724c4ce98e7b4ffffcc49225a737cca20",
+      "gitBlobSha": "e03a1023db4b31d49d1a6d9ade505821d5e884d7"
+    },
+    {
+      "path": "public/assets/crops/dialog-top-left.svg",
+      "mode": "100644",
+      "size": 4433,
+      "sha256": "79ffe72e0b67d12bb176ca35101fabf5aed705d20a90c9fd0e49120a068b1416",
+      "gitBlobSha": "04feb85462249003161897b54a23cccc94048a25"
+    },
+    {
+      "path": "public/assets/crops/dialog-top-right.svg",
+      "mode": "100644",
+      "size": 4433,
+      "sha256": "3e5256bd9f813d93cc50da9564c57d3e68da246b2460d0cde80c45ca985f2b2d",
+      "gitBlobSha": "f70e181fd47c34935a7e51420a2cd5e588401307"
+    },
+    {
+      "path": "public/assets/crops/dialog-top.svg",
+      "mode": "100644",
+      "size": 4433,
+      "sha256": "2b189e4e1e31dbfde142e25da9a9f3662c1eba5ad676033063dd90e406f1d96c",
+      "gitBlobSha": "0a8d3e14fb1dc27bf4553928bb09d46e9383f314"
+    },
+    {
+      "path": "public/assets/crops/human-portrait.svg",
+      "mode": "100644",
+      "size": 107548,
+      "sha256": "68dedd1f64a8bd5b2bda117b1027d3fc686ec09a11c0dea56758486ce456ccb9",
+      "gitBlobSha": "25c8ad50fdc61c6331839481053baa0fdeb7e7b6"
+    },
+    {
+      "path": "public/assets/crops/minimap-ring.svg",
+      "mode": "100644",
+      "size": 14694,
+      "sha256": "6f99f42e698c7e2a5ab02fcfcdc799af1c9ebef1de9dee43dcd9a74e96f98c20",
+      "gitBlobSha": "679ccd575c484c277c0fd5f1832f2b6865385ecc"
+    },
+    {
+      "path": "public/assets/crops/minimap-title.svg",
+      "mode": "100644",
+      "size": 14689,
+      "sha256": "20a439d3ddcbb9cb8e0f86fbe273f4bafeabf191704eed50e10f9dd183b44e75",
+      "gitBlobSha": "fe5e01f81d7b888c9e8f2114c3945281694ed5d1"
+    },
+    {
+      "path": "public/assets/crops/parchment.svg",
+      "mode": "100644",
+      "size": 92331,
+      "sha256": "cd6596f97cf7d70f4edb61db769883333651b20b9285176ac33aeee52140b368",
+      "gitBlobSha": "592e4bd4deefd82dd68d5bfa43269c710166aa5d"
+    },
+    {
+      "path": "public/assets/crops/player-frame.svg",
+      "mode": "100644",
+      "size": 11020,
+      "sha256": "2a52ec19431e91f6befa2f5c4e9c57d9117996385979633b348372196c07d675",
+      "gitBlobSha": "62f6bcdbcd98b6431cbe97fd794c7f9d6b802c25"
+    },
+    {
+      "path": "public/assets/crops/slot-border.svg",
+      "mode": "100644",
+      "size": 892,
+      "sha256": "a210fff2e14c5d2303db250d8ead76bcf74d752028c767f150a1970cea6be638",
+      "gitBlobSha": "2c14a37dfc57692f4245e331e8dbbf936af16e26"
+    },
+    {
+      "path": "public/assets/crops/target-frame.svg",
+      "mode": "100644",
+      "size": 8389,
+      "sha256": "fce0f13e41f8f24e6760383551823c1e65c0de8012f5b026d3fa9557cdd47455",
+      "gitBlobSha": "1c6a90987daca8177ba81879dba7b320f15008a1"
+    },
+    {
+      "path": "public/assets/crops/tooltip-bottom-left.svg",
+      "mode": "100644",
+      "size": 962,
+      "sha256": "4c8f6cc784a668342265aa327664374d70d23d26680e015c3f5d3067de8cd09e",
+      "gitBlobSha": "948c685d795918f2a65a3d0a379dc4999644af12"
+    },
+    {
+      "path": "public/assets/crops/tooltip-bottom-right.svg",
+      "mode": "100644",
+      "size": 963,
+      "sha256": "75009d25a043fe8f378d27f58de18f32b986dcae960594e55fa5400e9899b6ac",
+      "gitBlobSha": "7a24d92538221d37c5087203f73d9fd298ad1cd9"
+    },
+    {
+      "path": "public/assets/crops/tooltip-bottom.svg",
+      "mode": "100644",
+      "size": 963,
+      "sha256": "055937fd47e6c81fbc820ab733b311b21ffbe0c471c13f1608ab606754445801",
+      "gitBlobSha": "7a929555b05877e4ba25b135c3b88bd63eb510c3"
+    },
+    {
+      "path": "public/assets/crops/tooltip-left.svg",
+      "mode": "100644",
+      "size": 961,
+      "sha256": "e41e21a6b35210c1bacca34b003b7c3cee4af6d3f57eefb0f25639b175c96484",
+      "gitBlobSha": "f81191c8d93a7c3be6d94d0acbaa97a888878240"
+    },
+    {
+      "path": "public/assets/crops/tooltip-right.svg",
+      "mode": "100644",
+      "size": 962,
+      "sha256": "08f67efe286fff82f7b1ed7cb385d01b740283e332eaef001325cbbc06670775",
+      "gitBlobSha": "fe582a814cd87bea85c3cbb9eef4f16bd92756ac"
+    },
+    {
+      "path": "public/assets/crops/tooltip-top-left.svg",
+      "mode": "100644",
+      "size": 962,
+      "sha256": "d8da3fc8b7e1c06c5a0094c3b65fba841628d61e73c93bf2915f804fd6d3d15b",
+      "gitBlobSha": "92dea536bbf1421bc755ad745d79c37a0a3aa1ea"
+    },
+    {
+      "path": "public/assets/crops/tooltip-top-right.svg",
+      "mode": "100644",
+      "size": 962,
+      "sha256": "9bc9f8e59e873d3e36330f8b8022e94aa17843518bf0831c8b36f2b990bb7d1d",
+      "gitBlobSha": "404f8105e0f522b031b1ac15a06e1f5f0367c416"
+    },
+    {
+      "path": "public/assets/crops/tooltip-top.svg",
+      "mode": "100644",
+      "size": 963,
+      "sha256": "fddcf4fc98ab87cf6d2aca14aa4ffcb509207ecd051a096b275eeafc29173d24",
+      "gitBlobSha": "3f03960b898715ff0ad8d07616fefe58c5d5805e"
+    },
+    {
+      "path": "public/assets/native/Interface/Buttons/UI-Panel-Button-Down.png",
+      "mode": "100644",
+      "size": 833,
+      "sha256": "28357b2524514334f6a8fc14634aefbfcc7371301ec759b071a5ef3085a13995",
+      "gitBlobSha": "4536fe7da1f520619072ce9a24d6fdfcd63199e3"
+    },
+    {
+      "path": "public/assets/native/Interface/Buttons/UI-Panel-Button-Highlight.png",
+      "mode": "100644",
+      "size": 993,
+      "sha256": "dc2e000b52ed77777fb1c1244f584b7dd70d0b820be1eeb181aa807759e84d18",
+      "gitBlobSha": "fd772862139501e38ce5166fe2973cbf24d5699f"
+    },
+    {
+      "path": "public/assets/native/Interface/Buttons/UI-Panel-Button-Up.png",
+      "mode": "100644",
+      "size": 981,
+      "sha256": "0d71d013d58129d05a472eae23f717bb34e865458ed3d8fd6ca4f90d934fc023",
+      "gitBlobSha": "1b37f16b67143fe621bdceb9b11be9882852a839"
+    },
+    {
+      "path": "public/assets/native/Interface/Buttons/UI-Quickslot-Depress.png",
+      "mode": "100644",
+      "size": 1238,
+      "sha256": "64552d20d461dba2c66efd740cb281a56c811ee7a020c0ae83109018cf5f8777",
+      "gitBlobSha": "d196a0c54d6a721db430fb449b560b890655141a"
+    },
+    {
+      "path": "public/assets/native/Interface/Buttons/UI-Quickslot.png",
+      "mode": "100644",
+      "size": 511,
+      "sha256": "3994ad4e8cf6315e7b339f6eaa3826e720dcb3df306e81e7293ac474584e2b99",
+      "gitBlobSha": "41d5914d3f2a4663b8a3417b53e25cd974e8beca"
+    },
+    {
+      "path": "public/assets/native/Interface/Buttons/UI-Quickslot2.png",
+      "mode": "100644",
+      "size": 472,
+      "sha256": "a9d4a63d00423f73b9dfc35454647d8f69241ba9b0e8feda1cd0a749e6ef6669",
+      "gitBlobSha": "26b1eb4db401e4e7ebb886d7345a9e6d7b8a0ce0"
+    },
+    {
+      "path": "public/assets/native/Interface/CharacterFrame/UI-Player-Portrait.png",
+      "mode": "100644",
+      "size": 8063,
+      "sha256": "115e0551fab386be251255d50b0d38f40463454de5b019ba0f1f3869bcaca800",
+      "gitBlobSha": "85dee2b8616805f30751d2000614c61e18b55bf2"
+    },
+    {
+      "path": "public/assets/native/Interface/CharacterFrame/UI-Player-Status.png",
+      "mode": "100644",
+      "size": 2886,
+      "sha256": "ddf6be6e68a314f0d7a2b0896325f7e1ef63761cd94f171b9b461be40155c8f8",
+      "gitBlobSha": "d5ecbb2e3ab6d6b320975498165324d4366ea049"
+    },
+    {
+      "path": "public/assets/native/Interface/CharacterFrame/UI-StateIcon.png",
+      "mode": "100644",
+      "size": 3110,
+      "sha256": "e2d36843d4ea4b0aeefb4b86a584055f1e3cb24f8f4ed6961c297438100780aa",
+      "gitBlobSha": "518f1d81ee88f94a666e6441360372a9cdd09208"
+    },
+    {
+      "path": "public/assets/native/Interface/ContainerFrame/UI-BackpackBackground.png",
+      "mode": "100644",
+      "size": 29162,
+      "sha256": "0dcaddd448cc4dc97e05c34b9295089ec749218aa5d1126acea0097b0a5f8626",
+      "gitBlobSha": "50aa9ec8a0d85d508b6512a34b9bd91baf00e0c3"
+    },
+    {
+      "path": "public/assets/native/Interface/ContainerFrame/UI-Bag-4x4.png",
+      "mode": "100644",
+      "size": 26871,
+      "sha256": "80fc34ff0131273f020a4f1022ed8d30c971c4ffad86415eb8972bb905ac66b2",
+      "gitBlobSha": "917a34426d111c22b60ffe1be994ac039c592e19"
+    },
+    {
+      "path": "public/assets/native/Interface/DialogFrame/UI-DialogBox-Background.png",
+      "mode": "100644",
+      "size": 262,
+      "sha256": "42d72bb302b2a9ab75940e17dc5b21514f87b9fec5dc118272caec9060e79164",
+      "gitBlobSha": "f490cba6a7988e56e2c9e50438bb43bd07c4c3a4"
+    },
+    {
+      "path": "public/assets/native/Interface/DialogFrame/UI-DialogBox-Border.png",
+      "mode": "100644",
+      "size": 3127,
+      "sha256": "ce42a59fbda51d0dfaf3c5169a54945cea356875c443291a3695831dad1bd98c",
+      "gitBlobSha": "6d23b643f509eb9831fce497ca7331f2a9f33211"
+    },
+    {
+      "path": "public/assets/native/Interface/DialogFrame/UI-DialogBox-Header.png",
+      "mode": "100644",
+      "size": 4210,
+      "sha256": "1c78018a2082c98440d7272b2cfe165fa25f342cab384d08d63f77c9135bd162",
+      "gitBlobSha": "dd020b12797666608dea534988a0972fd084902b"
+    },
+    {
+      "path": "public/assets/native/Interface/Glues/CharacterCreate/CharacterCreate-LabelFrame.png",
+      "mode": "100644",
+      "size": 1778,
+      "sha256": "d2772dd930702c3f02ea40d77bd5faf1e49160e92f4ee9074b6d12b35573c7fd",
+      "gitBlobSha": "21758e267bd24fe3e9baf45a2ef460bf20a54dda"
+    },
+    {
+      "path": "public/assets/native/Interface/Glues/CharacterCreate/UI-CharacterCreate-Background.png",
+      "mode": "100644",
+      "size": 7375,
+      "sha256": "19abcbbf6df3e8c4aa326ebdb274672b17c63edd0b8a378a4659c81e8ab405cd",
+      "gitBlobSha": "ef26c26c00d154602c05c74286d99101b20837cb"
+    },
+    {
+      "path": "public/assets/native/Interface/Glues/CharacterCreate/UI-CharacterCreate-Banners.png",
+      "mode": "100644",
+      "size": 17202,
+      "sha256": "a9c8892ee796fb60ec9be36bc4318a34a571b6ec9ff84234e6fdd6cd28c0374b",
+      "gitBlobSha": "1a724828102f6ea76a261eadfde9c20bb4c52ed1"
+    },
+    {
+      "path": "public/assets/native/Interface/Glues/CharacterCreate/UI-CharacterCreate-Classes.png",
+      "mode": "100644",
+      "size": 41398,
+      "sha256": "bfad6071f3714eb4bad8406b347a0295e2c8f225f6e3898e2786ea12916103e2",
+      "gitBlobSha": "88fec737aa6de3c1421cdb06b84f353f28c24ef5"
+    },
+    {
+      "path": "public/assets/native/Interface/Glues/CharacterCreate/UI-CharacterCreate-Factions.png",
+      "mode": "100644",
+      "size": 9868,
+      "sha256": "322afcc15bd7b494ca1ba386c481657bd5fc66489ee78843849a575728bec70d",
+      "gitBlobSha": "b094a900e9335ecb968038ec1d7fb0da7cc305d0"
+    },
+    {
+      "path": "public/assets/native/Interface/Glues/CharacterCreate/UI-CharacterCreate-OuterBorder.png",
+      "mode": "100644",
+      "size": 5397,
+      "sha256": "2f977af9e592921844e9dafcd570222d96b586fae4ec2646a2d4fa88a92913cb",
+      "gitBlobSha": "31a2e8a61b3840189e22906ed03ddc3db2105d9d"
+    },
+    {
+      "path": "public/assets/native/Interface/Glues/CharacterCreate/UI-CharacterCreate-Races.png",
+      "mode": "100644",
+      "size": 80464,
+      "sha256": "d7d8bdda1c92a4e63d16793e0328a1016e6d6e3a324036b8fedea0cf4451aee3",
+      "gitBlobSha": "02b28f67d663c094268d622c9da169d0b5d5d541"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Ability_BackStab.png",
+      "mode": "100644",
+      "size": 4682,
+      "sha256": "4789649373cb3b4fd8e1ec3e6a4db990592d933b945d0acf8e13fd89fc4da931",
+      "gitBlobSha": "b828a2080ae7b836e531a0c39a86d008d321eeab"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Ability_Druid_Rake.png",
+      "mode": "100644",
+      "size": 4473,
+      "sha256": "e9f4d8637e21147f35bbbfa2bbcf43d4b9bafb1ac8a2ffb911f3d196fa8466b8",
+      "gitBlobSha": "4a1ed97a93e34bdedc7c46b2476d5c8f6818849d"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Ability_Gouge.png",
+      "mode": "100644",
+      "size": 3977,
+      "sha256": "c31277e28f1ea50ba81816aa110e1445d3bb4ff20af852b5af28565ef8d5ea7a",
+      "gitBlobSha": "7449379808ec517ee1a80262d303593fdf64f982"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Ability_Hunter_AimedShot.png",
+      "mode": "100644",
+      "size": 4330,
+      "sha256": "57ee6d6245c9f2b46af7cc0c8313a86be5afc36cef38535c30903efd25bee23e",
+      "gitBlobSha": "68ebf87edfb45822f63dfb9d86e2e65dc0e540b5"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Ability_Hunter_Pet_Boar.png",
+      "mode": "100644",
+      "size": 4443,
+      "sha256": "599649b5e983a28260e051dab54a47292cd345c685a9b0c523ae39b1ff98415e",
+      "gitBlobSha": "2220a64cc5af269dfa04c58406167c08b1e423da"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Ability_Physical_Taunt.png",
+      "mode": "100644",
+      "size": 4489,
+      "sha256": "b3e1e665f85e0392cd455f99b69217d87d7d48bfc8c8ab731d235be76712c7d5",
+      "gitBlobSha": "57c40d477ff5f01bc652ffd91e0c7fca0e22904c"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Ability_Racial_Cannibalize.png",
+      "mode": "100644",
+      "size": 4825,
+      "sha256": "4d1dd512c2087904b0f5960af86f589a1912adde4414d88c228531e9837ddd18",
+      "gitBlobSha": "7a6958d7e0b87a367cca5d350f94b62f8ec8633f"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Ability_Rogue_Ambush.png",
+      "mode": "100644",
+      "size": 5024,
+      "sha256": "64931d70ec5443dd70c4a4508b2ce028d8e4092723f1f1a94ce04cecd0d50919",
+      "gitBlobSha": "dc8642260c73f73e1ee4194564c9379908e9938d"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Ability_Rogue_Eviscerate.png",
+      "mode": "100644",
+      "size": 4382,
+      "sha256": "22e33deba5b38a0fc8e95fc3db4ae7095568e907600aa8ef10458de6c356769e",
+      "gitBlobSha": "ad3677f5d56c816e89c82835a61d99b68f2b2cd8"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Ability_Stealth.png",
+      "mode": "100644",
+      "size": 4608,
+      "sha256": "3d74c9fcab0e33d7ac7b2424a9d68f43c71e576dd308d087a29cb3fe8832f96a",
+      "gitBlobSha": "517aeb34f70d297ff98854f547eac19b81425730"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Ability_ThunderBolt.png",
+      "mode": "100644",
+      "size": 4757,
+      "sha256": "567d0af00ea31a185006b6ab1fc472f327c40a3a683bef13a1745b9c986a7ef5",
+      "gitBlobSha": "44e66dd38029cf40cccb0c893c379c09cef9a5be"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Ability_Warrior_BattleShout.png",
+      "mode": "100644",
+      "size": 3961,
+      "sha256": "5c1263f1cd47b2997a91668108ddb24fe37a6ab0cc37941b3206dc3d08a0ddbf",
+      "gitBlobSha": "a94ab9a6a16303fba4faecf382bfa57c7820824c"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Ability_Warrior_Charge.png",
+      "mode": "100644",
+      "size": 2992,
+      "sha256": "ea04fda6d11b5ffbf83064fbb466703b2c7aa6df7e080dbd47677e3e888e0964",
+      "gitBlobSha": "79c9d24d67999a69751a9d4f08bdb320ddf246bf"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Ability_Warrior_OffensiveStance.png",
+      "mode": "100644",
+      "size": 4519,
+      "sha256": "a4584b69cdf4898d984ed06cbd70773fde5b2e9703dd31a2417729da61079856",
+      "gitBlobSha": "be4e3efb85c9fae15ef6f01503e80a9fe6297c8c"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Ability_Whirlwind.png",
+      "mode": "100644",
+      "size": 4636,
+      "sha256": "ec3c78484d541a8fcd9fd946bea4f76e97a0fc307a4941af389d298a64bf408f",
+      "gitBlobSha": "7b114d40312b796aeea1fe8ef69f665270405977"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/INV_Chest_Chain.png",
+      "mode": "100644",
+      "size": 4450,
+      "sha256": "a7e97ea84f11d36acdb62c106f3b170086de26d92210187ab59fd1dc0aa9f277",
+      "gitBlobSha": "6019bb7e424845b9d816453112de248d81eb8e60"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/INV_Drink_06.png",
+      "mode": "100644",
+      "size": 2651,
+      "sha256": "c876ca52ca022d44f049c8ffe74f548b21b23b48a8895841b8292403254f732c",
+      "gitBlobSha": "984a44e5cfd23a27834a07cc3ab504f55f214f4e"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/INV_Fabric_Linen_01.png",
+      "mode": "100644",
+      "size": 4639,
+      "sha256": "9622573ba534b059fc748531cdc9d033a41dc0c5ec1fe4d08ba78196e3576233",
+      "gitBlobSha": "b92d305f6c94f30c9aa94ec54083ded64e76e500"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/INV_Misc_Bag_08.png",
+      "mode": "100644",
+      "size": 4602,
+      "sha256": "c8b510f2227754bd4de1e797f5c6b910cda790ae2c00c7711e8df062a9ff2ebd",
+      "gitBlobSha": "7b119586d0cc8e67de21c3a82ffcdcca68f1fdfc"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/INV_Misc_Bag_11.png",
+      "mode": "100644",
+      "size": 3967,
+      "sha256": "0efec0f1db1773422c03633e297fffbdfb460dce22460f04e72ec1d1ced01296",
+      "gitBlobSha": "a39cb8aac8e1a1068be4872ee4dd097b26c0076b"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/INV_Misc_Coin_01.png",
+      "mode": "100644",
+      "size": 4613,
+      "sha256": "a8b195bcf1f939faf3aff88aca2d54989e0f3f0aaae3aaf2bb54f3ee0f752be8",
+      "gitBlobSha": "6bef0888192f94b29e0129dc44ccf22fdd9f96b6"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/INV_Misc_Coin_03.png",
+      "mode": "100644",
+      "size": 4577,
+      "sha256": "ffdf01757fd96d953a665cace12ca28f4775f3859fe6458f0ef89d94b2f4e322",
+      "gitBlobSha": "5727d9d964ee33ef1eac917a794a2cb8ef8b4230"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/INV_Misc_Food_10.png",
+      "mode": "100644",
+      "size": 4324,
+      "sha256": "f7fa397ddd6982fe52b0918eeab63b6b3f259558b54152cfb5d19fca269b7b15",
+      "gitBlobSha": "c8be3966be74164ddf90d22eb9febab4c190c700"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/INV_Misc_Food_16.png",
+      "mode": "100644",
+      "size": 4592,
+      "sha256": "c11b0b2ad6c59361c8936dd9c7540eea2f94159db0a44ee7415cbba9b886c2c5",
+      "gitBlobSha": "070696460467a4a5b6860a12265c62ab53c0f3e7"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/INV_Misc_Herb_01.png",
+      "mode": "100644",
+      "size": 3509,
+      "sha256": "5b287b109c59fdbe1682ded6fc3d2804ef228ed2d67872845d5f994b8964b8fb",
+      "gitBlobSha": "279d0c018ab5066ab564dc79043c93a9206e26e5"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/INV_Misc_LeatherScrap_03.png",
+      "mode": "100644",
+      "size": 3880,
+      "sha256": "fcd069649fad5e326d75e0e4afc462e4b376e402b607dcc73a6d564129b4adf6",
+      "gitBlobSha": "d90cbd811de63ec13500717a4cf929f0308de7dd"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/INV_Ore_Copper_01.png",
+      "mode": "100644",
+      "size": 4555,
+      "sha256": "5360b1f68d289da6dd22c82b9e298149db4f0aba11dc84d02727d023630e00c3",
+      "gitBlobSha": "bb96ae6ca57e1ee06e69365d871e725a14f4da65"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/INV_Potion_51.png",
+      "mode": "100644",
+      "size": 4159,
+      "sha256": "bde6827a63ae80ee68bf34eb4090a7e330e65ec3796f46920d8091d416491f54",
+      "gitBlobSha": "eb3ca2e16d6a718bcef3cbcde953c330f51dda95"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/INV_Sword_04.png",
+      "mode": "100644",
+      "size": 2525,
+      "sha256": "7d95bc8502634d84281005595d8cb7ef9b45f337c16b5cec094219eb4d76beaa",
+      "gitBlobSha": "7a5909984e290360e36748102cc628dcd2219b5e"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Fire_FireBolt.png",
+      "mode": "100644",
+      "size": 4812,
+      "sha256": "72ed13dac31110fb3c567f48201fbba1212880bc7abddacdc47d5c5721b4830a",
+      "gitBlobSha": "21284161f586dece2301fe7c1a63cdfb9c0993de"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Fire_FlameBolt.png",
+      "mode": "100644",
+      "size": 4385,
+      "sha256": "1eca728264533c6769acad5cd01115813e662e5d725db0a1842827b2f2d065af",
+      "gitBlobSha": "2bf2e9a5f17cd7b7a7e34e2428353d8451877539"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Fire_Immolation.png",
+      "mode": "100644",
+      "size": 4363,
+      "sha256": "303556efd8b9051d91a8586455e19ad0579cd3af3053c5a6404cf727a3b27eb8",
+      "gitBlobSha": "d705f588733836dfe587282cdedeb1710d0bb69b"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Frost_FrostArmor02.png",
+      "mode": "100644",
+      "size": 4301,
+      "sha256": "713479c78d7cc5e800002c3e8d62f35c659e23c7425f48c3e280deaf1af617de",
+      "gitBlobSha": "f752492a93c891858562af23bfce69bcc4e32ad2"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Frost_FrostBolt02.png",
+      "mode": "100644",
+      "size": 3701,
+      "sha256": "fea971ad3b70495eb84f008fc1ac3f0243de2e925edaaab4b5bb75786ecc6650",
+      "gitBlobSha": "8de1cb8a235e97a3f49f58e494742579964dc72f"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Holy_DevotionAura.png",
+      "mode": "100644",
+      "size": 4840,
+      "sha256": "e579767e4c04451d2bee53f18ddd0e849feaa266a7a872178ef6db205d8f7074",
+      "gitBlobSha": "e0d347b19684705268129a761f7b0d0f78e18c97"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Holy_FistOfJustice.png",
+      "mode": "100644",
+      "size": 4933,
+      "sha256": "89642497fc3ab53f186db4553759db068fd59467249bb7990c25a16b73108962",
+      "gitBlobSha": "b1205dc2cde02e54c035d5afc4c021aae4d8dc6b"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Holy_HolyBolt.png",
+      "mode": "100644",
+      "size": 4707,
+      "sha256": "e4df7b83629ebfc6baf6631f78d94fee39dfab8a49a41a3974c2056230e929ae",
+      "gitBlobSha": "7ff3309e477f6e9f114eaa952763d4bb2ef1bab4"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Holy_HolySmite.png",
+      "mode": "100644",
+      "size": 4345,
+      "sha256": "df78e7e416388dbe1fa0e6fab8aa3443e5dd9ae26c324c385c823b06bb3de385",
+      "gitBlobSha": "3d1bfc91887d633e849ec1ca84b73195a176e062"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Holy_LesserHeal.png",
+      "mode": "100644",
+      "size": 3394,
+      "sha256": "dbd7b86dbfd14178133c43bbc34fe5ea82ec3223315d45428839586a5a760a50",
+      "gitBlobSha": "8400c16c2aa2af47bab8e3789e345d8f48f64044"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Holy_MagicalSentry.png",
+      "mode": "100644",
+      "size": 4649,
+      "sha256": "c0ea82b7950cde8f4cd024586e8eb6bf088eede828329de5ce16aa8e31832301",
+      "gitBlobSha": "ff9e4f0af4a2ed4b3f53c4d7cd71c717c61ec1a3"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Holy_PowerWordShield.png",
+      "mode": "100644",
+      "size": 4857,
+      "sha256": "c29af7a5fdfcd6cc9c33665b15edc1c42d51b96d4eb6e2c0f4519cebb9a3ebf1",
+      "gitBlobSha": "a53bef6dd704fb65ec93b8f18999a8f6064f2dd4"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Holy_Restoration.png",
+      "mode": "100644",
+      "size": 4691,
+      "sha256": "2e1aa6d43a9e22e9a2d1e7054aa05dd267583d77c9082db9ab5e81ebec174b6e",
+      "gitBlobSha": "4dd9bf829ba4115ac57e71284797219b71d60197"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Holy_RighteousFury.png",
+      "mode": "100644",
+      "size": 4853,
+      "sha256": "50f68f47954587a19d11f528038480d0690b6aeb2ff6bebf1a48b4f2c9d6afb1",
+      "gitBlobSha": "9e3ae55ede6381bb49054f6b3de3fcdd0a7f4040"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Holy_SealOfMight.png",
+      "mode": "100644",
+      "size": 4858,
+      "sha256": "cf17e4a66ba3fb8802a6a4d4bcb5e8df63f45fadd079378f93282fe6d2e90daf",
+      "gitBlobSha": "417d9c0ce9967cd974ade3fbec3881636f01fc50"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Holy_WordFortitude.png",
+      "mode": "100644",
+      "size": 4677,
+      "sha256": "4c2755c42b66571f26cdfbf17b1818d88d1a850b50fcfd4add1305b2808cda6e",
+      "gitBlobSha": "fd11a9e225b8520ca7d95ce38ee022e8df244ed1"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Magic_LesserInvisibilty.png",
+      "mode": "100644",
+      "size": 4331,
+      "sha256": "3a2f9d8c9fa079932b98711ea86c3af2d169b4437d9b0730d5513b931bc4aa47",
+      "gitBlobSha": "e28d2069216c33652365bf6726f164588d42f9b1"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Nature_AbolishMagic.png",
+      "mode": "100644",
+      "size": 4712,
+      "sha256": "e90381402fbb412f95f55fd5945ab6546c6b0fe374fcaf56b9356c3039e3e816",
+      "gitBlobSha": "a953bfbe75f38e9cf2825fd745f06c679cfcc909"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Nature_EarthShock.png",
+      "mode": "100644",
+      "size": 4502,
+      "sha256": "582bb91794286168af596b0c82a2158662f315da15e1dd18c387ae0b633e6ea1",
+      "gitBlobSha": "a133926867ad7ee4e1af0330f69396538acd25c1"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Nature_HealingTouch.png",
+      "mode": "100644",
+      "size": 4805,
+      "sha256": "618e79d03ff73c52a3121eee675b601fd02b752397c593d38908a9cd24965816",
+      "gitBlobSha": "8ed2f97d5804c167baa6a1e443c8959be615349f"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Nature_Lightning.png",
+      "mode": "100644",
+      "size": 4171,
+      "sha256": "3a7db8c9077e4bbb13ace0208d22077afb1cfca5e4c48c892d82729dc80cd4cf",
+      "gitBlobSha": "062d726d0fbc370c7bb5d09a4b88246738418cc2"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Nature_MagicImmunity.png",
+      "mode": "100644",
+      "size": 4761,
+      "sha256": "b1870c6e2a76c879d6a021a737baccd1da7e66bacafff48109f338d1ac1d54d8",
+      "gitBlobSha": "af6cc06bdfc20216719e688719d666eb21cff389"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Nature_Regeneration.png",
+      "mode": "100644",
+      "size": 4531,
+      "sha256": "8fc3093af940b9331b5fb72a2098371b9d3dd1287779cb2549a6c9b1fb77d1b5",
+      "gitBlobSha": "9c4314cce095f2421b3e5144e52359fa701a5e95"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Nature_Rejuvenation.png",
+      "mode": "100644",
+      "size": 5177,
+      "sha256": "27a5168c10a891cc96d33725aa6dea835bfa6aba048d00ef2e2f1459b598f343",
+      "gitBlobSha": "c00cfeb89eb13d7a8006f603d0efb0bfb142d60d"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Nature_RockBiter.png",
+      "mode": "100644",
+      "size": 5103,
+      "sha256": "a48661257afb5bd72020bba10931677dc0e3af8a7a985c913dbe3698176a6eed",
+      "gitBlobSha": "f362445310731538f41491906df1ea449051db5e"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Nature_StarFall.png",
+      "mode": "100644",
+      "size": 4208,
+      "sha256": "a253183e8ce6b717e561fb76f03c4b5f9c1f34109ebefe84573ce48010ff8e21",
+      "gitBlobSha": "5d24a03891b0b07107d8b700da1ba6a13eea431b"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Nature_StoneSkinTotem.png",
+      "mode": "100644",
+      "size": 5106,
+      "sha256": "94c8de52ed1ab5ce9291f7636c146677865b1c2fbc9eb912e6a70fd232f0a2f5",
+      "gitBlobSha": "0e6d29fb7a6d5894893995932e23e95da7c212ee"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Nature_StrengthOfEarthTotem02.png",
+      "mode": "100644",
+      "size": 4802,
+      "sha256": "956ccb2565c37f7cddb101d74b8614added4c9ee50ba83f56f829ee185c63c02",
+      "gitBlobSha": "db905c7fc3077de4c9742fe36d22b48dd43ae006"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Nature_Thorns.png",
+      "mode": "100644",
+      "size": 3871,
+      "sha256": "db0d4f1da1b3aa66b5ca26a1c90989bb964d86fbc1691784d19ef2de1b7132f4",
+      "gitBlobSha": "a19c6e663d1818384984fa3b7b56ab110131be7d"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Nature_ThunderClap.png",
+      "mode": "100644",
+      "size": 4502,
+      "sha256": "7be76dd466da2f0e8e5bd156206c9b0c632433877b2b5a61e3027575b6107b2a",
+      "gitBlobSha": "d767a599b34e74bc756ed3a21290f22496d2ee27"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Shadow_BloodBoil.png",
+      "mode": "100644",
+      "size": 3391,
+      "sha256": "8ebc5e171ab3a1e7694ff6d0bf5fa7cebeed63c1608fecfe8e9edf622773cc1a",
+      "gitBlobSha": "119afaa1235297c01b96f734b4977c68f60f48c2"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Shadow_RagingScream.png",
+      "mode": "100644",
+      "size": 4762,
+      "sha256": "e5a1c132175fd81fc09a0acc4787657df96b8f1f6da72fcda7047b219ecad667",
+      "gitBlobSha": "acb1f772fa207d4ad1a7d58f9f44c0e71acd8440"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Shadow_RitualOfSacrifice.png",
+      "mode": "100644",
+      "size": 4515,
+      "sha256": "f74cab63acc9e8828cc2a27c845c2d53d47940055d96d812517f83d711983c06",
+      "gitBlobSha": "5ebb64a788f23b81e5fb80f8e61acf99458fdf1c"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Shadow_ShadowBolt.png",
+      "mode": "100644",
+      "size": 3785,
+      "sha256": "d9374bff4c299beb85a812c20c12f852c9a95e87d11f085b69297e14442b8b5b",
+      "gitBlobSha": "444b340a8fc1d818969138d959d22f68852f7a3b"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Shadow_ShadowWordPain.png",
+      "mode": "100644",
+      "size": 4499,
+      "sha256": "cf21ceffd2866febf11327ac93beccce00842d0f0bb89db02a89cb60bd440efb",
+      "gitBlobSha": "e4e466c0040b9cfd4e151188bf91286271114e33"
+    },
+    {
+      "path": "public/assets/native/Interface/Icons/Spell_Shadow_SummonImp.png",
+      "mode": "100644",
+      "size": 4841,
+      "sha256": "615949d7063e14969454e65feb64b8c55bb67facbc704257eae4396a693e2916",
+      "gitBlobSha": "8e5d5fab530fd66a479d7d88d56c929b26dbe294"
+    },
+    {
+      "path": "public/assets/native/Interface/MainMenuBar/UI-MainMenuBar-EndCap-Human.png",
+      "mode": "100644",
+      "size": 8637,
+      "sha256": "ef2258bc6f246c56db7617f7d36402f71aa9eea2bd85328263d7fcd75dc26336",
+      "gitBlobSha": "0caf6ac59f7df787debd483985644355b5f99571"
+    },
+    {
+      "path": "public/assets/native/Interface/MainMenuBar/UI-MainMenuBar-Human.png",
+      "mode": "100644",
+      "size": 48091,
+      "sha256": "85c10f65db69d1c11d0efb72649ab7639e5399c35823775efb08a63b94790f77",
+      "gitBlobSha": "7ceff445c1b0df9029fb5fcb6d2d69f2fee2e6f4"
+    },
+    {
+      "path": "public/assets/native/Interface/Minimap/UI-Minimap-Border.png",
+      "mode": "100644",
+      "size": 10818,
+      "sha256": "3372bf4d096162a1753179cf213dea7dc80c0f68f25d572dfc9bd7a01fdd5d8b",
+      "gitBlobSha": "a878f4b89ae3b9a03466f76078f7fd7d28873e95"
+    },
+    {
+      "path": "public/assets/native/Interface/Minimap/UI-TOD-Indicator.png",
+      "mode": "100644",
+      "size": 5016,
+      "sha256": "408767245e7fe95ba5690681e8b2a2c350573350fd771a4d874c02c185825a67",
+      "gitBlobSha": "5def87006315cf29e7c5e8881a24878bc1e001d9"
+    },
+    {
+      "path": "public/assets/native/Interface/PaperDoll/UI-PaperDoll-SlotBackground.png",
+      "mode": "100644",
+      "size": 60826,
+      "sha256": "51b829b6cc78c565406a3e66ba3cd4cb211f446d7a52acbbffe8eb5bc00b9c2c",
+      "gitBlobSha": "e7f31cbbcbb25b75dea62d09e1953cd00fad76c2"
+    },
+    {
+      "path": "public/assets/native/Interface/PaperDoll/UI-PaperDollBackground-L1.png",
+      "mode": "100644",
+      "size": 19861,
+      "sha256": "b953baf710940951305352cb131623d8a79d028a24279f893e34bf7d37044135",
+      "gitBlobSha": "a84471fcf35e995e22b0461cbde5920ce8d28665"
+    },
+    {
+      "path": "public/assets/native/Interface/PaperDoll/UI-PaperDollBackground-L2.png",
+      "mode": "100644",
+      "size": 20975,
+      "sha256": "b135abcd4e661220f4d140c4d59f087ea0d8e128e17ac67c12453aa6feebd075",
+      "gitBlobSha": "03afd72c089bd37f373cc41d42f1888726189f7a"
+    },
+    {
+      "path": "public/assets/native/Interface/PaperDoll/UI-PaperDollBackground-R1.png",
+      "mode": "100644",
+      "size": 3301,
+      "sha256": "4bee99cae3f9f8c657a3f8e9b067ee0b04e683526de2fef62ce41868f963fb8d",
+      "gitBlobSha": "10e29ae8173401fa0aedf2dfcd09bca9ffbee4bb"
+    },
+    {
+      "path": "public/assets/native/Interface/PaperDoll/UI-PaperDollBackground-R2.png",
+      "mode": "100644",
+      "size": 3045,
+      "sha256": "d891027cf769a0d281a6991f0f50cc79155145336ed7fb60f8c72bc18326b707",
+      "gitBlobSha": "c73d5c2b39fbd464a671bae7685feee0d72d6a10"
+    },
+    {
+      "path": "public/assets/native/Interface/QuestFrame/UI-Quest-BotLeft.png",
+      "mode": "100644",
+      "size": 28680,
+      "sha256": "93ef223857d5dea84804ba7b875c1d21fe375eeb6f82410fb698aabc286bef3a",
+      "gitBlobSha": "32ab9400555a81d95e2cdb4b20610707dc97a90f"
+    },
+    {
+      "path": "public/assets/native/Interface/QuestFrame/UI-Quest-BotRight.png",
+      "mode": "100644",
+      "size": 15458,
+      "sha256": "c542c76337b294ddca4336d106f7a10727b50167cbcabcafcf24f0ff1fa1256b",
+      "gitBlobSha": "5690c174ca7e4af92d2a980fc2b657e5a51d73a6"
+    },
+    {
+      "path": "public/assets/native/Interface/QuestFrame/UI-Quest-TopLeft.png",
+      "mode": "100644",
+      "size": 36654,
+      "sha256": "11189d73db1a4a536f8167b7409aefd58b59a6e53d20bd6801f42df6a1f901bb",
+      "gitBlobSha": "ae8e687701056f53003b235ebcf9eafe33410305"
+    },
+    {
+      "path": "public/assets/native/Interface/QuestFrame/UI-Quest-TopRight.png",
+      "mode": "100644",
+      "size": 17707,
+      "sha256": "eb72c3d5d06dbd486801e336aafa9931947a4dae075e9657b8fc1195659f283a",
+      "gitBlobSha": "3946883617f6d90d84fa417322f70219470d34bf"
+    },
+    {
+      "path": "public/assets/native/Interface/QuestFrame/UI-QuestGreeting-BotLeft.png",
+      "mode": "100644",
+      "size": 55003,
+      "sha256": "b0d635a28e796596a3e0794c0df96229969841e0882a64645ce296455b10a0fe",
+      "gitBlobSha": "6b19160ad1e3ed37cc4c7f6199a6ef5ab2c84996"
+    },
+    {
+      "path": "public/assets/native/Interface/QuestFrame/UI-QuestGreeting-BotRight.png",
+      "mode": "100644",
+      "size": 16214,
+      "sha256": "2b73a9a3803834ebd5fbf6c73e269517a35f1bb61318efd8a5a17e2cb2fc5b42",
+      "gitBlobSha": "adb980ed65b0b7c4d67c00e9b870005910242c62"
+    },
+    {
+      "path": "public/assets/native/Interface/QuestFrame/UI-QuestGreeting-TopLeft.png",
+      "mode": "100644",
+      "size": 69044,
+      "sha256": "9a65e9de0f9e689f2efacf5a80c914acff827c12237f4e5bb68bd1ac3107aa93",
+      "gitBlobSha": "afb9ccee93dfa6bb0517c842a9730423073dafca"
+    },
+    {
+      "path": "public/assets/native/Interface/QuestFrame/UI-QuestGreeting-TopRight.png",
+      "mode": "100644",
+      "size": 20952,
+      "sha256": "25820a1c308b00b1908d2e74cbe0d6609b1c1599c9c703a051149095ec5c5778",
+      "gitBlobSha": "7e95ab1980116e902725476d5422e243ffc4a4a5"
+    },
+    {
+      "path": "public/assets/native/Interface/QuestFrame/UI-QuestLog-BotLeft.png",
+      "mode": "100644",
+      "size": 58783,
+      "sha256": "476f9749e34ea0fe4d9a37369ef7f998dd16261e924d8fdba247f80db4a623fb",
+      "gitBlobSha": "4b7a95c8e3536111d375a2f3400b10a5bccaca5e"
+    },
+    {
+      "path": "public/assets/native/Interface/QuestFrame/UI-QuestLog-BotRight.png",
+      "mode": "100644",
+      "size": 18702,
+      "sha256": "952efa86d2a987df296459dea93860eb607f55917fe0523c2734a8f5572c30ed",
+      "gitBlobSha": "8e58da653a133968aac751f9db786ad56d979fd7"
+    },
+    {
+      "path": "public/assets/native/Interface/QuestFrame/UI-QuestLog-TopLeft.png",
+      "mode": "100644",
+      "size": 55753,
+      "sha256": "673a61e45db11b3d45d30ed043595361f51a97dbfdd3ce6412046576d6fd52cb",
+      "gitBlobSha": "254c4a0a779bc2658b235ae3e546ff2e72911dab"
+    },
+    {
+      "path": "public/assets/native/Interface/QuestFrame/UI-QuestLog-TopRight.png",
+      "mode": "100644",
+      "size": 18575,
+      "sha256": "2e6b0baf1ed130c9b142961d0f93e9f54b8bdc7d45c86dad4b1a1e36e3481bcc",
+      "gitBlobSha": "2b93a48f67e7f01424e38cf0572fde5d9c16229e"
+    },
+    {
+      "path": "public/assets/native/Interface/Spellbook/UI-SpellbookPanel-BotLeft.png",
+      "mode": "100644",
+      "size": 52303,
+      "sha256": "ab2d113720dbdd6081a56d66856a2504972a497dcd47be5b4f441b11bbe59344",
+      "gitBlobSha": "bc493e117dd2052f5011669d15060b981632032d"
+    },
+    {
+      "path": "public/assets/native/Interface/Spellbook/UI-SpellbookPanel-BotRight.png",
+      "mode": "100644",
+      "size": 19481,
+      "sha256": "9758b3ee542a7feba1768116cdf5c30ead8f5e192e7d38ad7556ace099130184",
+      "gitBlobSha": "e167663c61897054e56d5c9e765d941715033ebb"
+    },
+    {
+      "path": "public/assets/native/Interface/Spellbook/UI-SpellbookPanel-TopLeft.png",
+      "mode": "100644",
+      "size": 69397,
+      "sha256": "2d87f73bc216212438d051bdfb92e240df6bc64d2cc2a55dddb2a0d55a539de7",
+      "gitBlobSha": "fa10dfc521d0a4a5336a3e0392edfdd76f923e0c"
+    },
+    {
+      "path": "public/assets/native/Interface/Spellbook/UI-SpellbookPanel-TopRight.png",
+      "mode": "100644",
+      "size": 24311,
+      "sha256": "985b66463fcf4d33da341b79282aaedf2c7046d58f189455c0fc6a4512508f19",
+      "gitBlobSha": "c204e8c4efe0e799b56aadd0234be0b05e56d7a1"
+    },
+    {
+      "path": "public/assets/native/Interface/TalentFrame/MageFire-BottomLeft.png",
+      "mode": "100644",
+      "size": 19386,
+      "sha256": "86953bfc958aed99240d9a5b59cb6be0f6b913bef49f53ea23611b45ae7137b3",
+      "gitBlobSha": "24f5d11aa1641430ca5a7f6051f752084e6e8aa1"
+    },
+    {
+      "path": "public/assets/native/Interface/TalentFrame/MageFire-BottomRight.png",
+      "mode": "100644",
+      "size": 2527,
+      "sha256": "0f3ffa2621a13c6cf3e2b55fd92831272cfd50cf1d31ad424c0f295abe743724",
+      "gitBlobSha": "90f7cd04188e391db7ec053c8c5ca78bb23b243b"
+    },
+    {
+      "path": "public/assets/native/Interface/TalentFrame/MageFire-TopLeft.png",
+      "mode": "100644",
+      "size": 63671,
+      "sha256": "f2f647743bdb01b96760399f19d716c31d118dd825ac9e1de455577da327083b",
+      "gitBlobSha": "9779dd4d15e8eab2606995bb973fedfa4cc988e1"
+    },
+    {
+      "path": "public/assets/native/Interface/TalentFrame/MageFire-TopRight.png",
+      "mode": "100644",
+      "size": 9852,
+      "sha256": "240a19fe3a1d4bb27b8daceadc5a336184889a8cabb1b6af22ec7bc689d1671d",
+      "gitBlobSha": "d9f29efbc2c7f00cd0ad57c6db7560122415cae3"
+    },
+    {
+      "path": "public/assets/native/Interface/TalentFrame/TalentFrame-RankBorder.png",
+      "mode": "100644",
+      "size": 376,
+      "sha256": "cfcbf2769dafe196a302bd32e75dfe301c75cc24cc3bb7471ea2ff0e82fde1ec",
+      "gitBlobSha": "fc9356f9ef59e7782d348a8332b7a259ae479460"
+    },
+    {
+      "path": "public/assets/native/Interface/TargetingFrame/UI-StatusBar.png",
+      "mode": "100644",
+      "size": 391,
+      "sha256": "a4c4ac1f4fc906e4439d91f530e403811384926c8ad6d673838818450e164793",
+      "gitBlobSha": "eefdd0a9d6cb1703e96529e6bfd83ea01bd7d115"
+    },
+    {
+      "path": "public/assets/native/Interface/TargetingFrame/UI-TargetingFrame-Elite.png",
+      "mode": "100644",
+      "size": 13097,
+      "sha256": "4cc94daa7a1ac3dbc7f871e2d01453a4cbda72fdff8ba8799db9b96460862494",
+      "gitBlobSha": "eb55fd73bce8bd27821875f892e7f2f1d88c4c15"
+    },
+    {
+      "path": "public/assets/native/Interface/TargetingFrame/UI-TargetingFrame-LevelBackground.png",
+      "mode": "100644",
+      "size": 403,
+      "sha256": "ed235b4d4df23c30b28ba04b045a128d687e36196c10f22f24c05136fa185bed",
+      "gitBlobSha": "bfcd53d5f38bcb5430b133c51df14240b57832cc"
+    },
+    {
+      "path": "public/assets/native/Interface/TargetingFrame/UI-TargetingFrame.png",
+      "mode": "100644",
+      "size": 6088,
+      "sha256": "44bea0ddfd6713fc15b98b9c402ce1cafcedfaaf407fc12a96b0c661c09b6325",
+      "gitBlobSha": "d16a1283955cafa87eceb18c46e8f449d72b0e53"
+    },
+    {
+      "path": "public/assets/native/Interface/Tooltips/UI-Tooltip-Background.png",
+      "mode": "100644",
+      "size": 251,
+      "sha256": "26ce591329f289320893407fbc70e965848b063248a8bc23e9f8f0413ecc59ae",
+      "gitBlobSha": "62c79e037926fb150a99005adf65042f8cc82c70"
+    },
+    {
+      "path": "public/assets/native/Interface/Tooltips/UI-Tooltip-Border.png",
+      "mode": "100644",
+      "size": 527,
+      "sha256": "f9c2848dadbd4e4c3aa5052dca445c770b4ec06e2dcc3710bb4c0c9702e04e82",
+      "gitBlobSha": "e1d99462a89b708304bd502d3c019cc5a877010d"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Azeroth/Azeroth1.png",
+      "mode": "100644",
+      "size": 91853,
+      "sha256": "eb7d2530c1d31e16f1fdbc70ba3ce0b38d2cc293148be0069aa0dc39fcc6cfbd",
+      "gitBlobSha": "b17fa8748e53c69178bb4f3ccab5438ee80ad0b4"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Azeroth/Azeroth10.png",
+      "mode": "100644",
+      "size": 54526,
+      "sha256": "40d1813fc1a6ac55a9b80559e68bacc7a609adcc1ea28b3b3f08cafdd45346af",
+      "gitBlobSha": "22c8a5d61e0e92466c6567453b95bbfc0faa8b41"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Azeroth/Azeroth11.png",
+      "mode": "100644",
+      "size": 55400,
+      "sha256": "638ef50c46b68f6c496121074c41b083b36785955cf30ee09b2db209f0587c5e",
+      "gitBlobSha": "c7486f850f9b4954f6518ae9499c3f08d298e29b"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Azeroth/Azeroth12.png",
+      "mode": "100644",
+      "size": 52871,
+      "sha256": "69bb84f1e80160fc0d23080c15e3e58b41bfba3fcbc011ecead1cc309a46564d",
+      "gitBlobSha": "0e2d246f7d2c5fda98006ed734f69b6285434df9"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Azeroth/Azeroth2.png",
+      "mode": "100644",
+      "size": 88376,
+      "sha256": "352444002b6f8e7d140a31cf568642b15dd45cb407ffc12273f7c4ce0a9c8dac",
+      "gitBlobSha": "6c2d0d6bb75e45a36213b6a29fdba3c05b2d3b9d"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Azeroth/Azeroth3.png",
+      "mode": "100644",
+      "size": 90294,
+      "sha256": "9cb40e23a23484b603e2f8ffa3d6b0532f7d0b9ad1c1e832496c8b4f1b94f06c",
+      "gitBlobSha": "c4302b790e3228658a0e30752ed18c487e2528b0"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Azeroth/Azeroth4.png",
+      "mode": "100644",
+      "size": 83062,
+      "sha256": "9be21bd72adce11ccc8c418a405bb81f3739b13bf92745ebf4ca47c1beeaf6b8",
+      "gitBlobSha": "9c1ab2f86c792e5164e75e4b790ff677a336e0c6"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Azeroth/Azeroth5.png",
+      "mode": "100644",
+      "size": 90076,
+      "sha256": "cf6f8d4431484db0c0845321d8d0049af0beaef68f40b6972d25f0cec848e199",
+      "gitBlobSha": "ffc2e8d7b3212bd1bf56c0ff70d884fcf4c9553b"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Azeroth/Azeroth6.png",
+      "mode": "100644",
+      "size": 88803,
+      "sha256": "b08b5b2589fafbb61441616e4b944e72190d025e7d29a6f6780df4ae4c7cf450",
+      "gitBlobSha": "7d203340f23fe77003eb15e3b0a9a303f2c18622"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Azeroth/Azeroth7.png",
+      "mode": "100644",
+      "size": 90864,
+      "sha256": "eb4141fabcddae23dc97ba5830ed99c6804b4295f543fd7de4fa3af6c8f4dfd3",
+      "gitBlobSha": "acd7ace0a50642d93635aedbff405d8e21bf7a6e"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Azeroth/Azeroth8.png",
+      "mode": "100644",
+      "size": 84203,
+      "sha256": "a597a6514e44b30791583e367a0084ab0d135483726fea32e53a8a428adee4e8",
+      "gitBlobSha": "e9d78b59bb58df2a8b3587405643d3194268030e"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Azeroth/Azeroth9.png",
+      "mode": "100644",
+      "size": 55312,
+      "sha256": "12e43ea52fd1c467516741ea1ca3b92eb2bcea1b05a7a9436e68699f6d9da5db",
+      "gitBlobSha": "c206ab9527ed802df5f299cfdb257d1890f3e597"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Elwynn/Elwynn1.png",
+      "mode": "100644",
+      "size": 85655,
+      "sha256": "520270102a0892e4f8e531d6864e40c7e25c4c89e2f438b53eb5027bad5a6ccf",
+      "gitBlobSha": "c846e4e22b1bff4510abb91e9cfe62d195d76d45"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Elwynn/Elwynn10.png",
+      "mode": "100644",
+      "size": 52810,
+      "sha256": "5b6f935d9541d7003becd4aad3fd3f0a07c47190b8333545d1dba17021f4294a",
+      "gitBlobSha": "f4590b9bb2a11ac04dee01eb7ddcb3559b02269a"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Elwynn/Elwynn11.png",
+      "mode": "100644",
+      "size": 51647,
+      "sha256": "bf4bfabe753fe3fa87338da99ab26acd492aae8ef34c47b15273e760dd02d6c8",
+      "gitBlobSha": "e010d0ed9d26c98c3683bfba0feb41211128f599"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Elwynn/Elwynn12.png",
+      "mode": "100644",
+      "size": 49360,
+      "sha256": "d20d6bded869be65cb8c6a744c10a11675c6b75c5beadb36053e27b8c2bab742",
+      "gitBlobSha": "ac65604865c254203f66af75ff813719d51c425e"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Elwynn/Elwynn2.png",
+      "mode": "100644",
+      "size": 85337,
+      "sha256": "9291b872562f87c80f6a08e507c65096f250fc577d49d85bcde8861bfa2c042d",
+      "gitBlobSha": "d8016e1898fecba2696dcf650bb98685dee965d3"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Elwynn/Elwynn3.png",
+      "mode": "100644",
+      "size": 85499,
+      "sha256": "30b6f7e5eddee6b21b6d103690d9aaef5b510283f0daf846f771ab3653c0c21b",
+      "gitBlobSha": "7d1889cd7a2f4c91966553ea050c4b284d504aef"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Elwynn/Elwynn4.png",
+      "mode": "100644",
+      "size": 79485,
+      "sha256": "a73dd818607fe0ae7eb902ea22cdb9342a57caf3f761282cdb73e12451018a6a",
+      "gitBlobSha": "0f725412b3ffe542e95cdaa50f1d49076f9553f3"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Elwynn/Elwynn5.png",
+      "mode": "100644",
+      "size": 89352,
+      "sha256": "41d5ea70117c07a2182142d760dfb6213c339005e67864b59ab64914bc9601da",
+      "gitBlobSha": "290abaadca292d46c7a5c3e8f81ffde3594196e8"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Elwynn/Elwynn6.png",
+      "mode": "100644",
+      "size": 81854,
+      "sha256": "f760a02673a2e59fe98964aaf7e0690b494636e65a00a937e0e6746d5b00b450",
+      "gitBlobSha": "8951104803863ce50d170dd1224f3405af71d49c"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Elwynn/Elwynn7.png",
+      "mode": "100644",
+      "size": 81444,
+      "sha256": "b5ecb13a68fe4716b6cac70dddb4d4fc2aae7494fac914bbb28e74ac3714a346",
+      "gitBlobSha": "1c7ca45dfb708cf6664c21348b4141c23b399a52"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Elwynn/Elwynn8.png",
+      "mode": "100644",
+      "size": 78870,
+      "sha256": "69f503c72d0d1ad2ec00845f4d6fcf0d815da838ed310fc42623efe43543e444",
+      "gitBlobSha": "e6f437fbe320513caa37d96b9288a50a08de80aa"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Elwynn/Elwynn9.png",
+      "mode": "100644",
+      "size": 53138,
+      "sha256": "563fa85e9231853d016533c8e9a79b51f4004b4aa40117765184851ee3ffe4e8",
+      "gitBlobSha": "c790b3b343501a3bbcb80bbd7d87629355421616"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Kalimdor/Kalimdor1.png",
+      "mode": "100644",
+      "size": 92070,
+      "sha256": "1c8f0beb9389ef33976976302afab0837c02af3f89fca29968c07da9fe361917",
+      "gitBlobSha": "7cad85fa48ebddf0952ef9276306f3bdddc7fad4"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Kalimdor/Kalimdor10.png",
+      "mode": "100644",
+      "size": 55500,
+      "sha256": "dbbf07b4a7a35e3b094f7cc69a35659713cd8288f66862ab4e32ffe13e46139c",
+      "gitBlobSha": "79ae3dd844e0bff32a06b1594b984ffed9584f7a"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Kalimdor/Kalimdor11.png",
+      "mode": "100644",
+      "size": 55944,
+      "sha256": "d17d6edbb06c992d86289c8bd704b70ed2f245a8b4089be31fe16b8d4e6680e5",
+      "gitBlobSha": "2b854ac75630380aed9c0ba06c4f81acfe483757"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Kalimdor/Kalimdor12.png",
+      "mode": "100644",
+      "size": 53073,
+      "sha256": "9635d57103f3331554cc28524fa7f82aaae8c341cbb5e9591ea55b22737b7ecf",
+      "gitBlobSha": "c8ee3d9789ff7a42c3edbeb35406994473c32699"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Kalimdor/Kalimdor2.png",
+      "mode": "100644",
+      "size": 86354,
+      "sha256": "5d9ca6e97bd781f1745f47924613d9ed03d698d23a84644cea59c793bf3b9b1e",
+      "gitBlobSha": "08f6936a18ce2797b14b47e4c693d704923947a7"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Kalimdor/Kalimdor3.png",
+      "mode": "100644",
+      "size": 89149,
+      "sha256": "4f3182cc079a77fa7e10402b85c5bd4fc23af66d1cbb23f673376da8d77fd49b",
+      "gitBlobSha": "84523759eebc1225bbc9fe7f3402dffee6984e62"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Kalimdor/Kalimdor4.png",
+      "mode": "100644",
+      "size": 82659,
+      "sha256": "0300cd48dae866b885c7865a52e5a403a06e92fc946e9a12d7dc795f8fe95b09",
+      "gitBlobSha": "a36da6704bfd8ec25b448d1b9a0d3ab9cf0ff15b"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Kalimdor/Kalimdor5.png",
+      "mode": "100644",
+      "size": 90201,
+      "sha256": "a300432f7c1391534973fb1cc77d17d4835fb817505e5a5a05b59bc1f1c7e466",
+      "gitBlobSha": "8b3a0d7ad35aa4b424fcfe7d50a32edba04e5227"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Kalimdor/Kalimdor6.png",
+      "mode": "100644",
+      "size": 89074,
+      "sha256": "ad0907d1b3c37c95a7787ce4892aa547a206d4dc504777d880358abcb45ce672",
+      "gitBlobSha": "01fa57454150fe6b25d2693b84958098a768335d"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Kalimdor/Kalimdor7.png",
+      "mode": "100644",
+      "size": 90673,
+      "sha256": "43eb94437251801d1a62169b54d2e989cc25a315141389e269080734d1205296",
+      "gitBlobSha": "e498a7985733be47f5b99e462d0cef6e48f0c474"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Kalimdor/Kalimdor8.png",
+      "mode": "100644",
+      "size": 83795,
+      "sha256": "84f86bd52e0704eee58828ee8fe954ba5029804cacd9b70925e5e05749c65aab",
+      "gitBlobSha": "1249ddd4ef9193ad685e8bd8c97317a2453ac657"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/Kalimdor/Kalimdor9.png",
+      "mode": "100644",
+      "size": 55573,
+      "sha256": "7aba58380843d66ebca677b1fa17ad2006aab188a76f873d7257888238bbf489",
+      "gitBlobSha": "4b3c46ac733c632fb76b2f22f9cadbe0c6fcf4a7"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/World/World1.png",
+      "mode": "100644",
+      "size": 90112,
+      "sha256": "d6317aeadec50862fd10c1e2ec33db0ebdbe6b0108390385e0256f2cfbb053e7",
+      "gitBlobSha": "577b4caed821b095df5cb8a6d3f009e41eba94a8"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/World/World10.png",
+      "mode": "100644",
+      "size": 56668,
+      "sha256": "c0f733546ccf8f788ebb9608d6d8c93fe0812d937798356eba36c6faf1978986",
+      "gitBlobSha": "2c4b4ae4023377b74fa75cb19ea3c03d93b9088b"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/World/World11.png",
+      "mode": "100644",
+      "size": 55074,
+      "sha256": "dc6b86ecfed2b9d51919650b125064bba6a8b355bf1df9f73d7de00e966fdb49",
+      "gitBlobSha": "3b65bc6d40af77958a7bf4ee51a07dce23c9609a"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/World/World12.png",
+      "mode": "100644",
+      "size": 51517,
+      "sha256": "7182435eb12331fd3b575c06d422fae882c2c77821b434e0993dd4e748a1d236",
+      "gitBlobSha": "8f23f8f188c733b0bc7dd8c22b001a59bd2c9987"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/World/World2.png",
+      "mode": "100644",
+      "size": 88183,
+      "sha256": "93ab3a68d5c76b21b838eee909a418a3d24b2d84c824068162e77d1d3b008b0c",
+      "gitBlobSha": "94a0f10ce147dd64898042e4385430a4e0563246"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/World/World3.png",
+      "mode": "100644",
+      "size": 87355,
+      "sha256": "5b21c84de3a6a46d35b230d532782ed86818e4cd88f25a01444336d30d437711",
+      "gitBlobSha": "4052af0b8ad3b480bd0cc6ff17265e72b517bfba"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/World/World4.png",
+      "mode": "100644",
+      "size": 82504,
+      "sha256": "e6805897e955cd89493564424cc8560f5510c08ca11ae6ed3c0108cc36feb599",
+      "gitBlobSha": "10f0aeb560b88d8c54d1f2d93a52a68e64181f34"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/World/World5.png",
+      "mode": "100644",
+      "size": 93292,
+      "sha256": "b2fb45ab7956dc53436b27f491e66849eac03c44a9766c5a519467991d6efd22",
+      "gitBlobSha": "e2a2d4691c8b263844005e017c2ba7c6f6d927c6"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/World/World6.png",
+      "mode": "100644",
+      "size": 89656,
+      "sha256": "89749d6491b70ab9becdf8d56fb9706e1c79068d2e811cef748f3bbf0cad4d68",
+      "gitBlobSha": "37e00d52aab8252f67e2eee2c0d9bf48a938b063"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/World/World7.png",
+      "mode": "100644",
+      "size": 89360,
+      "sha256": "cac047c40e611ff257a6fa7ce9ad8f8228674c3bdb28a8cee082dee48018e838",
+      "gitBlobSha": "e856ed1f5a87217c3b78892669ee3704f10f3c4a"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/World/World8.png",
+      "mode": "100644",
+      "size": 83770,
+      "sha256": "cc3c5319cd95d4f258396bc52e7fd9c0098c5836c0733d447a7bbdf65cd5047b",
+      "gitBlobSha": "1ce5ec2181a97d1836b907a7857aa8a12f7e8696"
+    },
+    {
+      "path": "public/assets/native/Interface/WorldMap/World/World9.png",
+      "mode": "100644",
+      "size": 55617,
+      "sha256": "794799324c68747d169db33e08c13d9cf8a5eaca10957d4c41d3e07a8aec0705",
+      "gitBlobSha": "d8bed8dfca0ccb3c38bf1fdfce7ac8d2f5f2c4eb"
+    },
+    {
+      "path": "public/favicon.svg",
+      "mode": "100644",
+      "size": 712,
+      "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7",
+      "gitBlobSha": "ca747cb66b233fedec5ff0c84f97bb4631c05dbf"
+    },
+    {
+      "path": "reports/content/FOR-IDLE-2026-10-21-PUBLIC/coverage.html",
+      "mode": "100644",
+      "size": 6554,
+      "sha256": "e51632511371b41f57b8d6bf7df3c97b56000a9a62641d6d11ae55a7d1ecb22f",
+      "gitBlobSha": "54b8533e9d679167328343284af46f5fd32a3342"
+    },
+    {
+      "path": "reports/content/FOR-IDLE-2026-10-21-PUBLIC/coverage.json",
+      "mode": "100644",
+      "size": 18386,
+      "sha256": "5939c488bef6a2245804a630a5f34ca26a352a0b67d3164185b6fef12b011a64",
+      "gitBlobSha": "833c4f1ebfc694532dd783eec9a29b6e5b5b2fc0"
+    },
+    {
+      "path": "reports/content/FOR-IDLE-2026-10-21-PUBLIC/effect-inventory.json",
+      "mode": "100644",
+      "size": 29977,
+      "sha256": "22f35b77217cba35098d49479d77207bbd9ce4cb12caad6929e04911d55b1eb8",
+      "gitBlobSha": "2a380d311bbca78895cc444296e9f292e27f2ab3"
+    },
+    {
+      "path": "reports/content/FOR-IDLE-2026-10-21-PUBLIC/gaps.json",
+      "mode": "100644",
+      "size": 21513,
+      "sha256": "07603f44212b74e5d9a19de733a03d8ac596e143cb59043148726c57fbdaba8c",
+      "gitBlobSha": "f8db4441a677dd58f9c26fa9cc4a51ed6fb54d28"
+    },
+    {
+      "path": "reports/content/FOR-IDLE-2026-10-21-PUBLIC/provenance-audit.json",
+      "mode": "100644",
+      "size": 67,
+      "sha256": "66768593b5ab3a25577255366cb306a4d2547e765e84caea2f0f3ba2fcc985a5",
+      "gitBlobSha": "8eada68b0db0623f320e293edb5bda73be1a79ef"
+    },
+    {
+      "path": "scripts/build-verified.sh",
+      "mode": "100755",
+      "size": 661,
+      "sha256": "2ae5329ac860076070c9217a43106a15cb5ecf907a0f7baeb9ef903f76b53c68",
+      "gitBlobSha": "6c69cf3ad6855c25c312b67f02fd1afffb97b63d"
+    },
+    {
+      "path": "scripts/connector-preview/connector-preview-session.mjs",
+      "mode": "100644",
+      "size": 6855,
+      "sha256": "57224ad185a25115a14fccc68d3217e55b199260c3dd98a2c807beffec1a0a9b",
+      "gitBlobSha": "aa2d2d92f663e547e4af956e3f0475a6198b1bf2"
+    },
+    {
+      "path": "scripts/connector-preview/host-binding.mjs",
+      "mode": "100644",
+      "size": 7793,
+      "sha256": "9e44ab6864133a5c82f834a5904ebb7d6104cb783c24efba3c0fe1a161182cea",
+      "gitBlobSha": "88e6efb56e6ceb044dd3c9127d26960b5bb9c5e9"
+    },
+    {
+      "path": "scripts/connector-preview/protocol.mjs",
+      "mode": "100644",
+      "size": 1781,
+      "sha256": "111e062ebf08d3f180130f5bc3dcb3c1414c1d7be3c032c9d675a61c0c7513a8",
+      "gitBlobSha": "6476ba302de4ee408ba549fc0d790861185dd919"
+    },
+    {
+      "path": "scripts/connector-preview/worker.mjs",
+      "mode": "100644",
+      "size": 618,
+      "sha256": "bd9c98fc68f29d975fe10508dfc9029bb681dc5789a62861d5c938bdea2064bb",
+      "gitBlobSha": "5ab638e8b4e34767e39a1d224cc9f3dd9c28c4c9"
+    },
+    {
+      "path": "scripts/execution-profile.mjs",
+      "mode": "100644",
+      "size": 624,
+      "sha256": "2e71116f4d2b70cff8bb70436f8dd5c709ec7ff62893424530f404e0193d3630",
+      "gitBlobSha": "f27aec211320d9a5fd0dbbb07f5c508222b2b8d4"
+    },
+    {
+      "path": "scripts/install-ci.mjs",
+      "mode": "100644",
+      "size": 1685,
+      "sha256": "4a5a92d60a08d0ba54effd8373da2da06284312c55b767287c68a0bec7200da7",
+      "gitBlobSha": "22bd7d555c8f2a996d5bfe5be0ba9a5a43a1bf7f"
+    },
+    {
+      "path": "scripts/install-ci.sh",
+      "mode": "100755",
+      "size": 6783,
+      "sha256": "10d8764a61be50351dc3496e13588270de7956f0aa5f1189c49cabb2d89fe5c0",
+      "gitBlobSha": "7b4a810e1663afb4572d167eb78e09b3db07be10"
+    },
+    {
+      "path": "scripts/install-pnpm.sh",
+      "mode": "100755",
+      "size": 9015,
+      "sha256": "a684c02c2b493dfbf262a66252a5cd36f81ca995a4024761728662ae63aa40c0",
+      "gitBlobSha": "573ecdb89461a5922386ec9ccf5a83504fa9caae"
+    },
+    {
+      "path": "scripts/npm-install.mjs",
+      "mode": "100644",
+      "size": 7025,
+      "sha256": "9715c6a32d1d4a0289ef6376a0e819c3b6a6416b8a9877733d9fb4339ce626b6",
+      "gitBlobSha": "64ade63f6092ed209b1a76718145d80de38b34f2"
+    },
+    {
+      "path": "scripts/pnpm-install.mjs",
+      "mode": "100644",
+      "size": 10633,
+      "sha256": "a83164e344c1947053def83b546be8115deaa827314bbaead7afe6b6451c5cdf",
+      "gitBlobSha": "ae92c9fe150ee780e46f590947ceacd03b7226ad"
+    },
+    {
+      "path": "scripts/run-framework.mjs",
+      "mode": "100644",
+      "size": 993,
+      "sha256": "9bf9f41a29314cabe0238b8e9c540ec3f7b5a6adafc7c8fb6c3940722d061dca",
+      "gitBlobSha": "166b0c2487819135ddfb30c9267e790ebb8c498f"
+    },
+    {
+      "path": "scripts/sites-env.mjs",
+      "mode": "100644",
+      "size": 522,
+      "sha256": "21d7bde6acb9f716287e652c1b0e43ae4803d79be367ca2192fcba14740b5338",
+      "gitBlobSha": "a90ace6dff612ac554fe710d8212d5222bcf9e9b"
+    },
+    {
+      "path": "scripts/sites-env.sh",
+      "mode": "100755",
+      "size": 1600,
+      "sha256": "d18af7b222db748c9de257d5955b9d7f77ec350dab6321f114f0bc44c20388ac",
+      "gitBlobSha": "d656010b7e14323be160dd4ecbac6760d1789000"
+    },
+    {
+      "path": "scripts/tool-environment.mjs",
+      "mode": "100644",
+      "size": 791,
+      "sha256": "6da99286e0eb7905595ca851e68983bedf94a0f93814819d61f2b1f3a0342ba2",
+      "gitBlobSha": "66d5f0ebd083f922be28c983e0a6d5de06e60e46"
+    },
+    {
+      "path": "scripts/vite/connector-preview-plugin.mjs",
+      "mode": "100644",
+      "size": 7211,
+      "sha256": "a6a9fe2086e302f94a3f91e3c1a68a45bb3aa07d4a79faf01b14732191eb4e80",
+      "gitBlobSha": "f29e9953bdac6f25be5f1b58e5a02ef0457bafbe"
+    },
+    {
+      "path": "scripts/vite/sites-vite-plugin.LICENSE",
+      "mode": "100644",
+      "size": 1063,
+      "sha256": "7de1e115d165f176e68f962acdb809b5ab8d8ae78d3981e0701392b2ac50c713",
+      "gitBlobSha": "4243cb4a9aaa50f954498e54c850773e9ba13eea"
+    },
+    {
+      "path": "scripts/vite/sites-vite-plugin.ts",
+      "mode": "100644",
+      "size": 7185,
+      "sha256": "07af20e7097d9ed1d76f7c446d02997550b8fc5ca89668b249e25eabd62c6834",
+      "gitBlobSha": "2ece1b96530b40a7ea4981e6341b52771a07813e"
+    },
+    {
+      "path": "src/content/capabilities.ts",
+      "mode": "100644",
+      "size": 10684,
+      "sha256": "ed96ab6f41b8cc59cc88fa6b5bdd3b35e1e951bcabaa2d18e19ff210eb893d10",
+      "gitBlobSha": "ba30f73b00f2c567e1e29d1234d3ce3d6f13ede5"
+    },
+    {
+      "path": "src/content/coverage.ts",
+      "mode": "100644",
+      "size": 6913,
+      "sha256": "7f4f9ae41ba8e6a21ff807405af4be3da81165632b2ba2812df9c159e9f8e420",
+      "gitBlobSha": "2886c4243cd38a1b6392b2d6297a5a762c3090e3"
+    },
+    {
+      "path": "src/content/provenance.ts",
+      "mode": "100644",
+      "size": 4667,
+      "sha256": "5f1efb00fb89b1a62a0e2156acaf5bc168c1b947810309dc618dff23073b7908",
+      "gitBlobSha": "c3cd1f66aa49c1c2596205012103f17b79c84def"
+    },
+    {
+      "path": "src/domain/commands.ts",
+      "mode": "100644",
+      "size": 2621,
+      "sha256": "bbb079a1206b0df9f875ac5ddf93e5cf9b9a13e0fede3494cc60918c5773bc0c",
+      "gitBlobSha": "58a749e696adc9130baba2491e439b3733b8d15e"
+    },
+    {
+      "path": "src/domain/content.ts",
+      "mode": "100644",
+      "size": 14563,
+      "sha256": "aef6227b9ba990456bef6600e23bee2d98a556cc0ad15a4ff71907b9c790d287",
+      "gitBlobSha": "9e32dd00151902653170d70696ce79b8747f6799"
+    },
+    {
+      "path": "src/domain/events.ts",
+      "mode": "100644",
+      "size": 2724,
+      "sha256": "e05f4fa8e1fc4cd527e5ecf024ab69d7862ac69553569920e9941e3d2fb1c29e",
+      "gitBlobSha": "6158916bc792eac29972f90e8db2e206f5da60a0"
+    },
+    {
+      "path": "src/domain/ids.ts",
+      "mode": "100644",
+      "size": 1738,
+      "sha256": "cd4d1f2995ab0ea16740fed47723976fa5a0bbd75130dd89b438e2050c6deb55",
+      "gitBlobSha": "3872c46222799a1eb8121f39ec4f280e4d01da90"
+    },
+    {
+      "path": "src/domain/result.ts",
+      "mode": "100644",
+      "size": 779,
+      "sha256": "9caafe0b7dac6e6fb5d15408c3f83b53e1a54efce9a89b01e1d9b47d0c1c0220",
+      "gitBlobSha": "98c84fdaba0eb2899b130cb1378a345bc0800d51"
+    },
+    {
+      "path": "src/domain/state.ts",
+      "mode": "100644",
+      "size": 12922,
+      "sha256": "3c613f46bf417f0d3dbcdda976c85381588dcedce94dadaf21e029c99cdcaaf3",
+      "gitBlobSha": "51efca91102a66fb71cb354bbe955973dc14cdad"
+    },
+    {
+      "path": "src/domain/views.ts",
+      "mode": "100644",
+      "size": 1777,
+      "sha256": "18a14b97f0b38554816218dde702b00c5c1cca0cefdad933d68723f5cf5c9ef7",
+      "gitBlobSha": "54d1cde33405f7af0f2ba97b50d74323bb37361f"
+    },
+    {
+      "path": "src/game/classes/contracts.ts",
+      "mode": "100644",
+      "size": 5416,
+      "sha256": "dabaf4ae55d49e3460b3f742985aa011de81c47045b7370c338c0c8bf2a5d133",
+      "gitBlobSha": "77ebe7cf637699429d29cdad16998c5e9fc8ccd7"
+    },
+    {
+      "path": "src/game/classes/creation.ts",
+      "mode": "100644",
+      "size": 5166,
+      "sha256": "5ec6a1a04e706ff5e6041416847c385f9c32698e2b72d6ce1ea4e57300ff982a",
+      "gitBlobSha": "28ace9a046701412201ea76f199bc239ac0cf10c"
+    },
+    {
+      "path": "src/game/classes/forms.ts",
+      "mode": "100644",
+      "size": 1877,
+      "sha256": "2cdb797b853b12a59bce87ea18ceb975a8d7e490ed2984dd6c8e7fb2b12e6361",
+      "gitBlobSha": "6e70dfc04203c0e501d5c4c97b44dda29b8bd801"
+    },
+    {
+      "path": "src/game/classes/pets.ts",
+      "mode": "100644",
+      "size": 2926,
+      "sha256": "53439284dfb49010b8c5897dcb73ea0fd14596b5668a43b5b660fab26c2d828c",
+      "gitBlobSha": "32cf9bdc242da2719852bfac64e60e13617aee87"
+    },
+    {
+      "path": "src/game/classes/resources.ts",
+      "mode": "100644",
+      "size": 12649,
+      "sha256": "058a7a5c63a5b62a169b7c703e424ee9b1a913ae4763997087eb72be29d59e67",
+      "gitBlobSha": "2101c089e5c57466ad0dde8f320ebc6fa618d3b3"
+    },
+    {
+      "path": "src/game/classes/talents.ts",
+      "mode": "100644",
+      "size": 7242,
+      "sha256": "c666873ef934a82167a9a6387dc8a2fcf644f57b76a3c5fc7fdb14d06dc1f0ce",
+      "gitBlobSha": "e403ebe43c82996d2a275fffbb01cf3d052956df"
+    },
+    {
+      "path": "src/game/classes/totems.ts",
+      "mode": "100644",
+      "size": 4602,
+      "sha256": "03a1659ebcbca0b797a06f931a4a46cb2859cdf10e8357a8bac99a69684bacf1",
+      "gitBlobSha": "d248de01f29ca6566e64ded3599f25697d89f617"
+    },
+    {
+      "path": "src/game/classes/training.ts",
+      "mode": "100644",
+      "size": 3084,
+      "sha256": "3c7576ff130596ab92d041ccd8b0ceca070281ccfbc1fb9a4100ab6150b9b7ea",
+      "gitBlobSha": "a38bf8c8e01a9c53816e209451dd3e0b67f927c1"
+    },
+    {
+      "path": "src/game/combat/attack.ts",
+      "mode": "100644",
+      "size": 28773,
+      "sha256": "6830f50e3f1e069d54ae444c435ae62cfffb4baea60607ccede96ce52f46257a",
+      "gitBlobSha": "2ed7ffcf2fed40a6e82861015d60ac69622578df"
+    },
+    {
+      "path": "src/game/combat/auras.ts",
+      "mode": "100644",
+      "size": 2579,
+      "sha256": "10e38e2c14eaa4bec77837c435ede38202fed466e81b01029ce71089bfdbbca6",
+      "gitBlobSha": "df268fe4123b08d3139d09fc052c7c851f80997d"
+    },
+    {
+      "path": "src/game/combat/effects.ts",
+      "mode": "100644",
+      "size": 9299,
+      "sha256": "8fdb34add7166b8d77171e7d8a9c60d405c666c340a54c529c0dd718af2ecc04",
+      "gitBlobSha": "bbfbb24c7cf5b886204bb122c3adc9403fd81939"
+    },
+    {
+      "path": "src/game/combat/positions.ts",
+      "mode": "100644",
+      "size": 2920,
+      "sha256": "7419fd7759f7a20b4b12631968aa7db7fbd810c2e0213e8a300a76c4e01bcd82",
+      "gitBlobSha": "a17493aeceaa164f902bade61f7cadebae3ea52f"
+    },
+    {
+      "path": "src/game/combat/tactics.ts",
+      "mode": "100644",
+      "size": 4476,
+      "sha256": "45422197be73aee0750c960a709c8501650713e80b1923723edd3014371c9432",
+      "gitBlobSha": "0ce22fc63b8639b6f4b69b2eb8c137c6e78aa793"
+    },
+    {
+      "path": "src/game/combat/threat.ts",
+      "mode": "100644",
+      "size": 853,
+      "sha256": "53267bce8266383500ed6f7cebeacdb6438ca1d86f7978622caaea94a724c7fb",
+      "gitBlobSha": "962d40fa41f5ed08becce915af0f678081b74027"
+    },
+    {
+      "path": "src/game/simulation/advance.ts",
+      "mode": "100644",
+      "size": 5352,
+      "sha256": "c87ebeabfc6dcc61a12f0d886eee9240b06b8d2f3f5637453acd343dc8327768",
+      "gitBlobSha": "e7cf2ee897cfd208eaa82847b070c2fb0a64ebe8"
+    },
+    {
+      "path": "src/game/simulation/queue.ts",
+      "mode": "100644",
+      "size": 2787,
+      "sha256": "97d5ad4896760d4d3a4000140b14c69dbd88bbb4e9d180886a5514ef1e428e41",
+      "gitBlobSha": "df8e1aeb7c1b4b5fdbcc1564ba44c34f155c61b0"
+    },
+    {
+      "path": "src/game/simulation/random.ts",
+      "mode": "100644",
+      "size": 1445,
+      "sha256": "cb1f62c6c5a18b2d14be9eeadf4878afb5e980217c7d9fb71e7e956eb19f679c",
+      "gitBlobSha": "102149ffab10c9f72dc45a1ad466e874e635945c"
+    },
+    {
+      "path": "src/game/simulation/serialization.ts",
+      "mode": "100644",
+      "size": 1524,
+      "sha256": "70833483aaa2e3413d01d3eb17f2723c0f8857ef0478b89b4467bc9f2cfc95ba",
+      "gitBlobSha": "a92aeb46e9c3a9ddfd119990b9df011813814dbb"
+    },
+    {
+      "path": "src/ui/wow/ActionBar.tsx",
+      "mode": "100644",
+      "size": 730,
+      "sha256": "e2c832220a886ab1ea4d7d713e7a4bff435b283d3f947b4bf092b88934abcc29",
+      "gitBlobSha": "eae215620f3ae0d9d1c90140f24b9dde12865988"
+    },
+    {
+      "path": "src/ui/wow/Button.tsx",
+      "mode": "100644",
+      "size": 714,
+      "sha256": "9284f132a18386d0f326b0374556c8e072d95d5e6d1cc06ab9145cc1fa89e6f5",
+      "gitBlobSha": "494ffc45ad218c55054e5b2035c99e475ba45abd"
+    },
+    {
+      "path": "src/ui/wow/Frame.tsx",
+      "mode": "100644",
+      "size": 924,
+      "sha256": "f8104a3afe4ca22cbfba8732e3abf31daa66ffab7361e801cd26297b7a9c4b1a",
+      "gitBlobSha": "9817273de641f8f912be1825ea7ce82c3a09f9cc"
+    },
+    {
+      "path": "src/ui/wow/IconSlot.tsx",
+      "mode": "100644",
+      "size": 1538,
+      "sha256": "5b2da74c77f457010617b1df834d2c1a2fd6351c00f6177e536c2d54ec41028b",
+      "gitBlobSha": "db85e242d3947ff4c9fdf1c76fa9f3d305a20d6a"
+    },
+    {
+      "path": "src/ui/wow/Minimap.tsx",
+      "mode": "100644",
+      "size": 1000,
+      "sha256": "e520c807b24abae0d54e9069d2f046865be93c784fd9b7ea1b8ca4bb5a468e6d",
+      "gitBlobSha": "fa90dc0574c9a821dbc337556a2ba9333fd1d791"
+    },
+    {
+      "path": "src/ui/wow/ProgressBar.tsx",
+      "mode": "100644",
+      "size": 914,
+      "sha256": "ac0de1eeacd753196142102d3e413457345ec80e59bfb8a714269fd600db0e1d",
+      "gitBlobSha": "3f7f2dc71f13c9b51f9dfc8b23f72a741d492a9e"
+    },
+    {
+      "path": "src/ui/wow/Tooltip.tsx",
+      "mode": "100644",
+      "size": 931,
+      "sha256": "81b9f08b55f90d507ee6a3518fbad1b2ca424d6ad31d309fd7439c5b7e9272f6",
+      "gitBlobSha": "c5291a6183c020539a599881b54bad6cae470f92"
+    },
+    {
+      "path": "src/ui/wow/UnitFrame.tsx",
+      "mode": "100644",
+      "size": 1092,
+      "sha256": "028ef708890fa1d4d83bfa7849ee9e63faefdb5194b2416876863cf9fddff260",
+      "gitBlobSha": "f26d10bac000f0023f5c32e161eb5ee6fd7bce6e"
+    },
+    {
+      "path": "src/ui/wow/Workbench.tsx",
+      "mode": "100644",
+      "size": 13306,
+      "sha256": "593f79af774aeaa61b48a9d0a56066bc80b2298382609a2224227f66530372a8",
+      "gitBlobSha": "bfb17dd405ea7fa62c985c01d5fc3b57b0025ad3"
+    },
+    {
+      "path": "src/ui/wow/theme.css",
+      "mode": "100644",
+      "size": 17469,
+      "sha256": "bc1be28a78e6ae8befe42c4660723882a754730d2bbbc7e59f9275a1e50c1a7c",
+      "gitBlobSha": "14745630144552957e32b1e3e750f7b6743eed7d"
+    },
+    {
+      "path": "tests/classes/creation.test.ts",
+      "mode": "100644",
+      "size": 1836,
+      "sha256": "7e8036a2c3e5670a2dcebab45b4eaf4ac158f6893001849872b07e0ed0696637",
+      "gitBlobSha": "99b3ac6e672be8d2a65fa4c042580715e5a9e661"
+    },
+    {
+      "path": "tests/classes/helpers.ts",
+      "mode": "100644",
+      "size": 1295,
+      "sha256": "f7d940e56a8f4c2de4d79ea9dfd9ba021ab92d5b7e2d859a3c2194a8f1113591",
+      "gitBlobSha": "98bfece0d56b976bff91706b887a6e54b6eb82e7"
+    },
+    {
+      "path": "tests/classes/hunter.test.ts",
+      "mode": "100644",
+      "size": 23242,
+      "sha256": "7f36ba18b4bde620773ffc730cd2150ed9ed1f817389e0ec0a564bca2542fc24",
+      "gitBlobSha": "51e9110e84216b646a61e436e4b2a2fc3264cd78"
+    },
+    {
+      "path": "tests/classes/mechanics.test.ts",
+      "mode": "100644",
+      "size": 12732,
+      "sha256": "8db99a1522ecce513f6ad6f62af75258e655782af41806ca0cedbaaa65622dd9",
+      "gitBlobSha": "fd14904543202771aac17220020cbb3dcf5c9ceb"
+    },
+    {
+      "path": "tests/classes/paladin.test.ts",
+      "mode": "100644",
+      "size": 17690,
+      "sha256": "aee7cfae01278545144f2661896ee2f23ba218394781003977df3a778c8a20a6",
+      "gitBlobSha": "fc4dc927151e2a5b223bc316a385a8ffe669a817"
+    },
+    {
+      "path": "tests/classes/priest.test.ts",
+      "mode": "100644",
+      "size": 21912,
+      "sha256": "704032b6bd702584d8d7ddc2bbba01a954f0022d8d8211f05e5ac22bb2529fa6",
+      "gitBlobSha": "e9c8016960ba666acb174e688b43a93a0cf8ecbc"
+    },
+    {
+      "path": "tests/classes/rogue.test.ts",
+      "mode": "100644",
+      "size": 20890,
+      "sha256": "39f99a3a39ae80984aaddaa5d7786ff1574a5aae6b397d8f503b7d61352b9da4",
+      "gitBlobSha": "2678c60cdfe5eb1c0caacc42ce56341a8392b75f"
+    },
+    {
+      "path": "tests/classes/shaman.test.ts",
+      "mode": "100644",
+      "size": 22982,
+      "sha256": "c9b8d6e12d869c8936b69f905cee0fca27e6a890de72ddd2f3ddd5e39772d800",
+      "gitBlobSha": "7a36a704d0961007f52af574068ccb33481bb0cf"
+    },
+    {
+      "path": "tests/classes/talents.test.ts",
+      "mode": "100644",
+      "size": 2794,
+      "sha256": "6c3594246138d79c9a4f4ab9b1cf78604075f827019f2d7f99fdc3273f5ea810",
+      "gitBlobSha": "c83280372a4314c4bd9d066c9867839a16a31ed9"
+    },
+    {
+      "path": "tests/combat/resolution.test.ts",
+      "mode": "100644",
+      "size": 20323,
+      "sha256": "d498ccc3cf43ac0803a478df7330de3344cd2385c799d98e8781799350f23891",
+      "gitBlobSha": "a86f3b940adc4772d4307da3b8c2ccbc697b7ddb"
+    },
+    {
+      "path": "tests/content/coverage.test.ts",
+      "mode": "100644",
+      "size": 15703,
+      "sha256": "2d217a65da6ddd10b24f4cd143fb3d8fda91ac7dcc733d774630ac65ae29e682",
+      "gitBlobSha": "6b2c5928fb3d1c0e02638488c33184dca2f3c511"
+    },
+    {
+      "path": "tests/content/playable-packet.test.ts",
+      "mode": "100644",
+      "size": 7452,
+      "sha256": "598df73c25ee448361a4d5feb94e71f4f847a105c3689f43dc45c3677944aa73",
+      "gitBlobSha": "c95d0f2861b5f6e42297f80c26a3329c2b664b06"
+    },
+    {
+      "path": "tests/content/questiedb.test.ts",
+      "mode": "100644",
+      "size": 18280,
+      "sha256": "19490c3326749d609876cad758c426eacb89c8c690b7c11c2e526683d924eb01",
+      "gitBlobSha": "b35c01ac9754812556e6358de3f6b0f8e5ef3682"
+    },
+    {
+      "path": "tests/content/source-lock.test.ts",
+      "mode": "100644",
+      "size": 6080,
+      "sha256": "2a5a2dd2b239fa2c891a9349e1603dd9848f91f17c3d03356f8412b1ef9f4b92",
+      "gitBlobSha": "46a6c6ed8dba767ab801bb766f962355fd86e2e6"
+    },
+    {
+      "path": "tests/domain/contracts.test.ts",
+      "mode": "100644",
+      "size": 5867,
+      "sha256": "bb0923ea0ec056e21f6e1506e3396105964f656d49dffe4c15aa6a697e9338c1",
+      "gitBlobSha": "6c47b9a3fbf6dfabfb1847369987710672149515"
+    },
+    {
+      "path": "tests/fixtures/content/questiedb/README.md",
+      "mode": "100644",
+      "size": 3256,
+      "sha256": "f10546d04ff0cac1581b6a94a35f5bd0ccb4c463c4cd0caa0d45ea4c50f5f66f",
+      "gitBlobSha": "78a93ed707f03bf6266215bb33c36e7287764b01"
+    },
+    {
+      "path": "tests/fixtures/content/questiedb/expected.json",
+      "mode": "100644",
+      "size": 1391,
+      "sha256": "b83cc20ba6ad2f65a95aef052eab87f8e860c0d1e0179fbe159fd40e43b9e648",
+      "gitBlobSha": "14e10922a0427120f02ee6ea2bbac43a5a60aa56"
+    },
+    {
+      "path": "tests/fixtures/factories.ts",
+      "mode": "100644",
+      "size": 2858,
+      "sha256": "fd372617a7d210752c464776e479534431ec10551586638331a2905cc1912354",
+      "gitBlobSha": "7ba2ed898cd973f8deb95018f3bdd47722b373f1"
+    },
+    {
+      "path": "tests/setup/rpc-yield.ts",
+      "mode": "100644",
+      "size": 386,
+      "sha256": "45ceca3d6289c6dc3a478e7e171805649d995c9d28564d4ef01128325bd2d224",
+      "gitBlobSha": "b5870e8e688b050e898d0c481fd84d1acdf3abf5"
+    },
+    {
+      "path": "tests/simulation/determinism.test.ts",
+      "mode": "100644",
+      "size": 10420,
+      "sha256": "7aa1277da6ae393744ed3d101326777eaa89334ec84be718d6db9a731a20408c",
+      "gitBlobSha": "63b9103fc4e953dc61fd6cca8ff1d9f603785583"
+    },
+    {
+      "path": "tests/ui/components.test.ts",
+      "mode": "100644",
+      "size": 5486,
+      "sha256": "dba990f2d004bdafd666d75030b315912dcbcad0a1f6d805f3c8a7602d60212e",
+      "gitBlobSha": "d2b1996363720e2f796f8c1e854d23f7a13f7bb8"
+    },
+    {
+      "path": "tools/assets/prepare.ts",
+      "mode": "100644",
+      "size": 4803,
+      "sha256": "f197a26f7c251fa2ef86435714d586ce434361b69ce0c5099c9fb222708282cc",
+      "gitBlobSha": "b17d52c2d8964e4359a68cd557b02f4d8d9cbbd2"
+    },
+    {
+      "path": "tools/content/classes.ts",
+      "mode": "100644",
+      "size": 17611,
+      "sha256": "e3df3b69afd09ae06b4dbe045a7979bb88692cbdd410b41c25616516fb5ce756",
+      "gitBlobSha": "6aacfc3d13e327e42026945d109b5ce0eb30429a"
+    },
+    {
+      "path": "tools/content/cli.ts",
+      "mode": "100644",
+      "size": 1917,
+      "sha256": "fbb1670bd70555eeebaad81bdc5d7520adb60064186de44268310513d9d1a4ad",
+      "gitBlobSha": "0952291de5de568a12df938e283c73176faa2a45"
+    },
+    {
+      "path": "tools/content/client-tables.ts",
+      "mode": "100644",
+      "size": 5396,
+      "sha256": "f986ca1ac6f6511b5cf14d4fe39d197bbd10c5556e80deba90dd08d613766767",
+      "gitBlobSha": "e69b44d52e647c3a64afc716c91216a8921a1b6b"
+    },
+    {
+      "path": "tools/content/diff.ts",
+      "mode": "100644",
+      "size": 452,
+      "sha256": "c79dd94d6f7b789d99d0213e69917da6e225e208aa430c640036f847aaef8af6",
+      "gitBlobSha": "4d59c7b41986924dd1e31d2e1f8a53a8da233ebf"
+    },
+    {
+      "path": "tools/content/lock.ts",
+      "mode": "100644",
+      "size": 1704,
+      "sha256": "0540c2a9c3121c1ffbb36a769e94dca7debcc4b05373e40fa27d48e9f05814ca",
+      "gitBlobSha": "68de45d26ca2a7e49a7d8934ae7ac98dbb76b52a"
+    },
+    {
+      "path": "tools/content/normalize.ts",
+      "mode": "100644",
+      "size": 4601,
+      "sha256": "56af923889f5c5befea2477b8182615f4bc460fd2bcc1b17f8a060817459c7b7",
+      "gitBlobSha": "f78a17fd1ed08fe0e9f73b01d7807bef73389d31"
+    },
+    {
+      "path": "tools/content/package.ts",
+      "mode": "100644",
+      "size": 6898,
+      "sha256": "0e39e843bf79fb56eb70c5da8765b516fbaa9c57da509eb226af81c4cba7a8ca",
+      "gitBlobSha": "0f61de8bf87ede4491b72344bcad4fef55be4b48"
+    },
+    {
+      "path": "tools/content/questiedb-corrections.json",
+      "mode": "100644",
+      "size": 1500,
+      "sha256": "35c50c4500c618470c0723290f0c0b043c2d948906a412444f738ab86e6fd774",
+      "gitBlobSha": "a2827333069c17cc318c1b32fe257127047fb49e"
+    },
+    {
+      "path": "tools/content/questiedb-lua.ts",
+      "mode": "100644",
+      "size": 6371,
+      "sha256": "ca75b4f7b1fc601398e6b4646b9c6fcede7bdceb671e53d5f0ef19a309f4ea0c",
+      "gitBlobSha": "c9865342a2cc0617cf6cb710d987ae7d489b17a0"
+    },
+    {
+      "path": "tools/content/questiedb-patch.ts",
+      "mode": "100644",
+      "size": 6691,
+      "sha256": "1016f2b2499bae34c66a94397caa0d6cbea638bcac20f0c64a5e85ea59693b34",
+      "gitBlobSha": "25deeb01a20ae4d6488803c22daa9f8a3f5d3614"
+    },
+    {
+      "path": "tools/content/questiedb.ts",
+      "mode": "100644",
+      "size": 21582,
+      "sha256": "ac966c69076564d0173c1d8a1f393df9987326ae93b90164ee9e85a56a17768e",
+      "gitBlobSha": "a3607e0fa5f10da255feb49b03a251d241b5e281"
+    },
+    {
+      "path": "tools/content/report.ts",
+      "mode": "100644",
+      "size": 2928,
+      "sha256": "8aca3f739ea233ccf0b775b055962ace8dade1423944d7617b07acb765d4c071",
+      "gitBlobSha": "f180674190ab94760ffca39c6f946cf5e1f8995c"
+    },
+    {
+      "path": "tools/content/resolve.ts",
+      "mode": "100644",
+      "size": 3866,
+      "sha256": "ab0ab7070cfa33cff8bf1b704efa88bf4f600925c82c95c942480edce69fb36d",
+      "gitBlobSha": "7dc270f770c0d3ce0690ee134325210a30fc8db9"
+    },
+    {
+      "path": "tools/content/schema.ts",
+      "mode": "100644",
+      "size": 7740,
+      "sha256": "1cc681cfee0c93f244378228d96c54f9ca35ef5c0eddfc32f6b89d3e755cab1d",
+      "gitBlobSha": "8c3f212af6fa01986cebece868a5317b87d3b8a4"
+    },
+    {
+      "path": "tools/content/start-packet-cli.ts",
+      "mode": "100644",
+      "size": 940,
+      "sha256": "0a3e6b2f174b8b59c5d93012be3beae93cb8ea2b6bbfbcf609b8cad33c45364d",
+      "gitBlobSha": "ed7cc190af17bcfdd65a63a497c903dbc5881c5d"
+    },
+    {
+      "path": "tools/content/start-packet.ts",
+      "mode": "100644",
+      "size": 18847,
+      "sha256": "9090eb295a76dc1a58275677b057e62dc590168228be8243e43c95a417b006c0",
+      "gitBlobSha": "106fa13ed355e26f9b0e9d1337c9687a40554f46"
+    },
+    {
+      "path": "tools/content/test-evidence.ts",
+      "mode": "100644",
+      "size": 2285,
+      "sha256": "7e6f648f9d0e4b88e83ffdca71dea88f042ab38820c504df2f8fa2ceaa91383f",
+      "gitBlobSha": "272a50eec0217571754cf2657b1fb64773eed65c"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "size": 939,
+      "sha256": "3e7451d3407f0cd80dbd6b8c7af1429efae7a5251c1d56d23d572fdb581e563c",
+      "gitBlobSha": "5135e20e6bb183a5f944b7701f9cd42fe34b19d6"
+    },
+    {
+      "path": "vendor/shadcn-tailwind-4.13.0.LICENSE.md",
+      "mode": "100644",
+      "size": 1063,
+      "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f",
+      "gitBlobSha": "fad4d887a681dd49233e5ed01ee2c7a1513089a0"
+    },
+    {
+      "path": "vendor/shadcn-tailwind-4.13.0.css",
+      "mode": "100644",
+      "size": 16041,
+      "sha256": "bc7d83425702955b4cb67cb14ede9d603f9d912376d57a2d81d661094d2a782a",
+      "gitBlobSha": "7807c58eb94de8b764b9b6b7b5d8cde6d012b17f"
+    },
+    {
+      "path": "vite.config.ts",
+      "mode": "100644",
+      "size": 2673,
+      "sha256": "22ff558b1636d251e076f74c1697c7166079861667af10922d6bc505cb8f8290",
+      "gitBlobSha": "c4b4b73f5d91840732a55c776eb601215e0b7b38"
+    },
+    {
+      "path": "vitest.config.ts",
+      "mode": "100644",
+      "size": 350,
+      "sha256": "9cf1757917007b3d02256018dd6d7a652a5000d6746980d717fbf3fee46f183b",
+      "gitBlobSha": "422234051d5bbd12738d96caad1594abab60b73a"
+    },
+    {
+      "path": "worker/index.ts",
+      "mode": "100644",
+      "size": 1303,
+      "sha256": "a0a10229cdda6f5fdb32234e3539007412233bb4938a671866c9295a44a3bdb6",
+      "gitBlobSha": "f72ddaf88049e3359a20c50d2d692925895543e0"
+    }
+  ]
+}
